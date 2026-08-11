@@ -38,55 +38,61 @@ const Game = {
     reactionsLoaded: false
 };
 
+
 async function loadJSON(file) {
-    const r = await fetch(file + "?v=" + Date.now());
-    if (!r.ok) throw new Error("Could not load " + file);
-    return await r.json();
-}
 
-function esc(v) {
-    return String(v ?? "")
-        .replaceAll("&","&amp;")
-        .replaceAll("<","&lt;")
-        .replaceAll(">","&gt;")
-        .replaceAll('"',"&quot;")
-        .replaceAll("'","&#039;");
-}
+    console.log("Trying to load:", file);
 
-function getCompound(id) {
-    return Game.compoundMap.get(String(id));
-}
+    const url = new URL(
+        file,
+        window.location.href
+    ).href;
 
-function formula(id) {
-    const c = getCompound(id);
-    return c ? (c.formula || c.symbol || c.name || id) : id;
-}
+    console.log("Full URL:", url);
 
-function name(id) {
-    const c = getCompound(id);
-    return c ? (c.name || c.formula || id) : id;
-}
+    const response = await fetch(url, {
+        cache: "no-store"
+    });
 
-function getUnlockedSymbols(level = Game.level) {
-    const out = [];
-    for (let l = 1; l <= level; l++) {
-        for (const s of (LEVEL_ELEMENTS[l] || [])) {
-            if (!out.includes(s)) out.push(s);
-        }
+    console.log(
+        file,
+        "HTTP status:",
+        response.status
+    );
+
+    if (!response.ok) {
+
+        throw new Error(
+            "Could not load " +
+            file +
+            " - HTTP " +
+            response.status +
+            " - " +
+            url
+        );
     }
-    return out;
-}
 
-function findElementIDs() {
-    const symbols = new Set(getUnlockedSymbols());
-    const ids = new Set();
+    const text =
+        await response.text();
 
-    for (const c of Game.compounds) {
-        const f = String(c.formula || "").trim();
-        const s = String(c.symbol || "").trim();
-        if (symbols.has(f) || symbols.has(s)) ids.add(String(c.id));
+    console.log(
+        file,
+        "downloaded:",
+        text.length,
+        "characters"
+    );
+
+    try {
+
+        return JSON.parse(text);
+
+    } catch (error) {
+
+        throw new Error(
+            file +
+            " was downloaded but is not valid JSON."
+        );
     }
-    return ids;
 }
 
 /* Elements are available by level.
