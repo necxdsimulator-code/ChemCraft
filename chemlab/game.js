@@ -810,33 +810,43 @@ function loadSave() {
       ========================================================= */
    
    function resetGame() {
-   
-       const confirmed =
-           confirm(
-               "Are you sure you want to erase your ChemCraft progress?"
-           );
-   
-       if (!confirmed) {
-           return;
-       }
-   
-       localStorage.removeItem(
-           CONFIG.STORAGE_KEY
-       );
-   
-       Game.selectedReactants = [];
-       Game.discoveredCompounds = new Set();
-       Game.discoveredReactions = new Set();
-       Game.currentXP = 0;
-       Game.level = 1;
-       Game.reactionHistory = [];
-   
-       refreshUI();
-   
-       showMessage(
-           "Game reset."
-       );
-   }
+    const confirmed =
+        confirm(
+            "Are you sure you want to erase your ChemCraft progress?"
+        );
+
+    if (!confirmed) {
+        return;
+    }
+
+    localStorage.removeItem(
+        CONFIG.STORAGE_KEY
+    );
+
+    Game.selectedReactants = [];
+
+    // Start again with all elements
+    Game.discoveredCompounds =
+        new Set(
+            Game.compounds
+                .filter(compound =>
+                    compound.category === "element" ||
+                    compound.type === "element"
+                )
+                .map(compound => compound.id)
+        );
+
+    Game.discoveredReactions = new Set();
+    Game.currentXP = 0;
+    Game.level = 1;
+    Game.reactionHistory = [];
+
+    refreshUI();
+
+    showMessage(
+        "Game reset. All elements are available."
+    );
+}
    
    
    /* =========================================================
