@@ -1,0 +1,5056 @@
+[
+  {
+    "id": "hi",
+    "name": "Hydroiodic Acid",
+    "formula": "HI",
+    "type": "compound",
+    "category": "acid"
+  },
+  {
+    "id": "co2_ch3coo",
+    "name": "Cobalt(II) Acetate",
+    "formula": "Co(CH₃COO)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mn2_so4",
+    "name": "Manganese(II) Sulfate",
+    "formula": "MnSO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "au3_cl",
+    "name": "Gold(III) Chloride",
+    "formula": "AuCl3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cd2_br",
+    "name": "Cadmium Bromide",
+    "formula": "CdBr2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "rb",
+    "name": "Rubidium",
+    "formula": "Rb",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "hf4_so4",
+    "name": "Hafnium(IV) Sulfate",
+    "formula": "Hf(SO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "hg2_f",
+    "name": "Mercury(II) Fluoride",
+    "formula": "HgF2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ni2_po4",
+    "name": "Nickel(II) Phosphate",
+    "formula": "Ni3(PO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "be2_i",
+    "name": "Beryllium Iodide",
+    "formula": "BeI2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ce3_ch3coo",
+    "name": "Cerium(III) Acetate",
+    "formula": "Ce(CH₃COO)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sr_br",
+    "name": "Strontium Bromide",
+    "formula": "SrBr2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "au1_po4",
+    "name": "Gold(I) Phosphate",
+    "formula": "Au3PO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ce3_no3",
+    "name": "Cerium(III) Nitrate",
+    "formula": "Ce(NO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "zn_s",
+    "name": "Zinc Sulfide",
+    "formula": "ZnS",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ag_s",
+    "name": "Silver Sulfide",
+    "formula": "Ag2S",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "nh4_br",
+    "name": "Ammonium Bromide",
+    "formula": "NH₄Br",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ti2_i",
+    "name": "Titanium(II) Iodide",
+    "formula": "TiI2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_so4",
+    "name": "Iron(III) Sulfate",
+    "formula": "Fe2(SO₄)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ba_no3",
+    "name": "Barium Nitrate",
+    "formula": "Ba(NO₃)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "as3_i",
+    "name": "Arsenic(III) Iodide",
+    "formula": "AsI3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "hf4_i",
+    "name": "Hafnium(IV) Iodide",
+    "formula": "HfI4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sc3_i",
+    "name": "Scandium(III) Iodide",
+    "formula": "ScI3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cd2_so3",
+    "name": "Cadmium Sulfite",
+    "formula": "CdSO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "u6_po4",
+    "name": "Uranium(VI) Phosphate",
+    "formula": "U(PO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "in3_f",
+    "name": "Indium(III) Fluoride",
+    "formula": "InF3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "bi3_f",
+    "name": "Bismuth(III) Fluoride",
+    "formula": "BiF3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "u4_so3",
+    "name": "Uranium(IV) Sulfite",
+    "formula": "U(SO₃)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sb3_so3",
+    "name": "Antimony(III) Sulfite",
+    "formula": "Sb2(SO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "as3_f",
+    "name": "Arsenic(III) Fluoride",
+    "formula": "AsF3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mo6_po4",
+    "name": "Molybdenum(VI) Phosphate",
+    "formula": "Mo(PO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "pt4_so4",
+    "name": "Platinum(IV) Sulfate",
+    "formula": "Pt(SO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sn2_br",
+    "name": "Tin(II) Bromide",
+    "formula": "SnBr2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mg_s",
+    "name": "Magnesium Sulfide",
+    "formula": "MgS",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "tl1_so3",
+    "name": "Thallium(I) Sulfite",
+    "formula": "Tl2SO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ti2_oh",
+    "name": "Titanium(II) Hydroxide",
+    "formula": "TiOH2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ce4_f",
+    "name": "Cerium(IV) Fluoride",
+    "formula": "CeF4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "v5_cl",
+    "name": "Vanadium(V) Chloride",
+    "formula": "VCl5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ce4_cl",
+    "name": "Cerium(IV) Chloride",
+    "formula": "CeCl4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "as3_so3",
+    "name": "Arsenic(III) Sulfite",
+    "formula": "As2(SO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "la3_po4",
+    "name": "Lanthanum(III) Phosphate",
+    "formula": "LaPO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "c2h6",
+    "name": "Ethane",
+    "formula": "C₂H₆",
+    "type": "compound",
+    "category": "hydrocarbon"
+  },
+  {
+    "id": "zn_br",
+    "name": "Zinc Bromide",
+    "formula": "ZnBr2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_i",
+    "name": "Titanium(IV) Iodide",
+    "formula": "TiI4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ni2_oh",
+    "name": "Nickel(II) Hydroxide",
+    "formula": "NiOH2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cr2o3",
+    "name": "Chromium(III) Oxide",
+    "formula": "Cr₂O₃",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "fe3_br",
+    "name": "Iron(III) Bromide",
+    "formula": "FeBr3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "hg1_ch3coo",
+    "name": "Mercury(I) Acetate",
+    "formula": "Hg₂(CH₃COO)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cr",
+    "name": "Chromium",
+    "formula": "Cr",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "ga3_br",
+    "name": "Gallium(III) Bromide",
+    "formula": "GaBr3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "bi3_so4",
+    "name": "Bismuth(III) Sulfate",
+    "formula": "Bi2(SO₄)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "as3_po4",
+    "name": "Arsenic(III) Phosphate",
+    "formula": "AsPO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "al",
+    "name": "Aluminium",
+    "formula": "Al",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "sb3_po4",
+    "name": "Antimony(III) Phosphate",
+    "formula": "SbPO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "na_ch3coo",
+    "name": "Sodium Acetate",
+    "formula": "NaCH₃COO",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "pb2_br",
+    "name": "Lead(II) Bromide",
+    "formula": "PbBr2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "pt",
+    "name": "Platinum",
+    "formula": "Pt",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "hg2_no3",
+    "name": "Mercury(II) Nitrate",
+    "formula": "Hg(NO₃)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "in3_i",
+    "name": "Indium(III) Iodide",
+    "formula": "InI3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mn2_so3",
+    "name": "Manganese(II) Sulfite",
+    "formula": "MnSO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_s",
+    "name": "Iron(II) Sulfide",
+    "formula": "FeS",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ga3_no3",
+    "name": "Gallium(III) Nitrate",
+    "formula": "Ga(NO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mg_no3",
+    "name": "Magnesium Nitrate",
+    "formula": "Mg(NO₃)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "tl1_po4",
+    "name": "Thallium(I) Phosphate",
+    "formula": "Tl3PO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "hg1_so4",
+    "name": "Mercury(I) Sulfate",
+    "formula": "Hg₂SO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "nh4_so3",
+    "name": "Ammonium Sulfite",
+    "formula": "NH₄2SO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_cl",
+    "name": "Iron(III) Chloride",
+    "formula": "FeCl3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cu",
+    "name": "Copper",
+    "formula": "Cu",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "sb3_so4",
+    "name": "Antimony(III) Sulfate",
+    "formula": "Sb2(SO₄)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "nd",
+    "name": "Neodymium",
+    "formula": "Nd",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "pb2_cl",
+    "name": "Lead(II) Chloride",
+    "formula": "PbCl2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ni2_cl",
+    "name": "Nickel(II) Chloride",
+    "formula": "NiCl2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "hg1_i",
+    "name": "Mercury(I) Iodide",
+    "formula": "Hg₂I2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "nd3_i",
+    "name": "Neodymium(III) Iodide",
+    "formula": "NdI3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cr3_so4",
+    "name": "Chromium(III) Sulfate",
+    "formula": "Cr2(SO₄)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ce4_no3",
+    "name": "Cerium(IV) Nitrate",
+    "formula": "Ce(NO₃)4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "hg1_oh",
+    "name": "Mercury(I) Hydroxide",
+    "formula": "Hg₂OH2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sb5_ch3coo",
+    "name": "Antimony(V) Acetate",
+    "formula": "Sb(CH₃COO)5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "p",
+    "name": "Phosphorus",
+    "formula": "P",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "li_oh",
+    "name": "Lithium Hydroxide",
+    "formula": "LiOH",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "no",
+    "name": "Nitric Oxide",
+    "formula": "NO",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "as2o3",
+    "name": "Arsenic(III) Oxide",
+    "formula": "As₂O₃",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "v",
+    "name": "Vanadium",
+    "formula": "V",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "in3_br",
+    "name": "Indium(III) Bromide",
+    "formula": "InBr3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "zn_oh",
+    "name": "Zinc Hydroxide",
+    "formula": "ZnOH2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ni2_s",
+    "name": "Nickel(II) Sulfide",
+    "formula": "NiS",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cdo",
+    "name": "Cadmium Oxide",
+    "formula": "CdO",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "al_po4",
+    "name": "Aluminium Phosphate",
+    "formula": "AlPO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "zr4_i",
+    "name": "Zirconium(IV) Iodide",
+    "formula": "ZrI4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mo",
+    "name": "Molybdenum",
+    "formula": "Mo",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "cu2_s",
+    "name": "Copper(II) Sulfide",
+    "formula": "CuS",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cr3_cl",
+    "name": "Chromium(III) Chloride",
+    "formula": "CrCl3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "as",
+    "name": "Arsenic",
+    "formula": "As",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "ti3_po4",
+    "name": "Titanium(III) Phosphate",
+    "formula": "TiPO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "pb2_i",
+    "name": "Lead(II) Iodide",
+    "formula": "PbI2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ag_br",
+    "name": "Silver Bromide",
+    "formula": "AgBr",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_po4",
+    "name": "Iron(III) Phosphate",
+    "formula": "FePO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "pt2_br",
+    "name": "Platinum(II) Bromide",
+    "formula": "PtBr2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cr3_br",
+    "name": "Chromium(III) Bromide",
+    "formula": "CrBr3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "bi3_so3",
+    "name": "Bismuth(III) Sulfite",
+    "formula": "Bi2(SO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cr3_so3",
+    "name": "Chromium(III) Sulfite",
+    "formula": "Cr2(SO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cu2o",
+    "name": "Copper(I) Oxide",
+    "formula": "Cu₂O",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "al_s",
+    "name": "Aluminium Sulfide",
+    "formula": "Al2S3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "h2so4",
+    "name": "Sulfuric Acid",
+    "formula": "H₂SO₄",
+    "type": "compound",
+    "category": "acid"
+  },
+  {
+    "id": "cd2_f",
+    "name": "Cadmium Fluoride",
+    "formula": "CdF2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "tl3_po4",
+    "name": "Thallium(III) Phosphate",
+    "formula": "TlPO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_so3",
+    "name": "Titanium(III) Sulfite",
+    "formula": "Ti2(SO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "li_cl",
+    "name": "Lithium Chloride",
+    "formula": "LiCl",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "tl3_f",
+    "name": "Thallium(III) Fluoride",
+    "formula": "TlF3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "na_no3",
+    "name": "Sodium Nitrate",
+    "formula": "NaNO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "v3_i",
+    "name": "Vanadium(III) Iodide",
+    "formula": "VI3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "co2_cl",
+    "name": "Cobalt(II) Chloride",
+    "formula": "CoCl2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sr_co3",
+    "name": "Strontium Carbonate",
+    "formula": "SrCO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ag_cl",
+    "name": "Silver Chloride",
+    "formula": "AgCl",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_ch3coo",
+    "name": "Titanium(III) Acetate",
+    "formula": "Ti(CH₃COO)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "la3_so4",
+    "name": "Lanthanum(III) Sulfate",
+    "formula": "La2(SO₄)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "c",
+    "name": "Carbon",
+    "formula": "C",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "y3_po4",
+    "name": "Yttrium(III) Phosphate",
+    "formula": "YPO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mg_cl",
+    "name": "Magnesium Chloride",
+    "formula": "MgCl2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "v3_po4",
+    "name": "Vanadium(III) Phosphate",
+    "formula": "VPO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "y3_f",
+    "name": "Yttrium(III) Fluoride",
+    "formula": "YF3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_br",
+    "name": "Titanium(IV) Bromide",
+    "formula": "TiBr4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "na_i",
+    "name": "Sodium Iodide",
+    "formula": "NaI",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "as3_cl",
+    "name": "Arsenic(III) Chloride",
+    "formula": "AsCl3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ba_br",
+    "name": "Barium Bromide",
+    "formula": "BaBr2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_po4",
+    "name": "Titanium(IV) Phosphate",
+    "formula": "Ti3(PO₄)4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "hfo2",
+    "name": "Hafnium(IV) Oxide",
+    "formula": "HfO₂",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "hg2_br",
+    "name": "Mercury(II) Bromide",
+    "formula": "HgBr2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "tl",
+    "name": "Thallium",
+    "formula": "Tl",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "u6_br",
+    "name": "Uranium(VI) Bromide",
+    "formula": "UBr6",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ag_so3",
+    "name": "Silver Sulfite",
+    "formula": "Ag2SO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "k_br",
+    "name": "Potassium Bromide",
+    "formula": "KBr",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "rb_no3",
+    "name": "Rubidium Nitrate",
+    "formula": "RbNO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "zn_i",
+    "name": "Zinc Iodide",
+    "formula": "ZnI2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "hg1_po4",
+    "name": "Mercury(I) Phosphate",
+    "formula": "Hg₂3(PO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sb5_f",
+    "name": "Antimony(V) Fluoride",
+    "formula": "SbF5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "pt2_i",
+    "name": "Platinum(II) Iodide",
+    "formula": "PtI2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mn2_i",
+    "name": "Manganese(II) Iodide",
+    "formula": "MnI2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "w6_br",
+    "name": "Tungsten(VI) Bromide",
+    "formula": "WBr6",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_no3",
+    "name": "Copper(II) Nitrate",
+    "formula": "Cu(NO₃)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "la2o3",
+    "name": "Lanthanum(III) Oxide",
+    "formula": "La₂O₃",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "ga3_ch3coo",
+    "name": "Gallium(III) Acetate",
+    "formula": "Ga(CH₃COO)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "er3_so4",
+    "name": "Erbium(III) Sulfate",
+    "formula": "Er2(SO₄)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "zr",
+    "name": "Zirconium",
+    "formula": "Zr",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "v2_oh",
+    "name": "Vanadium(II) Hydroxide",
+    "formula": "VOH2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "tio2",
+    "name": "Titanium(IV) Oxide",
+    "formula": "TiO₂",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "koh",
+    "name": "Potassium Hydroxide",
+    "formula": "KOH",
+    "type": "compound",
+    "category": "base"
+  },
+  {
+    "id": "hg1_no3",
+    "name": "Mercury(I) Nitrate",
+    "formula": "Hg₂(NO₃)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "nd3_so4",
+    "name": "Neodymium(III) Sulfate",
+    "formula": "Nd2(SO₄)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "nacl",
+    "name": "Sodium Chloride",
+    "formula": "NaCl",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "pb2_ch3coo",
+    "name": "Lead(II) Acetate",
+    "formula": "Pb(CH₃COO)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "v3_cl",
+    "name": "Vanadium(III) Chloride",
+    "formula": "VCl3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_oh",
+    "name": "Copper(II) Hydroxide",
+    "formula": "CuOH2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "v3_ch3coo",
+    "name": "Vanadium(III) Acetate",
+    "formula": "V(CH₃COO)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "znoh2",
+    "name": "Zinc Hydroxide",
+    "formula": "Zn(OH)₂",
+    "type": "compound",
+    "category": "base"
+  },
+  {
+    "id": "mn2_no3",
+    "name": "Manganese(II) Nitrate",
+    "formula": "Mn(NO₃)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "v2_so3",
+    "name": "Vanadium(II) Sulfite",
+    "formula": "VSO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "al_i",
+    "name": "Aluminium Iodide",
+    "formula": "AlI3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "v2_ch3coo",
+    "name": "Vanadium(II) Acetate",
+    "formula": "V(CH₃COO)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "au2o3",
+    "name": "Gold(III) Oxide",
+    "formula": "Au₂O₃",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "ni_oh2",
+    "name": "Nickel(II) Hydroxide",
+    "formula": "Ni(OH)2",
+    "type": "compound",
+    "category": "base"
+  },
+  {
+    "id": "ni2_ch3coo",
+    "name": "Nickel(II) Acetate",
+    "formula": "Ni(CH₃COO)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ce3_i",
+    "name": "Cerium(III) Iodide",
+    "formula": "CeI3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "h2o",
+    "name": "Water",
+    "formula": "H₂O",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "fe2_po4",
+    "name": "Iron(II) Phosphate",
+    "formula": "Fe3(PO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mn2_cl",
+    "name": "Manganese(II) Chloride",
+    "formula": "MnCl2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mn2_br",
+    "name": "Manganese(II) Bromide",
+    "formula": "MnBr2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ti2_so4",
+    "name": "Titanium(II) Sulfate",
+    "formula": "TiSO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "y3_cl",
+    "name": "Yttrium(III) Chloride",
+    "formula": "YCl3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "h2so3",
+    "name": "Sulfurous Acid",
+    "formula": "H₂SO₃",
+    "type": "compound",
+    "category": "acid"
+  },
+  {
+    "id": "as5_ch3coo",
+    "name": "Arsenic(V) Acetate",
+    "formula": "As(CH₃COO)5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "nd3_ch3coo",
+    "name": "Neodymium(III) Acetate",
+    "formula": "Nd(CH₃COO)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "zr4_ch3coo",
+    "name": "Zirconium(IV) Acetate",
+    "formula": "Zr(CH₃COO)4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "v3_no3",
+    "name": "Vanadium(III) Nitrate",
+    "formula": "V(NO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ni2_i",
+    "name": "Nickel(II) Iodide",
+    "formula": "NiI2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "li",
+    "name": "Lithium",
+    "formula": "Li",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "in3_ch3coo",
+    "name": "Indium(III) Acetate",
+    "formula": "In(CH₃COO)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "h2co3",
+    "name": "Carbonic Acid",
+    "formula": "H₂CO₃",
+    "type": "compound",
+    "category": "acid"
+  },
+  {
+    "id": "so3",
+    "name": "Sulfur Trioxide",
+    "formula": "SO₃",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "cu2_po4",
+    "name": "Copper(II) Phosphate",
+    "formula": "Cu3(PO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "tl1_f",
+    "name": "Thallium(I) Fluoride",
+    "formula": "TlF",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "pt2_so3",
+    "name": "Platinum(II) Sulfite",
+    "formula": "PtSO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "tio",
+    "name": "Titanium(II) Oxide",
+    "formula": "TiO",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "mg_oh",
+    "name": "Magnesium Hydroxide",
+    "formula": "MgOH2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "al_so4",
+    "name": "Aluminium Sulfate",
+    "formula": "Al2(SO₄)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_ch3coo",
+    "name": "Iron(III) Acetate",
+    "formula": "Fe(CH₃COO)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ba_oh",
+    "name": "Barium Hydroxide",
+    "formula": "BaOH2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "zn_co3",
+    "name": "Zinc Carbonate",
+    "formula": "ZnCO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "li_po4",
+    "name": "Lithium Phosphate",
+    "formula": "Li3PO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mg_co3",
+    "name": "Magnesium Carbonate",
+    "formula": "MgCO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "lioh",
+    "name": "Lithium Hydroxide",
+    "formula": "LiOH",
+    "type": "compound",
+    "category": "base"
+  },
+  {
+    "id": "sb3_cl",
+    "name": "Antimony(III) Chloride",
+    "formula": "SbCl3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mo6_f",
+    "name": "Molybdenum(VI) Fluoride",
+    "formula": "MoF6",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ca_so3",
+    "name": "Calcium Sulfite",
+    "formula": "CaSO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "li_ch3coo",
+    "name": "Lithium Acetate",
+    "formula": "LiCH₃COO",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "w6_so4",
+    "name": "Tungsten(VI) Sulfate",
+    "formula": "W(SO₄)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mo6_so4",
+    "name": "Molybdenum(VI) Sulfate",
+    "formula": "Mo(SO₄)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "co2_oh",
+    "name": "Cobalt(II) Hydroxide",
+    "formula": "CoOH2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mo6_br",
+    "name": "Molybdenum(VI) Bromide",
+    "formula": "MoBr6",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "au3_so4",
+    "name": "Gold(III) Sulfate",
+    "formula": "Au2(SO₄)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ba_ch3coo",
+    "name": "Barium Acetate",
+    "formula": "Ba(CH₃COO)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sc3_f",
+    "name": "Scandium(III) Fluoride",
+    "formula": "ScF3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "aloh3",
+    "name": "Aluminium Hydroxide",
+    "formula": "Al(OH)₃",
+    "type": "compound",
+    "category": "base"
+  },
+  {
+    "id": "mn_oh2",
+    "name": "Manganese(II) Hydroxide",
+    "formula": "Mn(OH)2",
+    "type": "compound",
+    "category": "base"
+  },
+  {
+    "id": "c3h8",
+    "name": "Propane",
+    "formula": "C₃H₈",
+    "type": "compound",
+    "category": "hydrocarbon"
+  },
+  {
+    "id": "sb5_cl",
+    "name": "Antimony(V) Chloride",
+    "formula": "SbCl5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "er3_po4",
+    "name": "Erbium(III) Phosphate",
+    "formula": "ErPO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "pt2_oh",
+    "name": "Platinum(II) Hydroxide",
+    "formula": "PtOH2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ce4_so3",
+    "name": "Cerium(IV) Sulfite",
+    "formula": "Ce(SO₃)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cuo",
+    "name": "Copper(II) Oxide",
+    "formula": "CuO",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "h2o2",
+    "name": "Hydrogen Peroxide",
+    "formula": "H₂O₂",
+    "type": "compound",
+    "category": "peroxide"
+  },
+  {
+    "id": "bi3_br",
+    "name": "Bismuth(III) Bromide",
+    "formula": "BiBr3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sb5_po4",
+    "name": "Antimony(V) Phosphate",
+    "formula": "Sb3(PO₄)5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ce3_f",
+    "name": "Cerium(III) Fluoride",
+    "formula": "CeF3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "v5_so3",
+    "name": "Vanadium(V) Sulfite",
+    "formula": "V2(SO₃)5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "hg2_so3",
+    "name": "Mercury(II) Sulfite",
+    "formula": "HgSO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "v5_i",
+    "name": "Vanadium(V) Iodide",
+    "formula": "VI5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cs_cl",
+    "name": "Cesium Chloride",
+    "formula": "CsCl",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "nd3_cl",
+    "name": "Neodymium(III) Chloride",
+    "formula": "NdCl3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ce4_ch3coo",
+    "name": "Cerium(IV) Acetate",
+    "formula": "Ce(CH₃COO)4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sr_oh",
+    "name": "Strontium Hydroxide",
+    "formula": "SrOH2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "w6_ch3coo",
+    "name": "Tungsten(VI) Acetate",
+    "formula": "W(CH₃COO)6",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "tl1_cl",
+    "name": "Thallium(I) Chloride",
+    "formula": "TlCl",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "nd3_no3",
+    "name": "Neodymium(III) Nitrate",
+    "formula": "Nd(NO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ag_po4",
+    "name": "Silver Phosphate",
+    "formula": "Ag3PO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "na_po4",
+    "name": "Sodium Phosphate",
+    "formula": "Na3PO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "na_co3",
+    "name": "Sodium Carbonate",
+    "formula": "Na2CO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sr_s",
+    "name": "Strontium Sulfide",
+    "formula": "SrS",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sn",
+    "name": "Tin",
+    "formula": "Sn",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "cuoh2",
+    "name": "Copper(II) Hydroxide",
+    "formula": "Cu(OH)₂",
+    "type": "compound",
+    "category": "base"
+  },
+  {
+    "id": "tl3_cl",
+    "name": "Thallium(III) Chloride",
+    "formula": "TlCl3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "nh3",
+    "name": "Ammonia",
+    "formula": "NH₃",
+    "type": "compound",
+    "category": "base"
+  },
+  {
+    "id": "zro2",
+    "name": "Zirconium(IV) Oxide",
+    "formula": "ZrO₂",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "li2o",
+    "name": "Lithium Oxide",
+    "formula": "Li₂O",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "hcl",
+    "name": "Hydrochloric Acid",
+    "formula": "HCl",
+    "type": "compound",
+    "category": "acid"
+  },
+  {
+    "id": "v5_so4",
+    "name": "Vanadium(V) Sulfate",
+    "formula": "V2(SO₄)5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "v3_br",
+    "name": "Vanadium(III) Bromide",
+    "formula": "VBr3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "baoh2",
+    "name": "Barium Hydroxide",
+    "formula": "Ba(OH)₂",
+    "type": "compound",
+    "category": "base"
+  },
+  {
+    "id": "au1_ch3coo",
+    "name": "Gold(I) Acetate",
+    "formula": "AuCH₃COO",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "zr4_po4",
+    "name": "Zirconium(IV) Phosphate",
+    "formula": "Zr3(PO₄)4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ca_ch3coo",
+    "name": "Calcium Acetate",
+    "formula": "Ca(CH₃COO)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cs",
+    "name": "Cesium",
+    "formula": "Cs",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "pt4_cl",
+    "name": "Platinum(IV) Chloride",
+    "formula": "PtCl4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "hf4_no3",
+    "name": "Hafnium(IV) Nitrate",
+    "formula": "Hf(NO₃)4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_i",
+    "name": "Titanium(III) Iodide",
+    "formula": "TiI3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cd2_so4",
+    "name": "Cadmium Sulfate",
+    "formula": "CdSO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cs_po4",
+    "name": "Cesium Phosphate",
+    "formula": "Cs3PO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "v2_f",
+    "name": "Vanadium(II) Fluoride",
+    "formula": "VF2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ba_s",
+    "name": "Barium Sulfide",
+    "formula": "BaS",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "y3_no3",
+    "name": "Yttrium(III) Nitrate",
+    "formula": "Y(NO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ce3_cl",
+    "name": "Cerium(III) Chloride",
+    "formula": "CeCl3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "bi3_cl",
+    "name": "Bismuth(III) Chloride",
+    "formula": "BiCl3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sro",
+    "name": "Strontium Oxide",
+    "formula": "SrO",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "zn",
+    "name": "Zinc",
+    "formula": "Zn",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "au1_f",
+    "name": "Gold(I) Fluoride",
+    "formula": "AuF",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ki",
+    "name": "Potassium Iodide",
+    "formula": "KI",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "pt2_ch3coo",
+    "name": "Platinum(II) Acetate",
+    "formula": "Pt(CH₃COO)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "li_co3",
+    "name": "Lithium Carbonate",
+    "formula": "Li2CO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_so4",
+    "name": "Iron(II) Sulfate",
+    "formula": "FeSO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "as5_so3",
+    "name": "Arsenic(V) Sulfite",
+    "formula": "As2(SO₃)5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_br",
+    "name": "Titanium(III) Bromide",
+    "formula": "TiBr3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cd2_oh",
+    "name": "Cadmium Hydroxide",
+    "formula": "CdOH2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "k_s",
+    "name": "Potassium Sulfide",
+    "formula": "K2S",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cao",
+    "name": "Calcium Oxide",
+    "formula": "CaO",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "co2_s",
+    "name": "Cobalt(II) Sulfide",
+    "formula": "CoS",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cs_br",
+    "name": "Cesium Bromide",
+    "formula": "CsBr",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "er3_so3",
+    "name": "Erbium(III) Sulfite",
+    "formula": "Er2(SO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "n2",
+    "name": "Nitrogen",
+    "formula": "N₂",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "be2_so4",
+    "name": "Beryllium Sulfate",
+    "formula": "BeSO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ba_so3",
+    "name": "Barium Sulfite",
+    "formula": "BaSO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "pt2_cl",
+    "name": "Platinum(II) Chloride",
+    "formula": "PtCl2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ni2_no3",
+    "name": "Nickel(II) Nitrate",
+    "formula": "Ni(NO₃)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "w",
+    "name": "Tungsten",
+    "formula": "W",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "pb",
+    "name": "Lead",
+    "formula": "Pb",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "cr3_oh",
+    "name": "Chromium(III) Hydroxide",
+    "formula": "CrOH3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "co2_po4",
+    "name": "Cobalt(II) Phosphate",
+    "formula": "Co3(PO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "hf4_f",
+    "name": "Hafnium(IV) Fluoride",
+    "formula": "HfF4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "rb_po4",
+    "name": "Rubidium Phosphate",
+    "formula": "Rb3PO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cr3_co3",
+    "name": "Chromium(III) Carbonate",
+    "formula": "Cr2(CO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "co2",
+    "name": "Carbon Dioxide",
+    "formula": "CO₂",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "ti4_ch3coo",
+    "name": "Titanium(IV) Acetate",
+    "formula": "Ti(CH₃COO)4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mo6_ch3coo",
+    "name": "Molybdenum(VI) Acetate",
+    "formula": "Mo(CH₃COO)6",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "er3_i",
+    "name": "Erbium(III) Iodide",
+    "formula": "ErI3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ag_ch3coo",
+    "name": "Silver Acetate",
+    "formula": "AgCH₃COO",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "rb_cl",
+    "name": "Rubidium Chloride",
+    "formula": "RbCl",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "be2_so3",
+    "name": "Beryllium Sulfite",
+    "formula": "BeSO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ag_oh",
+    "name": "Silver Hydroxide",
+    "formula": "AgOH",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "zn_so3",
+    "name": "Zinc Sulfite",
+    "formula": "ZnSO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_i",
+    "name": "Copper(II) Iodide",
+    "formula": "CuI2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "rb_br",
+    "name": "Rubidium Bromide",
+    "formula": "RbBr",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "au3_so3",
+    "name": "Gold(III) Sulfite",
+    "formula": "Au2(SO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "c2h5oh",
+    "name": "Ethanol",
+    "formula": "C₂H₅OH",
+    "type": "compound",
+    "category": "organic"
+  },
+  {
+    "id": "fe2_so3",
+    "name": "Iron(II) Sulfite",
+    "formula": "FeSO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "zn_no3",
+    "name": "Zinc Nitrate",
+    "formula": "Zn(NO₃)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_no3",
+    "name": "Titanium(IV) Nitrate",
+    "formula": "Ti(NO₃)4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "co2_so3",
+    "name": "Cobalt(II) Sulfite",
+    "formula": "CoSO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sc3_br",
+    "name": "Scandium(III) Bromide",
+    "formula": "ScBr3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "caoh2",
+    "name": "Calcium Hydroxide",
+    "formula": "Ca(OH)₂",
+    "type": "compound",
+    "category": "base"
+  },
+  {
+    "id": "mn2_ch3coo",
+    "name": "Manganese(II) Acetate",
+    "formula": "Mn(CH₃COO)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cd2_no3",
+    "name": "Cadmium Nitrate",
+    "formula": "Cd(NO₃)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cs_no3",
+    "name": "Cesium Nitrate",
+    "formula": "CsNO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "v5_f",
+    "name": "Vanadium(V) Fluoride",
+    "formula": "VF5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "be2_cl",
+    "name": "Beryllium Chloride",
+    "formula": "BeCl2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "pt4_ch3coo",
+    "name": "Platinum(IV) Acetate",
+    "formula": "Pt(CH₃COO)4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "au",
+    "name": "Gold",
+    "formula": "Au",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "au1_no3",
+    "name": "Gold(I) Nitrate",
+    "formula": "AuNO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "co2_no3",
+    "name": "Cobalt(II) Nitrate",
+    "formula": "Co(NO₃)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "w6_no3",
+    "name": "Tungsten(VI) Nitrate",
+    "formula": "W(NO₃)6",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "nd3_po4",
+    "name": "Neodymium(III) Phosphate",
+    "formula": "NdPO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cs_i",
+    "name": "Cesium Iodide",
+    "formula": "CsI",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "moo3",
+    "name": "Molybdenum(VI) Oxide",
+    "formula": "MoO₃",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "al_no3",
+    "name": "Aluminium Nitrate",
+    "formula": "Al(NO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "na",
+    "name": "Sodium",
+    "formula": "Na",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "sn2_oh",
+    "name": "Tin(II) Hydroxide",
+    "formula": "SnOH2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ag_i",
+    "name": "Silver Iodide",
+    "formula": "AgI",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "nd3_f",
+    "name": "Neodymium(III) Fluoride",
+    "formula": "NdF3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ca_po4",
+    "name": "Calcium Phosphate",
+    "formula": "Ca3(PO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "na2o",
+    "name": "Sodium Oxide",
+    "formula": "Na₂O",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "fe3o4",
+    "name": "Magnetite",
+    "formula": "Fe₃O₄",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "w6_cl",
+    "name": "Tungsten(VI) Chloride",
+    "formula": "WCl6",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_cl",
+    "name": "Titanium(IV) Chloride",
+    "formula": "TiCl4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "wo3",
+    "name": "Tungsten(VI) Oxide",
+    "formula": "WO₃",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "so2",
+    "name": "Sulfur Dioxide",
+    "formula": "SO₂",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "br2",
+    "name": "Bromine",
+    "formula": "Br₂",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "v2_no3",
+    "name": "Vanadium(II) Nitrate",
+    "formula": "V(NO₃)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ca_co3",
+    "name": "Calcium Carbonate",
+    "formula": "CaCO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "li_s",
+    "name": "Lithium Sulfide",
+    "formula": "Li2S",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sc3_so3",
+    "name": "Scandium(III) Sulfite",
+    "formula": "Sc2(SO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "as5_br",
+    "name": "Arsenic(V) Bromide",
+    "formula": "AsBr5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mg_so4",
+    "name": "Magnesium Sulfate",
+    "formula": "MgSO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cd2_cl",
+    "name": "Cadmium Chloride",
+    "formula": "CdCl2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "er3_br",
+    "name": "Erbium(III) Bromide",
+    "formula": "ErBr3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ca_no3",
+    "name": "Calcium Nitrate",
+    "formula": "Ca(NO₃)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "li_so4",
+    "name": "Lithium Sulfate",
+    "formula": "Li2SO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_no3",
+    "name": "Iron(II) Nitrate",
+    "formula": "Fe(NO₃)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ga3_cl",
+    "name": "Gallium(III) Chloride",
+    "formula": "GaCl3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "w6_so3",
+    "name": "Tungsten(VI) Sulfite",
+    "formula": "W(SO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mn2_co3",
+    "name": "Manganese(II) Carbonate",
+    "formula": "MnCO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "tl1_ch3coo",
+    "name": "Thallium(I) Acetate",
+    "formula": "TlCH₃COO",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "v5_ch3coo",
+    "name": "Vanadium(V) Acetate",
+    "formula": "V(CH₃COO)5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ag_so4",
+    "name": "Silver Sulfate",
+    "formula": "Ag2SO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "au1_cl",
+    "name": "Gold(I) Chloride",
+    "formula": "AuCl",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sc",
+    "name": "Scandium",
+    "formula": "Sc",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "bi3_po4",
+    "name": "Bismuth(III) Phosphate",
+    "formula": "BiPO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "as5_f",
+    "name": "Arsenic(V) Fluoride",
+    "formula": "AsF5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "hg2_cl",
+    "name": "Mercury(II) Chloride",
+    "formula": "HgCl2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "hbr",
+    "name": "Hydrobromic Acid",
+    "formula": "HBr",
+    "type": "compound",
+    "category": "acid"
+  },
+  {
+    "id": "tl1_oh",
+    "name": "Thallium(I) Hydroxide",
+    "formula": "TlOH",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "na_s",
+    "name": "Sodium Sulfide",
+    "formula": "Na2S",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "pt4_no3",
+    "name": "Platinum(IV) Nitrate",
+    "formula": "Pt(NO₃)4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "co_oh2",
+    "name": "Cobalt(II) Hydroxide",
+    "formula": "Co(OH)2",
+    "type": "compound",
+    "category": "base"
+  },
+  {
+    "id": "pb2_so4",
+    "name": "Lead(II) Sulfate",
+    "formula": "PbSO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_co3",
+    "name": "Iron(III) Carbonate",
+    "formula": "Fe2(CO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "bao",
+    "name": "Barium Oxide",
+    "formula": "BaO",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "sn2_s",
+    "name": "Tin(II) Sulfide",
+    "formula": "SnS",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sn2_po4",
+    "name": "Tin(II) Phosphate",
+    "formula": "Sn3(PO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "tl2o",
+    "name": "Thallium(I) Oxide",
+    "formula": "Tl₂O",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "mn2_oh",
+    "name": "Manganese(II) Hydroxide",
+    "formula": "MnOH2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ce4_so4",
+    "name": "Cerium(IV) Sulfate",
+    "formula": "Ce(SO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ga3_so3",
+    "name": "Gallium(III) Sulfite",
+    "formula": "Ga2(SO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "li_i",
+    "name": "Lithium Iodide",
+    "formula": "LiI",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "au3_po4",
+    "name": "Gold(III) Phosphate",
+    "formula": "AuPO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "rb_so4",
+    "name": "Rubidium Sulfate",
+    "formula": "Rb2SO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cd2_po4",
+    "name": "Cadmium Phosphate",
+    "formula": "Cd3(PO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "c4h10",
+    "name": "Butane",
+    "formula": "C₄H₁₀",
+    "type": "compound",
+    "category": "hydrocarbon"
+  },
+  {
+    "id": "mg",
+    "name": "Magnesium",
+    "formula": "Mg",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "cu2_so3",
+    "name": "Copper(II) Sulfite",
+    "formula": "CuSO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "as3_ch3coo",
+    "name": "Arsenic(III) Acetate",
+    "formula": "As(CH₃COO)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "er2o3",
+    "name": "Erbium(III) Oxide",
+    "formula": "Er₂O₃",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "v2_i",
+    "name": "Vanadium(II) Iodide",
+    "formula": "VI2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cd2_ch3coo",
+    "name": "Cadmium Acetate",
+    "formula": "Cd(CH₃COO)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_oh",
+    "name": "Titanium(III) Hydroxide",
+    "formula": "TiOH3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "co2_co3",
+    "name": "Cobalt(II) Carbonate",
+    "formula": "CoCO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "nh4_so4",
+    "name": "Ammonium Sulfate",
+    "formula": "NH₄2SO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "u6_so4",
+    "name": "Uranium(VI) Sulfate",
+    "formula": "U(SO₄)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sn2_so3",
+    "name": "Tin(II) Sulfite",
+    "formula": "SnSO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "in3_cl",
+    "name": "Indium(III) Chloride",
+    "formula": "InCl3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "zr4_so3",
+    "name": "Zirconium(IV) Sulfite",
+    "formula": "Zr(SO₃)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "in3_so3",
+    "name": "Indium(III) Sulfite",
+    "formula": "In2(SO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_cl",
+    "name": "Copper(II) Chloride",
+    "formula": "CuCl2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "nd3_br",
+    "name": "Neodymium(III) Bromide",
+    "formula": "NdBr3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "au2o",
+    "name": "Gold(I) Oxide",
+    "formula": "Au₂O",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "mgo",
+    "name": "Magnesium Oxide",
+    "formula": "MgO",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "ti4_so4",
+    "name": "Titanium(IV) Sulfate",
+    "formula": "Ti(SO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "rb_ch3coo",
+    "name": "Rubidium Acetate",
+    "formula": "RbCH₃COO",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sb5_so3",
+    "name": "Antimony(V) Sulfite",
+    "formula": "Sb2(SO₃)5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "nh4_oh",
+    "name": "Ammonium Hydroxide",
+    "formula": "NH₄OH",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sb3_no3",
+    "name": "Antimony(III) Nitrate",
+    "formula": "Sb(NO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "pt4_br",
+    "name": "Platinum(IV) Bromide",
+    "formula": "PtBr4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "p2o5",
+    "name": "Phosphorus(V) Oxide",
+    "formula": "P₂O₅",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "nh4_ch3coo",
+    "name": "Ammonium Acetate",
+    "formula": "NH₄CH₃COO",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "be2_br",
+    "name": "Beryllium Bromide",
+    "formula": "BeBr2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "u",
+    "name": "Uranium",
+    "formula": "U",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "u4_no3",
+    "name": "Uranium(IV) Nitrate",
+    "formula": "U(NO₃)4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "co2_br",
+    "name": "Cobalt(II) Bromide",
+    "formula": "CoBr2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "i2",
+    "name": "Iodine",
+    "formula": "I₂",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "hf4_cl",
+    "name": "Hafnium(IV) Chloride",
+    "formula": "HfCl4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sr_ch3coo",
+    "name": "Strontium Acetate",
+    "formula": "Sr(CH₃COO)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "zno",
+    "name": "Zinc Oxide",
+    "formula": "ZnO",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "beo",
+    "name": "Beryllium Oxide",
+    "formula": "BeO",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "sb3_ch3coo",
+    "name": "Antimony(III) Acetate",
+    "formula": "Sb(CH₃COO)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "h3po4",
+    "name": "Phosphoric Acid",
+    "formula": "H₃PO₄",
+    "type": "compound",
+    "category": "acid"
+  },
+  {
+    "id": "ch4",
+    "name": "Methane",
+    "formula": "CH₄",
+    "type": "compound",
+    "category": "hydrocarbon"
+  },
+  {
+    "id": "fe3_no3",
+    "name": "Iron(III) Nitrate",
+    "formula": "Fe(NO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "na_cl",
+    "name": "Sodium Chloride",
+    "formula": "NaCl",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mg_i",
+    "name": "Magnesium Iodide",
+    "formula": "MgI2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_oh",
+    "name": "Titanium(IV) Hydroxide",
+    "formula": "TiOH4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "u4_ch3coo",
+    "name": "Uranium(IV) Acetate",
+    "formula": "U(CH₃COO)4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "k_so3",
+    "name": "Potassium Sulfite",
+    "formula": "K2SO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "na_so3",
+    "name": "Sodium Sulfite",
+    "formula": "Na2SO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sn2_i",
+    "name": "Tin(II) Iodide",
+    "formula": "SnI2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mo6_so3",
+    "name": "Molybdenum(VI) Sulfite",
+    "formula": "Mo(SO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "be",
+    "name": "Beryllium",
+    "formula": "Be",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "la3_br",
+    "name": "Lanthanum(III) Bromide",
+    "formula": "LaBr3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "au1_oh",
+    "name": "Gold(I) Hydroxide",
+    "formula": "AuOH",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ni2_so3",
+    "name": "Nickel(II) Sulfite",
+    "formula": "NiSO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "au1_i",
+    "name": "Gold(I) Iodide",
+    "formula": "AuI",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sr_po4",
+    "name": "Strontium Phosphate",
+    "formula": "Sr3(PO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "as3_br",
+    "name": "Arsenic(III) Bromide",
+    "formula": "AsBr3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mg_po4",
+    "name": "Magnesium Phosphate",
+    "formula": "Mg3(PO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "rb_f",
+    "name": "Rubidium Fluoride",
+    "formula": "RbF",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "as3_no3",
+    "name": "Arsenic(III) Nitrate",
+    "formula": "As(NO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "f2",
+    "name": "Fluorine",
+    "formula": "F₂",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "ti3_f",
+    "name": "Titanium(III) Fluoride",
+    "formula": "TiF3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ga",
+    "name": "Gallium",
+    "formula": "Ga",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "ti2o3",
+    "name": "Titanium(III) Oxide",
+    "formula": "Ti₂O₃",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "in2o3",
+    "name": "Indium(III) Oxide",
+    "formula": "In₂O₃",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "hg1_so3",
+    "name": "Mercury(I) Sulfite",
+    "formula": "Hg₂SO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sr_no3",
+    "name": "Strontium Nitrate",
+    "formula": "Sr(NO₃)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "zn_so4",
+    "name": "Zinc Sulfate",
+    "formula": "ZnSO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "h",
+    "name": "Hydrogen",
+    "formula": "H",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "bi2o3",
+    "name": "Bismuth(III) Oxide",
+    "formula": "Bi₂O₃",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "ga3_f",
+    "name": "Gallium(III) Fluoride",
+    "formula": "GaF3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sn2_cl",
+    "name": "Tin(II) Chloride",
+    "formula": "SnCl2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cr3_ch3coo",
+    "name": "Chromium(III) Acetate",
+    "formula": "Cr(CH₃COO)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "tl3_so3",
+    "name": "Thallium(III) Sulfite",
+    "formula": "Tl2(SO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mn",
+    "name": "Manganese",
+    "formula": "Mn",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "au3_i",
+    "name": "Gold(III) Iodide",
+    "formula": "AuI3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "la3_i",
+    "name": "Lanthanum(III) Iodide",
+    "formula": "LaI3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "zn_cl",
+    "name": "Zinc Chloride",
+    "formula": "ZnCl2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "in3_no3",
+    "name": "Indium(III) Nitrate",
+    "formula": "In(NO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "pt2_po4",
+    "name": "Platinum(II) Phosphate",
+    "formula": "Pt3(PO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "k_po4",
+    "name": "Potassium Phosphate",
+    "formula": "K3PO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ce3_so3",
+    "name": "Cerium(III) Sulfite",
+    "formula": "Ce2(SO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "nd2o3",
+    "name": "Neodymium(III) Oxide",
+    "formula": "Nd₂O₃",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "cr_oh3",
+    "name": "Chromium(III) Hydroxide",
+    "formula": "Cr(OH)3",
+    "type": "compound",
+    "category": "base"
+  },
+  {
+    "id": "pb2_so3",
+    "name": "Lead(II) Sulfite",
+    "formula": "PbSO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "as5_so4",
+    "name": "Arsenic(V) Sulfate",
+    "formula": "As2(SO₄)5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sb3_f",
+    "name": "Antimony(III) Fluoride",
+    "formula": "SbF3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ceo2",
+    "name": "Cerium(IV) Oxide",
+    "formula": "CeO₂",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "hf4_po4",
+    "name": "Hafnium(IV) Phosphate",
+    "formula": "Hf3(PO₄)4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mo6_i",
+    "name": "Molybdenum(VI) Iodide",
+    "formula": "MoI6",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "au3_ch3coo",
+    "name": "Gold(III) Acetate",
+    "formula": "Au(CH₃COO)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "al_cl",
+    "name": "Aluminium Chloride",
+    "formula": "AlCl3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "au1_so4",
+    "name": "Gold(I) Sulfate",
+    "formula": "Au2SO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "la3_no3",
+    "name": "Lanthanum(III) Nitrate",
+    "formula": "La(NO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "zn_ch3coo",
+    "name": "Zinc Acetate",
+    "formula": "Zn(CH₃COO)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ti2_no3",
+    "name": "Titanium(II) Nitrate",
+    "formula": "Ti(NO₃)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "hf4_ch3coo",
+    "name": "Hafnium(IV) Acetate",
+    "formula": "Hf(CH₃COO)4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ag2o",
+    "name": "Silver Oxide",
+    "formula": "Ag₂O",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "la3_f",
+    "name": "Lanthanum(III) Fluoride",
+    "formula": "LaF3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sb5_so4",
+    "name": "Antimony(V) Sulfate",
+    "formula": "Sb2(SO₄)5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ca_oh",
+    "name": "Calcium Hydroxide",
+    "formula": "CaOH2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ca_cl",
+    "name": "Calcium Chloride",
+    "formula": "CaCl2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "hno3",
+    "name": "Nitric Acid",
+    "formula": "HNO₃",
+    "type": "compound",
+    "category": "acid"
+  },
+  {
+    "id": "hf",
+    "name": "Hydrofluoric Acid",
+    "formula": "HF",
+    "type": "compound",
+    "category": "acid"
+  },
+  {
+    "id": "ti2_br",
+    "name": "Titanium(II) Bromide",
+    "formula": "TiBr2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "co2_i",
+    "name": "Cobalt(II) Iodide",
+    "formula": "CoI2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ch3cooh",
+    "name": "Acetic Acid",
+    "formula": "CH₃COOH",
+    "type": "compound",
+    "category": "acid"
+  },
+  {
+    "id": "v2o5",
+    "name": "Vanadium(V) Oxide",
+    "formula": "V₂O₅",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "ce3_so4",
+    "name": "Cerium(III) Sulfate",
+    "formula": "Ce2(SO₄)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ce4_i",
+    "name": "Cerium(IV) Iodide",
+    "formula": "CeI4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "k_cl",
+    "name": "Potassium Chloride",
+    "formula": "KCl",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "pt4_i",
+    "name": "Platinum(IV) Iodide",
+    "formula": "PtI4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "in3_so4",
+    "name": "Indium(III) Sulfate",
+    "formula": "In2(SO₄)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_cl",
+    "name": "Iron(II) Chloride",
+    "formula": "FeCl2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "w6_f",
+    "name": "Tungsten(VI) Fluoride",
+    "formula": "WF6",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ba_so4",
+    "name": "Barium Sulfate",
+    "formula": "BaSO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mno2",
+    "name": "Manganese(IV) Oxide",
+    "formula": "MnO₂",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "zr4_cl",
+    "name": "Zirconium(IV) Chloride",
+    "formula": "ZrCl4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "k_i",
+    "name": "Potassium Iodide",
+    "formula": "KI",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "k_oh",
+    "name": "Potassium Hydroxide",
+    "formula": "KOH",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "as5_no3",
+    "name": "Arsenic(V) Nitrate",
+    "formula": "As(NO₃)5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "k_so4",
+    "name": "Potassium Sulfate",
+    "formula": "K2SO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mg_so3",
+    "name": "Magnesium Sulfite",
+    "formula": "MgSO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "tl1_so4",
+    "name": "Thallium(I) Sulfate",
+    "formula": "Tl2SO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "coo",
+    "name": "Cobalt(II) Oxide",
+    "formula": "CoO",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "ni2_so4",
+    "name": "Nickel(II) Sulfate",
+    "formula": "NiSO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "u4_i",
+    "name": "Uranium(IV) Iodide",
+    "formula": "UI4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sc3_cl",
+    "name": "Scandium(III) Chloride",
+    "formula": "ScCl3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "er",
+    "name": "Erbium",
+    "formula": "Er",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "er3_f",
+    "name": "Erbium(III) Fluoride",
+    "formula": "ErF3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "rb2o",
+    "name": "Rubidium Oxide",
+    "formula": "Rb₂O",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "u4_po4",
+    "name": "Uranium(IV) Phosphate",
+    "formula": "U3(PO₄)4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sb5_no3",
+    "name": "Antimony(V) Nitrate",
+    "formula": "Sb(NO₃)5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "hg",
+    "name": "Mercury",
+    "formula": "Hg",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "sc3_no3",
+    "name": "Scandium(III) Nitrate",
+    "formula": "Sc(NO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_cl",
+    "name": "Titanium(III) Chloride",
+    "formula": "TiCl3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ga2o3",
+    "name": "Gallium(III) Oxide",
+    "formula": "Ga₂O₃",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "au3_f",
+    "name": "Gold(III) Fluoride",
+    "formula": "AuF3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "u4_br",
+    "name": "Uranium(IV) Bromide",
+    "formula": "UBr4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ce4_br",
+    "name": "Cerium(IV) Bromide",
+    "formula": "CeBr4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "rb_so3",
+    "name": "Rubidium Sulfite",
+    "formula": "Rb2SO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "al_ch3coo",
+    "name": "Aluminium Acetate",
+    "formula": "Al(CH₃COO)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "pb2_s",
+    "name": "Lead(II) Sulfide",
+    "formula": "PbS",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sc3_ch3coo",
+    "name": "Scandium(III) Acetate",
+    "formula": "Sc(CH₃COO)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "s",
+    "name": "Sulfur",
+    "formula": "S",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "cs_so3",
+    "name": "Cesium Sulfite",
+    "formula": "Cs2SO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "as2o5",
+    "name": "Arsenic(V) Oxide",
+    "formula": "As₂O₅",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "w6_po4",
+    "name": "Tungsten(VI) Phosphate",
+    "formula": "W(PO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "be2_ch3coo",
+    "name": "Beryllium Acetate",
+    "formula": "Be(CH₃COO)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "w6_i",
+    "name": "Tungsten(VI) Iodide",
+    "formula": "WI6",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cs_f",
+    "name": "Cesium Fluoride",
+    "formula": "CsF",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "v2_so4",
+    "name": "Vanadium(II) Sulfate",
+    "formula": "VSO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "tl3_i",
+    "name": "Thallium(III) Iodide",
+    "formula": "TlI3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mno",
+    "name": "Manganese(II) Oxide",
+    "formula": "MnO",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "u4_f",
+    "name": "Uranium(IV) Fluoride",
+    "formula": "UF4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "al_oh",
+    "name": "Aluminium Hydroxide",
+    "formula": "AlOH3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "hgo",
+    "name": "Mercury(II) Oxide",
+    "formula": "HgO",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "pb2_oh",
+    "name": "Lead(II) Hydroxide",
+    "formula": "PbOH2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ti2_f",
+    "name": "Titanium(II) Fluoride",
+    "formula": "TiF2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sr_i",
+    "name": "Strontium Iodide",
+    "formula": "SrI2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "hg2_i",
+    "name": "Mercury(II) Iodide",
+    "formula": "HgI2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ti2_cl",
+    "name": "Titanium(II) Chloride",
+    "formula": "TiCl2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "bi3_i",
+    "name": "Bismuth(III) Iodide",
+    "formula": "BiI3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sb5_br",
+    "name": "Antimony(V) Bromide",
+    "formula": "SbBr5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "er3_cl",
+    "name": "Erbium(III) Chloride",
+    "formula": "ErCl3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_co3",
+    "name": "Copper(II) Carbonate",
+    "formula": "CuCO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "na_oh",
+    "name": "Sodium Hydroxide",
+    "formula": "NaOH",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "fe2o3",
+    "name": "Iron(III) Oxide",
+    "formula": "Fe₂O₃",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "pb2_co3",
+    "name": "Lead(II) Carbonate",
+    "formula": "PbCO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "au3_oh",
+    "name": "Gold(III) Hydroxide",
+    "formula": "AuOH3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "vo",
+    "name": "Vanadium(II) Oxide",
+    "formula": "VO",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "sr_so3",
+    "name": "Strontium Sulfite",
+    "formula": "SrSO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sn2_no3",
+    "name": "Tin(II) Nitrate",
+    "formula": "Sn(NO₃)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_so4",
+    "name": "Titanium(III) Sulfate",
+    "formula": "Ti2(SO₄)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "nh4_cl",
+    "name": "Ammonium Chloride",
+    "formula": "NH₄Cl",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ca_br",
+    "name": "Calcium Bromide",
+    "formula": "CaBr2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cs_ch3coo",
+    "name": "Cesium Acetate",
+    "formula": "CsCH₃COO",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "hg2_po4",
+    "name": "Mercury(II) Phosphate",
+    "formula": "Hg3(PO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "co2_so4",
+    "name": "Cobalt(II) Sulfate",
+    "formula": "CoSO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "pt4_oh",
+    "name": "Platinum(IV) Hydroxide",
+    "formula": "PtOH4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "y3_ch3coo",
+    "name": "Yttrium(III) Acetate",
+    "formula": "Y(CH₃COO)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "v3_so4",
+    "name": "Vanadium(III) Sulfate",
+    "formula": "V2(SO₄)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_so3",
+    "name": "Titanium(IV) Sulfite",
+    "formula": "Ti(SO₃)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "uo3",
+    "name": "Uranium(VI) Oxide",
+    "formula": "UO₃",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "na_so4",
+    "name": "Sodium Sulfate",
+    "formula": "Na2SO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "feoh3",
+    "name": "Iron(III) Hydroxide",
+    "formula": "Fe(OH)₃",
+    "type": "compound",
+    "category": "base"
+  },
+  {
+    "id": "be2_oh",
+    "name": "Beryllium Hydroxide",
+    "formula": "BeOH2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sc3_so4",
+    "name": "Scandium(III) Sulfate",
+    "formula": "Sc2(SO₄)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "u4_cl",
+    "name": "Uranium(IV) Chloride",
+    "formula": "UCl4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "pt4_po4",
+    "name": "Platinum(IV) Phosphate",
+    "formula": "Pt3(PO₄)4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ga3_i",
+    "name": "Gallium(III) Iodide",
+    "formula": "GaI3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "v5_po4",
+    "name": "Vanadium(V) Phosphate",
+    "formula": "V3(PO₄)5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ga3_po4",
+    "name": "Gallium(III) Phosphate",
+    "formula": "GaPO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sb",
+    "name": "Antimony",
+    "formula": "Sb",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "sn2_ch3coo",
+    "name": "Tin(II) Acetate",
+    "formula": "Sn(CH₃COO)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "tl3_ch3coo",
+    "name": "Thallium(III) Acetate",
+    "formula": "Tl(CH₃COO)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "la3_ch3coo",
+    "name": "Lanthanum(III) Acetate",
+    "formula": "La(CH₃COO)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "tl3_br",
+    "name": "Thallium(III) Bromide",
+    "formula": "TlBr3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "y3_i",
+    "name": "Yttrium(III) Iodide",
+    "formula": "YI3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "tl3_no3",
+    "name": "Thallium(III) Nitrate",
+    "formula": "Tl(NO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cl2",
+    "name": "Chlorine",
+    "formula": "Cl₂",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "v2o3",
+    "name": "Vanadium(III) Oxide",
+    "formula": "V₂O₃",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "mg_ch3coo",
+    "name": "Magnesium Acetate",
+    "formula": "Mg(CH₃COO)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "as5_po4",
+    "name": "Arsenic(V) Phosphate",
+    "formula": "As3(PO₄)5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sr",
+    "name": "Strontium",
+    "formula": "Sr",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "al_co3",
+    "name": "Aluminium Carbonate",
+    "formula": "Al2(CO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "v2_po4",
+    "name": "Vanadium(II) Phosphate",
+    "formula": "V3(PO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "au3_br",
+    "name": "Gold(III) Bromide",
+    "formula": "AuBr3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_co3",
+    "name": "Iron(II) Carbonate",
+    "formula": "FeCO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ca_s",
+    "name": "Calcium Sulfide",
+    "formula": "CaS",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "au1_so3",
+    "name": "Gold(I) Sulfite",
+    "formula": "Au2SO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "pb2_no3",
+    "name": "Lead(II) Nitrate",
+    "formula": "Pb(NO₃)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "hf4_br",
+    "name": "Hafnium(IV) Bromide",
+    "formula": "HfBr4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "hg2_ch3coo",
+    "name": "Mercury(II) Acetate",
+    "formula": "Hg(CH₃COO)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "be2_no3",
+    "name": "Beryllium Nitrate",
+    "formula": "Be(NO₃)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sb2o5",
+    "name": "Antimony(V) Oxide",
+    "formula": "Sb₂O₅",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "v3_oh",
+    "name": "Vanadium(III) Hydroxide",
+    "formula": "VOH3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "y3_so4",
+    "name": "Yttrium(III) Sulfate",
+    "formula": "Y2(SO₄)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "na_br",
+    "name": "Sodium Bromide",
+    "formula": "NaBr",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "la3_cl",
+    "name": "Lanthanum(III) Chloride",
+    "formula": "LaCl3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ag_no3",
+    "name": "Silver Nitrate",
+    "formula": "AgNO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "in3_po4",
+    "name": "Indium(III) Phosphate",
+    "formula": "InPO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "hf4_so3",
+    "name": "Hafnium(IV) Sulfite",
+    "formula": "Hf(SO₃)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_br",
+    "name": "Iron(II) Bromide",
+    "formula": "FeBr2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_br",
+    "name": "Copper(II) Bromide",
+    "formula": "CuBr2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "u4_so4",
+    "name": "Uranium(IV) Sulfate",
+    "formula": "U(SO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "zr4_so4",
+    "name": "Zirconium(IV) Sulfate",
+    "formula": "Zr(SO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "be2_f",
+    "name": "Beryllium Fluoride",
+    "formula": "BeF2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "v3_so3",
+    "name": "Vanadium(III) Sulfite",
+    "formula": "V2(SO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ca",
+    "name": "Calcium",
+    "formula": "Ca",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "sb3_i",
+    "name": "Antimony(III) Iodide",
+    "formula": "SbI3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ba_co3",
+    "name": "Barium Carbonate",
+    "formula": "BaCO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "y",
+    "name": "Yttrium",
+    "formula": "Y",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "v2_cl",
+    "name": "Vanadium(II) Chloride",
+    "formula": "VCl2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "as5_cl",
+    "name": "Arsenic(V) Chloride",
+    "formula": "AsCl5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "hg2_oh",
+    "name": "Mercury(II) Hydroxide",
+    "formula": "HgOH2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "al_so3",
+    "name": "Aluminium Sulfite",
+    "formula": "Al2(SO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "pto",
+    "name": "Platinum(II) Oxide",
+    "formula": "PtO",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "v5_br",
+    "name": "Vanadium(V) Bromide",
+    "formula": "VBr5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mg_br",
+    "name": "Magnesium Bromide",
+    "formula": "MgBr2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "pto2",
+    "name": "Platinum(IV) Oxide",
+    "formula": "PtO₂",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "cs2o",
+    "name": "Cesium Oxide",
+    "formula": "Cs₂O",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "tl2o3",
+    "name": "Thallium(III) Oxide",
+    "formula": "Tl₂O₃",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "sc3_po4",
+    "name": "Scandium(III) Phosphate",
+    "formula": "ScPO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ga3_so4",
+    "name": "Gallium(III) Sulfate",
+    "formula": "Ga2(SO₄)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sn2_so4",
+    "name": "Tin(II) Sulfate",
+    "formula": "SnSO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "naoh",
+    "name": "Sodium Hydroxide",
+    "formula": "NaOH",
+    "type": "compound",
+    "category": "base"
+  },
+  {
+    "id": "as5_i",
+    "name": "Arsenic(V) Iodide",
+    "formula": "AsI5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_oh",
+    "name": "Iron(II) Hydroxide",
+    "formula": "FeOH2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "rb_i",
+    "name": "Rubidium Iodide",
+    "formula": "RbI",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sb2o3",
+    "name": "Antimony(III) Oxide",
+    "formula": "Sb₂O₃",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "sno2",
+    "name": "Tin(IV) Oxide",
+    "formula": "SnO₂",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "u6_ch3coo",
+    "name": "Uranium(VI) Acetate",
+    "formula": "U(CH₃COO)6",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "k2o",
+    "name": "Potassium Oxide",
+    "formula": "K₂O",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "cr3_i",
+    "name": "Chromium(III) Iodide",
+    "formula": "CrI3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "er3_ch3coo",
+    "name": "Erbium(III) Acetate",
+    "formula": "Er(CH₃COO)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "u6_f",
+    "name": "Uranium(VI) Fluoride",
+    "formula": "UF6",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_so3",
+    "name": "Iron(III) Sulfite",
+    "formula": "Fe2(SO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "bi3_ch3coo",
+    "name": "Bismuth(III) Acetate",
+    "formula": "Bi(CH₃COO)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "v3_f",
+    "name": "Vanadium(III) Fluoride",
+    "formula": "VF3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mn2_po4",
+    "name": "Manganese(II) Phosphate",
+    "formula": "Mn3(PO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "tl1_i",
+    "name": "Thallium(I) Iodide",
+    "formula": "TlI",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "rb_oh",
+    "name": "Rubidium Hydroxide",
+    "formula": "RbOH",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sr_cl",
+    "name": "Strontium Chloride",
+    "formula": "SrCl2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "li_no3",
+    "name": "Lithium Nitrate",
+    "formula": "LiNO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "y2o3",
+    "name": "Yttrium(III) Oxide",
+    "formula": "Y₂O₃",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "cd",
+    "name": "Cadmium",
+    "formula": "Cd",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "cr3_no3",
+    "name": "Chromium(III) Nitrate",
+    "formula": "Cr(NO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "tl1_br",
+    "name": "Thallium(I) Bromide",
+    "formula": "TlBr",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "pt2_so4",
+    "name": "Platinum(II) Sulfate",
+    "formula": "PtSO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "nio",
+    "name": "Nickel(II) Oxide",
+    "formula": "NiO",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "au1_br",
+    "name": "Gold(I) Bromide",
+    "formula": "AuBr",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ce3_br",
+    "name": "Cerium(III) Bromide",
+    "formula": "CeBr3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_ch3coo",
+    "name": "Iron(II) Acetate",
+    "formula": "Fe(CH₃COO)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "al_br",
+    "name": "Aluminium Bromide",
+    "formula": "AlBr3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_f",
+    "name": "Titanium(IV) Fluoride",
+    "formula": "TiF4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_i",
+    "name": "Iron(III) Iodide",
+    "formula": "FeI3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "u6_cl",
+    "name": "Uranium(VI) Chloride",
+    "formula": "UCl6",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ni2_co3",
+    "name": "Nickel(II) Carbonate",
+    "formula": "NiCO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cr3_po4",
+    "name": "Chromium(III) Phosphate",
+    "formula": "CrPO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cd2_i",
+    "name": "Cadmium Iodide",
+    "formula": "CdI2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_i",
+    "name": "Iron(II) Iodide",
+    "formula": "FeI2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "tl1_no3",
+    "name": "Thallium(I) Nitrate",
+    "formula": "TlNO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "nh4_i",
+    "name": "Ammonium Iodide",
+    "formula": "NH₄I",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "pbo",
+    "name": "Lead(II) Oxide",
+    "formula": "PbO",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "h2",
+    "name": "Hydrogen",
+    "formula": "H₂",
+    "type": "compound",
+    "category": "compound"
+  },
+  {
+    "id": "pt4_so3",
+    "name": "Platinum(IV) Sulfite",
+    "formula": "Pt(SO₃)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "be2_po4",
+    "name": "Beryllium Phosphate",
+    "formula": "Be3(PO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "u6_so3",
+    "name": "Uranium(VI) Sulfite",
+    "formula": "U(SO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "feoh2",
+    "name": "Iron(II) Hydroxide",
+    "formula": "Fe(OH)₂",
+    "type": "compound",
+    "category": "base"
+  },
+  {
+    "id": "li_so3",
+    "name": "Lithium Sulfite",
+    "formula": "Li2SO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "k_ch3coo",
+    "name": "Potassium Acetate",
+    "formula": "KCH₃COO",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "la",
+    "name": "Lanthanum",
+    "formula": "La",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "ba_cl",
+    "name": "Barium Chloride",
+    "formula": "BaCl2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "bi",
+    "name": "Bismuth",
+    "formula": "Bi",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "o2",
+    "name": "Oxygen",
+    "formula": "O₂",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "pt4_f",
+    "name": "Platinum(IV) Fluoride",
+    "formula": "PtF4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ti2_so3",
+    "name": "Titanium(II) Sulfite",
+    "formula": "TiSO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ag",
+    "name": "Silver",
+    "formula": "Ag",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "tl3_so4",
+    "name": "Thallium(III) Sulfate",
+    "formula": "Tl2(SO₄)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "u6_no3",
+    "name": "Uranium(VI) Nitrate",
+    "formula": "U(NO₃)6",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_so4",
+    "name": "Copper(II) Sulfate",
+    "formula": "CuSO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "hg2_so4",
+    "name": "Mercury(II) Sulfate",
+    "formula": "HgSO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ti2_ch3coo",
+    "name": "Titanium(II) Acetate",
+    "formula": "Ti(CH₃COO)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "nh4_no3",
+    "name": "Ammonium Nitrate",
+    "formula": "NH₄NO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "k_no3",
+    "name": "Potassium Nitrate",
+    "formula": "KNO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "hg1_cl",
+    "name": "Mercury(I) Chloride",
+    "formula": "Hg₂Cl2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mgoh2",
+    "name": "Magnesium Hydroxide",
+    "formula": "Mg(OH)₂",
+    "type": "compound",
+    "category": "base"
+  },
+  {
+    "id": "fe3_oh",
+    "name": "Iron(III) Hydroxide",
+    "formula": "FeOH3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "nd3_so3",
+    "name": "Neodymium(III) Sulfite",
+    "formula": "Nd2(SO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ba_po4",
+    "name": "Barium Phosphate",
+    "formula": "Ba3(PO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "mo6_no3",
+    "name": "Molybdenum(VI) Nitrate",
+    "formula": "Mo(NO₃)6",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "k",
+    "name": "Potassium",
+    "formula": "K",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "ti3_no3",
+    "name": "Titanium(III) Nitrate",
+    "formula": "Ti(NO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ce",
+    "name": "Cerium",
+    "formula": "Ce",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "fe",
+    "name": "Iron",
+    "formula": "Fe",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "mo6_cl",
+    "name": "Molybdenum(VI) Chloride",
+    "formula": "MoCl6",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "in",
+    "name": "Indium",
+    "formula": "In",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "hg1_br",
+    "name": "Mercury(I) Bromide",
+    "formula": "Hg₂Br2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ca_so4",
+    "name": "Calcium Sulfate",
+    "formula": "CaSO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "k_co3",
+    "name": "Potassium Carbonate",
+    "formula": "K2CO₃",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sb3_br",
+    "name": "Antimony(III) Bromide",
+    "formula": "SbBr3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "zn_po4",
+    "name": "Zinc Phosphate",
+    "formula": "Zn3(PO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "zr4_no3",
+    "name": "Zirconium(IV) Nitrate",
+    "formula": "Zr(NO₃)4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "er3_no3",
+    "name": "Erbium(III) Nitrate",
+    "formula": "Er(NO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ni",
+    "name": "Nickel",
+    "formula": "Ni",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "y3_br",
+    "name": "Yttrium(III) Bromide",
+    "formula": "YBr3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "nh4_po4",
+    "name": "Ammonium Phosphate",
+    "formula": "NH₄3PO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "li_br",
+    "name": "Lithium Bromide",
+    "formula": "LiBr",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "as3_so4",
+    "name": "Arsenic(III) Sulfate",
+    "formula": "As2(SO₄)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "v5_no3",
+    "name": "Vanadium(V) Nitrate",
+    "formula": "V(NO₃)5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "pt2_f",
+    "name": "Platinum(II) Fluoride",
+    "formula": "PtF2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ce4_po4",
+    "name": "Cerium(IV) Phosphate",
+    "formula": "Ce3(PO₄)4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ba",
+    "name": "Barium",
+    "formula": "Ba",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "ti",
+    "name": "Titanium",
+    "formula": "Ti",
+    "type": "element",
+    "category": "element"
+  },
+  {
+    "id": "cu2_ch3coo",
+    "name": "Copper(II) Acetate",
+    "formula": "Cu(CH₃COO)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sc2o3",
+    "name": "Scandium(III) Oxide",
+    "formula": "Sc₂O₃",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "pb2_po4",
+    "name": "Lead(II) Phosphate",
+    "formula": "Pb3(PO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "pt2_no3",
+    "name": "Platinum(II) Nitrate",
+    "formula": "Pt(NO₃)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sr_so4",
+    "name": "Strontium Sulfate",
+    "formula": "SrSO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "cs_so4",
+    "name": "Cesium Sulfate",
+    "formula": "Cs2SO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "al2o3",
+    "name": "Aluminium Oxide",
+    "formula": "Al₂O₃",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "ce3_po4",
+    "name": "Cerium(III) Phosphate",
+    "formula": "CePO₄",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "bi3_no3",
+    "name": "Bismuth(III) Nitrate",
+    "formula": "Bi(NO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ca_i",
+    "name": "Calcium Iodide",
+    "formula": "CaI2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "au3_no3",
+    "name": "Gold(III) Nitrate",
+    "formula": "Au(NO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "y3_so3",
+    "name": "Yttrium(III) Sulfite",
+    "formula": "Y2(SO₃)3",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ni2_br",
+    "name": "Nickel(II) Bromide",
+    "formula": "NiBr2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "u6_i",
+    "name": "Uranium(VI) Iodide",
+    "formula": "UI6",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ba_i",
+    "name": "Barium Iodide",
+    "formula": "BaI2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "sb5_i",
+    "name": "Antimony(V) Iodide",
+    "formula": "SbI5",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ti2_po4",
+    "name": "Titanium(II) Phosphate",
+    "formula": "Ti3(PO₄)2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "zr4_br",
+    "name": "Zirconium(IV) Bromide",
+    "formula": "ZrBr4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "zr4_f",
+    "name": "Zirconium(IV) Fluoride",
+    "formula": "ZrF4",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "ce2o3",
+    "name": "Cerium(III) Oxide",
+    "formula": "Ce₂O₃",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "co",
+    "name": "Carbon Monoxide",
+    "formula": "CO",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "cs_oh",
+    "name": "Cesium Hydroxide",
+    "formula": "CsOH",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "v2_br",
+    "name": "Vanadium(II) Bromide",
+    "formula": "VBr2",
+    "type": "compound",
+    "category": "salt"
+  },
+  {
+    "id": "uo2",
+    "name": "Uranium(IV) Oxide",
+    "formula": "UO₂",
+    "type": "compound",
+    "category": "oxide"
+  },
+  {
+    "id": "la3_so3",
+    "name": "Lanthanum(III) Sulfite",
+    "formula": "La2(SO₃)3",
+    "type": "compound",
+    "category": "salt"
+  }
+]
