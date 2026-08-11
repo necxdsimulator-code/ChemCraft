@@ -968,7 +968,8 @@ function loadSave() {
 
             // Elements are always available
             const isElement =
-                compound.type === "element";
+    compound.category === "element" ||
+    compound.type === "element";
 
             // Compounds unlock after discovery
             const isDiscovered =
