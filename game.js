@@ -1,51 +1,144 @@
 "use strict";
 
+/* =========================================================
+   CHEMCRAFT
+   New Level-Based Chemistry System
+
+   LEVEL = ELEMENTS AVAILABLE
+   DISCOVERY = COMPOUNDS YOU HAVE ACTUALLY MADE
+
+   Level 1 : H C N O Na Cl K Ca
+   Level 2 : Mg Al S P F Li
+   Level 3 : Fe Cu Zn Si Ti Br
+   Level 4 : Co Ni Be B Ga I
+   Level 5 : Au Cs Ba Hg Pb Sn
+   ========================================================= */
+
+
+/* =========================================================
+   CONFIGURATION
+   ========================================================= */
+
 const CONFIG = {
-    STORAGE_KEY: "chemcraft_save_v3",
+
+    SAVE_KEY: "chemcraft_level_system_v1",
+
     MAX_REACTANTS: 5,
 
-    STARTING_ELEMENTS: [
-        "H", "Li", "Be", "B", "C", "N", "O", "F",
-        "Na", "Mg", "Al", "Si", "P", "S", "Cl",
-        "K", "Ca", "Ti", "Fe", "Co", "Ni", "Cu",
-        "Zn", "Ga", "Br", "Au", "I", "Cs", "Ba",
-        "Hg", "Pb", "Sn"
-    ]
+    ELEMENTS_BY_LEVEL: {
+
+        1: [
+            "H",
+            "C",
+            "N",
+            "O",
+            "Na",
+            "Cl",
+            "K",
+            "Ca"
+        ],
+
+        2: [
+            "Mg",
+            "Al",
+            "S",
+            "P",
+            "F",
+            "Li"
+        ],
+
+        3: [
+            "Fe",
+            "Cu",
+            "Zn",
+            "Si",
+            "Ti",
+            "Br"
+        ],
+
+        4: [
+            "Co",
+            "Ni",
+            "Be",
+            "B",
+            "Ga",
+            "I"
+        ],
+
+        5: [
+            "Au",
+            "Cs",
+            "Ba",
+            "Hg",
+            "Pb",
+            "Sn"
+        ]
+    }
 };
 
+
+/* =========================================================
+   GAME STATE
+   ========================================================= */
+
 const Game = {
+
+    /* Database */
+
     compounds: [],
+
     reactions: [],
 
     compoundMap: new Map(),
 
+    /* Progress */
+
+    level: 1,
+
+    xp: 0,
+
+    /* Things the player has actually discovered */
+
     discoveredCompounds: new Set(),
+
     discoveredReactions: new Set(),
+
+    /* Currently selected reactants */
 
     selectedReactants: [],
 
-    currentXP: 0,
-    level: 1,
+    /* History */
 
     reactionHistory: [],
+
+    /* Loading */
+
+    compoundsLoaded: false,
+
+    reactionsLoaded: false,
 
     initialized: false
 };
 
 
-/* =========================================
-   DATABASE
-========================================= */
+/* =========================================================
+   DATABASE LOADING
+   ========================================================= */
 
-async function loadJSON(file) {
+async function loadJSON(filename) {
 
     const response = await fetch(
-        file + "?v=" + Date.now()
+        filename + "?v=" + Date.now()
     );
 
     if (!response.ok) {
+
         throw new Error(
-            "Cannot load " + file
+            "Could not load " +
+            filename +
+            " (HTTP " +
+            response.status +
+            ")"
         );
     }
 
@@ -53,52 +146,147 @@ async function loadJSON(file) {
 }
 
 
-async function loadDatabase() {
+/* ---------------------------------------------------------
+   LOAD COMPOUNDS
+   --------------------------------------------------------- */
 
-    const compoundsData =
-        await loadJSON("compounds.json");
+async function loadCompounds() {
 
-    const reactionsData =
-        await loadJSON("reactions.json");
+    console.log(
+        "Loading compounds.json..."
+    );
 
-    Game.compounds =
-        Array.isArray(compoundsData)
-            ? compoundsData
-            : compoundsData.compounds || [];
+    const data =
+        await loadJSON(
+            "compounds.json"
+        );
 
-    Game.reactions =
-        Array.isArray(reactionsData)
-            ? reactionsData
-            : reactionsData.reactions || [];
+
+    /*
+       Support both:
+
+       [
+          {...},
+          {...}
+       ]
+
+       and:
+
+       {
+          "compounds": [...]
+       }
+    */
+
+    if (Array.isArray(data)) {
+
+        Game.compounds = data;
+
+    } else {
+
+        Game.compounds =
+            data.compounds || [];
+    }
+
+
+    /*
+       Build ID -> compound lookup.
+    */
 
     Game.compoundMap.clear();
 
-    Game.compounds.forEach(compound => {
 
-        if (compound.id !== undefined) {
+    for (
+        const compound
+        of Game.compounds
+    ) {
+
+        if (
+            compound &&
+            compound.id !== undefined
+        ) {
 
             Game.compoundMap.set(
                 String(compound.id),
                 compound
             );
         }
-    });
+    }
+
+
+    Game.compoundsLoaded = true;
+
 
     console.log(
-        "Loaded compounds:",
+        "Compounds loaded:",
         Game.compounds.length
-    );
-
-    console.log(
-        "Loaded reactions:",
-        Game.reactions.length
     );
 }
 
 
-/* =========================================
-   HELPERS
-========================================= */
+/* ---------------------------------------------------------
+   LOAD REACTIONS
+   --------------------------------------------------------- */
+
+async function loadReactions() {
+
+    console.log(
+        "Loading reactions.json..."
+    );
+
+
+    try {
+
+        const data =
+            await loadJSON(
+                "reactions.json"
+            );
+
+
+        if (Array.isArray(data)) {
+
+            Game.reactions = data;
+
+        } else {
+
+            Game.reactions =
+                data.reactions || [];
+        }
+
+
+        Game.reactionsLoaded = true;
+
+
+        console.log(
+            "Reactions loaded:",
+            Game.reactions.length
+        );
+
+
+        updateStats();
+
+
+        showMessage(
+            "ChemCraft ready!"
+        );
+
+
+    } catch (error) {
+
+        console.error(
+            "Reaction database error:",
+            error
+        );
+
+        showMessage(
+            "Elements loaded. Reactions are still unavailable."
+        );
+    }
+}
+
+
+/* =========================================================
+   COMPOUND HELPERS
+   ========================================================= */
 
 function getCompound(id) {
 
@@ -110,182 +298,293 @@ function getCompound(id) {
 
 function getFormula(id) {
 
-    const c = getCompound(id);
+    const compound =
+        getCompound(id);
 
-    return c
-        ? (c.formula || c.name || id)
-        : id;
+
+    if (!compound) {
+
+        return String(id);
+    }
+
+
+    return (
+        compound.formula ||
+        compound.symbol ||
+        compound.name ||
+        String(id)
+    );
 }
 
 
 function getName(id) {
 
-    const c = getCompound(id);
+    const compound =
+        getCompound(id);
 
-    return c
-        ? (c.name || c.formula || id)
-        : id;
-}
-
-
-/* =========================================
-   ELEMENT DETECTION
-========================================= */
-
-function isStartingElement(compound) {
 
     if (!compound) {
-        return false;
+
+        return String(id);
     }
 
-    const formula =
-        String(
-            compound.formula || ""
-        ).trim();
 
-    const symbol =
-        String(
-            compound.symbol || ""
-        ).trim();
-
-    /*
-       Support ALL common ways the
-       database may describe an element.
-    */
-
-    if (
-        CONFIG.STARTING_ELEMENTS.includes(
-            formula
-        )
-    ) {
-        return true;
-    }
-
-    if (
-        CONFIG.STARTING_ELEMENTS.includes(
-            symbol
-        )
-    ) {
-        return true;
-    }
-
-    if (
-        compound.category === "element" &&
-        CONFIG.STARTING_ELEMENTS.includes(
-            formula
-        )
-    ) {
-        return true;
-    }
-
-    if (
-        compound.type === "element" &&
-        CONFIG.STARTING_ELEMENTS.includes(
-            formula
-        )
-    ) {
-        return true;
-    }
-
-    return false;
+    return (
+        compound.name ||
+        compound.common_name ||
+        compound.formula ||
+        String(id)
+    );
 }
 
 
-function getStartingElements() {
+/* =========================================================
+   LEVEL SYSTEM
+   ========================================================= */
 
-    const result = [];
+/*
+   Return ALL elements unlocked up to the
+   player's current level.
+*/
+
+function getUnlockedElementSymbols() {
+
+    const symbols = [];
+
+
+    for (
+        let level = 1;
+        level <= Game.level;
+        level++
+    ) {
+
+        const elements =
+            CONFIG.ELEMENTS_BY_LEVEL[
+                level
+            ] || [];
+
+
+        for (
+            const symbol
+            of elements
+        ) {
+
+            if (
+                !symbols.includes(symbol)
+            ) {
+
+                symbols.push(symbol);
+            }
+        }
+    }
+
+
+    return symbols;
+}
+
+
+/* ---------------------------------------------------------
+   Find the actual database IDs of the
+   elements unlocked at the current level.
+   --------------------------------------------------------- */
+
+function getUnlockedElementIDs() {
+
+    const symbols =
+        getUnlockedElementSymbols();
+
+
+    const ids = [];
+
 
     for (
         const compound
         of Game.compounds
     ) {
 
+        const formula =
+            String(
+                compound.formula || ""
+            ).trim();
+
+
+        const symbol =
+            String(
+                compound.symbol || ""
+            ).trim();
+
+
         if (
-            isStartingElement(
-                compound
-            )
+            symbols.includes(formula) ||
+            symbols.includes(symbol)
         ) {
 
-            result.push(
+            ids.push(
                 String(compound.id)
             );
         }
     }
 
-    console.log(
-        "FOUND STARTING ELEMENTS:",
-        result.length
-    );
 
-    console.log(
-        result.map(
-            id => getFormula(id)
-        )
-    );
-
-    return result;
+    return ids;
 }
 
 
-/* =========================================
-   SAVE / LOAD
-========================================= */
+/* =========================================================
+   LEVEL UP
+   ========================================================= */
+
+/*
+   XP requirements:
+
+   Level 1 -> 100 XP
+   Level 2 -> 250 XP
+   Level 3 -> 450 XP
+   Level 4 -> 700 XP
+   Level 5 -> 1000 XP
+
+   After level 5 the game stays at level 5.
+*/
+
+function calculateLevel(xp) {
+
+    if (xp >= 1000) return 5;
+
+    if (xp >= 700) return 4;
+
+    if (xp >= 450) return 3;
+
+    if (xp >= 250) return 2;
+
+    return 1;
+}
+
+
+function updateLevel() {
+
+    const oldLevel =
+        Game.level;
+
+
+    const newLevel =
+        calculateLevel(
+            Game.xp
+        );
+
+
+    Game.level =
+        newLevel;
+
+
+    if (
+        newLevel > oldLevel
+    ) {
+
+        const newElements =
+            CONFIG
+                .ELEMENTS_BY_LEVEL[
+                    newLevel
+                ] || [];
+
+
+        showMessage(
+            "LEVEL " +
+            newLevel +
+            "! New elements unlocked: " +
+            newElements.join(", ")
+        );
+
+
+        /*
+           Newly unlocked elements are
+           automatically available.
+
+           NOTHING else is automatically
+           discovered.
+        */
+
+        renderInventory();
+    }
+}
+
+
+/* =========================================================
+   SAVE SYSTEM
+   ========================================================= */
 
 function saveGame() {
 
+    const saveData = {
+
+        level:
+            Game.level,
+
+        xp:
+            Game.xp,
+
+        discoveredCompounds:
+            Array.from(
+                Game.discoveredCompounds
+            ),
+
+        discoveredReactions:
+            Array.from(
+                Game.discoveredReactions
+            ),
+
+        reactionHistory:
+            Game.reactionHistory
+    };
+
+
     localStorage.setItem(
-        CONFIG.STORAGE_KEY,
-
-        JSON.stringify({
-
-            discoveredCompounds:
-                [...Game.discoveredCompounds],
-
-            discoveredReactions:
-                [...Game.discoveredReactions],
-
-            currentXP:
-                Game.currentXP,
-
-            level:
-                Game.level,
-
-            reactionHistory:
-                Game.reactionHistory
-        })
+        CONFIG.SAVE_KEY,
+        JSON.stringify(
+            saveData
+        )
     );
 }
 
 
-function loadSave() {
+/* ---------------------------------------------------------
+   LOAD SAVE
+   --------------------------------------------------------- */
+
+function loadGame() {
 
     /*
-       ALWAYS start with the elements.
+       Start from a completely clean
+       level-1 state.
     */
 
+    Game.level = 1;
+
+    Game.xp = 0;
+
     Game.discoveredCompounds =
-        new Set(
-            getStartingElements()
-        );
+        new Set();
 
     Game.discoveredReactions =
         new Set();
-
-    Game.currentXP = 0;
-
-    Game.level = 1;
 
     Game.reactionHistory = [];
 
 
     const saved =
         localStorage.getItem(
-            CONFIG.STORAGE_KEY
+            CONFIG.SAVE_KEY
         );
 
+
     if (!saved) {
+
+        console.log(
+            "No ChemCraft save found."
+        );
+
         return;
     }
+
 
     try {
 
@@ -293,27 +592,45 @@ function loadSave() {
             JSON.parse(saved);
 
 
+        Game.level =
+            Number(
+                data.level
+            ) || 1;
+
+
+        Game.xp =
+            Number(
+                data.xp
+            ) || 0;
+
+
+        /*
+           Restore only compounds that
+           actually exist in the database.
+        */
+
         if (
             Array.isArray(
                 data.discoveredCompounds
             )
         ) {
 
-            data.discoveredCompounds.forEach(
-                id => {
+            for (
+                const id
+                of data.discoveredCompounds
+            ) {
 
-                    if (
-                        Game.compoundMap.has(
-                            String(id)
-                        )
-                    ) {
+                if (
+                    Game.compoundMap.has(
+                        String(id)
+                    )
+                ) {
 
-                        Game.discoveredCompounds.add(
-                            String(id)
-                        );
-                    }
+                    Game.discoveredCompounds.add(
+                        String(id)
+                    );
                 }
-            );
+            }
         }
 
 
@@ -326,20 +643,9 @@ function loadSave() {
             Game.discoveredReactions =
                 new Set(
                     data.discoveredReactions
+                        .map(String)
                 );
         }
-
-
-        Game.currentXP =
-            Number(
-                data.currentXP
-            ) || 0;
-
-
-        Game.level =
-            Number(
-                data.level
-            ) || 1;
 
 
         if (
@@ -352,114 +658,238 @@ function loadSave() {
                 data.reactionHistory;
         }
 
-    } catch (error) {
+
+        /*
+           Safety:
+           Level can never be outside 1-5.
+        */
+
+        Game.level =
+            Math.max(
+                1,
+                Math.min(
+                    5,
+                    Game.level
+                )
+            );
+
 
         console.log(
-            "Starting fresh."
+            "Save loaded.",
+            "Level:",
+            Game.level,
+            "XP:",
+            Game.xp
         );
+
+
+    } catch (error) {
+
+        console.warn(
+            "Save was invalid. Starting fresh."
+        );
+
+
+        Game.level = 1;
+
+        Game.xp = 0;
+
+        Game.discoveredCompounds =
+            new Set();
+
+        Game.discoveredReactions =
+            new Set();
+
+        Game.reactionHistory = [];
     }
 }
 
 
-/* =========================================
-   INVENTORY
-========================================= */
+/* =========================================================
+   INVENTORY LOGIC
+   ========================================================= */
 
-function renderCompounds() {
+/*
+   IMPORTANT:
 
-    const list =
+   A substance is visible if:
+
+   1. It is an element unlocked by level
+
+   OR
+
+   2. It is a compound that the player
+      has actually discovered.
+*/
+
+function isAvailableInInventory(
+    compound
+) {
+
+    const id =
+        String(
+            compound.id
+        );
+
+
+    /*
+       Previously discovered compound.
+    */
+
+    if (
+        Game.discoveredCompounds.has(
+            id
+        )
+    ) {
+
+        return true;
+    }
+
+
+    /*
+       Is it an unlocked element?
+    */
+
+    const unlockedElements =
+        getUnlockedElementSymbols();
+
+
+    const formula =
+        String(
+            compound.formula || ""
+        ).trim();
+
+
+    const symbol =
+        String(
+            compound.symbol || ""
+        ).trim();
+
+
+    if (
+        unlockedElements.includes(
+            formula
+        ) ||
+        unlockedElements.includes(
+            symbol
+        )
+    ) {
+
+        return true;
+    }
+
+
+    return false;
+}
+
+
+/* =========================================================
+   RENDER INVENTORY
+   ========================================================= */
+
+function renderInventory(
+    searchText = ""
+) {
+
+    const container =
         document.getElementById(
             "compound-list"
         );
 
-    if (!list) {
+
+    if (!container) {
 
         console.error(
-            "compound-list not found"
+            "Could not find #compound-list"
         );
 
         return;
     }
 
 
-    list.innerHTML = "";
-
-
-    const search =
-        document.getElementById(
-            "compound-search"
-        );
+    container.innerHTML = "";
 
 
     const query =
-        search
-            ? search.value
-                .toLowerCase()
-                .trim()
-            : "";
+        String(
+            searchText
+        )
+        .trim()
+        .toLowerCase();
 
 
-    let count = 0;
+    /*
+       Only render things that are
+       currently available.
+    */
 
+    const available =
+        Game.compounds.filter(
+            compound => {
+
+                if (
+                    !isAvailableInInventory(
+                        compound
+                    )
+                ) {
+
+                    return false;
+                }
+
+
+                if (!query) {
+
+                    return true;
+                }
+
+
+                const text =
+                    (
+                        (compound.name || "") +
+                        " " +
+                        (compound.formula || "")
+                    )
+                    .toLowerCase();
+
+
+                return text.includes(
+                    query
+                );
+            }
+        );
+
+
+    /*
+       If there is nothing available,
+       something is wrong.
+    */
+
+    if (
+        available.length === 0
+    ) {
+
+        container.innerHTML = `
+            <p>
+                No chemicals available.
+            </p>
+        `;
+
+        console.warn(
+            "Inventory is empty."
+        );
+
+        return;
+    }
+
+
+    /*
+       Create actual usable buttons.
+    */
 
     for (
         const compound
-        of Game.compounds
+        of available
     ) {
-
-        const id =
-            String(compound.id);
-
-
-        const element =
-            isStartingElement(
-                compound
-            );
-
-
-        const discovered =
-            Game.discoveredCompounds.has(
-                id
-            );
-
-
-        /*
-           IMPORTANT:
-
-           Elements are visible immediately.
-
-           Other compounds are visible
-           only after discovery.
-        */
-
-        if (
-            !element &&
-            !discovered
-        ) {
-
-            continue;
-        }
-
-
-        const searchable =
-            (
-                (compound.name || "") +
-                " " +
-                (compound.formula || "")
-            )
-            .toLowerCase();
-
-
-        if (
-            query &&
-            !searchable.includes(
-                query
-            )
-        ) {
-
-            continue;
-        }
-
 
         const button =
             document.createElement(
@@ -470,64 +900,63 @@ function renderCompounds() {
         button.type =
             "button";
 
+
         button.className =
             "compound-button";
 
 
+        button.dataset.id =
+            compound.id;
+
+
         button.innerHTML = `
+
             <strong>
                 ${escapeHTML(
                     compound.formula ||
-                    compound.name ||
-                    id
+                    compound.symbol ||
+                    compound.name
                 )}
             </strong>
 
             <span>
                 ${escapeHTML(
                     compound.name ||
-                    id
+                    ""
                 )}
             </span>
+
         `;
 
 
-        button.onclick =
+        button.addEventListener(
+            "click",
             function () {
 
-                addReactant(id);
-            };
-
-
-        list.appendChild(
-            button
+                addReactant(
+                    compound.id
+                );
+            }
         );
 
 
-        count++;
-    }
-
-
-    if (count === 0) {
-
-        list.innerHTML = `
-            <p>
-                No chemicals found.
-            </p>
-        `;
+        container.appendChild(
+            button
+        );
     }
 
 
     console.log(
-        "Inventory displayed:",
-        count
+        "Inventory rendered:",
+        available.length,
+        "items"
     );
 }
 
 
-/* =========================================
+/* =========================================================
    SEARCH
-========================================= */
+   ========================================================= */
 
 function setupSearch() {
 
@@ -536,41 +965,71 @@ function setupSearch() {
             "compound-search"
         );
 
+
     if (!search) {
+
         return;
     }
 
+
     search.addEventListener(
         "input",
-        renderCompounds
+        function () {
+
+            renderInventory(
+                search.value
+            );
+        }
     );
 }
 
 
-/* =========================================
-   REACTANTS
-========================================= */
+/* =========================================================
+   REACTANT SELECTION
+   ========================================================= */
 
-function addReactant(id) {
+function addReactant(
+    id
+) {
+
+    const compound =
+        getCompound(id);
+
+
+    if (!compound) {
+
+        return;
+    }
+
 
     if (
-        Game.selectedReactants.length >=
+        Game.selectedReactants.length
+        >=
         CONFIG.MAX_REACTANTS
     ) {
 
         showMessage(
-            "Maximum 5 reactants."
+            "You can select a maximum of 5 reactants."
         );
 
         return;
     }
 
 
+    /*
+       Don't allow a hidden compound
+       to be manually added.
+    */
+
     if (
-        !Game.discoveredCompounds.has(
-            String(id)
+        !isAvailableInInventory(
+            compound
         )
     ) {
+
+        showMessage(
+            "You have not discovered this compound yet."
+        );
 
         return;
     }
@@ -585,23 +1044,36 @@ function addReactant(id) {
 }
 
 
+/* ---------------------------------------------------------
+   RENDER SELECTED REACTANTS
+   --------------------------------------------------------- */
+
 function renderReactants() {
 
-    const area =
+    const container =
         document.getElementById(
             "reactants"
         );
 
-    if (!area) {
+
+    if (!container) {
+
         return;
     }
 
 
-    area.innerHTML = "";
+    container.innerHTML = "";
 
 
     Game.selectedReactants.forEach(
-        (id, index) => {
+        function (
+            id,
+            index
+        ) {
+
+            const compound =
+                getCompound(id);
+
 
             const div =
                 document.createElement(
@@ -609,10 +1081,17 @@ function renderReactants() {
                 );
 
 
+            div.className =
+                "reactant-item";
+
+
             div.innerHTML = `
+
                 <span>
                     ${escapeHTML(
-                        getFormula(id)
+                        compound?.formula ||
+                        compound?.name ||
+                        id
                     )}
                 </span>
 
@@ -620,12 +1099,18 @@ function renderReactants() {
                     type="button">
                     ×
                 </button>
+
             `;
 
 
-            div.querySelector(
-                "button"
-            ).onclick =
+            const removeButton =
+                div.querySelector(
+                    "button"
+                );
+
+
+            removeButton.addEventListener(
+                "click",
                 function () {
 
                     Game.selectedReactants.splice(
@@ -633,11 +1118,13 @@ function renderReactants() {
                         1
                     );
 
+
                     renderReactants();
-                };
+                }
+            );
 
 
-            area.appendChild(
+            container.appendChild(
                 div
             );
         }
@@ -645,57 +1132,126 @@ function renderReactants() {
 }
 
 
-/* =========================================
-   REACTION
-========================================= */
+/* =========================================================
+   REACTION DATA HELPERS
+   ========================================================= */
 
-function getReactantIDs(reaction) {
+function getReactionReactants(
+    reaction
+) {
 
     return (
         reaction.reactants || []
     )
-    .map(item => {
+    .map(
+        function (item) {
 
-        if (
-            typeof item === "string"
-        ) {
-            return String(item);
+            if (
+                typeof item ===
+                "string"
+            ) {
+
+                return String(item);
+            }
+
+
+            return String(
+                item.compound ||
+                item.id ||
+                ""
+            );
         }
-
-        return String(
-            item.compound ||
-            item.id
-        );
-    });
+    )
+    .filter(Boolean);
 }
 
 
-function getProductIDs(reaction) {
+function getReactionProducts(
+    reaction
+) {
 
     return (
         reaction.products || []
     )
-    .map(item => {
+    .map(
+        function (item) {
 
-        if (
-            typeof item === "string"
-        ) {
-            return String(item);
+            if (
+                typeof item ===
+                "string"
+            ) {
+
+                return String(item);
+            }
+
+
+            return String(
+                item.compound ||
+                item.id ||
+                ""
+            );
         }
-
-        return String(
-            item.compound ||
-            item.id
-        );
-    });
+    )
+    .filter(Boolean);
 }
 
 
-function findReaction() {
+/* =========================================================
+   REACTION MATCHING
+   ========================================================= */
+
+function arraysEqual(
+    a,
+    b
+) {
+
+    if (
+        a.length !==
+        b.length
+    ) {
+
+        return false;
+    }
+
+
+    for (
+        let i = 0;
+        i < a.length;
+        i++
+    ) {
+
+        if (
+            String(a[i]) !==
+            String(b[i])
+        ) {
+
+            return false;
+        }
+    }
+
+
+    return true;
+}
+
+
+function findMatchingReaction() {
+
+    if (
+        !Game.reactionsLoaded
+    ) {
+
+        showMessage(
+            "Reactions are still loading..."
+        );
+
+        return null;
+    }
+
 
     const selected =
-        [...Game.selectedReactants]
-        .sort();
+        Game.selectedReactants
+            .map(String)
+            .sort();
 
 
     for (
@@ -704,17 +1260,16 @@ function findReaction() {
     ) {
 
         const expected =
-            getReactantIDs(
+            getReactionReactants(
                 reaction
             )
+            .map(String)
             .sort();
 
 
         if (
-            JSON.stringify(
-                selected
-            ) ===
-            JSON.stringify(
+            arraysEqual(
+                selected,
                 expected
             )
         ) {
@@ -728,14 +1283,31 @@ function findReaction() {
 }
 
 
+/* =========================================================
+   PERFORM REACTION
+   ========================================================= */
+
 function performReaction() {
 
     if (
-        Game.selectedReactants.length === 0
+        Game.selectedReactants.length
+        === 0
     ) {
 
         showMessage(
-            "Add chemicals first."
+            "Select at least one reactant."
+        );
+
+        return;
+    }
+
+
+    if (
+        !Game.reactionsLoaded
+    ) {
+
+        showMessage(
+            "Reactions are still loading. Please wait a moment."
         );
 
         return;
@@ -743,13 +1315,13 @@ function performReaction() {
 
 
     const reaction =
-        findReaction();
+        findMatchingReaction();
 
 
     if (!reaction) {
 
         showMessage(
-            "No reaction found."
+            "No reaction found for these reactants."
         );
 
         return;
@@ -757,7 +1329,7 @@ function performReaction() {
 
 
     const products =
-        getProductIDs(
+        getReactionProducts(
             reaction
         );
 
@@ -766,43 +1338,110 @@ function performReaction() {
         false;
 
 
-    products.forEach(
-        id => {
+    /*
+       ONLY HERE do compounds become
+       discovered.
+    */
+
+    for (
+        const productID
+        of products
+    ) {
+
+        if (
+            !Game.discoveredCompounds.has(
+                String(productID)
+            )
+        ) {
+
+            /*
+               Safety: don't add an ID
+               that doesn't exist.
+            */
 
             if (
-                !Game.discoveredCompounds.has(
-                    id
+                Game.compoundMap.has(
+                    String(productID)
                 )
             ) {
 
                 Game.discoveredCompounds.add(
-                    id
+                    String(productID)
                 );
 
                 newCompound = true;
             }
         }
-    );
+    }
+
+
+    const reactionID =
+        String(
+            reaction.id
+        );
+
+
+    const firstReaction =
+        !Game.discoveredReactions.has(
+            reactionID
+        );
 
 
     Game.discoveredReactions.add(
-        String(reaction.id)
+        reactionID
     );
 
 
-    Game.currentXP +=
+    /*
+       XP
+
+       New compound:
+       +35 XP
+
+       Known compound:
+       +10 XP
+    */
+
+    if (
         newCompound
-            ? 35
-            : 10;
+    ) {
+
+        Game.xp += 35;
+
+    } else {
+
+        Game.xp += 10;
+    }
 
 
-    Game.level =
-        Math.floor(
-            Game.currentXP / 100
-        ) + 1;
+    const oldLevel =
+        Game.level;
 
+
+    updateLevel();
+
+
+    /*
+       If level didn't change,
+       still refresh stats.
+    */
+
+    if (
+        Game.level === oldLevel
+    ) {
+
+        updateStats();
+    }
+
+
+    /*
+       Save the discovery.
+    */
 
     Game.reactionHistory.unshift({
+
+        reactionID:
+            reactionID,
 
         equation:
             reaction.equation || "",
@@ -813,9 +1452,20 @@ function performReaction() {
         products:
             [...products],
 
-        date:
+        timestamp:
             new Date().toISOString()
     });
+
+
+    /*
+       Don't let history become enormous.
+    */
+
+    Game.reactionHistory =
+        Game.reactionHistory.slice(
+            0,
+            100
+        );
 
 
     saveGame();
@@ -824,82 +1474,143 @@ function performReaction() {
     showReactionResult(
         reaction,
         products,
-        newCompound
+        newCompound,
+        firstReaction
     );
 
 
-    renderCompounds();
+    /*
+       Newly discovered compounds
+       now appear in inventory.
+    */
+
+    renderInventory();
 
     updateStats();
 }
 
 
-/* =========================================
-   RESULT
-========================================= */
+/* =========================================================
+   REACTION RESULT
+   ========================================================= */
 
 function showReactionResult(
     reaction,
     products,
-    newCompound
+    newCompound,
+    firstReaction
 ) {
 
-    const result =
+    const container =
         document.getElementById(
             "reaction-result"
         );
 
-    if (!result) {
+
+    if (!container) {
+
         return;
     }
 
 
-    result.innerHTML = `
+    let html = "";
 
-        ${
-            newCompound
-                ? `
-                    <h3>
-                        NEW COMPOUND DISCOVERED!
-                    </h3>
-                  `
-                : ""
-        }
 
-        <p>
-            ${escapeHTML(
-                reaction.equation ||
-                "Reaction complete"
-            )}
-        </p>
+    if (
+        newCompound
+    ) {
 
-        <div>
-            ${products
-                .map(
-                    id => `
-                        <div>
-                            <strong>
-                                ${escapeHTML(
-                                    getFormula(id)
-                                )}
-                            </strong>
+        html += `
+            <h3>
+                🎉 NEW COMPOUND DISCOVERED!
+            </h3>
+        `;
+    }
 
-                            ${escapeHTML(
-                                getName(id)
-                            )}
-                        </div>
-                    `
-                )
-                .join("")
-            }
-        </div>
+
+    if (
+        firstReaction
+    ) {
+
+        html += `
+            <p>
+                New reaction discovered!
+            </p>
+        `;
+    }
+
+
+    if (
+        reaction.equation
+    ) {
+
+        html += `
+            <p>
+                <strong>
+                    ${escapeHTML(
+                        reaction.equation
+                    )}
+                </strong>
+            </p>
+        `;
+    }
+
+
+    html += `
+        <h4>
+            Products
+        </h4>
     `;
+
+
+    for (
+        const id
+        of products
+    ) {
+
+        html += `
+            <div>
+                <strong>
+                    ${escapeHTML(
+                        getFormula(id)
+                    )}
+                </strong>
+
+                —
+                ${escapeHTML(
+                    getName(id)
+                )}
+            </div>
+        `;
+    }
+
+
+    if (
+        reaction.conditions
+    ) {
+
+        html += `
+            <p>
+                <strong>
+                    Conditions:
+                </strong>
+
+                ${escapeHTML(
+                    reaction.conditions
+                )}
+            </p>
+        `;
+    }
+
+
+    container.innerHTML =
+        html;
 }
 
 
-/* =========================================
+/* =========================================================
    STATS
-========================================= */
+   ========================================================= */
 
 function updateStats() {
 
@@ -908,17 +1619,20 @@ function updateStats() {
             "level"
         );
 
+
     const xp =
         document.getElementById(
             "xp"
         );
 
-    const compounds =
+
+    const compoundCount =
         document.getElementById(
             "compound-count"
         );
 
-    const reactions =
+
+    const reactionCount =
         document.getElementById(
             "reaction-count"
         );
@@ -934,22 +1648,22 @@ function updateStats() {
     if (xp) {
 
         xp.textContent =
-            Game.currentXP;
+            Game.xp;
     }
 
 
-    if (compounds) {
+    if (compoundCount) {
 
-        compounds.textContent =
+        compoundCount.textContent =
             Game.discoveredCompounds.size +
             "/" +
             Game.compounds.length;
     }
 
 
-    if (reactions) {
+    if (reactionCount) {
 
-        reactions.textContent =
+        reactionCount.textContent =
             Game.discoveredReactions.size +
             "/" +
             Game.reactions.length;
@@ -957,93 +1671,96 @@ function updateStats() {
 }
 
 
-/* =========================================
+/* =========================================================
    MESSAGE
-========================================= */
+   ========================================================= */
 
 function showMessage(
-    text
+    message
 ) {
 
-    const message =
+    const element =
         document.getElementById(
             "message"
         );
 
-    if (message) {
 
-        message.textContent =
-            text;
+    if (element) {
+
+        element.textContent =
+            message;
     }
 
-    console.log(text);
+
+    console.log(
+        message
+    );
 }
 
 
-/* =========================================
+/* =========================================================
    RESET
-========================================= */
+   ========================================================= */
 
 function resetGame() {
 
-    if (
-        !confirm(
+    const confirmed =
+        confirm(
             "Reset all ChemCraft progress?"
-        )
-    ) {
+        );
+
+
+    if (!confirmed) {
 
         return;
     }
 
 
     localStorage.removeItem(
-        CONFIG.STORAGE_KEY
+        CONFIG.SAVE_KEY
     );
 
 
-    Game.selectedReactants = [];
+    Game.level = 1;
+
+    Game.xp = 0;
+
+    Game.discoveredCompounds =
+        new Set();
 
     Game.discoveredReactions =
         new Set();
 
-    Game.currentXP = 0;
+    Game.selectedReactants =
+        [];
 
-    Game.level = 1;
-
-    Game.reactionHistory = [];
-
-
-    /*
-       Restore the starting elements.
-    */
-
-    Game.discoveredCompounds =
-        new Set(
-            getStartingElements()
-        );
+    Game.reactionHistory =
+        [];
 
 
     saveGame();
 
-    renderCompounds();
+
+    renderInventory();
 
     renderReactants();
 
     updateStats();
 
+
     showMessage(
-        "Progress reset. Elements restored."
+        "Progress reset. Level 1 elements restored."
     );
 }
 
 
-/* =========================================
-   REFRESH
-========================================= */
+/* =========================================================
+   REFRESH UI
+   ========================================================= */
 
 function refreshUI() {
 
-    renderCompounds();
+    renderInventory();
 
     renderReactants();
 
@@ -1051,172 +1768,197 @@ function refreshUI() {
 }
 
 
-/* =========================================
-   START
-========================================= */
-async function startChemCraft() {
+/* =========================================================
+   BUTTON SETUP
+   ========================================================= */
+
+function setupButtons() {
+
+    const reactButton =
+        document.getElementById(
+            "react-button"
+        );
+
+
+    if (reactButton) {
+
+        reactButton.addEventListener(
+            "click",
+            performReaction
+        );
+    }
+
+
+    const clearButton =
+        document.getElementById(
+            "clear-button"
+        );
+
+
+    if (clearButton) {
+
+        clearButton.addEventListener(
+            "click",
+            function () {
+
+                Game.selectedReactants =
+                    [];
+
+                renderReactants();
+            }
+        );
+    }
+
+
+    const resetButton =
+        document.getElementById(
+            "reset-button"
+        );
+
+
+    if (resetButton) {
+
+        resetButton.addEventListener(
+            "click",
+            resetGame
+        );
+    }
+}
+
+
+/* =========================================================
+   HTML SAFETY
+   ========================================================= */
+
+function escapeHTML(
+    value
+) {
+
+    return String(value)
+
+        .replaceAll(
+            "&",
+            "&amp;"
+        )
+
+        .replaceAll(
+            "<",
+            "&lt;"
+        )
+
+        .replaceAll(
+            ">",
+            "&gt;"
+        )
+
+        .replaceAll(
+            '"',
+            "&quot;"
+        )
+
+        .replaceAll(
+            "'",
+            "&#039;"
+        );
+}
+
+
+/* =========================================================
+   INITIALIZATION
+   ========================================================= */
+
+async function initChemCraft() {
+
+    console.log(
+        "================================"
+    );
+
+    console.log(
+        "CHEMCRAFT STARTING"
+    );
+
+    console.log(
+        "================================"
+    );
+
 
     try {
 
-        console.log("STEP 1: Loading compounds...");
+        /*
+           STEP 1
 
-        const response =
-            await fetch("compounds.json");
+           Load compounds first.
 
-        const data =
-            await response.json();
+           This is only 825 compounds.
+        */
 
-        console.log("STEP 2: Compounds downloaded");
-
-        Game.compounds =
-            Array.isArray(data)
-                ? data
-                : data.compounds || [];
-
-        Game.compoundMap.clear();
-
-        Game.compounds.forEach(function(compound) {
-
-            Game.compoundMap.set(
-                String(compound.id),
-                compound
-            );
-
-        });
-
-        console.log(
-            "STEP 3: Compounds:",
-            Game.compounds.length
-        );
-
-
-        Game.discoveredCompounds =
-            new Set(
-                getStartingElements()
-            );
-
-        Game.discoveredReactions =
-            new Set();
-
-        Game.selectedReactants = [];
-
-        Game.currentXP = 0;
-
-        Game.level = 1;
-
-        Game.reactionHistory = [];
-
-
-        console.log(
-            "STEP 4: Elements:",
-            Game.discoveredCompounds.size
-        );
+        await loadCompounds();
 
 
         /*
-         * SHOW INVENTORY NOW
-         */
-        renderCompounds();
+           STEP 2
+
+           Load saved progress.
+        */
+
+        loadGame();
+
+
+        /*
+           STEP 3
+
+           Set up UI.
+        */
+
+        setupButtons();
+
+        setupSearch();
+
+
+        /*
+           STEP 4
+
+           Immediately render the
+           currently available elements
+           and discovered compounds.
+        */
+
+        Game.initialized =
+            true;
+
+
+        renderInventory();
 
         renderReactants();
 
         updateStats();
 
+
         console.log(
-            "STEP 5: INVENTORY DISPLAYED"
+            "Inventory ready."
+        );
+
+
+        console.log(
+            "Current level:",
+            Game.level
+        );
+
+
+        console.log(
+            "Available elements:",
+            getUnlockedElementSymbols()
         );
 
 
         /*
-         * Set up buttons
-         */
+           STEP 5
 
-        setupSearch();
+           Load the 1,600 reactions
+           AFTER the inventory is visible.
+        */
 
-
-        const reactButton =
-            document.getElementById(
-                "react-button"
-            );
-
-        if (reactButton) {
-
-            reactButton.onclick =
-                performReaction;
-        }
-
-
-        const clearButton =
-            document.getElementById(
-                "clear-button"
-            );
-
-        if (clearButton) {
-
-            clearButton.onclick =
-                function() {
-
-                    Game.selectedReactants = [];
-
-                    renderReactants();
-
-                };
-        }
-
-
-        const resetButton =
-            document.getElementById(
-                "reset-button"
-            );
-
-        if (resetButton) {
-
-            resetButton.onclick =
-                resetGame;
-        }
-
-
-        /*
-         * LOAD REACTIONS IN BACKGROUND
-         */
-
-        console.log(
-            "STEP 6: Loading reactions in background..."
-        );
-
-        fetch("reactions.json")
-            .then(function(response) {
-
-                return response.json();
-
-            })
-            .then(function(data) {
-
-                Game.reactions =
-                    Array.isArray(data)
-                        ? data
-                        : data.reactions || [];
-
-                console.log(
-                    "STEP 7: Reactions loaded:",
-                    Game.reactions.length
-                );
-
-                updateStats();
-
-                showMessage(
-                    "ChemCraft ready!"
-                );
-
-            })
-            .catch(function(error) {
-
-                console.error(
-                    "Reaction loading error:",
-                    error
-                );
-
-            });
+        loadReactions();
 
 
     } catch (error) {
@@ -1226,77 +1968,67 @@ async function startChemCraft() {
             error
         );
 
+
         const errorBox =
             document.getElementById(
                 "error"
             );
+
 
         if (errorBox) {
 
             errorBox.style.display =
                 "block";
 
+
             errorBox.textContent =
                 error.message;
         }
 
+
+        showMessage(
+            "Could not load the chemistry database."
+        );
     }
 }
 
-/* =========================================
-   SECURITY
-========================================= */
 
-function escapeHTML(
-    value
-) {
-
-    return String(value)
-        .replaceAll(
-            "&",
-            "&amp;"
-        )
-        .replaceAll(
-            "<",
-            "&lt;"
-        )
-        .replaceAll(
-            ">",
-            "&gt;"
-        )
-        .replaceAll(
-            '"',
-            "&quot;"
-        )
-        .replaceAll(
-            "'",
-            "&#039;"
-        );
-}
-
+/* =========================================================
+   START
+   ========================================================= */
 
 document.addEventListener(
     "DOMContentLoaded",
-    startChemCraft
+    initChemCraft
 );
 
 
-/* Global functions */
+/* =========================================================
+   GLOBAL ACCESS
+   ========================================================= */
 
-window.Game =
-    Game;
+window.ChemCraft = {
 
-window.performReaction =
-    performReaction;
+    Game,
 
-window.resetGame =
-    resetGame;
+    addReactant,
 
-window.addReactant =
-    addReactant;
+    performReaction,
 
-window.refreshUI =
-    refreshUI;
+    resetGame,
+
+    refreshUI,
+
+    renderInventory,
+
+    renderReactants,
+
+    getCompound,
+
+    getFormula,
+
+    getName
+};
    
        saveGame,
    
