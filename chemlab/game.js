@@ -751,68 +751,60 @@ console.log("CHEMCRAFT JS LOADED");
       LOAD SAVE
       ========================================================= */
    
-   function loadSave() {
-   
-       const raw =
-           localStorage.getItem(
-               CONFIG.STORAGE_KEY
-           );
-   
-       if (!raw) {
-   
-           /*
-              Start with basic substances.
-              The player can still use everything
-              in the prototype if the UI allows it.
-           */
-   
-         Game.discoveredCompounds =
-    new Set(
-        Game.compounds
-            .filter(
-                compound =>
-                    compound.type === "element"
-            )
-            .map(
-                compound =>
-                    compound.id
-            )
-    );
-   
-           return;
-       }
-   
-       try {
-   
-           const save = JSON.parse(raw);
-   
-           Game.discoveredCompounds =
-               new Set(
-                   save.discoveredCompounds || []
-               );
-   
-           Game.discoveredReactions =
-               new Set(
-                   save.discoveredReactions || []
-               );
-   
-           Game.currentXP =
-               Number(save.currentXP) || 0;
-   
-           Game.level =
-               Number(save.level) || 1;
-   
-           Game.reactionHistory =
-               save.reactionHistory || [];
-   
-       } catch (error) {
-   
-           console.warn(
-               "Save file was invalid. Starting fresh.",
-               error
-           );
-       }
-   }
+function loadSave() {
+    const raw = localStorage.getItem(CONFIG.STORAGE_KEY);
+
+    // Find all actual elements in the database.
+    const elementIDs = Game.compounds
+        .filter(compound =>
+            compound.category === "element" ||
+            compound.type === "element"
+        )
+        .map(compound => compound.id);
+
+    if (!raw) {
+        Game.discoveredCompounds = new Set(elementIDs);
+        return;
+    }
+
+    try {
+        const save = JSON.parse(raw);
+
+        Game.discoveredCompounds = new Set(
+            save.discoveredCompounds || elementIDs
+        );
+
+        // Always make sure the starting elements are available.
+        for (const id of elementIDs) {
+            Game.discoveredCompounds.add(id);
+        }
+
+        Game.discoveredReactions = new Set(
+            save.discoveredReactions || []
+        );
+
+        Game.currentXP =
+            Number(save.currentXP) || 0;
+
+        Game.level =
+            Number(save.level) || 1;
+
+        Game.reactionHistory =
+            save.reactionHistory || [];
+
+    } catch (error) {
+        console.warn(
+            "Save file was invalid. Starting fresh.",
+            error
+        );
+
+        Game.discoveredCompounds = new Set(elementIDs);
+        Game.discoveredReactions = new Set();
+        Game.currentXP = 0;
+        Game.level = 1;
+        Game.reactionHistory = [];
+    }
+}
    
    
    /* =========================================================
