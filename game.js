@@ -1058,65 +1058,79 @@ async function startChemCraft() {
 
     try {
 
-        console.log("Starting ChemCraft...");
+        console.log("STEP 1: Loading compounds...");
 
-        /*
-         * STEP 1
-         * Load ONLY compounds first.
-         */
-        const compoundsData =
-            await loadJSON("compounds.json");
+        const response =
+            await fetch("compounds.json");
+
+        const data =
+            await response.json();
+
+        console.log("STEP 2: Compounds downloaded");
 
         Game.compounds =
-            Array.isArray(compoundsData)
-                ? compoundsData
-                : compoundsData.compounds || [];
+            Array.isArray(data)
+                ? data
+                : data.compounds || [];
 
-
-        /*
-         * Build the compound lookup table.
-         */
         Game.compoundMap.clear();
 
-        for (
-            const compound
-            of Game.compounds
-        ) {
+        Game.compounds.forEach(function(compound) {
 
-            if (
-                compound &&
-                compound.id
-            ) {
+            Game.compoundMap.set(
+                String(compound.id),
+                compound
+            );
 
-                Game.compoundMap.set(
-                    String(compound.id),
-                    compound
-                );
-            }
-        }
+        });
+
+        console.log(
+            "STEP 3: Compounds:",
+            Game.compounds.length
+        );
+
+
+        Game.discoveredCompounds =
+            new Set(
+                getStartingElements()
+            );
+
+        Game.discoveredReactions =
+            new Set();
+
+        Game.selectedReactants = [];
+
+        Game.currentXP = 0;
+
+        Game.level = 1;
+
+        Game.reactionHistory = [];
+
+
+        console.log(
+            "STEP 4: Elements:",
+            Game.discoveredCompounds.size
+        );
 
 
         /*
-         * STEP 2
-         * Load the saved inventory.
-         *
-         * At this point we already have
-         * compounds.json, so the 32 elements
-         * can be displayed.
+         * SHOW INVENTORY NOW
          */
-        loadSave();
+        renderCompounds();
+
+        renderReactants();
+
+        updateStats();
+
+        console.log(
+            "STEP 5: INVENTORY DISPLAYED"
+        );
 
 
         /*
-         * STEP 3
-         * Mark the game as usable.
+         * Set up buttons
          */
-        Game.initialized = true;
 
-
-        /*
-         * Set up the interface.
-         */
         setupSearch();
 
 
@@ -1140,12 +1154,12 @@ async function startChemCraft() {
         if (clearButton) {
 
             clearButton.onclick =
-                function () {
+                function() {
 
-                    Game.selectedReactants =
-                        [];
+                    Game.selectedReactants = [];
 
                     renderReactants();
+
                 };
         }
 
@@ -1163,76 +1177,54 @@ async function startChemCraft() {
 
 
         /*
-         * STEP 4
-         * SHOW THE INVENTORY NOW.
-         *
-         * We do NOT wait for reactions.json.
+         * LOAD REACTIONS IN BACKGROUND
          */
-        refreshUI();
-
 
         console.log(
-            "Inventory displayed!"
+            "STEP 6: Loading reactions in background..."
         );
 
-        console.log(
-            "Starting elements:",
-            getStartingElements().length
-        );
+        fetch("reactions.json")
+            .then(function(response) {
 
+                return response.json();
 
-        /*
-         * STEP 5
-         * NOW load reactions in the background.
-         *
-         * The user can already see the inventory
-         * while this is happening.
-         */
-        loadJSON("reactions.json")
-            .then(function (reactionsData) {
+            })
+            .then(function(data) {
 
                 Game.reactions =
-                    Array.isArray(reactionsData)
-                        ? reactionsData
-                        : reactionsData.reactions || [];
-
+                    Array.isArray(data)
+                        ? data
+                        : data.reactions || [];
 
                 console.log(
-                    "Reactions loaded:",
+                    "STEP 7: Reactions loaded:",
                     Game.reactions.length
                 );
 
-
                 updateStats();
 
-
                 showMessage(
-                    "Chemistry database ready!"
+                    "ChemCraft ready!"
                 );
 
             })
-            .catch(function (error) {
+            .catch(function(error) {
 
                 console.error(
-                    "Could not load reactions:",
+                    "Reaction loading error:",
                     error
                 );
 
-                showMessage(
-                    "Inventory ready. Reactions are still loading."
-                );
             });
 
 
-    }
-
-    catch (error) {
+    } catch (error) {
 
         console.error(
-            "ChemCraft startup error:",
+            "CHEMCRAFT STARTUP ERROR:",
             error
         );
-
 
         const errorBox =
             document.getElementById(
@@ -1248,10 +1240,6 @@ async function startChemCraft() {
                 error.message;
         }
 
-
-        showMessage(
-            "Could not load chemistry database."
-        );
     }
 }
 
