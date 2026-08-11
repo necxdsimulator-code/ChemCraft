@@ -752,9 +752,6 @@ console.log("CHEMCRAFT JS LOADED");
       ========================================================= */
    
 function loadSave() {
-    const raw = localStorage.getItem(CONFIG.STORAGE_KEY);
-
-    // Find all actual elements in the database.
     const elementIDs = Game.compounds
         .filter(compound =>
             compound.category === "element" ||
@@ -762,26 +759,30 @@ function loadSave() {
         )
         .map(compound => compound.id);
 
+    const raw = localStorage.getItem(CONFIG.STORAGE_KEY);
+
     if (!raw) {
         Game.discoveredCompounds = new Set(elementIDs);
+        Game.discoveredReactions = new Set();
+        Game.currentXP = 0;
+        Game.level = 1;
+        Game.reactionHistory = [];
         return;
     }
 
     try {
         const save = JSON.parse(raw);
 
-        Game.discoveredCompounds = new Set(
-            save.discoveredCompounds || elementIDs
-        );
+        Game.discoveredCompounds =
+            new Set(save.discoveredCompounds || []);
 
-        // Always make sure the starting elements are available.
-        for (const id of elementIDs) {
+        // Always keep the starting elements available
+        elementIDs.forEach(id => {
             Game.discoveredCompounds.add(id);
-        }
+        });
 
-        Game.discoveredReactions = new Set(
-            save.discoveredReactions || []
-        );
+        Game.discoveredReactions =
+            new Set(save.discoveredReactions || []);
 
         Game.currentXP =
             Number(save.currentXP) || 0;
@@ -793,10 +794,7 @@ function loadSave() {
             save.reactionHistory || [];
 
     } catch (error) {
-        console.warn(
-            "Save file was invalid. Starting fresh.",
-            error
-        );
+        console.warn("Invalid save. Starting fresh.", error);
 
         Game.discoveredCompounds = new Set(elementIDs);
         Game.discoveredReactions = new Set();
@@ -967,7 +965,7 @@ function loadSave() {
         compound => {
 
             // Elements are always available
-            const isElement =
+         const isElement =
     compound.category === "element" ||
     compound.type === "element";
 
