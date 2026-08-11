@@ -1,0 +1,1154 @@
+[
+  {
+    "id": "si",
+    "name": "Silicon",
+    "formula": "Si",
+    "category": "element"
+  },
+  {
+    "id": "ti",
+    "name": "Titanium",
+    "formula": "Ti",
+    "category": "element"
+  },
+  {
+    "id": "fe",
+    "name": "Iron",
+    "formula": "Fe",
+    "category": "element"
+  },
+  {
+    "id": "cu",
+    "name": "Copper",
+    "formula": "Cu",
+    "category": "element"
+  },
+  {
+    "id": "zn",
+    "name": "Zinc",
+    "formula": "Zn",
+    "category": "element"
+  },
+  {
+    "id": "br",
+    "name": "Bromine",
+    "formula": "Br",
+    "category": "element"
+  },
+  {
+    "id": "br2",
+    "name": "Bromine (diatomic)",
+    "formula": "Br₂",
+    "category": "elemental_form"
+  },
+  {
+    "id": "hbr",
+    "name": "Hydrobromic Acid",
+    "formula": "HBr",
+    "category": "acid"
+  },
+  {
+    "id": "sio2",
+    "name": "Silicon Dioxide",
+    "formula": "SiO₂",
+    "category": "oxide"
+  },
+  {
+    "id": "sih4",
+    "name": "Silane",
+    "formula": "SiH₄",
+    "category": "hydride"
+  },
+  {
+    "id": "br2o",
+    "name": "Dibromine Monoxide",
+    "formula": "Br₂O",
+    "category": "oxide"
+  },
+  {
+    "id": "li_br",
+    "name": "Lithium Bromide",
+    "formula": "LiBr",
+    "category": "salt"
+  },
+  {
+    "id": "li_sio3",
+    "name": "Lithium Silicate",
+    "formula": "(Li)2SiO₃",
+    "category": "salt"
+  },
+  {
+    "id": "na_br",
+    "name": "Sodium Bromide",
+    "formula": "NaBr",
+    "category": "salt"
+  },
+  {
+    "id": "na_sio3",
+    "name": "Sodium Silicate",
+    "formula": "(Na)2SiO₃",
+    "category": "salt"
+  },
+  {
+    "id": "k_br",
+    "name": "Potassium Bromide",
+    "formula": "KBr",
+    "category": "salt"
+  },
+  {
+    "id": "k_sio3",
+    "name": "Potassium Silicate",
+    "formula": "(K)2SiO₃",
+    "category": "salt"
+  },
+  {
+    "id": "nh4_br",
+    "name": "Ammonium Bromide",
+    "formula": "NH₄Br",
+    "category": "salt"
+  },
+  {
+    "id": "nh4_sio3",
+    "name": "Ammonium Silicate",
+    "formula": "(NH₄)2SiO₃",
+    "category": "salt"
+  },
+  {
+    "id": "mg_br",
+    "name": "Magnesium Bromide",
+    "formula": "Mg(Br)2",
+    "category": "salt"
+  },
+  {
+    "id": "mg_sio3",
+    "name": "Magnesium Silicate",
+    "formula": "MgSiO₃",
+    "category": "salt"
+  },
+  {
+    "id": "ca_br",
+    "name": "Calcium Bromide",
+    "formula": "Ca(Br)2",
+    "category": "salt"
+  },
+  {
+    "id": "ca_sio3",
+    "name": "Calcium Silicate",
+    "formula": "CaSiO₃",
+    "category": "salt"
+  },
+  {
+    "id": "zn_f",
+    "name": "Zinc Fluoride",
+    "formula": "Zn(F)2",
+    "category": "salt"
+  },
+  {
+    "id": "zn_cl",
+    "name": "Zinc Chloride",
+    "formula": "Zn(Cl)2",
+    "category": "salt"
+  },
+  {
+    "id": "zn_br",
+    "name": "Zinc Bromide",
+    "formula": "Zn(Br)2",
+    "category": "salt"
+  },
+  {
+    "id": "zn_oh",
+    "name": "Zinc Hydroxide",
+    "formula": "Zn(OH)2",
+    "category": "base"
+  },
+  {
+    "id": "zn_no3",
+    "name": "Zinc Nitrate",
+    "formula": "Zn(NO₃)2",
+    "category": "salt"
+  },
+  {
+    "id": "zn_no2",
+    "name": "Zinc Nitrite",
+    "formula": "Zn(NO₂)2",
+    "category": "salt"
+  },
+  {
+    "id": "zn_so4",
+    "name": "Zinc Sulfate",
+    "formula": "ZnSO₄",
+    "category": "salt"
+  },
+  {
+    "id": "zn_so3",
+    "name": "Zinc Sulfite",
+    "formula": "ZnSO₃",
+    "category": "salt"
+  },
+  {
+    "id": "zn_co3",
+    "name": "Zinc Carbonate",
+    "formula": "ZnCO₃",
+    "category": "salt"
+  },
+  {
+    "id": "zn_hco3",
+    "name": "Zinc Hydrogen Carbonate",
+    "formula": "Zn(HCO₃)2",
+    "category": "salt"
+  },
+  {
+    "id": "zn_po4",
+    "name": "Zinc Phosphate",
+    "formula": "(Zn)3PO₄2",
+    "category": "salt"
+  },
+  {
+    "id": "zn_hpo4",
+    "name": "Zinc Hydrogen Phosphate",
+    "formula": "ZnHPO₄",
+    "category": "salt"
+  },
+  {
+    "id": "zn_h2po4",
+    "name": "Zinc Dihydrogen Phosphate",
+    "formula": "Zn(H₂PO₄)2",
+    "category": "salt"
+  },
+  {
+    "id": "zn_s",
+    "name": "Zinc Sulfide",
+    "formula": "ZnS",
+    "category": "salt"
+  },
+  {
+    "id": "zn_clo",
+    "name": "Zinc Hypochlorite",
+    "formula": "Zn(ClO)2",
+    "category": "salt"
+  },
+  {
+    "id": "zn_clo2",
+    "name": "Zinc Chlorite",
+    "formula": "Zn(ClO₂)2",
+    "category": "salt"
+  },
+  {
+    "id": "zn_clo3",
+    "name": "Zinc Chlorate",
+    "formula": "Zn(ClO₃)2",
+    "category": "salt"
+  },
+  {
+    "id": "zn_clo4",
+    "name": "Zinc Perchlorate",
+    "formula": "Zn(ClO₄)2",
+    "category": "salt"
+  },
+  {
+    "id": "zn_cn",
+    "name": "Zinc Cyanide",
+    "formula": "Zn(CN)2",
+    "category": "salt"
+  },
+  {
+    "id": "zn_scn",
+    "name": "Zinc Thiocyanate",
+    "formula": "Zn(SCN)2",
+    "category": "salt"
+  },
+  {
+    "id": "zn_ch3coo",
+    "name": "Zinc Acetate",
+    "formula": "Zn(CH₃COO)2",
+    "category": "salt"
+  },
+  {
+    "id": "zn_ox",
+    "name": "Zinc Oxalate",
+    "formula": "ZnC₂O₄",
+    "category": "salt"
+  },
+  {
+    "id": "zn_sio3",
+    "name": "Zinc Silicate",
+    "formula": "ZnSiO₃",
+    "category": "salt"
+  },
+  {
+    "id": "al_br",
+    "name": "Aluminium Bromide",
+    "formula": "Al(Br)3",
+    "category": "salt"
+  },
+  {
+    "id": "al_sio3",
+    "name": "Aluminium Silicate",
+    "formula": "(Al)2SiO₃3",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_f",
+    "name": "Iron(II) Fluoride",
+    "formula": "Fe(F)2",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_cl",
+    "name": "Iron(II) Chloride",
+    "formula": "Fe(Cl)2",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_br",
+    "name": "Iron(II) Bromide",
+    "formula": "Fe(Br)2",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_oh",
+    "name": "Iron(II) Hydroxide",
+    "formula": "Fe(OH)2",
+    "category": "base"
+  },
+  {
+    "id": "fe2_no3",
+    "name": "Iron(II) Nitrate",
+    "formula": "Fe(NO₃)2",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_no2",
+    "name": "Iron(II) Nitrite",
+    "formula": "Fe(NO₂)2",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_so4",
+    "name": "Iron(II) Sulfate",
+    "formula": "FeSO₄",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_so3",
+    "name": "Iron(II) Sulfite",
+    "formula": "FeSO₃",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_co3",
+    "name": "Iron(II) Carbonate",
+    "formula": "FeCO₃",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_hco3",
+    "name": "Iron(II) Hydrogen Carbonate",
+    "formula": "Fe(HCO₃)2",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_po4",
+    "name": "Iron(II) Phosphate",
+    "formula": "(Fe)3PO₄2",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_hpo4",
+    "name": "Iron(II) Hydrogen Phosphate",
+    "formula": "FeHPO₄",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_h2po4",
+    "name": "Iron(II) Dihydrogen Phosphate",
+    "formula": "Fe(H₂PO₄)2",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_s",
+    "name": "Iron(II) Sulfide",
+    "formula": "FeS",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_clo",
+    "name": "Iron(II) Hypochlorite",
+    "formula": "Fe(ClO)2",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_clo2",
+    "name": "Iron(II) Chlorite",
+    "formula": "Fe(ClO₂)2",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_clo3",
+    "name": "Iron(II) Chlorate",
+    "formula": "Fe(ClO₃)2",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_clo4",
+    "name": "Iron(II) Perchlorate",
+    "formula": "Fe(ClO₄)2",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_cn",
+    "name": "Iron(II) Cyanide",
+    "formula": "Fe(CN)2",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_scn",
+    "name": "Iron(II) Thiocyanate",
+    "formula": "Fe(SCN)2",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_ch3coo",
+    "name": "Iron(II) Acetate",
+    "formula": "Fe(CH₃COO)2",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_ox",
+    "name": "Iron(II) Oxalate",
+    "formula": "FeC₂O₄",
+    "category": "salt"
+  },
+  {
+    "id": "fe2_sio3",
+    "name": "Iron(II) Silicate",
+    "formula": "FeSiO₃",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_f",
+    "name": "Iron(III) Fluoride",
+    "formula": "Fe(F)3",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_cl",
+    "name": "Iron(III) Chloride",
+    "formula": "Fe(Cl)3",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_br",
+    "name": "Iron(III) Bromide",
+    "formula": "Fe(Br)3",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_oh",
+    "name": "Iron(III) Hydroxide",
+    "formula": "Fe(OH)3",
+    "category": "base"
+  },
+  {
+    "id": "fe3_no3",
+    "name": "Iron(III) Nitrate",
+    "formula": "Fe(NO₃)3",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_no2",
+    "name": "Iron(III) Nitrite",
+    "formula": "Fe(NO₂)3",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_so4",
+    "name": "Iron(III) Sulfate",
+    "formula": "(Fe)2SO₄3",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_so3",
+    "name": "Iron(III) Sulfite",
+    "formula": "(Fe)2SO₃3",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_co3",
+    "name": "Iron(III) Carbonate",
+    "formula": "(Fe)2CO₃3",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_hco3",
+    "name": "Iron(III) Hydrogen Carbonate",
+    "formula": "Fe(HCO₃)3",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_po4",
+    "name": "Iron(III) Phosphate",
+    "formula": "FePO₄",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_hpo4",
+    "name": "Iron(III) Hydrogen Phosphate",
+    "formula": "(Fe)2HPO₄3",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_h2po4",
+    "name": "Iron(III) Dihydrogen Phosphate",
+    "formula": "Fe(H₂PO₄)3",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_s",
+    "name": "Iron(III) Sulfide",
+    "formula": "(Fe)2S3",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_clo",
+    "name": "Iron(III) Hypochlorite",
+    "formula": "Fe(ClO)3",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_clo2",
+    "name": "Iron(III) Chlorite",
+    "formula": "Fe(ClO₂)3",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_clo3",
+    "name": "Iron(III) Chlorate",
+    "formula": "Fe(ClO₃)3",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_clo4",
+    "name": "Iron(III) Perchlorate",
+    "formula": "Fe(ClO₄)3",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_cn",
+    "name": "Iron(III) Cyanide",
+    "formula": "Fe(CN)3",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_scn",
+    "name": "Iron(III) Thiocyanate",
+    "formula": "Fe(SCN)3",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_ch3coo",
+    "name": "Iron(III) Acetate",
+    "formula": "Fe(CH₃COO)3",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_ox",
+    "name": "Iron(III) Oxalate",
+    "formula": "(Fe)2C₂O₄3",
+    "category": "salt"
+  },
+  {
+    "id": "fe3_sio3",
+    "name": "Iron(III) Silicate",
+    "formula": "(Fe)2SiO₃3",
+    "category": "salt"
+  },
+  {
+    "id": "cu1_f",
+    "name": "Copper(I) Fluoride",
+    "formula": "CuF",
+    "category": "salt"
+  },
+  {
+    "id": "cu1_cl",
+    "name": "Copper(I) Chloride",
+    "formula": "CuCl",
+    "category": "salt"
+  },
+  {
+    "id": "cu1_br",
+    "name": "Copper(I) Bromide",
+    "formula": "CuBr",
+    "category": "salt"
+  },
+  {
+    "id": "cu1_oh",
+    "name": "Copper(I) Hydroxide",
+    "formula": "CuOH",
+    "category": "base"
+  },
+  {
+    "id": "cu1_no3",
+    "name": "Copper(I) Nitrate",
+    "formula": "CuNO₃",
+    "category": "salt"
+  },
+  {
+    "id": "cu1_no2",
+    "name": "Copper(I) Nitrite",
+    "formula": "CuNO₂",
+    "category": "salt"
+  },
+  {
+    "id": "cu1_so4",
+    "name": "Copper(I) Sulfate",
+    "formula": "(Cu)2SO₄",
+    "category": "salt"
+  },
+  {
+    "id": "cu1_so3",
+    "name": "Copper(I) Sulfite",
+    "formula": "(Cu)2SO₃",
+    "category": "salt"
+  },
+  {
+    "id": "cu1_co3",
+    "name": "Copper(I) Carbonate",
+    "formula": "(Cu)2CO₃",
+    "category": "salt"
+  },
+  {
+    "id": "cu1_hco3",
+    "name": "Copper(I) Hydrogen Carbonate",
+    "formula": "CuHCO₃",
+    "category": "salt"
+  },
+  {
+    "id": "cu1_po4",
+    "name": "Copper(I) Phosphate",
+    "formula": "(Cu)3PO₄",
+    "category": "salt"
+  },
+  {
+    "id": "cu1_hpo4",
+    "name": "Copper(I) Hydrogen Phosphate",
+    "formula": "(Cu)2HPO₄",
+    "category": "salt"
+  },
+  {
+    "id": "cu1_h2po4",
+    "name": "Copper(I) Dihydrogen Phosphate",
+    "formula": "CuH₂PO₄",
+    "category": "salt"
+  },
+  {
+    "id": "cu1_s",
+    "name": "Copper(I) Sulfide",
+    "formula": "(Cu)2S",
+    "category": "salt"
+  },
+  {
+    "id": "cu1_clo",
+    "name": "Copper(I) Hypochlorite",
+    "formula": "CuClO",
+    "category": "salt"
+  },
+  {
+    "id": "cu1_clo2",
+    "name": "Copper(I) Chlorite",
+    "formula": "CuClO₂",
+    "category": "salt"
+  },
+  {
+    "id": "cu1_clo3",
+    "name": "Copper(I) Chlorate",
+    "formula": "CuClO₃",
+    "category": "salt"
+  },
+  {
+    "id": "cu1_clo4",
+    "name": "Copper(I) Perchlorate",
+    "formula": "CuClO₄",
+    "category": "salt"
+  },
+  {
+    "id": "cu1_cn",
+    "name": "Copper(I) Cyanide",
+    "formula": "CuCN",
+    "category": "salt"
+  },
+  {
+    "id": "cu1_scn",
+    "name": "Copper(I) Thiocyanate",
+    "formula": "CuSCN",
+    "category": "salt"
+  },
+  {
+    "id": "cu1_ch3coo",
+    "name": "Copper(I) Acetate",
+    "formula": "CuCH₃COO",
+    "category": "salt"
+  },
+  {
+    "id": "cu1_ox",
+    "name": "Copper(I) Oxalate",
+    "formula": "(Cu)2C₂O₄",
+    "category": "salt"
+  },
+  {
+    "id": "cu1_sio3",
+    "name": "Copper(I) Silicate",
+    "formula": "(Cu)2SiO₃",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_f",
+    "name": "Copper(II) Fluoride",
+    "formula": "Cu(F)2",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_cl",
+    "name": "Copper(II) Chloride",
+    "formula": "Cu(Cl)2",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_br",
+    "name": "Copper(II) Bromide",
+    "formula": "Cu(Br)2",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_oh",
+    "name": "Copper(II) Hydroxide",
+    "formula": "Cu(OH)2",
+    "category": "base"
+  },
+  {
+    "id": "cu2_no3",
+    "name": "Copper(II) Nitrate",
+    "formula": "Cu(NO₃)2",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_no2",
+    "name": "Copper(II) Nitrite",
+    "formula": "Cu(NO₂)2",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_so4",
+    "name": "Copper(II) Sulfate",
+    "formula": "CuSO₄",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_so3",
+    "name": "Copper(II) Sulfite",
+    "formula": "CuSO₃",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_co3",
+    "name": "Copper(II) Carbonate",
+    "formula": "CuCO₃",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_hco3",
+    "name": "Copper(II) Hydrogen Carbonate",
+    "formula": "Cu(HCO₃)2",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_po4",
+    "name": "Copper(II) Phosphate",
+    "formula": "(Cu)3PO₄2",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_hpo4",
+    "name": "Copper(II) Hydrogen Phosphate",
+    "formula": "CuHPO₄",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_h2po4",
+    "name": "Copper(II) Dihydrogen Phosphate",
+    "formula": "Cu(H₂PO₄)2",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_s",
+    "name": "Copper(II) Sulfide",
+    "formula": "CuS",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_clo",
+    "name": "Copper(II) Hypochlorite",
+    "formula": "Cu(ClO)2",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_clo2",
+    "name": "Copper(II) Chlorite",
+    "formula": "Cu(ClO₂)2",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_clo3",
+    "name": "Copper(II) Chlorate",
+    "formula": "Cu(ClO₃)2",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_clo4",
+    "name": "Copper(II) Perchlorate",
+    "formula": "Cu(ClO₄)2",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_cn",
+    "name": "Copper(II) Cyanide",
+    "formula": "Cu(CN)2",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_scn",
+    "name": "Copper(II) Thiocyanate",
+    "formula": "Cu(SCN)2",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_ch3coo",
+    "name": "Copper(II) Acetate",
+    "formula": "Cu(CH₃COO)2",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_ox",
+    "name": "Copper(II) Oxalate",
+    "formula": "CuC₂O₄",
+    "category": "salt"
+  },
+  {
+    "id": "cu2_sio3",
+    "name": "Copper(II) Silicate",
+    "formula": "CuSiO₃",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_f",
+    "name": "Titanium(III) Fluoride",
+    "formula": "Ti(F)3",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_cl",
+    "name": "Titanium(III) Chloride",
+    "formula": "Ti(Cl)3",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_br",
+    "name": "Titanium(III) Bromide",
+    "formula": "Ti(Br)3",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_oh",
+    "name": "Titanium(III) Hydroxide",
+    "formula": "Ti(OH)3",
+    "category": "base"
+  },
+  {
+    "id": "ti3_no3",
+    "name": "Titanium(III) Nitrate",
+    "formula": "Ti(NO₃)3",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_no2",
+    "name": "Titanium(III) Nitrite",
+    "formula": "Ti(NO₂)3",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_so4",
+    "name": "Titanium(III) Sulfate",
+    "formula": "(Ti)2SO₄3",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_so3",
+    "name": "Titanium(III) Sulfite",
+    "formula": "(Ti)2SO₃3",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_co3",
+    "name": "Titanium(III) Carbonate",
+    "formula": "(Ti)2CO₃3",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_hco3",
+    "name": "Titanium(III) Hydrogen Carbonate",
+    "formula": "Ti(HCO₃)3",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_po4",
+    "name": "Titanium(III) Phosphate",
+    "formula": "TiPO₄",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_hpo4",
+    "name": "Titanium(III) Hydrogen Phosphate",
+    "formula": "(Ti)2HPO₄3",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_h2po4",
+    "name": "Titanium(III) Dihydrogen Phosphate",
+    "formula": "Ti(H₂PO₄)3",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_s",
+    "name": "Titanium(III) Sulfide",
+    "formula": "(Ti)2S3",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_clo",
+    "name": "Titanium(III) Hypochlorite",
+    "formula": "Ti(ClO)3",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_clo2",
+    "name": "Titanium(III) Chlorite",
+    "formula": "Ti(ClO₂)3",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_clo3",
+    "name": "Titanium(III) Chlorate",
+    "formula": "Ti(ClO₃)3",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_clo4",
+    "name": "Titanium(III) Perchlorate",
+    "formula": "Ti(ClO₄)3",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_cn",
+    "name": "Titanium(III) Cyanide",
+    "formula": "Ti(CN)3",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_scn",
+    "name": "Titanium(III) Thiocyanate",
+    "formula": "Ti(SCN)3",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_ch3coo",
+    "name": "Titanium(III) Acetate",
+    "formula": "Ti(CH₃COO)3",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_ox",
+    "name": "Titanium(III) Oxalate",
+    "formula": "(Ti)2C₂O₄3",
+    "category": "salt"
+  },
+  {
+    "id": "ti3_sio3",
+    "name": "Titanium(III) Silicate",
+    "formula": "(Ti)2SiO₃3",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_f",
+    "name": "Titanium(IV) Fluoride",
+    "formula": "Ti(F)4",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_cl",
+    "name": "Titanium(IV) Chloride",
+    "formula": "Ti(Cl)4",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_br",
+    "name": "Titanium(IV) Bromide",
+    "formula": "Ti(Br)4",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_oh",
+    "name": "Titanium(IV) Hydroxide",
+    "formula": "Ti(OH)4",
+    "category": "base"
+  },
+  {
+    "id": "ti4_no3",
+    "name": "Titanium(IV) Nitrate",
+    "formula": "Ti(NO₃)4",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_no2",
+    "name": "Titanium(IV) Nitrite",
+    "formula": "Ti(NO₂)4",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_so4",
+    "name": "Titanium(IV) Sulfate",
+    "formula": "Ti(SO₄)2",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_so3",
+    "name": "Titanium(IV) Sulfite",
+    "formula": "Ti(SO₃)2",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_co3",
+    "name": "Titanium(IV) Carbonate",
+    "formula": "Ti(CO₃)2",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_hco3",
+    "name": "Titanium(IV) Hydrogen Carbonate",
+    "formula": "Ti(HCO₃)4",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_po4",
+    "name": "Titanium(IV) Phosphate",
+    "formula": "(Ti)3PO₄4",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_hpo4",
+    "name": "Titanium(IV) Hydrogen Phosphate",
+    "formula": "Ti(HPO₄)2",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_h2po4",
+    "name": "Titanium(IV) Dihydrogen Phosphate",
+    "formula": "Ti(H₂PO₄)4",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_s",
+    "name": "Titanium(IV) Sulfide",
+    "formula": "Ti(S)2",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_clo",
+    "name": "Titanium(IV) Hypochlorite",
+    "formula": "Ti(ClO)4",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_clo2",
+    "name": "Titanium(IV) Chlorite",
+    "formula": "Ti(ClO₂)4",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_clo3",
+    "name": "Titanium(IV) Chlorate",
+    "formula": "Ti(ClO₃)4",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_clo4",
+    "name": "Titanium(IV) Perchlorate",
+    "formula": "Ti(ClO₄)4",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_cn",
+    "name": "Titanium(IV) Cyanide",
+    "formula": "Ti(CN)4",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_scn",
+    "name": "Titanium(IV) Thiocyanate",
+    "formula": "Ti(SCN)4",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_ch3coo",
+    "name": "Titanium(IV) Acetate",
+    "formula": "Ti(CH₃COO)4",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_ox",
+    "name": "Titanium(IV) Oxalate",
+    "formula": "Ti(C₂O₄)2",
+    "category": "salt"
+  },
+  {
+    "id": "ti4_sio3",
+    "name": "Titanium(IV) Silicate",
+    "formula": "Ti(SiO₃)2",
+    "category": "salt"
+  },
+  {
+    "id": "zno",
+    "name": "Zinc Oxide",
+    "formula": "ZnO",
+    "category": "oxide"
+  },
+  {
+    "id": "feo",
+    "name": "Iron(II) Oxide",
+    "formula": "FeO",
+    "category": "oxide"
+  },
+  {
+    "id": "fe2o3",
+    "name": "Iron(III) Oxide",
+    "formula": "Fe₂O₃",
+    "category": "oxide"
+  },
+  {
+    "id": "cuo",
+    "name": "Copper(II) Oxide",
+    "formula": "CuO",
+    "category": "oxide"
+  },
+  {
+    "id": "cu2o",
+    "name": "Copper(I) Oxide",
+    "formula": "Cu₂O",
+    "category": "oxide"
+  },
+  {
+    "id": "tio2",
+    "name": "Titanium(IV) Oxide",
+    "formula": "TiO₂",
+    "category": "oxide"
+  }
+]
