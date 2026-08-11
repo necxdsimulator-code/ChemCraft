@@ -1,0 +1,90 @@
+[
+  {
+    "id": "first_reaction",
+    "title": "First Reaction",
+    "description": "Perform your first successful reaction.",
+    "type": "reaction_count",
+    "target": 1,
+    "reward_xp": 25
+  },
+  {
+    "id": "discover_10",
+    "title": "Getting Started",
+    "description": "Discover 10 substances.",
+    "type": "discovery_count",
+    "target": 10,
+    "reward_xp": 50
+  },
+  {
+    "id": "discover_25",
+    "title": "Curious Chemist",
+    "description": "Discover 25 substances.",
+    "type": "discovery_count",
+    "target": 25,
+    "reward_xp": 100
+  },
+  {
+    "id": "discover_50",
+    "title": "Laboratory Explorer",
+    "description": "Discover 50 substances.",
+    "type": "discovery_count",
+    "target": 50,
+    "reward_xp": 200
+  },
+  {
+    "id": "first_gas",
+    "title": "Gas Evolution",
+    "description": "Perform a reaction that produces a gas.",
+    "type": "reaction_property",
+    "target": "gas_product",
+    "reward_xp": 40
+  },
+  {
+    "id": "first_precipitate",
+    "title": "A Solid Appears",
+    "description": "Perform a precipitation reaction.",
+    "type": "reaction_type",
+    "target": "precipitation",
+    "reward_xp": 40
+  },
+  {
+    "id": "first_neutralization",
+    "title": "Neutral Ground",
+    "description": "Perform a neutralization reaction.",
+    "type": "reaction_type",
+    "target": "neutralization",
+    "reward_xp": 40
+  },
+  {
+    "id": "first_electrolysis",
+    "title": "Split by Electricity",
+    "description": "Perform electrolysis.",
+    "type": "reaction_type",
+    "target": "electrolysis",
+    "reward_xp": 75
+  },
+  {
+    "id": "first_amphoteric",
+    "title": "Two-Sided Chemistry",
+    "description": "Perform an amphoteric reaction.",
+    "type": "reaction_type",
+    "target": "amphoteric",
+    "reward_xp": 75
+  },
+  {
+    "id": "ten_reactions",
+    "title": "Working Chemist",
+    "description": "Complete 10 reactions.",
+    "type": "reaction_count",
+    "target": 10,
+    "reward_xp": 100
+  },
+  {
+    "id": "fifty_reactions",
+    "title": "Reaction Machine",
+    "description": "Complete 50 reactions.",
+    "type": "reaction_count",
+    "target": 50,
+    "reward_xp": 300
+  }
+]

@@ -1,0 +1,3181 @@
+[
+  {
+    "id": "hydrogen",
+    "name": "Hydrogen",
+    "formula": "H₂",
+    "type": "element",
+    "category": "nonmetal",
+    "state": "gas",
+    "color": "colorless",
+    "rarity": "common",
+    "description": "Hydrogen (H₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/hydrogen.png",
+    "discovered": false
+  },
+  {
+    "id": "oxygen",
+    "name": "Oxygen",
+    "formula": "O₂",
+    "type": "element",
+    "category": "nonmetal",
+    "state": "gas",
+    "color": "colorless",
+    "rarity": "common",
+    "description": "Oxygen (O₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/oxygen.png",
+    "discovered": false
+  },
+  {
+    "id": "nitrogen",
+    "name": "Nitrogen",
+    "formula": "N₂",
+    "type": "element",
+    "category": "nonmetal",
+    "state": "gas",
+    "color": "colorless",
+    "rarity": "common",
+    "description": "Nitrogen (N₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/nitrogen.png",
+    "discovered": false
+  },
+  {
+    "id": "chlorine",
+    "name": "Chlorine",
+    "formula": "Cl₂",
+    "type": "element",
+    "category": "halogen",
+    "state": "gas",
+    "color": "yellow-green",
+    "rarity": "common",
+    "description": "Chlorine (Cl₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/chlorine.png",
+    "discovered": false
+  },
+  {
+    "id": "fluorine",
+    "name": "Fluorine",
+    "formula": "F₂",
+    "type": "element",
+    "category": "halogen",
+    "state": "gas",
+    "color": "pale-yellow",
+    "rarity": "common",
+    "description": "Fluorine (F₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/fluorine.png",
+    "discovered": false
+  },
+  {
+    "id": "bromine",
+    "name": "Bromine",
+    "formula": "Br₂",
+    "type": "element",
+    "category": "halogen",
+    "state": "liquid",
+    "color": "red-brown",
+    "rarity": "common",
+    "description": "Bromine (Br₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/bromine.png",
+    "discovered": false
+  },
+  {
+    "id": "iodine",
+    "name": "Iodine",
+    "formula": "I₂",
+    "type": "element",
+    "category": "halogen",
+    "state": "solid",
+    "color": "dark-violet",
+    "rarity": "common",
+    "description": "Iodine (I₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/iodine.png",
+    "discovered": false
+  },
+  {
+    "id": "carbon",
+    "name": "Carbon",
+    "formula": "C",
+    "type": "element",
+    "category": "nonmetal",
+    "state": "solid",
+    "color": "black",
+    "rarity": "common",
+    "description": "Carbon (C) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/carbon.png",
+    "discovered": false
+  },
+  {
+    "id": "sulfur",
+    "name": "Sulfur",
+    "formula": "S",
+    "type": "element",
+    "category": "nonmetal",
+    "state": "solid",
+    "color": "yellow",
+    "rarity": "common",
+    "description": "Sulfur (S) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sulfur.png",
+    "discovered": false
+  },
+  {
+    "id": "phosphorus",
+    "name": "Phosphorus",
+    "formula": "P",
+    "type": "element",
+    "category": "nonmetal",
+    "state": "solid",
+    "color": "red",
+    "rarity": "common",
+    "description": "Phosphorus (P) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/phosphorus.png",
+    "discovered": false
+  },
+  {
+    "id": "silicon",
+    "name": "Silicon",
+    "formula": "Si",
+    "type": "element",
+    "category": "metalloid",
+    "state": "solid",
+    "color": "gray",
+    "rarity": "common",
+    "description": "Silicon (Si) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/silicon.png",
+    "discovered": false
+  },
+  {
+    "id": "sodium",
+    "name": "Sodium",
+    "formula": "Na",
+    "type": "element",
+    "category": "alkali metal",
+    "state": "solid",
+    "color": "silvery",
+    "rarity": "common",
+    "description": "Sodium (Na) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sodium.png",
+    "discovered": false
+  },
+  {
+    "id": "potassium",
+    "name": "Potassium",
+    "formula": "K",
+    "type": "element",
+    "category": "alkali metal",
+    "state": "solid",
+    "color": "silvery",
+    "rarity": "common",
+    "description": "Potassium (K) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/potassium.png",
+    "discovered": false
+  },
+  {
+    "id": "lithium",
+    "name": "Lithium",
+    "formula": "Li",
+    "type": "element",
+    "category": "alkali metal",
+    "state": "solid",
+    "color": "silvery",
+    "rarity": "common",
+    "description": "Lithium (Li) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/lithium.png",
+    "discovered": false
+  },
+  {
+    "id": "calcium",
+    "name": "Calcium",
+    "formula": "Ca",
+    "type": "element",
+    "category": "alkaline earth metal",
+    "state": "solid",
+    "color": "silvery",
+    "rarity": "common",
+    "description": "Calcium (Ca) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/calcium.png",
+    "discovered": false
+  },
+  {
+    "id": "magnesium",
+    "name": "Magnesium",
+    "formula": "Mg",
+    "type": "element",
+    "category": "alkaline earth metal",
+    "state": "solid",
+    "color": "silvery",
+    "rarity": "common",
+    "description": "Magnesium (Mg) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/magnesium.png",
+    "discovered": false
+  },
+  {
+    "id": "aluminium",
+    "name": "Aluminium",
+    "formula": "Al",
+    "type": "element",
+    "category": "metal",
+    "state": "solid",
+    "color": "silvery",
+    "rarity": "common",
+    "description": "Aluminium (Al) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/aluminium.png",
+    "discovered": false
+  },
+  {
+    "id": "zinc",
+    "name": "Zinc",
+    "formula": "Zn",
+    "type": "element",
+    "category": "metal",
+    "state": "solid",
+    "color": "bluish-silver",
+    "rarity": "common",
+    "description": "Zinc (Zn) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/zinc.png",
+    "discovered": false
+  },
+  {
+    "id": "iron",
+    "name": "Iron",
+    "formula": "Fe",
+    "type": "element",
+    "category": "metal",
+    "state": "solid",
+    "color": "gray",
+    "rarity": "common",
+    "description": "Iron (Fe) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/iron.png",
+    "discovered": false
+  },
+  {
+    "id": "copper",
+    "name": "Copper",
+    "formula": "Cu",
+    "type": "element",
+    "category": "metal",
+    "state": "solid",
+    "color": "reddish-brown",
+    "rarity": "common",
+    "description": "Copper (Cu) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/copper.png",
+    "discovered": false
+  },
+  {
+    "id": "silver",
+    "name": "Silver",
+    "formula": "Ag",
+    "type": "element",
+    "category": "metal",
+    "state": "solid",
+    "color": "silver",
+    "rarity": "common",
+    "description": "Silver (Ag) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/silver.png",
+    "discovered": false
+  },
+  {
+    "id": "gold",
+    "name": "Gold",
+    "formula": "Au",
+    "type": "element",
+    "category": "metal",
+    "state": "solid",
+    "color": "gold",
+    "rarity": "common",
+    "description": "Gold (Au) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/gold.png",
+    "discovered": false
+  },
+  {
+    "id": "lead",
+    "name": "Lead",
+    "formula": "Pb",
+    "type": "element",
+    "category": "metal",
+    "state": "solid",
+    "color": "bluish-gray",
+    "rarity": "common",
+    "description": "Lead (Pb) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/lead.png",
+    "discovered": false
+  },
+  {
+    "id": "tin",
+    "name": "Tin",
+    "formula": "Sn",
+    "type": "element",
+    "category": "metal",
+    "state": "solid",
+    "color": "silvery",
+    "rarity": "common",
+    "description": "Tin (Sn) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/tin.png",
+    "discovered": false
+  },
+  {
+    "id": "mercury",
+    "name": "Mercury",
+    "formula": "Hg",
+    "type": "element",
+    "category": "metal",
+    "state": "liquid",
+    "color": "silver",
+    "rarity": "common",
+    "description": "Mercury (Hg) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/mercury.png",
+    "discovered": false
+  },
+  {
+    "id": "nickel",
+    "name": "Nickel",
+    "formula": "Ni",
+    "type": "element",
+    "category": "metal",
+    "state": "solid",
+    "color": "silvery",
+    "rarity": "common",
+    "description": "Nickel (Ni) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/nickel.png",
+    "discovered": false
+  },
+  {
+    "id": "chromium",
+    "name": "Chromium",
+    "formula": "Cr",
+    "type": "element",
+    "category": "metal",
+    "state": "solid",
+    "color": "steel-gray",
+    "rarity": "common",
+    "description": "Chromium (Cr) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/chromium.png",
+    "discovered": false
+  },
+  {
+    "id": "manganese",
+    "name": "Manganese",
+    "formula": "Mn",
+    "type": "element",
+    "category": "metal",
+    "state": "solid",
+    "color": "gray",
+    "rarity": "common",
+    "description": "Manganese (Mn) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/manganese.png",
+    "discovered": false
+  },
+  {
+    "id": "cobalt",
+    "name": "Cobalt",
+    "formula": "Co",
+    "type": "element",
+    "category": "metal",
+    "state": "solid",
+    "color": "bluish-gray",
+    "rarity": "common",
+    "description": "Cobalt (Co) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/cobalt.png",
+    "discovered": false
+  },
+  {
+    "id": "calcium_carbonate",
+    "name": "Calcium Carbonate",
+    "formula": "CaCO₃",
+    "type": "compound",
+    "category": "carbonate",
+    "state": "solid",
+    "color": "white",
+    "rarity": "uncommon",
+    "description": "Calcium Carbonate (CaCO₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/calcium_carbonate.png",
+    "discovered": false
+  },
+  {
+    "id": "calcium_oxide",
+    "name": "Calcium Oxide",
+    "formula": "CaO",
+    "type": "compound",
+    "category": "metal oxide",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Calcium Oxide (CaO) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/calcium_oxide.png",
+    "discovered": false
+  },
+  {
+    "id": "calcium_hydroxide",
+    "name": "Calcium Hydroxide",
+    "formula": "Ca(OH)₂",
+    "type": "compound",
+    "category": "base",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Calcium Hydroxide (Ca(OH)₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/calcium_hydroxide.png",
+    "discovered": false
+  },
+  {
+    "id": "sodium_oxide",
+    "name": "Sodium Oxide",
+    "formula": "Na₂O",
+    "type": "compound",
+    "category": "metal oxide",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Sodium Oxide (Na₂O) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sodium_oxide.png",
+    "discovered": false
+  },
+  {
+    "id": "potassium_oxide",
+    "name": "Potassium Oxide",
+    "formula": "K₂O",
+    "type": "compound",
+    "category": "metal oxide",
+    "state": "solid",
+    "color": "pale-yellow",
+    "rarity": "common",
+    "description": "Potassium Oxide (K₂O) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/potassium_oxide.png",
+    "discovered": false
+  },
+  {
+    "id": "magnesium_oxide",
+    "name": "Magnesium Oxide",
+    "formula": "MgO",
+    "type": "compound",
+    "category": "metal oxide",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Magnesium Oxide (MgO) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/magnesium_oxide.png",
+    "discovered": false
+  },
+  {
+    "id": "aluminium_oxide",
+    "name": "Aluminium Oxide",
+    "formula": "Al₂O₃",
+    "type": "compound",
+    "category": "amphoteric oxide",
+    "state": "solid",
+    "color": "white",
+    "rarity": "uncommon",
+    "description": "Aluminium Oxide (Al₂O₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/aluminium_oxide.png",
+    "discovered": false
+  },
+  {
+    "id": "zinc_oxide",
+    "name": "Zinc Oxide",
+    "formula": "ZnO",
+    "type": "compound",
+    "category": "amphoteric oxide",
+    "state": "solid",
+    "color": "white",
+    "rarity": "uncommon",
+    "description": "Zinc Oxide (ZnO) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/zinc_oxide.png",
+    "discovered": false
+  },
+  {
+    "id": "iron_ii_oxide",
+    "name": "Iron(II) Oxide",
+    "formula": "FeO",
+    "type": "compound",
+    "category": "metal oxide",
+    "state": "solid",
+    "color": "black",
+    "rarity": "common",
+    "description": "Iron(II) Oxide (FeO) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/iron_ii_oxide.png",
+    "discovered": false
+  },
+  {
+    "id": "iron_iii_oxide",
+    "name": "Iron(III) Oxide",
+    "formula": "Fe₂O₃",
+    "type": "compound",
+    "category": "metal oxide",
+    "state": "solid",
+    "color": "reddish-brown",
+    "rarity": "common",
+    "description": "Iron(III) Oxide (Fe₂O₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/iron_iii_oxide.png",
+    "discovered": false
+  },
+  {
+    "id": "copper_ii_oxide",
+    "name": "Copper(II) Oxide",
+    "formula": "CuO",
+    "type": "compound",
+    "category": "metal oxide",
+    "state": "solid",
+    "color": "black",
+    "rarity": "common",
+    "description": "Copper(II) Oxide (CuO) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/copper_ii_oxide.png",
+    "discovered": false
+  },
+  {
+    "id": "lead_ii_oxide",
+    "name": "Lead(II) Oxide",
+    "formula": "PbO",
+    "type": "compound",
+    "category": "amphoteric oxide",
+    "state": "solid",
+    "color": "yellow",
+    "rarity": "uncommon",
+    "description": "Lead(II) Oxide (PbO) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/lead_ii_oxide.png",
+    "discovered": false
+  },
+  {
+    "id": "manganese_iv_oxide",
+    "name": "Manganese(IV) Oxide",
+    "formula": "MnO₂",
+    "type": "compound",
+    "category": "metal oxide",
+    "state": "solid",
+    "color": "black",
+    "rarity": "common",
+    "description": "Manganese(IV) Oxide (MnO₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/manganese_iv_oxide.png",
+    "discovered": false
+  },
+  {
+    "id": "silicon_dioxide",
+    "name": "Silicon Dioxide",
+    "formula": "SiO₂",
+    "type": "compound",
+    "category": "nonmetal oxide",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Silicon Dioxide (SiO₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/silicon_dioxide.png",
+    "discovered": false
+  },
+  {
+    "id": "carbon_dioxide",
+    "name": "Carbon Dioxide",
+    "formula": "CO₂",
+    "type": "compound",
+    "category": "nonmetal oxide",
+    "state": "gas",
+    "color": "colorless",
+    "rarity": "common",
+    "description": "Carbon Dioxide (CO₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/carbon_dioxide.png",
+    "discovered": false
+  },
+  {
+    "id": "carbon_monoxide",
+    "name": "Carbon Monoxide",
+    "formula": "CO",
+    "type": "compound",
+    "category": "nonmetal oxide",
+    "state": "gas",
+    "color": "colorless",
+    "rarity": "common",
+    "description": "Carbon Monoxide (CO) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/carbon_monoxide.png",
+    "discovered": false
+  },
+  {
+    "id": "sulfur_dioxide",
+    "name": "Sulfur Dioxide",
+    "formula": "SO₂",
+    "type": "compound",
+    "category": "nonmetal oxide",
+    "state": "gas",
+    "color": "colorless",
+    "rarity": "common",
+    "description": "Sulfur Dioxide (SO₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sulfur_dioxide.png",
+    "discovered": false
+  },
+  {
+    "id": "sulfur_trioxide",
+    "name": "Sulfur Trioxide",
+    "formula": "SO₃",
+    "type": "compound",
+    "category": "nonmetal oxide",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Sulfur Trioxide (SO₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sulfur_trioxide.png",
+    "discovered": false
+  },
+  {
+    "id": "nitrogen_monoxide",
+    "name": "Nitrogen Monoxide",
+    "formula": "NO",
+    "type": "compound",
+    "category": "nitrogen oxide",
+    "state": "gas",
+    "color": "colorless",
+    "rarity": "uncommon",
+    "description": "Nitrogen Monoxide (NO) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/nitrogen_monoxide.png",
+    "discovered": false
+  },
+  {
+    "id": "nitrogen_dioxide",
+    "name": "Nitrogen Dioxide",
+    "formula": "NO₂",
+    "type": "compound",
+    "category": "nitrogen oxide",
+    "state": "gas",
+    "color": "brown",
+    "rarity": "uncommon",
+    "description": "Nitrogen Dioxide (NO₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/nitrogen_dioxide.png",
+    "discovered": false
+  },
+  {
+    "id": "phosphorus_pentoxide",
+    "name": "Phosphorus(V) Oxide",
+    "formula": "P₂O₅",
+    "type": "compound",
+    "category": "nonmetal oxide",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Phosphorus(V) Oxide (P₂O₅) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/phosphorus_pentoxide.png",
+    "discovered": false
+  },
+  {
+    "id": "water",
+    "name": "Water",
+    "formula": "H₂O",
+    "type": "compound",
+    "category": "oxide",
+    "state": "liquid",
+    "color": "colorless",
+    "rarity": "common",
+    "description": "Water (H₂O) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/water.png",
+    "discovered": false
+  },
+  {
+    "id": "hydrogen_chloride",
+    "name": "Hydrogen Chloride",
+    "formula": "HCl",
+    "type": "compound",
+    "category": "acid precursor",
+    "state": "gas",
+    "color": "colorless",
+    "rarity": "uncommon",
+    "description": "Hydrogen Chloride (HCl) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/hydrogen_chloride.png",
+    "discovered": false
+  },
+  {
+    "id": "hydrochloric_acid",
+    "name": "Hydrochloric Acid",
+    "formula": "HCl(aq)",
+    "type": "compound",
+    "category": "acid",
+    "state": "aqueous",
+    "color": "colorless",
+    "rarity": "common",
+    "description": "Hydrochloric Acid (HCl(aq)) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/hydrochloric_acid.png",
+    "discovered": false
+  },
+  {
+    "id": "hydrogen_bromide",
+    "name": "Hydrogen Bromide",
+    "formula": "HBr",
+    "type": "compound",
+    "category": "acid precursor",
+    "state": "gas",
+    "color": "colorless",
+    "rarity": "uncommon",
+    "description": "Hydrogen Bromide (HBr) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/hydrogen_bromide.png",
+    "discovered": false
+  },
+  {
+    "id": "hydrobromic_acid",
+    "name": "Hydrobromic Acid",
+    "formula": "HBr(aq)",
+    "type": "compound",
+    "category": "acid",
+    "state": "aqueous",
+    "color": "colorless",
+    "rarity": "common",
+    "description": "Hydrobromic Acid (HBr(aq)) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/hydrobromic_acid.png",
+    "discovered": false
+  },
+  {
+    "id": "hydrogen_iodide",
+    "name": "Hydrogen Iodide",
+    "formula": "HI",
+    "type": "compound",
+    "category": "acid precursor",
+    "state": "gas",
+    "color": "colorless",
+    "rarity": "uncommon",
+    "description": "Hydrogen Iodide (HI) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/hydrogen_iodide.png",
+    "discovered": false
+  },
+  {
+    "id": "hydroiodic_acid",
+    "name": "Hydroiodic Acid",
+    "formula": "HI(aq)",
+    "type": "compound",
+    "category": "acid",
+    "state": "aqueous",
+    "color": "colorless",
+    "rarity": "common",
+    "description": "Hydroiodic Acid (HI(aq)) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/hydroiodic_acid.png",
+    "discovered": false
+  },
+  {
+    "id": "sulfuric_acid",
+    "name": "Sulfuric Acid",
+    "formula": "H₂SO₄",
+    "type": "compound",
+    "category": "acid",
+    "state": "aqueous",
+    "color": "colorless",
+    "rarity": "common",
+    "description": "Sulfuric Acid (H₂SO₄) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sulfuric_acid.png",
+    "discovered": false
+  },
+  {
+    "id": "sulfurous_acid",
+    "name": "Sulfurous Acid",
+    "formula": "H₂SO₃",
+    "type": "compound",
+    "category": "acid",
+    "state": "aqueous",
+    "color": "colorless",
+    "rarity": "common",
+    "description": "Sulfurous Acid (H₂SO₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sulfurous_acid.png",
+    "discovered": false
+  },
+  {
+    "id": "nitric_acid",
+    "name": "Nitric Acid",
+    "formula": "HNO₃",
+    "type": "compound",
+    "category": "acid",
+    "state": "aqueous",
+    "color": "colorless",
+    "rarity": "common",
+    "description": "Nitric Acid (HNO₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/nitric_acid.png",
+    "discovered": false
+  },
+  {
+    "id": "nitrous_acid",
+    "name": "Nitrous Acid",
+    "formula": "HNO₂",
+    "type": "compound",
+    "category": "acid",
+    "state": "aqueous",
+    "color": "pale-blue",
+    "rarity": "common",
+    "description": "Nitrous Acid (HNO₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/nitrous_acid.png",
+    "discovered": false
+  },
+  {
+    "id": "carbonic_acid",
+    "name": "Carbonic Acid",
+    "formula": "H₂CO₃",
+    "type": "compound",
+    "category": "acid",
+    "state": "aqueous",
+    "color": "colorless",
+    "rarity": "common",
+    "description": "Carbonic Acid (H₂CO₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/carbonic_acid.png",
+    "discovered": false
+  },
+  {
+    "id": "phosphoric_acid",
+    "name": "Phosphoric Acid",
+    "formula": "H₃PO₄",
+    "type": "compound",
+    "category": "acid",
+    "state": "aqueous",
+    "color": "colorless",
+    "rarity": "common",
+    "description": "Phosphoric Acid (H₃PO₄) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/phosphoric_acid.png",
+    "discovered": false
+  },
+  {
+    "id": "acetic_acid",
+    "name": "Acetic Acid",
+    "formula": "CH₃COOH",
+    "type": "compound",
+    "category": "organic acid",
+    "state": "liquid",
+    "color": "colorless",
+    "rarity": "uncommon",
+    "description": "Acetic Acid (CH₃COOH) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/acetic_acid.png",
+    "discovered": false
+  },
+  {
+    "id": "formic_acid",
+    "name": "Formic Acid",
+    "formula": "HCOOH",
+    "type": "compound",
+    "category": "organic acid",
+    "state": "liquid",
+    "color": "colorless",
+    "rarity": "uncommon",
+    "description": "Formic Acid (HCOOH) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/formic_acid.png",
+    "discovered": false
+  },
+  {
+    "id": "sodium_hydroxide",
+    "name": "Sodium Hydroxide",
+    "formula": "NaOH",
+    "type": "compound",
+    "category": "base",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Sodium Hydroxide (NaOH) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sodium_hydroxide.png",
+    "discovered": false
+  },
+  {
+    "id": "potassium_hydroxide",
+    "name": "Potassium Hydroxide",
+    "formula": "KOH",
+    "type": "compound",
+    "category": "base",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Potassium Hydroxide (KOH) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/potassium_hydroxide.png",
+    "discovered": false
+  },
+  {
+    "id": "calcium_hydroxide_aq",
+    "name": "Calcium Hydroxide Solution",
+    "formula": "Ca(OH)₂(aq)",
+    "type": "compound",
+    "category": "base",
+    "state": "aqueous",
+    "color": "colorless",
+    "rarity": "common",
+    "description": "Calcium Hydroxide Solution (Ca(OH)₂(aq)) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/calcium_hydroxide_aq.png",
+    "discovered": false
+  },
+  {
+    "id": "magnesium_hydroxide",
+    "name": "Magnesium Hydroxide",
+    "formula": "Mg(OH)₂",
+    "type": "compound",
+    "category": "base",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Magnesium Hydroxide (Mg(OH)₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/magnesium_hydroxide.png",
+    "discovered": false
+  },
+  {
+    "id": "aluminium_hydroxide",
+    "name": "Aluminium Hydroxide",
+    "formula": "Al(OH)₃",
+    "type": "compound",
+    "category": "amphoteric hydroxide",
+    "state": "solid",
+    "color": "white",
+    "rarity": "uncommon",
+    "description": "Aluminium Hydroxide (Al(OH)₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/aluminium_hydroxide.png",
+    "discovered": false
+  },
+  {
+    "id": "zinc_hydroxide",
+    "name": "Zinc Hydroxide",
+    "formula": "Zn(OH)₂",
+    "type": "compound",
+    "category": "amphoteric hydroxide",
+    "state": "solid",
+    "color": "white",
+    "rarity": "uncommon",
+    "description": "Zinc Hydroxide (Zn(OH)₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/zinc_hydroxide.png",
+    "discovered": false
+  },
+  {
+    "id": "ammonia",
+    "name": "Ammonia",
+    "formula": "NH₃",
+    "type": "compound",
+    "category": "base",
+    "state": "gas",
+    "color": "colorless",
+    "rarity": "common",
+    "description": "Ammonia (NH₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/ammonia.png",
+    "discovered": false
+  },
+  {
+    "id": "ammonium_hydroxide",
+    "name": "Ammonium Hydroxide",
+    "formula": "NH₄OH",
+    "type": "compound",
+    "category": "base",
+    "state": "aqueous",
+    "color": "colorless",
+    "rarity": "common",
+    "description": "Ammonium Hydroxide (NH₄OH) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/ammonium_hydroxide.png",
+    "discovered": false
+  },
+  {
+    "id": "sodium_chloride",
+    "name": "Sodium Chloride",
+    "formula": "NaCl",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Sodium Chloride (NaCl) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sodium_chloride.png",
+    "discovered": false
+  },
+  {
+    "id": "potassium_chloride",
+    "name": "Potassium Chloride",
+    "formula": "KCl",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Potassium Chloride (KCl) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/potassium_chloride.png",
+    "discovered": false
+  },
+  {
+    "id": "calcium_chloride",
+    "name": "Calcium Chloride",
+    "formula": "CaCl₂",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Calcium Chloride (CaCl₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/calcium_chloride.png",
+    "discovered": false
+  },
+  {
+    "id": "magnesium_chloride",
+    "name": "Magnesium Chloride",
+    "formula": "MgCl₂",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Magnesium Chloride (MgCl₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/magnesium_chloride.png",
+    "discovered": false
+  },
+  {
+    "id": "aluminium_chloride",
+    "name": "Aluminium Chloride",
+    "formula": "AlCl₃",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Aluminium Chloride (AlCl₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/aluminium_chloride.png",
+    "discovered": false
+  },
+  {
+    "id": "zinc_chloride",
+    "name": "Zinc Chloride",
+    "formula": "ZnCl₂",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Zinc Chloride (ZnCl₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/zinc_chloride.png",
+    "discovered": false
+  },
+  {
+    "id": "iron_ii_chloride",
+    "name": "Iron(II) Chloride",
+    "formula": "FeCl₂",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "pale-green",
+    "rarity": "common",
+    "description": "Iron(II) Chloride (FeCl₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/iron_ii_chloride.png",
+    "discovered": false
+  },
+  {
+    "id": "iron_iii_chloride",
+    "name": "Iron(III) Chloride",
+    "formula": "FeCl₃",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "brown",
+    "rarity": "common",
+    "description": "Iron(III) Chloride (FeCl₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/iron_iii_chloride.png",
+    "discovered": false
+  },
+  {
+    "id": "copper_ii_chloride",
+    "name": "Copper(II) Chloride",
+    "formula": "CuCl₂",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "green",
+    "rarity": "common",
+    "description": "Copper(II) Chloride (CuCl₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/copper_ii_chloride.png",
+    "discovered": false
+  },
+  {
+    "id": "silver_chloride",
+    "name": "Silver Chloride",
+    "formula": "AgCl",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Silver Chloride (AgCl) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/silver_chloride.png",
+    "discovered": false
+  },
+  {
+    "id": "lead_ii_chloride",
+    "name": "Lead(II) Chloride",
+    "formula": "PbCl₂",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Lead(II) Chloride (PbCl₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/lead_ii_chloride.png",
+    "discovered": false
+  },
+  {
+    "id": "sodium_bromide",
+    "name": "Sodium Bromide",
+    "formula": "NaBr",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Sodium Bromide (NaBr) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sodium_bromide.png",
+    "discovered": false
+  },
+  {
+    "id": "potassium_bromide",
+    "name": "Potassium Bromide",
+    "formula": "KBr",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Potassium Bromide (KBr) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/potassium_bromide.png",
+    "discovered": false
+  },
+  {
+    "id": "silver_bromide",
+    "name": "Silver Bromide",
+    "formula": "AgBr",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "pale-yellow",
+    "rarity": "common",
+    "description": "Silver Bromide (AgBr) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/silver_bromide.png",
+    "discovered": false
+  },
+  {
+    "id": "sodium_iodide",
+    "name": "Sodium Iodide",
+    "formula": "NaI",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Sodium Iodide (NaI) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sodium_iodide.png",
+    "discovered": false
+  },
+  {
+    "id": "potassium_iodide",
+    "name": "Potassium Iodide",
+    "formula": "KI",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Potassium Iodide (KI) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/potassium_iodide.png",
+    "discovered": false
+  },
+  {
+    "id": "silver_iodide",
+    "name": "Silver Iodide",
+    "formula": "AgI",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "yellow",
+    "rarity": "common",
+    "description": "Silver Iodide (AgI) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/silver_iodide.png",
+    "discovered": false
+  },
+  {
+    "id": "sodium_sulfate",
+    "name": "Sodium Sulfate",
+    "formula": "Na₂SO₄",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Sodium Sulfate (Na₂SO₄) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sodium_sulfate.png",
+    "discovered": false
+  },
+  {
+    "id": "potassium_sulfate",
+    "name": "Potassium Sulfate",
+    "formula": "K₂SO₄",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Potassium Sulfate (K₂SO₄) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/potassium_sulfate.png",
+    "discovered": false
+  },
+  {
+    "id": "calcium_sulfate",
+    "name": "Calcium Sulfate",
+    "formula": "CaSO₄",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Calcium Sulfate (CaSO₄) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/calcium_sulfate.png",
+    "discovered": false
+  },
+  {
+    "id": "magnesium_sulfate",
+    "name": "Magnesium Sulfate",
+    "formula": "MgSO₄",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Magnesium Sulfate (MgSO₄) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/magnesium_sulfate.png",
+    "discovered": false
+  },
+  {
+    "id": "copper_ii_sulfate",
+    "name": "Copper(II) Sulfate",
+    "formula": "CuSO₄",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "blue",
+    "rarity": "common",
+    "description": "Copper(II) Sulfate (CuSO₄) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/copper_ii_sulfate.png",
+    "discovered": false
+  },
+  {
+    "id": "iron_ii_sulfate",
+    "name": "Iron(II) Sulfate",
+    "formula": "FeSO₄",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "pale-green",
+    "rarity": "common",
+    "description": "Iron(II) Sulfate (FeSO₄) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/iron_ii_sulfate.png",
+    "discovered": false
+  },
+  {
+    "id": "iron_iii_sulfate",
+    "name": "Iron(III) Sulfate",
+    "formula": "Fe₂(SO₄)₃",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "yellow",
+    "rarity": "common",
+    "description": "Iron(III) Sulfate (Fe₂(SO₄)₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/iron_iii_sulfate.png",
+    "discovered": false
+  },
+  {
+    "id": "zinc_sulfate",
+    "name": "Zinc Sulfate",
+    "formula": "ZnSO₄",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Zinc Sulfate (ZnSO₄) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/zinc_sulfate.png",
+    "discovered": false
+  },
+  {
+    "id": "aluminium_sulfate",
+    "name": "Aluminium Sulfate",
+    "formula": "Al₂(SO₄)₃",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Aluminium Sulfate (Al₂(SO₄)₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/aluminium_sulfate.png",
+    "discovered": false
+  },
+  {
+    "id": "lead_ii_sulfate",
+    "name": "Lead(II) Sulfate",
+    "formula": "PbSO₄",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Lead(II) Sulfate (PbSO₄) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/lead_ii_sulfate.png",
+    "discovered": false
+  },
+  {
+    "id": "sodium_nitrate",
+    "name": "Sodium Nitrate",
+    "formula": "NaNO₃",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Sodium Nitrate (NaNO₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sodium_nitrate.png",
+    "discovered": false
+  },
+  {
+    "id": "potassium_nitrate",
+    "name": "Potassium Nitrate",
+    "formula": "KNO₃",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Potassium Nitrate (KNO₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/potassium_nitrate.png",
+    "discovered": false
+  },
+  {
+    "id": "calcium_nitrate",
+    "name": "Calcium Nitrate",
+    "formula": "Ca(NO₃)₂",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Calcium Nitrate (Ca(NO₃)₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/calcium_nitrate.png",
+    "discovered": false
+  },
+  {
+    "id": "magnesium_nitrate",
+    "name": "Magnesium Nitrate",
+    "formula": "Mg(NO₃)₂",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Magnesium Nitrate (Mg(NO₃)₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/magnesium_nitrate.png",
+    "discovered": false
+  },
+  {
+    "id": "silver_nitrate",
+    "name": "Silver Nitrate",
+    "formula": "AgNO₃",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Silver Nitrate (AgNO₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/silver_nitrate.png",
+    "discovered": false
+  },
+  {
+    "id": "copper_ii_nitrate",
+    "name": "Copper(II) Nitrate",
+    "formula": "Cu(NO₃)₂",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "blue",
+    "rarity": "common",
+    "description": "Copper(II) Nitrate (Cu(NO₃)₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/copper_ii_nitrate.png",
+    "discovered": false
+  },
+  {
+    "id": "lead_ii_nitrate",
+    "name": "Lead(II) Nitrate",
+    "formula": "Pb(NO₃)₂",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Lead(II) Nitrate (Pb(NO₃)₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/lead_ii_nitrate.png",
+    "discovered": false
+  },
+  {
+    "id": "zinc_nitrate",
+    "name": "Zinc Nitrate",
+    "formula": "Zn(NO₃)₂",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Zinc Nitrate (Zn(NO₃)₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/zinc_nitrate.png",
+    "discovered": false
+  },
+  {
+    "id": "ammonium_nitrate",
+    "name": "Ammonium Nitrate",
+    "formula": "NH₄NO₃",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Ammonium Nitrate (NH₄NO₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/ammonium_nitrate.png",
+    "discovered": false
+  },
+  {
+    "id": "sodium_carbonate",
+    "name": "Sodium Carbonate",
+    "formula": "Na₂CO₃",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Sodium Carbonate (Na₂CO₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sodium_carbonate.png",
+    "discovered": false
+  },
+  {
+    "id": "sodium_hydrogen_carbonate",
+    "name": "Sodium Hydrogen Carbonate",
+    "formula": "NaHCO₃",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Sodium Hydrogen Carbonate (NaHCO₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sodium_hydrogen_carbonate.png",
+    "discovered": false
+  },
+  {
+    "id": "potassium_carbonate",
+    "name": "Potassium Carbonate",
+    "formula": "K₂CO₃",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Potassium Carbonate (K₂CO₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/potassium_carbonate.png",
+    "discovered": false
+  },
+  {
+    "id": "calcium_hydrogen_carbonate",
+    "name": "Calcium Hydrogen Carbonate",
+    "formula": "Ca(HCO₃)₂",
+    "type": "compound",
+    "category": "salt",
+    "state": "aqueous",
+    "color": "colorless",
+    "rarity": "common",
+    "description": "Calcium Hydrogen Carbonate (Ca(HCO₃)₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/calcium_hydrogen_carbonate.png",
+    "discovered": false
+  },
+  {
+    "id": "magnesium_carbonate",
+    "name": "Magnesium Carbonate",
+    "formula": "MgCO₃",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Magnesium Carbonate (MgCO₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/magnesium_carbonate.png",
+    "discovered": false
+  },
+  {
+    "id": "zinc_carbonate",
+    "name": "Zinc Carbonate",
+    "formula": "ZnCO₃",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Zinc Carbonate (ZnCO₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/zinc_carbonate.png",
+    "discovered": false
+  },
+  {
+    "id": "copper_ii_carbonate",
+    "name": "Copper(II) Carbonate",
+    "formula": "CuCO₃",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "green",
+    "rarity": "common",
+    "description": "Copper(II) Carbonate (CuCO₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/copper_ii_carbonate.png",
+    "discovered": false
+  },
+  {
+    "id": "iron_ii_carbonate",
+    "name": "Iron(II) Carbonate",
+    "formula": "FeCO₃",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "pale-green",
+    "rarity": "common",
+    "description": "Iron(II) Carbonate (FeCO₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/iron_ii_carbonate.png",
+    "discovered": false
+  },
+  {
+    "id": "lead_ii_carbonate",
+    "name": "Lead(II) Carbonate",
+    "formula": "PbCO₃",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Lead(II) Carbonate (PbCO₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/lead_ii_carbonate.png",
+    "discovered": false
+  },
+  {
+    "id": "sodium_sulfite",
+    "name": "Sodium Sulfite",
+    "formula": "Na₂SO₃",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Sodium Sulfite (Na₂SO₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sodium_sulfite.png",
+    "discovered": false
+  },
+  {
+    "id": "sodium_thiosulfate",
+    "name": "Sodium Thiosulfate",
+    "formula": "Na₂S₂O₃",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Sodium Thiosulfate (Na₂S₂O₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sodium_thiosulfate.png",
+    "discovered": false
+  },
+  {
+    "id": "sodium_phosphate",
+    "name": "Trisodium Phosphate",
+    "formula": "Na₃PO₄",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Trisodium Phosphate (Na₃PO₄) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sodium_phosphate.png",
+    "discovered": false
+  },
+  {
+    "id": "calcium_phosphate",
+    "name": "Calcium Phosphate",
+    "formula": "Ca₃(PO₄)₂",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Calcium Phosphate (Ca₃(PO₄)₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/calcium_phosphate.png",
+    "discovered": false
+  },
+  {
+    "id": "ammonium_chloride",
+    "name": "Ammonium Chloride",
+    "formula": "NH₄Cl",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Ammonium Chloride (NH₄Cl) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/ammonium_chloride.png",
+    "discovered": false
+  },
+  {
+    "id": "ammonium_sulfate",
+    "name": "Ammonium Sulfate",
+    "formula": "(NH₄)₂SO₄",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Ammonium Sulfate ((NH₄)₂SO₄) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/ammonium_sulfate.png",
+    "discovered": false
+  },
+  {
+    "id": "ammonium_carbonate",
+    "name": "Ammonium Carbonate",
+    "formula": "(NH₄)₂CO₃",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Ammonium Carbonate ((NH₄)₂CO₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/ammonium_carbonate.png",
+    "discovered": false
+  },
+  {
+    "id": "copper_ii_hydroxide",
+    "name": "Copper(II) Hydroxide",
+    "formula": "Cu(OH)₂",
+    "type": "compound",
+    "category": "base",
+    "state": "solid",
+    "color": "blue",
+    "rarity": "common",
+    "description": "Copper(II) Hydroxide (Cu(OH)₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/copper_ii_hydroxide.png",
+    "discovered": false
+  },
+  {
+    "id": "iron_ii_hydroxide",
+    "name": "Iron(II) Hydroxide",
+    "formula": "Fe(OH)₂",
+    "type": "compound",
+    "category": "base",
+    "state": "solid",
+    "color": "green",
+    "rarity": "common",
+    "description": "Iron(II) Hydroxide (Fe(OH)₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/iron_ii_hydroxide.png",
+    "discovered": false
+  },
+  {
+    "id": "iron_iii_hydroxide",
+    "name": "Iron(III) Hydroxide",
+    "formula": "Fe(OH)₃",
+    "type": "compound",
+    "category": "base",
+    "state": "solid",
+    "color": "reddish-brown",
+    "rarity": "common",
+    "description": "Iron(III) Hydroxide (Fe(OH)₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/iron_iii_hydroxide.png",
+    "discovered": false
+  },
+  {
+    "id": "lead_ii_hydroxide",
+    "name": "Lead(II) Hydroxide",
+    "formula": "Pb(OH)₂",
+    "type": "compound",
+    "category": "amphoteric hydroxide",
+    "state": "solid",
+    "color": "white",
+    "rarity": "uncommon",
+    "description": "Lead(II) Hydroxide (Pb(OH)₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/lead_ii_hydroxide.png",
+    "discovered": false
+  },
+  {
+    "id": "copper_i_oxide",
+    "name": "Copper(I) Oxide",
+    "formula": "Cu₂O",
+    "type": "compound",
+    "category": "metal oxide",
+    "state": "solid",
+    "color": "red",
+    "rarity": "common",
+    "description": "Copper(I) Oxide (Cu₂O) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/copper_i_oxide.png",
+    "discovered": false
+  },
+  {
+    "id": "sodium_peroxide",
+    "name": "Sodium Peroxide",
+    "formula": "Na₂O₂",
+    "type": "compound",
+    "category": "peroxide",
+    "state": "solid",
+    "color": "pale-yellow",
+    "rarity": "uncommon",
+    "description": "Sodium Peroxide (Na₂O₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sodium_peroxide.png",
+    "discovered": false
+  },
+  {
+    "id": "hydrogen_peroxide",
+    "name": "Hydrogen Peroxide",
+    "formula": "H₂O₂",
+    "type": "compound",
+    "category": "peroxide",
+    "state": "liquid",
+    "color": "colorless",
+    "rarity": "uncommon",
+    "description": "Hydrogen Peroxide (H₂O₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/hydrogen_peroxide.png",
+    "discovered": false
+  },
+  {
+    "id": "calcium_peroxide",
+    "name": "Calcium Peroxide",
+    "formula": "CaO₂",
+    "type": "compound",
+    "category": "peroxide",
+    "state": "solid",
+    "color": "white",
+    "rarity": "uncommon",
+    "description": "Calcium Peroxide (CaO₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/calcium_peroxide.png",
+    "discovered": false
+  },
+  {
+    "id": "potassium_permanganate",
+    "name": "Potassium Permanganate",
+    "formula": "KMnO₄",
+    "type": "compound",
+    "category": "oxidizer",
+    "state": "solid",
+    "color": "purple",
+    "rarity": "uncommon",
+    "description": "Potassium Permanganate (KMnO₄) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/potassium_permanganate.png",
+    "discovered": false
+  },
+  {
+    "id": "potassium_dichromate",
+    "name": "Potassium Dichromate",
+    "formula": "K₂Cr₂O₇",
+    "type": "compound",
+    "category": "oxidizer",
+    "state": "solid",
+    "color": "orange",
+    "rarity": "uncommon",
+    "description": "Potassium Dichromate (K₂Cr₂O₇) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/potassium_dichromate.png",
+    "discovered": false
+  },
+  {
+    "id": "sodium_hypochlorite",
+    "name": "Sodium Hypochlorite",
+    "formula": "NaClO",
+    "type": "compound",
+    "category": "bleaching agent",
+    "state": "aqueous",
+    "color": "pale-yellow",
+    "rarity": "uncommon",
+    "description": "Sodium Hypochlorite (NaClO) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sodium_hypochlorite.png",
+    "discovered": false
+  },
+  {
+    "id": "bleaching_powder",
+    "name": "Bleaching Powder",
+    "formula": "CaOCl₂",
+    "type": "compound",
+    "category": "bleaching agent",
+    "state": "solid",
+    "color": "white",
+    "rarity": "uncommon",
+    "description": "Bleaching Powder (CaOCl₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/bleaching_powder.png",
+    "discovered": false
+  },
+  {
+    "id": "plaster_of_paris",
+    "name": "Plaster of Paris",
+    "formula": "CaSO₄·½H₂O",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Plaster of Paris (CaSO₄·½H₂O) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/plaster_of_paris.png",
+    "discovered": false
+  },
+  {
+    "id": "gypsum",
+    "name": "Gypsum",
+    "formula": "CaSO₄·2H₂O",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Gypsum (CaSO₄·2H₂O) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/gypsum.png",
+    "discovered": false
+  },
+  {
+    "id": "quicklime",
+    "name": "Quicklime",
+    "formula": "CaO",
+    "type": "compound",
+    "category": "oxide",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Quicklime (CaO) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/quicklime.png",
+    "discovered": false
+  },
+  {
+    "id": "slaked_lime",
+    "name": "Slaked Lime",
+    "formula": "Ca(OH)₂",
+    "type": "compound",
+    "category": "base",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Slaked Lime (Ca(OH)₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/slaked_lime.png",
+    "discovered": false
+  },
+  {
+    "id": "limewater",
+    "name": "Limewater",
+    "formula": "Ca(OH)₂(aq)",
+    "type": "compound",
+    "category": "base",
+    "state": "aqueous",
+    "color": "colorless",
+    "rarity": "common",
+    "description": "Limewater (Ca(OH)₂(aq)) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/limewater.png",
+    "discovered": false
+  },
+  {
+    "id": "baking_soda",
+    "name": "Baking Soda",
+    "formula": "NaHCO₃",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Baking Soda (NaHCO₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/baking_soda.png",
+    "discovered": false
+  },
+  {
+    "id": "washing_soda",
+    "name": "Washing Soda",
+    "formula": "Na₂CO₃·10H₂O",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Washing Soda (Na₂CO₃·10H₂O) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/washing_soda.png",
+    "discovered": false
+  },
+  {
+    "id": "common_salt",
+    "name": "Common Salt",
+    "formula": "NaCl",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Common Salt (NaCl) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/common_salt.png",
+    "discovered": false
+  },
+  {
+    "id": "methane",
+    "name": "Methane",
+    "formula": "CH₄",
+    "type": "compound",
+    "category": "hydrocarbon",
+    "state": "gas",
+    "color": "colorless",
+    "rarity": "uncommon",
+    "description": "Methane (CH₄) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/methane.png",
+    "discovered": false
+  },
+  {
+    "id": "ethane",
+    "name": "Ethane",
+    "formula": "C₂H₆",
+    "type": "compound",
+    "category": "hydrocarbon",
+    "state": "gas",
+    "color": "colorless",
+    "rarity": "uncommon",
+    "description": "Ethane (C₂H₆) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/ethane.png",
+    "discovered": false
+  },
+  {
+    "id": "propane",
+    "name": "Propane",
+    "formula": "C₃H₈",
+    "type": "compound",
+    "category": "hydrocarbon",
+    "state": "gas",
+    "color": "colorless",
+    "rarity": "uncommon",
+    "description": "Propane (C₃H₈) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/propane.png",
+    "discovered": false
+  },
+  {
+    "id": "butane",
+    "name": "Butane",
+    "formula": "C₄H₁₀",
+    "type": "compound",
+    "category": "hydrocarbon",
+    "state": "gas",
+    "color": "colorless",
+    "rarity": "uncommon",
+    "description": "Butane (C₄H₁₀) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/butane.png",
+    "discovered": false
+  },
+  {
+    "id": "ethene",
+    "name": "Ethene",
+    "formula": "C₂H₄",
+    "type": "compound",
+    "category": "alkene",
+    "state": "gas",
+    "color": "colorless",
+    "rarity": "uncommon",
+    "description": "Ethene (C₂H₄) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/ethene.png",
+    "discovered": false
+  },
+  {
+    "id": "ethyne",
+    "name": "Ethyne",
+    "formula": "C₂H₂",
+    "type": "compound",
+    "category": "alkyne",
+    "state": "gas",
+    "color": "colorless",
+    "rarity": "uncommon",
+    "description": "Ethyne (C₂H₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/ethyne.png",
+    "discovered": false
+  },
+  {
+    "id": "ethanol",
+    "name": "Ethanol",
+    "formula": "C₂H₅OH",
+    "type": "compound",
+    "category": "alcohol",
+    "state": "liquid",
+    "color": "colorless",
+    "rarity": "uncommon",
+    "description": "Ethanol (C₂H₅OH) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/ethanol.png",
+    "discovered": false
+  },
+  {
+    "id": "methanol",
+    "name": "Methanol",
+    "formula": "CH₃OH",
+    "type": "compound",
+    "category": "alcohol",
+    "state": "liquid",
+    "color": "colorless",
+    "rarity": "uncommon",
+    "description": "Methanol (CH₃OH) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/methanol.png",
+    "discovered": false
+  },
+  {
+    "id": "ethanoic_acid",
+    "name": "Ethanoic Acid",
+    "formula": "CH₃COOH",
+    "type": "compound",
+    "category": "carboxylic acid",
+    "state": "liquid",
+    "color": "colorless",
+    "rarity": "uncommon",
+    "description": "Ethanoic Acid (CH₃COOH) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/ethanoic_acid.png",
+    "discovered": false
+  },
+  {
+    "id": "glucose",
+    "name": "Glucose",
+    "formula": "C₆H₁₂O₆",
+    "type": "compound",
+    "category": "carbohydrate",
+    "state": "solid",
+    "color": "white",
+    "rarity": "uncommon",
+    "description": "Glucose (C₆H₁₂O₆) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/glucose.png",
+    "discovered": false
+  },
+  {
+    "id": "sucrose",
+    "name": "Sucrose",
+    "formula": "C₁₂H₂₂O₁₁",
+    "type": "compound",
+    "category": "carbohydrate",
+    "state": "solid",
+    "color": "white",
+    "rarity": "uncommon",
+    "description": "Sucrose (C₁₂H₂₂O₁₁) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sucrose.png",
+    "discovered": false
+  },
+  {
+    "id": "starch",
+    "name": "Starch",
+    "formula": "(C₆H₁₀O₅)n",
+    "type": "compound",
+    "category": "carbohydrate",
+    "state": "solid",
+    "color": "white",
+    "rarity": "uncommon",
+    "description": "Starch ((C₆H₁₀O₅)n) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/starch.png",
+    "discovered": false
+  },
+  {
+    "id": "urea",
+    "name": "Urea",
+    "formula": "CO(NH₂)₂",
+    "type": "compound",
+    "category": "nitrogen compound",
+    "state": "solid",
+    "color": "white",
+    "rarity": "uncommon",
+    "description": "Urea (CO(NH₂)₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/urea.png",
+    "discovered": false
+  },
+  {
+    "id": "ammonium_hydrogen_carbonate",
+    "name": "Ammonium Hydrogen Carbonate",
+    "formula": "NH₄HCO₃",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Ammonium Hydrogen Carbonate (NH₄HCO₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/ammonium_hydrogen_carbonate.png",
+    "discovered": false
+  },
+  {
+    "id": "sodium_hydrogen_sulfate",
+    "name": "Sodium Hydrogen Sulfate",
+    "formula": "NaHSO₄",
+    "type": "compound",
+    "category": "acid salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "uncommon",
+    "description": "Sodium Hydrogen Sulfate (NaHSO₄) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sodium_hydrogen_sulfate.png",
+    "discovered": false
+  },
+  {
+    "id": "potassium_hydrogen_sulfate",
+    "name": "Potassium Hydrogen Sulfate",
+    "formula": "KHSO₄",
+    "type": "compound",
+    "category": "acid salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "uncommon",
+    "description": "Potassium Hydrogen Sulfate (KHSO₄) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/potassium_hydrogen_sulfate.png",
+    "discovered": false
+  },
+  {
+    "id": "sodium_acetate",
+    "name": "Sodium Acetate",
+    "formula": "CH₃COONa",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Sodium Acetate (CH₃COONa) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sodium_acetate.png",
+    "discovered": false
+  },
+  {
+    "id": "calcium_acetate",
+    "name": "Calcium Acetate",
+    "formula": "Ca(CH₃COO)₂",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Calcium Acetate (Ca(CH₃COO)₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/calcium_acetate.png",
+    "discovered": false
+  },
+  {
+    "id": "copper_ii_acetate",
+    "name": "Copper(II) Acetate",
+    "formula": "Cu(CH₃COO)₂",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "blue-green",
+    "rarity": "common",
+    "description": "Copper(II) Acetate (Cu(CH₃COO)₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/copper_ii_acetate.png",
+    "discovered": false
+  },
+  {
+    "id": "sodium_aluminate",
+    "name": "Sodium Aluminate",
+    "formula": "NaAlO₂",
+    "type": "compound",
+    "category": "aluminate",
+    "state": "aqueous",
+    "color": "colorless",
+    "rarity": "uncommon",
+    "description": "Sodium Aluminate (NaAlO₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sodium_aluminate.png",
+    "discovered": false
+  },
+  {
+    "id": "sodium_zincate",
+    "name": "Sodium Zincate",
+    "formula": "Na₂ZnO₂",
+    "type": "compound",
+    "category": "zincate",
+    "state": "aqueous",
+    "color": "colorless",
+    "rarity": "uncommon",
+    "description": "Sodium Zincate (Na₂ZnO₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sodium_zincate.png",
+    "discovered": false
+  },
+  {
+    "id": "sodium_silicate",
+    "name": "Sodium Silicate",
+    "formula": "Na₂SiO₃",
+    "type": "compound",
+    "category": "silicate",
+    "state": "solid",
+    "color": "white",
+    "rarity": "uncommon",
+    "description": "Sodium Silicate (Na₂SiO₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sodium_silicate.png",
+    "discovered": false
+  },
+  {
+    "id": "calcium_silicate",
+    "name": "Calcium Silicate",
+    "formula": "CaSiO₃",
+    "type": "compound",
+    "category": "silicate",
+    "state": "solid",
+    "color": "white",
+    "rarity": "uncommon",
+    "description": "Calcium Silicate (CaSiO₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/calcium_silicate.png",
+    "discovered": false
+  },
+  {
+    "id": "ferrous_sulfide",
+    "name": "Iron(II) Sulfide",
+    "formula": "FeS",
+    "type": "compound",
+    "category": "sulfide",
+    "state": "solid",
+    "color": "black",
+    "rarity": "uncommon",
+    "description": "Iron(II) Sulfide (FeS) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/ferrous_sulfide.png",
+    "discovered": false
+  },
+  {
+    "id": "hydrogen_sulfide",
+    "name": "Hydrogen Sulfide",
+    "formula": "H₂S",
+    "type": "compound",
+    "category": "sulfide",
+    "state": "gas",
+    "color": "colorless",
+    "rarity": "uncommon",
+    "description": "Hydrogen Sulfide (H₂S) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/hydrogen_sulfide.png",
+    "discovered": false
+  },
+  {
+    "id": "sodium_sulfide",
+    "name": "Sodium Sulfide",
+    "formula": "Na₂S",
+    "type": "compound",
+    "category": "sulfide",
+    "state": "solid",
+    "color": "white",
+    "rarity": "uncommon",
+    "description": "Sodium Sulfide (Na₂S) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sodium_sulfide.png",
+    "discovered": false
+  },
+  {
+    "id": "zinc_sulfide",
+    "name": "Zinc Sulfide",
+    "formula": "ZnS",
+    "type": "compound",
+    "category": "sulfide",
+    "state": "solid",
+    "color": "white",
+    "rarity": "uncommon",
+    "description": "Zinc Sulfide (ZnS) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/zinc_sulfide.png",
+    "discovered": false
+  },
+  {
+    "id": "copper_ii_sulfide",
+    "name": "Copper(II) Sulfide",
+    "formula": "CuS",
+    "type": "compound",
+    "category": "sulfide",
+    "state": "solid",
+    "color": "black",
+    "rarity": "uncommon",
+    "description": "Copper(II) Sulfide (CuS) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/copper_ii_sulfide.png",
+    "discovered": false
+  },
+  {
+    "id": "lead_ii_sulfide",
+    "name": "Lead(II) Sulfide",
+    "formula": "PbS",
+    "type": "compound",
+    "category": "sulfide",
+    "state": "solid",
+    "color": "black",
+    "rarity": "uncommon",
+    "description": "Lead(II) Sulfide (PbS) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/lead_ii_sulfide.png",
+    "discovered": false
+  },
+  {
+    "id": "silver_sulfide",
+    "name": "Silver Sulfide",
+    "formula": "Ag₂S",
+    "type": "compound",
+    "category": "sulfide",
+    "state": "solid",
+    "color": "black",
+    "rarity": "uncommon",
+    "description": "Silver Sulfide (Ag₂S) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/silver_sulfide.png",
+    "discovered": false
+  },
+  {
+    "id": "sodium_oxide_hydrated",
+    "name": "Sodium Hydroxide Solution",
+    "formula": "NaOH(aq)",
+    "type": "compound",
+    "category": "base",
+    "state": "aqueous",
+    "color": "colorless",
+    "rarity": "common",
+    "description": "Sodium Hydroxide Solution (NaOH(aq)) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sodium_oxide_hydrated.png",
+    "discovered": false
+  },
+  {
+    "id": "carbonic_anhydride",
+    "name": "Carbon Dioxide",
+    "formula": "CO₂",
+    "type": "compound",
+    "category": "oxide",
+    "state": "gas",
+    "color": "colorless",
+    "rarity": "common",
+    "description": "Carbon Dioxide (CO₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/carbonic_anhydride.png",
+    "discovered": false
+  },
+  {
+    "id": "sulfuric_anhydride",
+    "name": "Sulfur Trioxide",
+    "formula": "SO₃",
+    "type": "compound",
+    "category": "oxide",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Sulfur Trioxide (SO₃) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/sulfuric_anhydride.png",
+    "discovered": false
+  },
+  {
+    "id": "nitric_oxide",
+    "name": "Nitric Oxide",
+    "formula": "NO",
+    "type": "compound",
+    "category": "oxide",
+    "state": "gas",
+    "color": "colorless",
+    "rarity": "common",
+    "description": "Nitric Oxide (NO) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/nitric_oxide.png",
+    "discovered": false
+  },
+  {
+    "id": "ammonium_sulfide",
+    "name": "Ammonium Sulfide",
+    "formula": "(NH₄)₂S",
+    "type": "compound",
+    "category": "salt",
+    "state": "aqueous",
+    "color": "colorless",
+    "rarity": "common",
+    "description": "Ammonium Sulfide ((NH₄)₂S) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/ammonium_sulfide.png",
+    "discovered": false
+  },
+  {
+    "id": "barium_chloride",
+    "name": "Barium Chloride",
+    "formula": "BaCl₂",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Barium Chloride (BaCl₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/barium_chloride.png",
+    "discovered": false
+  },
+  {
+    "id": "barium_sulfate",
+    "name": "Barium Sulfate",
+    "formula": "BaSO₄",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Barium Sulfate (BaSO₄) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/barium_sulfate.png",
+    "discovered": false
+  },
+  {
+    "id": "barium_nitrate",
+    "name": "Barium Nitrate",
+    "formula": "Ba(NO₃)₂",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Barium Nitrate (Ba(NO₃)₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/barium_nitrate.png",
+    "discovered": false
+  },
+  {
+    "id": "barium_hydroxide",
+    "name": "Barium Hydroxide",
+    "formula": "Ba(OH)₂",
+    "type": "compound",
+    "category": "base",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Barium Hydroxide (Ba(OH)₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/barium_hydroxide.png",
+    "discovered": false
+  },
+  {
+    "id": "strontium_chloride",
+    "name": "Strontium Chloride",
+    "formula": "SrCl₂",
+    "type": "compound",
+    "category": "salt",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Strontium Chloride (SrCl₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/strontium_chloride.png",
+    "discovered": false
+  },
+  {
+    "id": "strontium_hydroxide",
+    "name": "Strontium Hydroxide",
+    "formula": "Sr(OH)₂",
+    "type": "compound",
+    "category": "base",
+    "state": "solid",
+    "color": "white",
+    "rarity": "common",
+    "description": "Strontium Hydroxide (Sr(OH)₂) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/strontium_hydroxide.png",
+    "discovered": false
+  },
+  {
+    "id": "magnesium_carbonate_hydrated",
+    "name": "Basic Magnesium Carbonate",
+    "formula": "MgCO₃·xH₂O",
+    "type": "compound",
+    "category": "carbonate",
+    "state": "solid",
+    "color": "white",
+    "rarity": "uncommon",
+    "description": "Basic Magnesium Carbonate (MgCO₃·xH₂O) used as an educational chemistry-game substance.",
+    "uses": [
+      "Chemistry study",
+      "Laboratory/industrial applications"
+    ],
+    "image": "assets/compounds/magnesium_carbonate_hydrated.png",
+    "discovered": false
+  }
+]
