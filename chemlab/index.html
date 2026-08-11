@@ -240,6 +240,133 @@
 
     <script src="game.js"></script>
 
+<script>
+document.addEventListener("DOMContentLoaded", async function () {
+
+    const inventory =
+        document.getElementById("compound-list");
+
+    if (!inventory) return;
+
+    try {
+
+        const response =
+            await fetch("compounds.json?v=" + Date.now());
+
+        if (!response.ok) {
+            throw new Error(
+                "compounds.json could not be loaded"
+            );
+        }
+
+        const data =
+            await response.json();
+
+        const compounds =
+            Array.isArray(data)
+                ? data
+                : data.compounds || [];
+
+        const allowed = new Set([
+            "H","Li","Be","B","C","N","O","F",
+            "Na","Mg","Al","Si","P","S","Cl",
+            "K","Ca","Ti","Fe","Co","Ni","Cu",
+            "Zn","Ga","Br","Au","I","Cs","Ba",
+            "Hg","Pb","Sn"
+        ]);
+
+        inventory.innerHTML = "";
+
+        let count = 0;
+
+        compounds.forEach(function (compound) {
+
+            const formula =
+                String(
+                    compound.formula || ""
+                ).trim();
+
+            const isElement =
+                allowed.has(formula);
+
+            if (!isElement) return;
+
+            const button =
+                document.createElement("button");
+
+            button.type = "button";
+
+            button.style.display = "flex";
+            button.style.flexDirection = "column";
+            button.style.width = "100%";
+            button.style.marginBottom = "8px";
+            button.style.padding = "12px";
+            button.style.cursor = "pointer";
+
+            button.innerHTML =
+                "<strong>" +
+                formula +
+                "</strong>" +
+                "<span>" +
+                (compound.name || "") +
+                "</span>";
+
+            button.onclick = function () {
+
+                if (
+                    window.Game &&
+                    Array.isArray(
+                        Game.selectedReactants
+                    )
+                ) {
+
+                    Game.selectedReactants.push(
+                        String(compound.id)
+                    );
+
+                    if (
+                        typeof renderReactants ===
+                        "function"
+                    ) {
+                        renderReactants();
+                    }
+
+                }
+
+            };
+
+            inventory.appendChild(button);
+
+            count++;
+        });
+
+        if (count === 0) {
+
+            inventory.innerHTML =
+                "<p>NO ELEMENTS FOUND</p>";
+
+        } else {
+
+            console.log(
+                "FALLBACK INVENTORY LOADED:",
+                count
+            );
+
+        }
+
+    } catch (error) {
+
+        console.error(
+            "Inventory fallback failed:",
+            error
+        );
+
+        inventory.innerHTML =
+            "<p>Could not load chemistry database.</p>";
+    }
+
+});
+</script>
 </body>
 
 </html>
