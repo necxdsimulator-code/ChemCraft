@@ -1054,49 +1054,92 @@ function refreshUI() {
 /* =========================================
    START
 ========================================= */
-
 async function startChemCraft() {
 
     try {
 
-        console.log(
-            "Starting ChemCraft..."
-        );
+        console.log("Starting ChemCraft...");
+
+        /*
+         * STEP 1
+         * Load ONLY compounds first.
+         */
+        const compoundsData =
+            await loadJSON("compounds.json");
+
+        Game.compounds =
+            Array.isArray(compoundsData)
+                ? compoundsData
+                : compoundsData.compounds || [];
 
 
-        await loadDatabase();
+        /*
+         * Build the compound lookup table.
+         */
+        Game.compoundMap.clear();
+
+        for (
+            const compound
+            of Game.compounds
+        ) {
+
+            if (
+                compound &&
+                compound.id
+            ) {
+
+                Game.compoundMap.set(
+                    String(compound.id),
+                    compound
+                );
+            }
+        }
 
 
+        /*
+         * STEP 2
+         * Load the saved inventory.
+         *
+         * At this point we already have
+         * compounds.json, so the 32 elements
+         * can be displayed.
+         */
         loadSave();
 
 
-        Game.initialized =
-            true;
+        /*
+         * STEP 3
+         * Mark the game as usable.
+         */
+        Game.initialized = true;
 
 
+        /*
+         * Set up the interface.
+         */
         setupSearch();
 
 
-        const react =
+        const reactButton =
             document.getElementById(
                 "react-button"
             );
 
-        if (react) {
+        if (reactButton) {
 
-            react.onclick =
+            reactButton.onclick =
                 performReaction;
         }
 
 
-        const clear =
+        const clearButton =
             document.getElementById(
                 "clear-button"
             );
 
-        if (clear) {
+        if (clearButton) {
 
-            clear.onclick =
+            clearButton.onclick =
                 function () {
 
                     Game.selectedReactants =
@@ -1107,37 +1150,29 @@ async function startChemCraft() {
         }
 
 
-        const reset =
+        const resetButton =
             document.getElementById(
                 "reset-button"
             );
 
-        if (reset) {
+        if (resetButton) {
 
-            reset.onclick =
+            resetButton.onclick =
                 resetGame;
         }
 
 
+        /*
+         * STEP 4
+         * SHOW THE INVENTORY NOW.
+         *
+         * We do NOT wait for reactions.json.
+         */
         refreshUI();
 
 
         console.log(
-            "=========================="
-        );
-
-        console.log(
-            "CHEMCRAFT READY"
-        );
-
-        console.log(
-            "Compounds:",
-            Game.compounds.length
-        );
-
-        console.log(
-            "Reactions:",
-            Game.reactions.length
+            "Inventory displayed!"
         );
 
         console.log(
@@ -1145,20 +1180,56 @@ async function startChemCraft() {
             getStartingElements().length
         );
 
-        console.log(
-            "Inventory:",
-            Game.discoveredCompounds.size
-        );
 
-        console.log(
-            "=========================="
-        );
+        /*
+         * STEP 5
+         * NOW load reactions in the background.
+         *
+         * The user can already see the inventory
+         * while this is happening.
+         */
+        loadJSON("reactions.json")
+            .then(function (reactionsData) {
+
+                Game.reactions =
+                    Array.isArray(reactionsData)
+                        ? reactionsData
+                        : reactionsData.reactions || [];
+
+
+                console.log(
+                    "Reactions loaded:",
+                    Game.reactions.length
+                );
+
+
+                updateStats();
+
+
+                showMessage(
+                    "Chemistry database ready!"
+                );
+
+            })
+            .catch(function (error) {
+
+                console.error(
+                    "Could not load reactions:",
+                    error
+                );
+
+                showMessage(
+                    "Inventory ready. Reactions are still loading."
+                );
+            });
+
 
     }
 
     catch (error) {
 
         console.error(
+            "ChemCraft startup error:",
             error
         );
 
@@ -1179,11 +1250,10 @@ async function startChemCraft() {
 
 
         showMessage(
-            "Database loading failed."
+            "Could not load chemistry database."
         );
     }
 }
-
 
 /* =========================================
    SECURITY
