@@ -1,0 +1,48 @@
+{
+  "elements": [
+    "metal",
+    "nonmetal",
+    "metalloid",
+    "halogen",
+    "alkali metal",
+    "alkaline earth metal"
+  ],
+  "compounds": [
+    "acid",
+    "base",
+    "salt",
+    "oxide",
+    "carbonate",
+    "sulfide",
+    "hydrocarbon",
+    "alcohol",
+    "carbohydrate",
+    "amphoteric oxide",
+    "amphoteric hydroxide"
+  ],
+  "reaction_types": [
+    "acid_base",
+    "acid_carbonate",
+    "acid_sulfide",
+    "addition",
+    "amphoteric",
+    "combination",
+    "combustion",
+    "decomposition",
+    "dehydration",
+    "double_displacement",
+    "electrolysis",
+    "gas_evolution",
+    "halogen_displacement",
+    "hydration",
+    "hydrolysis",
+    "neutralization",
+    "no_reaction",
+    "oxidation",
+    "precipitation",
+    "redox",
+    "single_displacement",
+    "thermal_decomposition",
+    "thermite_redox"
+  ]
+}

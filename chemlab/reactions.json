@@ -1,0 +1,7812 @@
+[
+  {
+    "id": "h2_o2",
+    "reactants": [
+      {
+        "compound": "hydrogen",
+        "coefficient": 2
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "2H₂ + O₂ → 2H₂O",
+    "reaction_type": "combination",
+    "conditions": [
+      "ignition"
+    ],
+    "observation": "Hydrogen burns in oxygen.",
+    "explanation": "Hydrogen combines with oxygen to form water.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "combustion"
+  },
+  {
+    "id": "sodium_water",
+    "reactants": [
+      {
+        "compound": "sodium",
+        "coefficient": 2
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 2
+      },
+      {
+        "compound": "hydrogen",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "2Na + 2H₂O → 2NaOH + H₂",
+    "reaction_type": "single_displacement",
+    "conditions": [],
+    "observation": "Hydrogen gas and heat are produced.",
+    "explanation": "Sodium displaces hydrogen from water.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "gas_heat"
+  },
+  {
+    "id": "potassium_water",
+    "reactants": [
+      {
+        "compound": "potassium",
+        "coefficient": 2
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "potassium_hydroxide",
+        "coefficient": 2
+      },
+      {
+        "compound": "hydrogen",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "2K + 2H₂O → 2KOH + H₂",
+    "reaction_type": "single_displacement",
+    "conditions": [],
+    "observation": "Hydrogen gas and heat are produced.",
+    "explanation": "Potassium displaces hydrogen from water.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "gas_heat"
+  },
+  {
+    "id": "calcium_water",
+    "reactants": [
+      {
+        "compound": "calcium",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "calcium_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrogen",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Ca + 2H₂O → Ca(OH)₂ + H₂",
+    "reaction_type": "single_displacement",
+    "conditions": [],
+    "observation": "Hydrogen bubbles form.",
+    "explanation": "Calcium reacts with water to form calcium hydroxide and hydrogen.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "gas"
+  },
+  {
+    "id": "magnesium_water",
+    "reactants": [
+      {
+        "compound": "magnesium",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "magnesium_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrogen",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Mg + H₂O → MgO + H₂",
+    "reaction_type": "single_displacement",
+    "conditions": [
+      "steam"
+    ],
+    "observation": "Hydrogen is released with steam.",
+    "explanation": "Hot magnesium can react with steam.",
+    "xp": 20,
+    "difficulty": 2,
+    "animation": "steam"
+  },
+  {
+    "id": "magnesium_oxygen",
+    "reactants": [
+      {
+        "compound": "magnesium",
+        "coefficient": 2
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "magnesium_oxide",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "2Mg + O₂ → 2MgO",
+    "reaction_type": "combination",
+    "conditions": [
+      "ignition"
+    ],
+    "observation": "Bright white light is produced.",
+    "explanation": "Magnesium combines with oxygen to form magnesium oxide.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "flash"
+  },
+  {
+    "id": "calcium_oxygen",
+    "reactants": [
+      {
+        "compound": "calcium",
+        "coefficient": 2
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "calcium_oxide",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "2Ca + O₂ → 2CaO",
+    "reaction_type": "combination",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "A metal oxide forms.",
+    "explanation": "Calcium reacts with oxygen.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "sodium_oxygen",
+    "reactants": [
+      {
+        "compound": "sodium",
+        "coefficient": 4
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_oxide",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "4Na + O₂ → 2Na₂O",
+    "reaction_type": "combination",
+    "conditions": [
+      "oxygen"
+    ],
+    "observation": "Sodium forms an oxide.",
+    "explanation": "Sodium combines with oxygen.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "carbon_oxygen",
+    "reactants": [
+      {
+        "compound": "carbon",
+        "coefficient": 1
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "C + O₂ → CO₂",
+    "reaction_type": "combination",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Carbon dioxide is produced.",
+    "explanation": "Complete combustion of carbon forms carbon dioxide.",
+    "xp": 15,
+    "difficulty": 1,
+    "animation": "combustion"
+  },
+  {
+    "id": "carbon_limited_oxygen",
+    "reactants": [
+      {
+        "compound": "carbon",
+        "coefficient": 2
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "carbon_monoxide",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "2C + O₂ → 2CO",
+    "reaction_type": "combination",
+    "conditions": [
+      "limited oxygen"
+    ],
+    "observation": "Carbon monoxide forms.",
+    "explanation": "Incomplete combustion of carbon.",
+    "xp": 20,
+    "difficulty": 2,
+    "animation": "combustion"
+  },
+  {
+    "id": "sulfur_oxygen",
+    "reactants": [
+      {
+        "compound": "sulfur",
+        "coefficient": 1
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "sulfur_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "S + O₂ → SO₂",
+    "reaction_type": "combination",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "A pungent gas forms.",
+    "explanation": "Sulfur burns in oxygen to form sulfur dioxide.",
+    "xp": 15,
+    "difficulty": 1,
+    "animation": "combustion"
+  },
+  {
+    "id": "sulfur_trioxide",
+    "reactants": [
+      {
+        "compound": "sulfur_dioxide",
+        "coefficient": 2
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "sulfur_trioxide",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "2SO₂ + O₂ → 2SO₃",
+    "reaction_type": "combination",
+    "conditions": [
+      "catalyst",
+      "heat"
+    ],
+    "observation": "Sulfur trioxide forms.",
+    "explanation": "Sulfur dioxide is oxidized to sulfur trioxide.",
+    "xp": 25,
+    "difficulty": 3,
+    "animation": "reaction"
+  },
+  {
+    "id": "hydrogen_chlorine",
+    "reactants": [
+      {
+        "compound": "hydrogen",
+        "coefficient": 1
+      },
+      {
+        "compound": "chlorine",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "hydrogen_chloride",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "H₂ + Cl₂ → 2HCl",
+    "reaction_type": "combination",
+    "conditions": [
+      "light"
+    ],
+    "observation": "Hydrogen chloride forms.",
+    "explanation": "Hydrogen combines with chlorine.",
+    "xp": 20,
+    "difficulty": 2,
+    "animation": "flash"
+  },
+  {
+    "id": "sodium_chlorine",
+    "reactants": [
+      {
+        "compound": "sodium",
+        "coefficient": 2
+      },
+      {
+        "compound": "chlorine",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_chloride",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "2Na + Cl₂ → 2NaCl",
+    "reaction_type": "combination",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "A white ionic solid forms.",
+    "explanation": "Sodium combines with chlorine.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "flash"
+  },
+  {
+    "id": "iron_sulfur",
+    "reactants": [
+      {
+        "compound": "iron",
+        "coefficient": 1
+      },
+      {
+        "compound": "sulfur",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "ferrous_sulfide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Fe + S → FeS",
+    "reaction_type": "combination",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "A black solid forms.",
+    "explanation": "Iron combines with sulfur to form iron(II) sulfide.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "heat"
+  },
+  {
+    "id": "zinc_sulfur",
+    "reactants": [
+      {
+        "compound": "zinc",
+        "coefficient": 1
+      },
+      {
+        "compound": "sulfur",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "zinc_sulfide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Zn + S → ZnS",
+    "reaction_type": "combination",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Zinc sulfide forms.",
+    "explanation": "Zinc combines with sulfur.",
+    "xp": 20,
+    "difficulty": 2,
+    "animation": "reaction"
+  },
+  {
+    "id": "iron_oxygen",
+    "reactants": [
+      {
+        "compound": "iron",
+        "coefficient": 4
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "compound": "iron_iii_oxide",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "4Fe + 3O₂ → 2Fe₂O₃",
+    "reaction_type": "combination",
+    "conditions": [
+      "oxygen",
+      "heat"
+    ],
+    "observation": "Iron oxide forms.",
+    "explanation": "Iron reacts with oxygen.",
+    "xp": 20,
+    "difficulty": 2,
+    "animation": "reaction"
+  },
+  {
+    "id": "copper_oxygen",
+    "reactants": [
+      {
+        "compound": "copper",
+        "coefficient": 2
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "copper_ii_oxide",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "2Cu + O₂ → 2CuO",
+    "reaction_type": "combination",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "A black coating forms.",
+    "explanation": "Copper is oxidized to copper(II) oxide.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "lead_oxygen",
+    "reactants": [
+      {
+        "compound": "lead",
+        "coefficient": 2
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "lead_ii_oxide",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "2Pb + O₂ → 2PbO",
+    "reaction_type": "combination",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Lead oxide forms.",
+    "explanation": "Lead reacts with oxygen.",
+    "xp": 20,
+    "difficulty": 2,
+    "animation": "reaction"
+  },
+  {
+    "id": "zinc_hcl",
+    "reactants": [
+      {
+        "compound": "zinc",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "zinc_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrogen",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Zn + 2HCl → ZnCl₂ + H₂",
+    "reaction_type": "single_displacement",
+    "conditions": [],
+    "observation": "Bubbles of hydrogen appear.",
+    "explanation": "Zinc displaces hydrogen from hydrochloric acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "gas"
+  },
+  {
+    "id": "iron_hcl",
+    "reactants": [
+      {
+        "compound": "iron",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "iron_ii_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrogen",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Fe + 2HCl → FeCl₂ + H₂",
+    "reaction_type": "single_displacement",
+    "conditions": [],
+    "observation": "Hydrogen is evolved.",
+    "explanation": "Iron displaces hydrogen from hydrochloric acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "gas"
+  },
+  {
+    "id": "magnesium_hcl",
+    "reactants": [
+      {
+        "compound": "magnesium",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "magnesium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrogen",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Mg + 2HCl → MgCl₂ + H₂",
+    "reaction_type": "single_displacement",
+    "conditions": [],
+    "observation": "Rapid effervescence occurs.",
+    "explanation": "Magnesium displaces hydrogen from hydrochloric acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "gas"
+  },
+  {
+    "id": "calcium_hcl",
+    "reactants": [
+      {
+        "compound": "calcium",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "calcium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrogen",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Ca + 2HCl → CaCl₂ + H₂",
+    "reaction_type": "single_displacement",
+    "conditions": [],
+    "observation": "Hydrogen gas evolves.",
+    "explanation": "Calcium displaces hydrogen.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "gas"
+  },
+  {
+    "id": "aluminium_hcl",
+    "reactants": [
+      {
+        "compound": "aluminium",
+        "coefficient": 2
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 6
+      }
+    ],
+    "products": [
+      {
+        "compound": "aluminium_chloride",
+        "coefficient": 2
+      },
+      {
+        "compound": "hydrogen",
+        "coefficient": 3
+      }
+    ],
+    "balanced_equation": "2Al + 6HCl → 2AlCl₃ + 3H₂",
+    "reaction_type": "single_displacement",
+    "conditions": [
+      "remove oxide layer"
+    ],
+    "observation": "Hydrogen is released.",
+    "explanation": "Aluminium can displace hydrogen after its oxide layer is removed.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "gas"
+  },
+  {
+    "id": "copper_hcl",
+    "reactants": [
+      {
+        "compound": "copper",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "copper",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Cu + HCl → no reaction",
+    "reaction_type": "no_reaction",
+    "conditions": [],
+    "observation": "No significant reaction under ordinary conditions.",
+    "explanation": "Copper is below hydrogen in the activity series.",
+    "xp": 5,
+    "difficulty": 1,
+    "animation": "none"
+  },
+  {
+    "id": "zinc_cuso4",
+    "reactants": [
+      {
+        "compound": "zinc",
+        "coefficient": 1
+      },
+      {
+        "compound": "copper_ii_sulfate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "zinc_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "copper",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Zn + CuSO₄ → ZnSO₄ + Cu",
+    "reaction_type": "single_displacement",
+    "conditions": [],
+    "observation": "Copper is deposited and blue solution fades.",
+    "explanation": "Zinc displaces copper from copper sulfate.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "precipitate"
+  },
+  {
+    "id": "iron_cuso4",
+    "reactants": [
+      {
+        "compound": "iron",
+        "coefficient": 1
+      },
+      {
+        "compound": "copper_ii_sulfate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "iron_ii_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "copper",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Fe + CuSO₄ → FeSO₄ + Cu",
+    "reaction_type": "single_displacement",
+    "conditions": [],
+    "observation": "Copper deposits and the solution becomes greenish.",
+    "explanation": "Iron displaces copper.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "precipitate"
+  },
+  {
+    "id": "magnesium_cuso4",
+    "reactants": [
+      {
+        "compound": "magnesium",
+        "coefficient": 1
+      },
+      {
+        "compound": "copper_ii_sulfate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "magnesium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "copper",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Mg + CuSO₄ → MgSO₄ + Cu",
+    "reaction_type": "single_displacement",
+    "conditions": [],
+    "observation": "Copper deposits.",
+    "explanation": "Magnesium displaces copper.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "precipitate"
+  },
+  {
+    "id": "copper_agno3",
+    "reactants": [
+      {
+        "compound": "copper",
+        "coefficient": 1
+      },
+      {
+        "compound": "silver_nitrate",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "copper_ii_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "silver",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "Cu + 2AgNO₃ → Cu(NO₃)₂ + 2Ag",
+    "reaction_type": "single_displacement",
+    "conditions": [],
+    "observation": "Silver crystals form and solution turns blue.",
+    "explanation": "Copper displaces silver.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "crystal"
+  },
+  {
+    "id": "zn_agno3",
+    "reactants": [
+      {
+        "compound": "zinc",
+        "coefficient": 1
+      },
+      {
+        "compound": "silver_nitrate",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "zinc_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "silver",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "Zn + 2AgNO₃ → Zn(NO₃)₂ + 2Ag",
+    "reaction_type": "single_displacement",
+    "conditions": [],
+    "observation": "Silver deposits.",
+    "explanation": "Zinc displaces silver.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "crystal"
+  },
+  {
+    "id": "naoh_hcl",
+    "reactants": [
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "NaOH + HCl → NaCl + H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Heat may be released.",
+    "explanation": "An acid and base neutralize to form salt and water.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "neutralization"
+  },
+  {
+    "id": "koh_hcl",
+    "reactants": [
+      {
+        "compound": "potassium_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "potassium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "KOH + HCl → KCl + H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Heat may be released.",
+    "explanation": "Potassium hydroxide neutralizes hydrochloric acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "caoh2_hcl",
+    "reactants": [
+      {
+        "compound": "calcium_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "calcium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "Ca(OH)₂ + 2HCl → CaCl₂ + 2H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Neutralization occurs.",
+    "explanation": "Calcium hydroxide reacts with hydrochloric acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "mgoh2_hcl",
+    "reactants": [
+      {
+        "compound": "magnesium_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "magnesium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "Mg(OH)₂ + 2HCl → MgCl₂ + 2H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Neutralization occurs.",
+    "explanation": "Magnesium hydroxide reacts with hydrochloric acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "nh3_hcl",
+    "reactants": [
+      {
+        "compound": "ammonia",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrogen_chloride",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "ammonium_chloride",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "NH₃ + HCl → NH₄Cl",
+    "reaction_type": "acid_base",
+    "conditions": [],
+    "observation": "White fumes may appear.",
+    "explanation": "Ammonia and hydrogen chloride form ammonium chloride.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "smoke"
+  },
+  {
+    "id": "co2_caoh2",
+    "reactants": [
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "calcium_hydroxide_aq",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "calcium_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CO₂ + Ca(OH)₂ → CaCO₃ + H₂O",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "Limewater turns milky.",
+    "explanation": "Carbon dioxide reacts with limewater to form calcium carbonate.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "precipitate"
+  },
+  {
+    "id": "excess_co2_lime",
+    "reactants": [
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 2
+      },
+      {
+        "compound": "calcium_hydroxide_aq",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "calcium_hydrogen_carbonate",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "2CO₂ + Ca(OH)₂ → Ca(HCO₃)₂",
+    "reaction_type": "acid_base",
+    "conditions": [
+      "excess CO₂"
+    ],
+    "observation": "The milky appearance can clear.",
+    "explanation": "Excess carbon dioxide converts carbonate to soluble hydrogen carbonate.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "reaction"
+  },
+  {
+    "id": "na2co3_hcl",
+    "reactants": [
+      {
+        "compound": "sodium_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_chloride",
+        "coefficient": 2
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Na₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂",
+    "reaction_type": "acid_carbonate",
+    "conditions": [],
+    "observation": "Effervescence releases carbon dioxide.",
+    "explanation": "Carbonate reacts with acid to form salt, water and carbon dioxide.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "bubbles"
+  },
+  {
+    "id": "nahco3_hcl",
+    "reactants": [
+      {
+        "compound": "sodium_hydrogen_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "NaHCO₃ + HCl → NaCl + H₂O + CO₂",
+    "reaction_type": "acid_carbonate",
+    "conditions": [],
+    "observation": "Strong fizzing occurs.",
+    "explanation": "Hydrogen carbonate reacts with acid to release carbon dioxide.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "bubbles"
+  },
+  {
+    "id": "caco3_hcl",
+    "reactants": [
+      {
+        "compound": "calcium_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "calcium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂",
+    "reaction_type": "acid_carbonate",
+    "conditions": [],
+    "observation": "Effervescence occurs.",
+    "explanation": "Calcium carbonate reacts with hydrochloric acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "bubbles"
+  },
+  {
+    "id": "mgco3_hcl",
+    "reactants": [
+      {
+        "compound": "magnesium_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "magnesium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "MgCO₃ + 2HCl → MgCl₂ + H₂O + CO₂",
+    "reaction_type": "acid_carbonate",
+    "conditions": [],
+    "observation": "Carbon dioxide bubbles evolve.",
+    "explanation": "Magnesium carbonate reacts with acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "bubbles"
+  },
+  {
+    "id": "znco3_hcl",
+    "reactants": [
+      {
+        "compound": "zinc_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "zinc_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "ZnCO₃ + 2HCl → ZnCl₂ + H₂O + CO₂",
+    "reaction_type": "acid_carbonate",
+    "conditions": [],
+    "observation": "Effervescence occurs.",
+    "explanation": "Zinc carbonate reacts with acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "bubbles"
+  },
+  {
+    "id": "cuso4_naoh",
+    "reactants": [
+      {
+        "compound": "copper_ii_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "copper_ii_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_sulfate",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CuSO₄ + 2NaOH → Cu(OH)₂ + Na₂SO₄",
+    "reaction_type": "double_displacement",
+    "conditions": [],
+    "observation": "A blue precipitate forms.",
+    "explanation": "Copper(II) hydroxide precipitates.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "precipitate"
+  },
+  {
+    "id": "fecl3_naoh",
+    "reactants": [
+      {
+        "compound": "iron_iii_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "compound": "iron_iii_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_chloride",
+        "coefficient": 3
+      }
+    ],
+    "balanced_equation": "FeCl₃ + 3NaOH → Fe(OH)₃ + 3NaCl",
+    "reaction_type": "double_displacement",
+    "conditions": [],
+    "observation": "A reddish-brown precipitate forms.",
+    "explanation": "Iron(III) hydroxide precipitates.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "precipitate"
+  },
+  {
+    "id": "fecl2_naoh",
+    "reactants": [
+      {
+        "compound": "iron_ii_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "iron_ii_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_chloride",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "FeCl₂ + 2NaOH → Fe(OH)₂ + 2NaCl",
+    "reaction_type": "double_displacement",
+    "conditions": [],
+    "observation": "A green precipitate forms.",
+    "explanation": "Iron(II) hydroxide precipitates.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "precipitate"
+  },
+  {
+    "id": "zncl2_naoh",
+    "reactants": [
+      {
+        "compound": "zinc_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "zinc_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_chloride",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "ZnCl₂ + 2NaOH → Zn(OH)₂ + 2NaCl",
+    "reaction_type": "double_displacement",
+    "conditions": [],
+    "observation": "A white precipitate forms.",
+    "explanation": "Zinc hydroxide precipitates.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "precipitate"
+  },
+  {
+    "id": "alcl3_naoh",
+    "reactants": [
+      {
+        "compound": "aluminium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "compound": "aluminium_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_chloride",
+        "coefficient": 3
+      }
+    ],
+    "balanced_equation": "AlCl₃ + 3NaOH → Al(OH)₃ + 3NaCl",
+    "reaction_type": "double_displacement",
+    "conditions": [],
+    "observation": "A white precipitate forms.",
+    "explanation": "Aluminium hydroxide precipitates.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "precipitate"
+  },
+  {
+    "id": "pbno3_naoh",
+    "reactants": [
+      {
+        "compound": "lead_ii_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "lead_ii_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_nitrate",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "Pb(NO₃)₂ + 2NaOH → Pb(OH)₂ + 2NaNO₃",
+    "reaction_type": "double_displacement",
+    "conditions": [],
+    "observation": "A white precipitate forms.",
+    "explanation": "Lead(II) hydroxide precipitates.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "agno3_nacl",
+    "reactants": [
+      {
+        "compound": "silver_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_chloride",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "silver_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_nitrate",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "AgNO₃ + NaCl → AgCl + NaNO₃",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A white precipitate forms.",
+    "explanation": "Silver chloride is insoluble.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "precipitate"
+  },
+  {
+    "id": "agno3_kbr",
+    "reactants": [
+      {
+        "compound": "silver_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_bromide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "silver_bromide",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_nitrate",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "AgNO₃ + KBr → AgBr + KNO₃",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A pale-yellow precipitate forms.",
+    "explanation": "Silver bromide precipitates.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "precipitate"
+  },
+  {
+    "id": "agno3_ki",
+    "reactants": [
+      {
+        "compound": "silver_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_iodide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "silver_iodide",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_nitrate",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "AgNO₃ + KI → AgI + KNO₃",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A yellow precipitate forms.",
+    "explanation": "Silver iodide precipitates.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "precipitate"
+  },
+  {
+    "id": "bacl2_na2so4",
+    "reactants": [
+      {
+        "compound": "barium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_sulfate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "barium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_chloride",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "BaCl₂ + Na₂SO₄ → BaSO₄ + 2NaCl",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A white precipitate forms.",
+    "explanation": "Barium sulfate is insoluble.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "precipitate"
+  },
+  {
+    "id": "caco3_heat",
+    "reactants": [
+      {
+        "compound": "calcium_carbonate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "calcium_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CaCO₃ → CaO + CO₂",
+    "reaction_type": "thermal_decomposition",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Gas is released.",
+    "explanation": "Heating calcium carbonate decomposes it.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "heat"
+  },
+  {
+    "id": "nahco3_heat",
+    "reactants": [
+      {
+        "compound": "sodium_hydrogen_carbonate",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "2NaHCO₃ → Na₂CO₃ + H₂O + CO₂",
+    "reaction_type": "thermal_decomposition",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Carbon dioxide and water vapor are released.",
+    "explanation": "Baking soda decomposes on heating.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "bubbles"
+  },
+  {
+    "id": "cuco3_heat",
+    "reactants": [
+      {
+        "compound": "copper_ii_carbonate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "copper_ii_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CuCO₃ → CuO + CO₂",
+    "reaction_type": "thermal_decomposition",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Green solid turns black and gas evolves.",
+    "explanation": "Copper carbonate decomposes to copper oxide and carbon dioxide.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "heat"
+  },
+  {
+    "id": "mgco3_heat",
+    "reactants": [
+      {
+        "compound": "magnesium_carbonate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "magnesium_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "MgCO₃ → MgO + CO₂",
+    "reaction_type": "thermal_decomposition",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Carbon dioxide is released.",
+    "explanation": "Magnesium carbonate decomposes on heating.",
+    "xp": 20,
+    "difficulty": 2,
+    "animation": "heat"
+  },
+  {
+    "id": "cuso4_heat",
+    "reactants": [
+      {
+        "compound": "copper_ii_sulfate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "copper_ii_sulfate",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CuSO₄·5H₂O → CuSO₄ + 5H₂O",
+    "reaction_type": "dehydration",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Blue crystals lose water and become white.",
+    "explanation": "Hydrated copper sulfate loses water on heating.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "crystal"
+  },
+  {
+    "id": "h2o2_decompose",
+    "reactants": [
+      {
+        "compound": "hydrogen_peroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "water",
+        "coefficient": 2
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "2H₂O₂ → 2H₂O + O₂",
+    "reaction_type": "decomposition",
+    "conditions": [
+      "catalyst"
+    ],
+    "observation": "Oxygen bubbles are released.",
+    "explanation": "Hydrogen peroxide decomposes into water and oxygen.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "bubbles"
+  },
+  {
+    "id": "electrolysis_water",
+    "reactants": [
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "hydrogen",
+        "coefficient": 2
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "2H₂O → 2H₂ + O₂",
+    "reaction_type": "electrolysis",
+    "conditions": [
+      "electricity"
+    ],
+    "observation": "Hydrogen and oxygen gases form at electrodes.",
+    "explanation": "Electricity decomposes water.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "electricity"
+  },
+  {
+    "id": "electrolysis_nacl",
+    "reactants": [
+      {
+        "compound": "sodium_chloride",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium",
+        "coefficient": 1
+      },
+      {
+        "compound": "chlorine",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "2NaCl → 2Na + Cl₂",
+    "reaction_type": "electrolysis",
+    "conditions": [
+      "electricity",
+      "molten"
+    ],
+    "observation": "Chlorine is evolved at the anode and sodium forms at the cathode.",
+    "explanation": "Molten sodium chloride undergoes electrolysis.",
+    "xp": 35,
+    "difficulty": 4,
+    "animation": "electricity"
+  },
+  {
+    "id": "co2_naoh",
+    "reactants": [
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CO₂ + 2NaOH → Na₂CO₃ + H₂O",
+    "reaction_type": "acid_base",
+    "conditions": [],
+    "observation": "Carbon dioxide is absorbed.",
+    "explanation": "Carbon dioxide reacts with sodium hydroxide.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "co2_naoh_excess",
+    "reactants": [
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_hydrogen_carbonate",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CO₂ + NaOH → NaHCO₃",
+    "reaction_type": "acid_base",
+    "conditions": [
+      "excess CO₂"
+    ],
+    "observation": "Hydrogen carbonate forms.",
+    "explanation": "Carbon dioxide reacts with one equivalent of sodium hydroxide.",
+    "xp": 20,
+    "difficulty": 2,
+    "animation": "reaction"
+  },
+  {
+    "id": "so2_naoh",
+    "reactants": [
+      {
+        "compound": "sulfur_dioxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_sulfite",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "SO₂ + 2NaOH → Na₂SO₃ + H₂O",
+    "reaction_type": "acid_base",
+    "conditions": [],
+    "observation": "Sulfur dioxide is absorbed.",
+    "explanation": "Sulfur dioxide reacts with sodium hydroxide.",
+    "xp": 20,
+    "difficulty": 2,
+    "animation": "reaction"
+  },
+  {
+    "id": "so3_water",
+    "reactants": [
+      {
+        "compound": "sulfur_trioxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "SO₃ + H₂O → H₂SO₄",
+    "reaction_type": "combination",
+    "conditions": [],
+    "observation": "Heat is released.",
+    "explanation": "Sulfur trioxide hydrates to sulfuric acid.",
+    "xp": 20,
+    "difficulty": 2,
+    "animation": "reaction"
+  },
+  {
+    "id": "co2_water",
+    "reactants": [
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "carbonic_acid",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CO₂ + H₂O ⇌ H₂CO₃",
+    "reaction_type": "combination",
+    "conditions": [],
+    "observation": "A weak acid forms in solution.",
+    "explanation": "Carbon dioxide dissolves to form carbonic acid.",
+    "xp": 15,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "so2_water",
+    "reactants": [
+      {
+        "compound": "sulfur_dioxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "sulfurous_acid",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "SO₂ + H₂O ⇌ H₂SO₃",
+    "reaction_type": "combination",
+    "conditions": [],
+    "observation": "An acidic solution forms.",
+    "explanation": "Sulfur dioxide dissolves to form sulfurous acid.",
+    "xp": 15,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "nh3_water",
+    "reactants": [
+      {
+        "compound": "ammonia",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "ammonium_hydroxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "NH₃ + H₂O ⇌ NH₄OH",
+    "reaction_type": "acid_base",
+    "conditions": [],
+    "observation": "An alkaline solution forms.",
+    "explanation": "Ammonia reacts reversibly with water.",
+    "xp": 15,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "caoxide_water",
+    "reactants": [
+      {
+        "compound": "calcium_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "calcium_hydroxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CaO + H₂O → Ca(OH)₂",
+    "reaction_type": "combination",
+    "conditions": [],
+    "observation": "Heat is released.",
+    "explanation": "Quicklime reacts with water to form slaked lime.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "heat"
+  },
+  {
+    "id": "naoxide_water",
+    "reactants": [
+      {
+        "compound": "sodium_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "Na₂O + H₂O → 2NaOH",
+    "reaction_type": "combination",
+    "conditions": [],
+    "observation": "An alkaline solution forms.",
+    "explanation": "Sodium oxide reacts with water.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "koxide_water",
+    "reactants": [
+      {
+        "compound": "potassium_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "potassium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "K₂O + H₂O → 2KOH",
+    "reaction_type": "combination",
+    "conditions": [],
+    "observation": "An alkaline solution forms.",
+    "explanation": "Potassium oxide reacts with water.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "mgoxide_hcl",
+    "reactants": [
+      {
+        "compound": "magnesium_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "magnesium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "MgO + 2HCl → MgCl₂ + H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Solid oxide dissolves.",
+    "explanation": "A basic metal oxide reacts with acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "cuo_hcl",
+    "reactants": [
+      {
+        "compound": "copper_ii_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "copper_ii_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CuO + 2HCl → CuCl₂ + H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Black solid dissolves and solution becomes green.",
+    "explanation": "Copper(II) oxide reacts with hydrochloric acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "fe2o3_hcl",
+    "reactants": [
+      {
+        "compound": "iron_iii_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 6
+      }
+    ],
+    "products": [
+      {
+        "compound": "iron_iii_chloride",
+        "coefficient": 2
+      },
+      {
+        "compound": "water",
+        "coefficient": 3
+      }
+    ],
+    "balanced_equation": "Fe₂O₃ + 6HCl → 2FeCl₃ + 3H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Reddish-brown oxide dissolves.",
+    "explanation": "Iron(III) oxide reacts with hydrochloric acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "znoxide_hcl",
+    "reactants": [
+      {
+        "compound": "zinc_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "zinc_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "ZnO + 2HCl → ZnCl₂ + H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "White solid dissolves.",
+    "explanation": "Zinc oxide reacts with hydrochloric acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "aloxide_hcl",
+    "reactants": [
+      {
+        "compound": "aluminium_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 6
+      }
+    ],
+    "products": [
+      {
+        "compound": "aluminium_chloride",
+        "coefficient": 2
+      },
+      {
+        "compound": "water",
+        "coefficient": 3
+      }
+    ],
+    "balanced_equation": "Al₂O₃ + 6HCl → 2AlCl₃ + 3H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Oxide dissolves in acid.",
+    "explanation": "Aluminium oxide reacts with hydrochloric acid.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "reaction"
+  },
+  {
+    "id": "zno_naoh",
+    "reactants": [
+      {
+        "compound": "zinc_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_zincate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "ZnO + 2NaOH → Na₂ZnO₂ + H₂O",
+    "reaction_type": "amphoteric",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Zinc oxide dissolves in strong alkali.",
+    "explanation": "Amphoteric zinc oxide reacts with sodium hydroxide.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "reaction"
+  },
+  {
+    "id": "al2o3_naoh",
+    "reactants": [
+      {
+        "compound": "aluminium_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_aluminate",
+        "coefficient": 2
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Al₂O₃ + 2NaOH → 2NaAlO₂ + H₂O",
+    "reaction_type": "amphoteric",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Aluminium oxide reacts with strong alkali.",
+    "explanation": "Amphoteric aluminium oxide reacts with sodium hydroxide.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "reaction"
+  },
+  {
+    "id": "zn_oh2_hcl",
+    "reactants": [
+      {
+        "compound": "zinc_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "zinc_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "Zn(OH)₂ + 2HCl → ZnCl₂ + 2H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "White precipitate dissolves.",
+    "explanation": "Zinc hydroxide reacts with acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "zn_oh2_naoh",
+    "reactants": [
+      {
+        "compound": "zinc_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_zincate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Zn(OH)₂ + 2NaOH → Na₂ZnO₂ + 2H₂O",
+    "reaction_type": "amphoteric",
+    "conditions": [],
+    "observation": "White precipitate dissolves in excess alkali.",
+    "explanation": "Zinc hydroxide is amphoteric.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "reaction"
+  },
+  {
+    "id": "al_oh3_hcl",
+    "reactants": [
+      {
+        "compound": "aluminium_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "compound": "aluminium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 3
+      }
+    ],
+    "balanced_equation": "Al(OH)₃ + 3HCl → AlCl₃ + 3H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "White precipitate dissolves.",
+    "explanation": "Aluminium hydroxide reacts with acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "al_oh3_naoh",
+    "reactants": [
+      {
+        "compound": "aluminium_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_aluminate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "Al(OH)₃ + NaOH → NaAlO₂ + 2H₂O",
+    "reaction_type": "amphoteric",
+    "conditions": [],
+    "observation": "White precipitate dissolves in excess alkali.",
+    "explanation": "Aluminium hydroxide is amphoteric.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "reaction"
+  },
+  {
+    "id": "fe3_oh2_oxidation",
+    "reactants": [
+      {
+        "compound": "iron_ii_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "iron_iii_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "4Fe(OH)₂ + O₂ + 2H₂O → 4Fe(OH)₃",
+    "reaction_type": "oxidation",
+    "conditions": [
+      "air"
+    ],
+    "observation": "Green precipitate turns brown.",
+    "explanation": "Iron(II) hydroxide is oxidized in air.",
+    "xp": 30,
+    "difficulty": 3,
+    "animation": "oxidation"
+  },
+  {
+    "id": "fe2_so4_naoh",
+    "reactants": [
+      {
+        "compound": "iron_ii_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "iron_ii_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_sulfate",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "FeSO₄ + 2NaOH → Fe(OH)₂ + Na₂SO₄",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "Green precipitate forms.",
+    "explanation": "Iron(II) hydroxide precipitates.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "precipitate"
+  },
+  {
+    "id": "cuso4_fe",
+    "reactants": [
+      {
+        "compound": "copper_ii_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "iron",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "iron_ii_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "copper",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CuSO₄ + Fe → FeSO₄ + Cu",
+    "reaction_type": "single_displacement",
+    "conditions": [],
+    "observation": "Copper deposits.",
+    "explanation": "Iron displaces copper.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "precipitate"
+  },
+  {
+    "id": "cuso4_al",
+    "reactants": [
+      {
+        "compound": "copper_ii_sulfate",
+        "coefficient": 3
+      },
+      {
+        "compound": "aluminium",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "aluminium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "copper",
+        "coefficient": 3
+      }
+    ],
+    "balanced_equation": "3CuSO₄ + 2Al → Al₂(SO₄)₃ + 3Cu",
+    "reaction_type": "single_displacement",
+    "conditions": [
+      "remove oxide layer"
+    ],
+    "observation": "Copper deposits.",
+    "explanation": "Aluminium can displace copper after its oxide layer is removed.",
+    "xp": 30,
+    "difficulty": 3,
+    "animation": "precipitate"
+  },
+  {
+    "id": "fe2o3_al",
+    "reactants": [
+      {
+        "compound": "iron_iii_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "aluminium",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "aluminium_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "iron",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "Fe₂O₃ + 2Al → Al₂O₃ + 2Fe",
+    "reaction_type": "thermite_redox",
+    "conditions": [
+      "ignition"
+    ],
+    "observation": "Very intense heat and molten iron can form.",
+    "explanation": "Aluminium reduces iron(III) oxide.",
+    "xp": 40,
+    "difficulty": 4,
+    "animation": "thermite"
+  },
+  {
+    "id": "cuo_h2",
+    "reactants": [
+      {
+        "compound": "copper_ii_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrogen",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "copper",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CuO + H₂ → Cu + H₂O",
+    "reaction_type": "redox",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Black copper oxide becomes copper-colored.",
+    "explanation": "Hydrogen reduces copper(II) oxide.",
+    "xp": 30,
+    "difficulty": 3,
+    "animation": "reduction"
+  },
+  {
+    "id": "cuo_c",
+    "reactants": [
+      {
+        "compound": "copper_ii_oxide",
+        "coefficient": 2
+      },
+      {
+        "compound": "carbon",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "copper",
+        "coefficient": 2
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "2CuO + C → 2Cu + CO₂",
+    "reaction_type": "redox",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Copper forms.",
+    "explanation": "Carbon reduces copper oxide.",
+    "xp": 30,
+    "difficulty": 3,
+    "animation": "reduction"
+  },
+  {
+    "id": "fe2o3_co",
+    "reactants": [
+      {
+        "compound": "iron_iii_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_monoxide",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "compound": "iron",
+        "coefficient": 2
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 3
+      }
+    ],
+    "balanced_equation": "Fe₂O₃ + 3CO → 2Fe + 3CO₂",
+    "reaction_type": "redox",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Iron is produced.",
+    "explanation": "Carbon monoxide reduces iron(III) oxide.",
+    "xp": 30,
+    "difficulty": 3,
+    "animation": "reduction"
+  },
+  {
+    "id": "caco3_h2so4",
+    "reactants": [
+      {
+        "compound": "calcium_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "calcium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CaCO₃ + H₂SO₄ → CaSO₄ + H₂O + CO₂",
+    "reaction_type": "acid_carbonate",
+    "conditions": [],
+    "observation": "Gas evolves and a solid coating can form.",
+    "explanation": "Carbonate reacts with sulfuric acid.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "bubbles"
+  },
+  {
+    "id": "naoh_h2so4",
+    "reactants": [
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 2
+      },
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "2NaOH + H₂SO₄ → Na₂SO₄ + 2H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Heat may be released.",
+    "explanation": "Sodium hydroxide neutralizes sulfuric acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "koh_h2so4",
+    "reactants": [
+      {
+        "compound": "potassium_hydroxide",
+        "coefficient": 2
+      },
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "potassium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "2KOH + H₂SO₄ → K₂SO₄ + 2H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Heat may be released.",
+    "explanation": "Potassium hydroxide neutralizes sulfuric acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "caoh2_h2so4",
+    "reactants": [
+      {
+        "compound": "calcium_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "calcium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "Ca(OH)₂ + H₂SO₄ → CaSO₄ + 2H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "A calcium sulfate solid can form.",
+    "explanation": "Calcium hydroxide neutralizes sulfuric acid.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "na2co3_h2so4",
+    "reactants": [
+      {
+        "compound": "sodium_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Na₂CO₃ + H₂SO₄ → Na₂SO₄ + H₂O + CO₂",
+    "reaction_type": "acid_carbonate",
+    "conditions": [],
+    "observation": "Effervescence occurs.",
+    "explanation": "Carbonate reacts with sulfuric acid.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "bubbles"
+  },
+  {
+    "id": "nahco3_h2so4",
+    "reactants": [
+      {
+        "compound": "sodium_hydrogen_carbonate",
+        "coefficient": 2
+      },
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "2NaHCO₃ + H₂SO₄ → Na₂SO₄ + 2H₂O + 2CO₂",
+    "reaction_type": "acid_carbonate",
+    "conditions": [],
+    "observation": "Strong effervescence occurs.",
+    "explanation": "Hydrogen carbonate reacts with sulfuric acid.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "bubbles"
+  },
+  {
+    "id": "na2co3_cacl2",
+    "reactants": [
+      {
+        "compound": "sodium_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "calcium_chloride",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "calcium_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_chloride",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "Na₂CO₃ + CaCl₂ → CaCO₃ + 2NaCl",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "White calcium carbonate precipitates.",
+    "explanation": "A double displacement reaction produces insoluble calcium carbonate.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "precipitate"
+  },
+  {
+    "id": "na2co3_mgcl2",
+    "reactants": [
+      {
+        "compound": "sodium_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "magnesium_chloride",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "magnesium_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_chloride",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "Na₂CO₃ + MgCl₂ → MgCO₃ + 2NaCl",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "White precipitate forms.",
+    "explanation": "Magnesium carbonate precipitates.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "precipitate"
+  },
+  {
+    "id": "na2so4_bacl2",
+    "reactants": [
+      {
+        "compound": "sodium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "barium_chloride",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "barium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_chloride",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "Na₂SO₄ + BaCl₂ → BaSO₄ + 2NaCl",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "White precipitate forms.",
+    "explanation": "Barium sulfate is insoluble.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "precipitate"
+  },
+  {
+    "id": "na3po4_cacl2",
+    "reactants": [
+      {
+        "compound": "sodium_phosphate",
+        "coefficient": 2
+      },
+      {
+        "compound": "calcium_chloride",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "compound": "calcium_phosphate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_chloride",
+        "coefficient": 6
+      }
+    ],
+    "balanced_equation": "2Na₃PO₄ + 3CaCl₂ → Ca₃(PO₄)₂ + 6NaCl",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "White precipitate forms.",
+    "explanation": "Calcium phosphate precipitates.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "cucl2_naoh",
+    "reactants": [
+      {
+        "compound": "copper_ii_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "copper_ii_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_chloride",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "CuCl₂ + 2NaOH → Cu(OH)₂ + 2NaCl",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "Blue precipitate forms.",
+    "explanation": "Copper hydroxide precipitates.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "precipitate"
+  },
+  {
+    "id": "fecl3_ki",
+    "reactants": [
+      {
+        "compound": "iron_iii_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_iodide",
+        "coefficient": 6
+      }
+    ],
+    "products": [
+      {
+        "compound": "iron_ii_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_chloride",
+        "coefficient": 3
+      },
+      {
+        "compound": "iodine",
+        "coefficient": 3
+      }
+    ],
+    "balanced_equation": "2FeCl₃ + 6KI → 2FeCl₂ + 6KCl + 3I₂",
+    "reaction_type": "redox",
+    "conditions": [],
+    "observation": "Iodine forms and solution changes color.",
+    "explanation": "Iron(III) oxidizes iodide to iodine.",
+    "xp": 35,
+    "difficulty": 3,
+    "animation": "color"
+  },
+  {
+    "id": "cl2_kbr",
+    "reactants": [
+      {
+        "compound": "chlorine",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_bromide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "potassium_chloride",
+        "coefficient": 2
+      },
+      {
+        "compound": "bromine",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Cl₂ + 2KBr → 2KCl + Br₂",
+    "reaction_type": "halogen_displacement",
+    "conditions": [],
+    "observation": "Bromine forms.",
+    "explanation": "More reactive chlorine displaces bromine.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "color"
+  },
+  {
+    "id": "cl2_ki",
+    "reactants": [
+      {
+        "compound": "chlorine",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_iodide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "potassium_chloride",
+        "coefficient": 2
+      },
+      {
+        "compound": "iodine",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Cl₂ + 2KI → 2KCl + I₂",
+    "reaction_type": "halogen_displacement",
+    "conditions": [],
+    "observation": "Iodine forms.",
+    "explanation": "Chlorine displaces iodine.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "color"
+  },
+  {
+    "id": "br2_ki",
+    "reactants": [
+      {
+        "compound": "bromine",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_iodide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "potassium_bromide",
+        "coefficient": 2
+      },
+      {
+        "compound": "iodine",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Br₂ + 2KI → 2KBr + I₂",
+    "reaction_type": "halogen_displacement",
+    "conditions": [],
+    "observation": "Iodine forms.",
+    "explanation": "Bromine displaces iodine.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "color"
+  },
+  {
+    "id": "na2s_hcl",
+    "reactants": [
+      {
+        "compound": "sodium_sulfide",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_chloride",
+        "coefficient": 2
+      },
+      {
+        "compound": "hydrogen_sulfide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Na₂S + 2HCl → 2NaCl + H₂S",
+    "reaction_type": "acid_sulfide",
+    "conditions": [],
+    "observation": "Hydrogen sulfide gas is released.",
+    "explanation": "Sulfide reacts with acid.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "gas"
+  },
+  {
+    "id": "fes_hcl",
+    "reactants": [
+      {
+        "compound": "ferrous_sulfide",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "iron_ii_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrogen_sulfide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "FeS + 2HCl → FeCl₂ + H₂S",
+    "reaction_type": "acid_sulfide",
+    "conditions": [],
+    "observation": "Gas is evolved.",
+    "explanation": "Iron sulfide reacts with hydrochloric acid.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "gas"
+  },
+  {
+    "id": "pbs_hcl",
+    "reactants": [
+      {
+        "compound": "lead_ii_sulfide",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "lead_ii_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrogen_sulfide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "PbS + 2HCl → PbCl₂ + H₂S",
+    "reaction_type": "acid_sulfide",
+    "conditions": [],
+    "observation": "Gas can be evolved under suitable conditions.",
+    "explanation": "Lead sulfide reacts with acid.",
+    "xp": 25,
+    "difficulty": 3,
+    "animation": "gas"
+  },
+  {
+    "id": "na2s_agno3",
+    "reactants": [
+      {
+        "compound": "sodium_sulfide",
+        "coefficient": 1
+      },
+      {
+        "compound": "silver_nitrate",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "silver_sulfide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_nitrate",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "Na₂S + 2AgNO₃ → Ag₂S + 2NaNO₃",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "Black precipitate forms.",
+    "explanation": "Silver sulfide is insoluble.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "znso4_naoh_excess",
+    "reactants": [
+      {
+        "compound": "zinc_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "zinc_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_sulfate",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "ZnSO₄ + 2NaOH → Zn(OH)₂ + Na₂SO₄",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "White precipitate forms.",
+    "explanation": "Zinc hydroxide precipitates.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "precipitate"
+  },
+  {
+    "id": "znoh2_excess_naoh",
+    "reactants": [
+      {
+        "compound": "zinc_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_zincate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Zn(OH)₂ + 2NaOH → Na₂ZnO₂ + 2H₂O",
+    "reaction_type": "amphoteric",
+    "conditions": [
+      "excess NaOH"
+    ],
+    "observation": "White precipitate dissolves.",
+    "explanation": "Amphoteric zinc hydroxide dissolves in excess base.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "reaction"
+  },
+  {
+    "id": "alcl3_excess_naoh",
+    "reactants": [
+      {
+        "compound": "aluminium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 4
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_aluminate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_chloride",
+        "coefficient": 3
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "AlCl₃ + 4NaOH → NaAlO₂ + 3NaCl + 2H₂O",
+    "reaction_type": "amphoteric",
+    "conditions": [
+      "excess NaOH"
+    ],
+    "observation": "Precipitate dissolves in excess alkali.",
+    "explanation": "Aluminium hydroxide forms then dissolves in excess base.",
+    "xp": 35,
+    "difficulty": 3,
+    "animation": "reaction"
+  },
+  {
+    "id": "ethanol_combustion",
+    "reactants": [
+      {
+        "compound": "ethanol",
+        "coefficient": 1
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 2
+      },
+      {
+        "compound": "water",
+        "coefficient": 3
+      }
+    ],
+    "balanced_equation": "C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O",
+    "reaction_type": "combustion",
+    "conditions": [
+      "ignition"
+    ],
+    "observation": "Blue flame and heat are produced.",
+    "explanation": "Ethanol burns completely in oxygen.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "combustion"
+  },
+  {
+    "id": "methane_combustion",
+    "reactants": [
+      {
+        "compound": "methane",
+        "coefficient": 1
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "CH₄ + 2O₂ → CO₂ + 2H₂O",
+    "reaction_type": "combustion",
+    "conditions": [
+      "ignition"
+    ],
+    "observation": "Heat and light are produced.",
+    "explanation": "Methane undergoes complete combustion.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "combustion"
+  },
+  {
+    "id": "propane_combustion",
+    "reactants": [
+      {
+        "compound": "propane",
+        "coefficient": 1
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 5
+      }
+    ],
+    "products": [
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 3
+      },
+      {
+        "compound": "water",
+        "coefficient": 4
+      }
+    ],
+    "balanced_equation": "C₃H₈ + 5O₂ → 3CO₂ + 4H₂O",
+    "reaction_type": "combustion",
+    "conditions": [
+      "ignition"
+    ],
+    "observation": "Heat and light are produced.",
+    "explanation": "Propane burns completely.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "combustion"
+  },
+  {
+    "id": "butane_combustion",
+    "reactants": [
+      {
+        "compound": "butane",
+        "coefficient": 2
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 13
+      }
+    ],
+    "products": [
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 8
+      },
+      {
+        "compound": "water",
+        "coefficient": 10
+      }
+    ],
+    "balanced_equation": "2C₄H₁₀ + 13O₂ → 8CO₂ + 10H₂O",
+    "reaction_type": "combustion",
+    "conditions": [
+      "ignition"
+    ],
+    "observation": "Heat and light are produced.",
+    "explanation": "Butane burns completely.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "combustion"
+  },
+  {
+    "id": "ethene_combustion",
+    "reactants": [
+      {
+        "compound": "ethene",
+        "coefficient": 1
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 2
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "C₂H₄ + 3O₂ → 2CO₂ + 2H₂O",
+    "reaction_type": "combustion",
+    "conditions": [
+      "ignition"
+    ],
+    "observation": "Heat and light are produced.",
+    "explanation": "Ethene burns completely.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "combustion"
+  },
+  {
+    "id": "ethyne_combustion",
+    "reactants": [
+      {
+        "compound": "ethyne",
+        "coefficient": 2
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 5
+      }
+    ],
+    "products": [
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 4
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "2C₂H₂ + 5O₂ → 4CO₂ + 2H₂O",
+    "reaction_type": "combustion",
+    "conditions": [
+      "ignition"
+    ],
+    "observation": "Heat and light are produced.",
+    "explanation": "Ethyne burns in oxygen.",
+    "xp": 20,
+    "difficulty": 2,
+    "animation": "combustion"
+  },
+  {
+    "id": "ethene_hydrogenation",
+    "reactants": [
+      {
+        "compound": "ethene",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrogen",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "ethane",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "C₂H₄ + H₂ → C₂H₆",
+    "reaction_type": "addition",
+    "conditions": [
+      "catalyst",
+      "heat"
+    ],
+    "observation": "A saturated hydrocarbon forms.",
+    "explanation": "Hydrogen adds across the double bond.",
+    "xp": 25,
+    "difficulty": 3,
+    "animation": "reaction"
+  },
+  {
+    "id": "ethyne_hydrogenation",
+    "reactants": [
+      {
+        "compound": "ethyne",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrogen",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "ethane",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "C₂H₂ + 2H₂ → C₂H₆",
+    "reaction_type": "addition",
+    "conditions": [
+      "catalyst"
+    ],
+    "observation": "A saturated hydrocarbon forms.",
+    "explanation": "Ethyne can be hydrogenated to ethane.",
+    "xp": 30,
+    "difficulty": 3,
+    "animation": "reaction"
+  },
+  {
+    "id": "ethanol_oxidation",
+    "reactants": [
+      {
+        "compound": "ethanol",
+        "coefficient": 1
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "ethanoic_acid",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "C₂H₅OH + O₂ → CH₃COOH + H₂O",
+    "reaction_type": "oxidation",
+    "conditions": [
+      "oxidizing agent"
+    ],
+    "observation": "An acid forms.",
+    "explanation": "Ethanol can be oxidized to ethanoic acid.",
+    "xp": 30,
+    "difficulty": 3,
+    "animation": "reaction"
+  },
+  {
+    "id": "ethanoic_acid_naoh",
+    "reactants": [
+      {
+        "compound": "ethanoic_acid",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_acetate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CH₃COOH + NaOH → CH₃COONa + H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Neutralization occurs.",
+    "explanation": "Ethanoic acid reacts with sodium hydroxide.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "ethanoic_acid_na",
+    "reactants": [
+      {
+        "compound": "ethanoic_acid",
+        "coefficient": 2
+      },
+      {
+        "compound": "sodium",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_acetate",
+        "coefficient": 2
+      },
+      {
+        "compound": "hydrogen",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "2CH₃COOH + 2Na → 2CH₃COONa + H₂",
+    "reaction_type": "single_displacement",
+    "conditions": [],
+    "observation": "Hydrogen gas evolves.",
+    "explanation": "Sodium displaces hydrogen from ethanoic acid.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "gas"
+  },
+  {
+    "id": "glucose_combustion",
+    "reactants": [
+      {
+        "compound": "glucose",
+        "coefficient": 1
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 6
+      }
+    ],
+    "products": [
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 6
+      },
+      {
+        "compound": "water",
+        "coefficient": 6
+      }
+    ],
+    "balanced_equation": "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O",
+    "reaction_type": "combustion",
+    "conditions": [
+      "energy"
+    ],
+    "observation": "Carbon dioxide and water are produced.",
+    "explanation": "Glucose undergoes aerobic oxidation.",
+    "xp": 20,
+    "difficulty": 2,
+    "animation": "combustion"
+  },
+  {
+    "id": "sucrose_hydrolysis",
+    "reactants": [
+      {
+        "compound": "sucrose",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "glucose",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "C₁₂H₂₂O₁₁ + H₂O → sugars",
+    "reaction_type": "hydrolysis",
+    "conditions": [
+      "acid/enzyme"
+    ],
+    "observation": "Sucrose breaks into simpler sugars.",
+    "explanation": "Hydrolysis cleaves sucrose into monosaccharides.",
+    "xp": 25,
+    "difficulty": 3,
+    "animation": "reaction"
+  },
+  {
+    "id": "lime_plaster",
+    "reactants": [
+      {
+        "compound": "plaster_of_paris",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "gypsum",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CaSO₄·½H₂O + 1½H₂O → CaSO₄·2H₂O",
+    "reaction_type": "hydration",
+    "conditions": [],
+    "observation": "Plaster hardens.",
+    "explanation": "Plaster of Paris hydrates to gypsum.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "crystal"
+  },
+  {
+    "id": "gypsum_heat",
+    "reactants": [
+      {
+        "compound": "gypsum",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "plaster_of_paris",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CaSO₄·2H₂O → CaSO₄·½H₂O + 1½H₂O",
+    "reaction_type": "dehydration",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Water is driven off.",
+    "explanation": "Gypsum loses water on heating.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "reaction"
+  },
+  {
+    "id": "limewater_co2_repeat",
+    "reactants": [
+      {
+        "compound": "calcium_hydroxide_aq",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "calcium_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Ca(OH)₂ + CO₂ → CaCO₃ + H₂O",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "Limewater turns milky.",
+    "explanation": "Classic carbon dioxide test.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "precipitate"
+  },
+  {
+    "id": "sodium_bicarbonate_acetic",
+    "reactants": [
+      {
+        "compound": "sodium_hydrogen_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "ethanoic_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_acetate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "NaHCO₃ + CH₃COOH → CH₃COONa + H₂O + CO₂",
+    "reaction_type": "acid_carbonate",
+    "conditions": [],
+    "observation": "Vigorous fizzing occurs.",
+    "explanation": "Bicarbonate reacts with ethanoic acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "bubbles"
+  },
+  {
+    "id": "ammonium_chloride_naoh",
+    "reactants": [
+      {
+        "compound": "ammonium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "ammonia",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "NH₄Cl + NaOH → NH₃ + NaCl + H₂O",
+    "reaction_type": "gas_evolution",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Ammonia gas is released.",
+    "explanation": "Strong base liberates ammonia from ammonium salt.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "gas"
+  },
+  {
+    "id": "nh4no3_decomposition",
+    "reactants": [
+      {
+        "compound": "ammonium_nitrate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "nitrogen_monoxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "NH₄NO₃ → N₂O + 2H₂O",
+    "reaction_type": "decomposition",
+    "conditions": [
+      "controlled heating"
+    ],
+    "observation": "Gas and water form.",
+    "explanation": "Ammonium nitrate can decompose to nitrous oxide and water.",
+    "xp": 30,
+    "difficulty": 3,
+    "animation": "gas"
+  },
+  {
+    "id": "nh4hco3_decomposition",
+    "reactants": [
+      {
+        "compound": "ammonium_hydrogen_carbonate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "ammonia",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "NH₄HCO₃ → NH₃ + CO₂ + H₂O",
+    "reaction_type": "decomposition",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Multiple gases are released.",
+    "explanation": "Ammonium hydrogen carbonate decomposes on heating.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "gas"
+  },
+  {
+    "id": "k_oxygen",
+    "reactants": [
+      {
+        "compound": "potassium",
+        "coefficient": 4
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "potassium_oxide",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "4K + O₂ → 2K₂O",
+    "reaction_type": "combination",
+    "conditions": [
+      "oxygen"
+    ],
+    "observation": "Potassium oxide forms.",
+    "explanation": "Potassium combines with oxygen.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "al_oxygen",
+    "reactants": [
+      {
+        "compound": "aluminium",
+        "coefficient": 4
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "compound": "aluminium_oxide",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "4Al + 3O₂ → 2Al₂O₃",
+    "reaction_type": "combination",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "A protective oxide layer forms.",
+    "explanation": "Aluminium is oxidized.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "zn_oxygen",
+    "reactants": [
+      {
+        "compound": "zinc",
+        "coefficient": 2
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "zinc_oxide",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "2Zn + O₂ → 2ZnO",
+    "reaction_type": "combination",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Yellow-hot zinc oxide forms.",
+    "explanation": "Zinc reacts with oxygen.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "mn_oxygen",
+    "reactants": [
+      {
+        "compound": "manganese",
+        "coefficient": 1
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "manganese_iv_oxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Mn + O₂ → MnO₂",
+    "reaction_type": "combination",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Manganese oxide forms.",
+    "explanation": "Simplified educational representation.",
+    "xp": 25,
+    "difficulty": 3,
+    "animation": "reaction"
+  },
+  {
+    "id": "al_h2so4",
+    "reactants": [
+      {
+        "compound": "aluminium",
+        "coefficient": 2
+      },
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "compound": "aluminium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrogen",
+        "coefficient": 3
+      }
+    ],
+    "balanced_equation": "2Al + 3H₂SO₄ → Al₂(SO₄)₃ + 3H₂",
+    "reaction_type": "single_displacement",
+    "conditions": [
+      "dilute acid"
+    ],
+    "observation": "Hydrogen evolves.",
+    "explanation": "Aluminium displaces hydrogen from dilute sulfuric acid.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "gas"
+  },
+  {
+    "id": "zn_h2so4",
+    "reactants": [
+      {
+        "compound": "zinc",
+        "coefficient": 1
+      },
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "zinc_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrogen",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Zn + H₂SO₄ → ZnSO₄ + H₂",
+    "reaction_type": "single_displacement",
+    "conditions": [
+      "dilute acid"
+    ],
+    "observation": "Hydrogen evolves.",
+    "explanation": "Zinc displaces hydrogen.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "gas"
+  },
+  {
+    "id": "fe_h2so4",
+    "reactants": [
+      {
+        "compound": "iron",
+        "coefficient": 1
+      },
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "iron_ii_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrogen",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Fe + H₂SO₄ → FeSO₄ + H₂",
+    "reaction_type": "single_displacement",
+    "conditions": [
+      "dilute acid"
+    ],
+    "observation": "Hydrogen evolves.",
+    "explanation": "Iron displaces hydrogen.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "gas"
+  },
+  {
+    "id": "mg_h2so4",
+    "reactants": [
+      {
+        "compound": "magnesium",
+        "coefficient": 1
+      },
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "magnesium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrogen",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Mg + H₂SO₄ → MgSO₄ + H₂",
+    "reaction_type": "single_displacement",
+    "conditions": [
+      "dilute acid"
+    ],
+    "observation": "Hydrogen evolves.",
+    "explanation": "Magnesium displaces hydrogen.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "gas"
+  },
+  {
+    "id": "ca_h2so4",
+    "reactants": [
+      {
+        "compound": "calcium",
+        "coefficient": 1
+      },
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "calcium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrogen",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Ca + H₂SO₄ → CaSO₄ + H₂",
+    "reaction_type": "single_displacement",
+    "conditions": [
+      "dilute acid"
+    ],
+    "observation": "Hydrogen evolves; a sulfate layer may form.",
+    "explanation": "Calcium reacts with dilute sulfuric acid.",
+    "xp": 20,
+    "difficulty": 2,
+    "animation": "gas"
+  },
+  {
+    "id": "mgoxide_water",
+    "reactants": [
+      {
+        "compound": "magnesium_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "magnesium_hydroxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "MgO + H₂O → Mg(OH)₂",
+    "reaction_type": "combination",
+    "conditions": [
+      "water"
+    ],
+    "observation": "Magnesium hydroxide forms.",
+    "explanation": "Basic oxide reacts with water.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "na2so3_hcl",
+    "reactants": [
+      {
+        "compound": "sodium_sulfite",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_chloride",
+        "coefficient": 2
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      },
+      {
+        "compound": "sulfur_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Na₂SO₃ + 2HCl → 2NaCl + H₂O + SO₂",
+    "reaction_type": "acid_sulfite",
+    "conditions": [],
+    "observation": "Sulfur dioxide gas evolves.",
+    "explanation": "Sulfite plus acid produces SO₂.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "gas"
+  },
+  {
+    "id": "na2s2o3_hcl",
+    "reactants": [
+      {
+        "compound": "sodium_thiosulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_chloride",
+        "coefficient": 2
+      },
+      {
+        "compound": "sulfur_dioxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sulfur",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Na₂S₂O₃ + 2HCl → 2NaCl + SO₂ + S + H₂O",
+    "reaction_type": "acid_thiosulfate",
+    "conditions": [],
+    "observation": "Sulfur precipitates and gas evolves.",
+    "explanation": "Thiosulfate decomposes in acid.",
+    "xp": 30,
+    "difficulty": 3,
+    "animation": "precipitate"
+  },
+  {
+    "id": "caco3_hno3",
+    "reactants": [
+      {
+        "compound": "calcium_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "nitric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "calcium_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CaCO₃ + 2HNO₃ → Ca(NO₃)₂ + H₂O + CO₂",
+    "reaction_type": "acid_carbonate",
+    "conditions": [],
+    "observation": "Effervescence occurs.",
+    "explanation": "Carbonate reacts with nitric acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "bubbles"
+  },
+  {
+    "id": "nahco3_hno3",
+    "reactants": [
+      {
+        "compound": "sodium_hydrogen_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "nitric_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "NaHCO₃ + HNO₃ → NaNO₃ + H₂O + CO₂",
+    "reaction_type": "acid_carbonate",
+    "conditions": [],
+    "observation": "Effervescence occurs.",
+    "explanation": "Hydrogen carbonate reacts with nitric acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "bubbles"
+  },
+  {
+    "id": "mgco3_h2so4",
+    "reactants": [
+      {
+        "compound": "magnesium_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "magnesium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "MgCO₃ + H₂SO₄ → MgSO₄ + H₂O + CO₂",
+    "reaction_type": "acid_carbonate",
+    "conditions": [],
+    "observation": "Gas evolves.",
+    "explanation": "Magnesium carbonate reacts with sulfuric acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "bubbles"
+  },
+  {
+    "id": "naoh_hno3",
+    "reactants": [
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "nitric_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "NaOH + HNO₃ → NaNO₃ + H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Neutralization occurs.",
+    "explanation": "Strong acid and base form salt and water.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "koh_hno3",
+    "reactants": [
+      {
+        "compound": "potassium_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "nitric_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "potassium_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "KOH + HNO₃ → KNO₃ + H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Neutralization occurs.",
+    "explanation": "Potassium hydroxide neutralizes nitric acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "caoh2_hno3",
+    "reactants": [
+      {
+        "compound": "calcium_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "nitric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "calcium_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "Ca(OH)₂ + 2HNO₃ → Ca(NO₃)₂ + 2H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Neutralization occurs.",
+    "explanation": "Calcium hydroxide neutralizes nitric acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "mgoh2_hno3",
+    "reactants": [
+      {
+        "compound": "magnesium_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "nitric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "magnesium_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "Mg(OH)₂ + 2HNO₃ → Mg(NO₃)₂ + 2H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Neutralization occurs.",
+    "explanation": "Magnesium hydroxide neutralizes nitric acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "nh3_h2so4",
+    "reactants": [
+      {
+        "compound": "ammonia",
+        "coefficient": 2
+      },
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "ammonium_sulfate",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "2NH₃ + H₂SO₄ → (NH₄)₂SO₄",
+    "reaction_type": "acid_base",
+    "conditions": [],
+    "observation": "Ammonium sulfate forms.",
+    "explanation": "Ammonia neutralizes sulfuric acid.",
+    "xp": 20,
+    "difficulty": 2,
+    "animation": "reaction"
+  },
+  {
+    "id": "nh3_hno3",
+    "reactants": [
+      {
+        "compound": "ammonia",
+        "coefficient": 1
+      },
+      {
+        "compound": "nitric_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "ammonium_nitrate",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "NH₃ + HNO₃ → NH₄NO₃",
+    "reaction_type": "acid_base",
+    "conditions": [],
+    "observation": "Ammonium nitrate forms.",
+    "explanation": "Ammonia neutralizes nitric acid.",
+    "xp": 20,
+    "difficulty": 2,
+    "animation": "reaction"
+  },
+  {
+    "id": "cacl2_na2co3",
+    "reactants": [
+      {
+        "compound": "calcium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_carbonate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "calcium_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_chloride",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "CaCl₂ + Na₂CO₃ → CaCO₃ + 2NaCl",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "White precipitate forms.",
+    "explanation": "Calcium carbonate precipitates.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "precipitate"
+  },
+  {
+    "id": "mgcl2_naoh",
+    "reactants": [
+      {
+        "compound": "magnesium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "magnesium_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_chloride",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "MgCl₂ + 2NaOH → Mg(OH)₂ + 2NaCl",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "White precipitate forms.",
+    "explanation": "Magnesium hydroxide precipitates.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "precipitate"
+  },
+  {
+    "id": "cacl2_na3po4",
+    "reactants": [
+      {
+        "compound": "calcium_chloride",
+        "coefficient": 3
+      },
+      {
+        "compound": "sodium_phosphate",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "calcium_phosphate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_chloride",
+        "coefficient": 6
+      }
+    ],
+    "balanced_equation": "3CaCl₂ + 2Na₃PO₄ → Ca₃(PO₄)₂ + 6NaCl",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "White precipitate forms.",
+    "explanation": "Calcium phosphate precipitates.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "cuso4_na2co3",
+    "reactants": [
+      {
+        "compound": "copper_ii_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_carbonate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "copper_ii_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_sulfate",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CuSO₄ + Na₂CO₃ → CuCO₃ + Na₂SO₄",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "Green carbonate precipitate forms.",
+    "explanation": "Copper carbonate precipitates in simplified model.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "fecl3_nh3",
+    "reactants": [
+      {
+        "compound": "iron_iii_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "ammonia",
+        "coefficient": 3
+      },
+      {
+        "compound": "water",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "compound": "iron_iii_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "ammonium_chloride",
+        "coefficient": 3
+      }
+    ],
+    "balanced_equation": "FeCl₃ + 3NH₃ + 3H₂O → Fe(OH)₃ + 3NH₄Cl",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "Reddish-brown precipitate forms.",
+    "explanation": "Ammonia solution precipitates iron(III) hydroxide.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "zn_pbc2",
+    "reactants": [
+      {
+        "compound": "zinc",
+        "coefficient": 1
+      },
+      {
+        "compound": "lead_ii_chloride",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "zinc_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "lead",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Zn + PbCl₂ → ZnCl₂ + Pb",
+    "reaction_type": "single_displacement",
+    "conditions": [],
+    "observation": "Lead deposits.",
+    "explanation": "Zinc displaces lead.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "deposit"
+  },
+  {
+    "id": "co2_c",
+    "reactants": [
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "carbon_monoxide",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "CO₂ + C → 2CO",
+    "reaction_type": "redox",
+    "conditions": [
+      "high heat"
+    ],
+    "observation": "Carbon monoxide forms.",
+    "explanation": "Carbon reduces carbon dioxide at high temperature.",
+    "xp": 30,
+    "difficulty": 3,
+    "animation": "heat"
+  },
+  {
+    "id": "co2_mg",
+    "reactants": [
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "magnesium",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "magnesium_oxide",
+        "coefficient": 2
+      },
+      {
+        "compound": "carbon",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CO₂ + 2Mg → 2MgO + C",
+    "reaction_type": "redox",
+    "conditions": [
+      "ignition"
+    ],
+    "observation": "Carbon is deposited.",
+    "explanation": "Magnesium can reduce carbon dioxide.",
+    "xp": 30,
+    "difficulty": 3,
+    "animation": "flash"
+  },
+  {
+    "id": "cuo_co",
+    "reactants": [
+      {
+        "compound": "copper_ii_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_monoxide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "copper",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CuO + CO → Cu + CO₂",
+    "reaction_type": "redox",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Copper forms.",
+    "explanation": "Carbon monoxide reduces copper oxide.",
+    "xp": 25,
+    "difficulty": 3,
+    "animation": "reduction"
+  },
+  {
+    "id": "br2_nacl",
+    "reactants": [
+      {
+        "compound": "bromine",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_chloride",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_chloride",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Br₂ + NaCl → no reaction",
+    "reaction_type": "no_reaction",
+    "conditions": [],
+    "observation": "No displacement.",
+    "explanation": "Bromine is less reactive than chlorine.",
+    "xp": 5,
+    "difficulty": 1,
+    "animation": "none"
+  },
+  {
+    "id": "i2_kbr",
+    "reactants": [
+      {
+        "compound": "iodine",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_bromide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "potassium_bromide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "I₂ + KBr → no reaction",
+    "reaction_type": "no_reaction",
+    "conditions": [],
+    "observation": "No displacement.",
+    "explanation": "Iodine cannot displace bromide.",
+    "xp": 5,
+    "difficulty": 1,
+    "animation": "none"
+  },
+  {
+    "id": "sio2_naoh",
+    "reactants": [
+      {
+        "compound": "silicon_dioxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_silicate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "SiO₂ + 2NaOH → Na₂SiO₃ + H₂O",
+    "reaction_type": "acid_base",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Silicate forms.",
+    "explanation": "Silicon dioxide reacts with strong alkali when heated.",
+    "xp": 30,
+    "difficulty": 3,
+    "animation": "reaction"
+  },
+  {
+    "id": "sio2_c",
+    "reactants": [
+      {
+        "compound": "silicon_dioxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "silicon",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_monoxide",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "SiO₂ + 2C → Si + 2CO",
+    "reaction_type": "redox",
+    "conditions": [
+      "high heat"
+    ],
+    "observation": "Silicon is produced.",
+    "explanation": "Carbon reduces silica at high temperature.",
+    "xp": 35,
+    "difficulty": 4,
+    "animation": "heat"
+  },
+  {
+    "id": "ethanol_naoh",
+    "reactants": [
+      {
+        "compound": "ethanol",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "ethanol",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "C₂H₅OH + NaOH → no significant reaction",
+    "reaction_type": "no_reaction",
+    "conditions": [],
+    "observation": "No significant ordinary neutralization.",
+    "explanation": "Ethanol is not a strong acid like a carboxylic acid.",
+    "xp": 5,
+    "difficulty": 1,
+    "animation": "none"
+  },
+  {
+    "id": "ethanoic_acid_na2co3",
+    "reactants": [
+      {
+        "compound": "ethanoic_acid",
+        "coefficient": 2
+      },
+      {
+        "compound": "sodium_carbonate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_acetate",
+        "coefficient": 2
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "2CH₃COOH + Na₂CO₃ → 2CH₃COONa + H₂O + CO₂",
+    "reaction_type": "acid_carbonate",
+    "conditions": [],
+    "observation": "Fizzing occurs.",
+    "explanation": "Ethanoic acid reacts with carbonate.",
+    "xp": 25,
+    "difficulty": 1,
+    "animation": "bubbles"
+  },
+  {
+    "id": "ethanoic_acid_nahco3",
+    "reactants": [
+      {
+        "compound": "ethanoic_acid",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydrogen_carbonate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "sodium_acetate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CH₃COOH + NaHCO₃ → CH₃COONa + H₂O + CO₂",
+    "reaction_type": "acid_carbonate",
+    "conditions": [],
+    "observation": "Vigorous fizzing occurs.",
+    "explanation": "Common acid-bicarbonate reaction.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "bubbles"
+  },
+  {
+    "id": "cao_h2so4",
+    "reactants": [
+      {
+        "compound": "calcium_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "calcium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CaO + H₂SO₄ → CaSO₄ + H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Salt and water form.",
+    "explanation": "Basic oxide neutralizes sulfuric acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "mgo_h2so4",
+    "reactants": [
+      {
+        "compound": "magnesium_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "magnesium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "MgO + H₂SO₄ → MgSO₄ + H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Salt and water form.",
+    "explanation": "Magnesium oxide neutralizes sulfuric acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "zno_h2so4",
+    "reactants": [
+      {
+        "compound": "zinc_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "zinc_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "ZnO + H₂SO₄ → ZnSO₄ + H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Salt and water form.",
+    "explanation": "Zinc oxide neutralizes sulfuric acid.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "reaction"
+  },
+  {
+    "id": "cuso4_na2s",
+    "reactants": [
+      {
+        "compound": "copper_ii_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_sulfide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "copper_ii_sulfide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_sulfate",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CuSO₄ + Na₂S → CuS + Na₂SO₄",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "Black precipitate forms.",
+    "explanation": "Copper sulfide is insoluble.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "znso4_na2s",
+    "reactants": [
+      {
+        "compound": "zinc_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_sulfide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "zinc_sulfide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_sulfate",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "ZnSO₄ + Na₂S → ZnS + Na₂SO₄",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "White precipitate forms.",
+    "explanation": "Zinc sulfide precipitates.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "pbno3_na2s",
+    "reactants": [
+      {
+        "compound": "lead_ii_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_sulfide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "lead_ii_sulfide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_nitrate",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "Pb(NO₃)₂ + Na₂S → PbS + 2NaNO₃",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "Black precipitate forms.",
+    "explanation": "Lead sulfide is insoluble.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "agno3_na2s",
+    "reactants": [
+      {
+        "compound": "silver_nitrate",
+        "coefficient": 2
+      },
+      {
+        "compound": "sodium_sulfide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "silver_sulfide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_nitrate",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "2AgNO₃ + Na₂S → Ag₂S + 2NaNO₃",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "Black precipitate forms.",
+    "explanation": "Silver sulfide is insoluble.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "h2co3_decompose",
+    "reactants": [
+      {
+        "compound": "carbonic_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "H₂CO₃ → CO₂ + H₂O",
+    "reaction_type": "decomposition",
+    "conditions": [],
+    "observation": "Carbon dioxide bubbles can appear.",
+    "explanation": "Carbonic acid readily decomposes.",
+    "xp": 15,
+    "difficulty": 1,
+    "animation": "bubbles"
+  },
+  {
+    "id": "h2so3_decompose",
+    "reactants": [
+      {
+        "compound": "sulfurous_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "sulfur_dioxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "H₂SO₃ → SO₂ + H₂O",
+    "reaction_type": "decomposition",
+    "conditions": [],
+    "observation": "Sulfur dioxide can be released.",
+    "explanation": "Sulfurous acid decomposes.",
+    "xp": 15,
+    "difficulty": 1,
+    "animation": "gas"
+  },
+  {
+    "id": "nh4cl_heat",
+    "reactants": [
+      {
+        "compound": "ammonium_chloride",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "hydrogen_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "ammonia",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "NH₄Cl ⇌ HCl + NH₃",
+    "reaction_type": "decomposition",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "White fumes can form on cooling.",
+    "explanation": "Ammonium chloride dissociates/recombines.",
+    "xp": 20,
+    "difficulty": 2,
+    "animation": "smoke"
+  },
+  {
+    "id": "cu_no3_heat",
+    "reactants": [
+      {
+        "compound": "copper_ii_nitrate",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "copper_ii_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "nitrogen_dioxide",
+        "coefficient": 4
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "2Cu(NO₃)₂ → 2CuO + 4NO₂ + O₂",
+    "reaction_type": "thermal_decomposition",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Brown gas and oxygen are released.",
+    "explanation": "Copper nitrate decomposes on heating.",
+    "xp": 30,
+    "difficulty": 3,
+    "animation": "gas"
+  },
+  {
+    "id": "pb_no3_heat",
+    "reactants": [
+      {
+        "compound": "lead_ii_nitrate",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "lead_ii_oxide",
+        "coefficient": 2
+      },
+      {
+        "compound": "nitrogen_dioxide",
+        "coefficient": 4
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "2Pb(NO₃)₂ → 2PbO + 4NO₂ + O₂",
+    "reaction_type": "thermal_decomposition",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Brown gas evolves.",
+    "explanation": "Lead nitrate decomposes on heating.",
+    "xp": 30,
+    "difficulty": 3,
+    "animation": "gas"
+  },
+  {
+    "id": "agno3_heat",
+    "reactants": [
+      {
+        "compound": "silver_nitrate",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "silver",
+        "coefficient": 2
+      },
+      {
+        "compound": "nitrogen_dioxide",
+        "coefficient": 2
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "2AgNO₃ → 2Ag + 2NO₂ + O₂",
+    "reaction_type": "thermal_decomposition",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Silver forms and brown gas evolves.",
+    "explanation": "Silver nitrate decomposes on heating.",
+    "xp": 35,
+    "difficulty": 4,
+    "animation": "gas"
+  },
+  {
+    "id": "n2_h2",
+    "reactants": [
+      {
+        "compound": "nitrogen",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrogen",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "compound": "ammonia",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "N₂ + 3H₂ ⇌ 2NH₃",
+    "reaction_type": "combination",
+    "conditions": [
+      "catalyst",
+      "pressure"
+    ],
+    "observation": "Ammonia forms.",
+    "explanation": "Nitrogen and hydrogen combine in the Haber process.",
+    "xp": 35,
+    "difficulty": 4,
+    "animation": "reaction"
+  },
+  {
+    "id": "p_oxygen",
+    "reactants": [
+      {
+        "compound": "phosphorus",
+        "coefficient": 4
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 5
+      }
+    ],
+    "products": [
+      {
+        "compound": "phosphorus_pentoxide",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "4P + 5O₂ → 2P₂O₅",
+    "reaction_type": "combination",
+    "conditions": [
+      "ignition"
+    ],
+    "observation": "White oxide forms.",
+    "explanation": "Phosphorus burns in oxygen.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "combustion"
+  },
+  {
+    "id": "si_oxygen",
+    "reactants": [
+      {
+        "compound": "silicon",
+        "coefficient": 1
+      },
+      {
+        "compound": "oxygen",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "silicon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Si + O₂ → SiO₂",
+    "reaction_type": "combination",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Silica forms.",
+    "explanation": "Silicon is oxidized.",
+    "xp": 20,
+    "difficulty": 2,
+    "animation": "reaction"
+  },
+  {
+    "id": "h2_s",
+    "reactants": [
+      {
+        "compound": "hydrogen",
+        "coefficient": 1
+      },
+      {
+        "compound": "sulfur",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "hydrogen_sulfide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "H₂ + S → H₂S",
+    "reaction_type": "combination",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Hydrogen sulfide forms.",
+    "explanation": "Hydrogen combines with sulfur.",
+    "xp": 20,
+    "difficulty": 2,
+    "animation": "reaction"
+  },
+  {
+    "id": "cu_cl2",
+    "reactants": [
+      {
+        "compound": "copper",
+        "coefficient": 1
+      },
+      {
+        "compound": "chlorine",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "copper_ii_chloride",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Cu + Cl₂ → CuCl₂",
+    "reaction_type": "combination",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Copper chloride forms.",
+    "explanation": "Copper combines with chlorine.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "reaction"
+  },
+  {
+    "id": "zns_hcl",
+    "reactants": [
+      {
+        "compound": "zinc_sulfide",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "zinc_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrogen_sulfide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "ZnS + 2HCl → ZnCl₂ + H₂S",
+    "reaction_type": "acid_sulfide",
+    "conditions": [],
+    "observation": "Hydrogen sulfide gas evolves.",
+    "explanation": "Zinc sulfide reacts with acid.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "gas"
+  },
+  {
+    "id": "ag2s_hcl",
+    "reactants": [
+      {
+        "compound": "silver_sulfide",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "silver_chloride",
+        "coefficient": 2
+      },
+      {
+        "compound": "hydrogen_sulfide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Ag₂S + 2HCl → 2AgCl + H₂S",
+    "reaction_type": "acid_sulfide",
+    "conditions": [],
+    "observation": "Gas can evolve under suitable conditions.",
+    "explanation": "Silver sulfide reacts with acid.",
+    "xp": 25,
+    "difficulty": 3,
+    "animation": "gas"
+  },
+  {
+    "id": "h2so4_koh",
+    "reactants": [
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "potassium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "H₂SO₄ + 2KOH → K₂SO₄ + 2H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Neutralization occurs.",
+    "explanation": "Acid reacts with a metal hydroxide to form salt and water.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "neutralization"
+  },
+  {
+    "id": "h2so4_mgoh2",
+    "reactants": [
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 1
+      },
+      {
+        "compound": "magnesium_hydroxide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "magnesium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "H₂SO₄ + Mg(OH)₂ → MgSO₄ + 2H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Neutralization occurs.",
+    "explanation": "Acid reacts with a metal hydroxide to form salt and water.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "neutralization"
+  },
+  {
+    "id": "h2so4_cuoh2",
+    "reactants": [
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 1
+      },
+      {
+        "compound": "copper_ii_hydroxide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "copper_ii_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "H₂SO₄ + Cu(OH)₂ → CuSO₄ + 2H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Neutralization occurs.",
+    "explanation": "Acid reacts with a metal hydroxide to form salt and water.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "neutralization"
+  },
+  {
+    "id": "h2so4_znoh2",
+    "reactants": [
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 1
+      },
+      {
+        "compound": "zinc_hydroxide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "zinc_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "H₂SO₄ + Zn(OH)₂ → ZnSO₄ + 2H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Neutralization occurs.",
+    "explanation": "Acid reacts with a metal hydroxide to form salt and water.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "neutralization"
+  },
+  {
+    "id": "h2so4_feoh2",
+    "reactants": [
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 1
+      },
+      {
+        "compound": "iron_ii_hydroxide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "iron_ii_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "H₂SO₄ + Fe(OH)₂ → FeSO₄ + 2H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Neutralization occurs.",
+    "explanation": "Acid reacts with a metal hydroxide to form salt and water.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "neutralization"
+  },
+  {
+    "id": "h2so4_feoh3",
+    "reactants": [
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 3
+      },
+      {
+        "compound": "iron_iii_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "iron_iii_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 6
+      }
+    ],
+    "balanced_equation": "3H₂SO₄ + 2Fe(OH)₃ → Fe₂(SO₄)₃ + 6H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Neutralization occurs.",
+    "explanation": "Acid reacts with a metal hydroxide to form salt and water.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "neutralization"
+  },
+  {
+    "id": "h2so4_aloh3",
+    "reactants": [
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 3
+      },
+      {
+        "compound": "aluminium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "aluminium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 6
+      }
+    ],
+    "balanced_equation": "3H₂SO₄ + 2Al(OH)₃ → Al₂(SO₄)₃ + 6H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Neutralization occurs.",
+    "explanation": "Acid reacts with a metal hydroxide to form salt and water.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "neutralization"
+  },
+  {
+    "id": "hno3_mgoh2",
+    "reactants": [
+      {
+        "compound": "nitric_acid",
+        "coefficient": 2
+      },
+      {
+        "compound": "magnesium_hydroxide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "magnesium_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "2HNO₃ + Mg(OH)₂ → Mg(NO₃)₂ + 2H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Neutralization occurs.",
+    "explanation": "Acid reacts with a metal hydroxide to form salt and water.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "neutralization"
+  },
+  {
+    "id": "hno3_cuoh2",
+    "reactants": [
+      {
+        "compound": "nitric_acid",
+        "coefficient": 2
+      },
+      {
+        "compound": "copper_ii_hydroxide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "copper_ii_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "2HNO₃ + Cu(OH)₂ → Cu(NO₃)₂ + 2H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Neutralization occurs.",
+    "explanation": "Acid reacts with a metal hydroxide to form salt and water.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "neutralization"
+  },
+  {
+    "id": "hno3_znoh2",
+    "reactants": [
+      {
+        "compound": "nitric_acid",
+        "coefficient": 2
+      },
+      {
+        "compound": "zinc_hydroxide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "zinc_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "2HNO₃ + Zn(OH)₂ → Zn(NO₃)₂ + 2H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Neutralization occurs.",
+    "explanation": "Acid reacts with a metal hydroxide to form salt and water.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "neutralization"
+  },
+  {
+    "id": "cao_hno3",
+    "reactants": [
+      {
+        "compound": "calcium_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "nitric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "calcium_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CaO + 2HNO₃ → Ca(NO₃)₂ + H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Oxide dissolves in acid.",
+    "explanation": "A metal oxide reacts with acid.",
+    "xp": 20,
+    "difficulty": 2,
+    "animation": "reaction"
+  },
+  {
+    "id": "mgo_hno3",
+    "reactants": [
+      {
+        "compound": "magnesium_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "nitric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "magnesium_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "MgO + 2HNO₃ → Mg(NO₃)₂ + H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Oxide dissolves in acid.",
+    "explanation": "A metal oxide reacts with acid.",
+    "xp": 20,
+    "difficulty": 2,
+    "animation": "reaction"
+  },
+  {
+    "id": "zno_hno3",
+    "reactants": [
+      {
+        "compound": "zinc_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "nitric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "zinc_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "ZnO + 2HNO₃ → Zn(NO₃)₂ + H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Oxide dissolves in acid.",
+    "explanation": "A metal oxide reacts with acid.",
+    "xp": 20,
+    "difficulty": 2,
+    "animation": "reaction"
+  },
+  {
+    "id": "cuo_h2so4b",
+    "reactants": [
+      {
+        "compound": "copper_ii_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "copper_ii_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CuO + H₂SO₄ → CuSO₄ + H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Oxide dissolves in acid.",
+    "explanation": "A metal oxide reacts with acid.",
+    "xp": 20,
+    "difficulty": 2,
+    "animation": "reaction"
+  },
+  {
+    "id": "fe2o3_h2so4",
+    "reactants": [
+      {
+        "compound": "iron_iii_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "compound": "iron_iii_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 3
+      }
+    ],
+    "balanced_equation": "Fe₂O₃ + 3H₂SO₄ → Fe₂(SO₄)₃ + 3H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Oxide dissolves in acid.",
+    "explanation": "A metal oxide reacts with acid.",
+    "xp": 20,
+    "difficulty": 2,
+    "animation": "reaction"
+  },
+  {
+    "id": "pb_o_hcl",
+    "reactants": [
+      {
+        "compound": "lead_ii_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "lead_ii_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "PbO + 2HCl → PbCl₂ + H₂O",
+    "reaction_type": "neutralization",
+    "conditions": [],
+    "observation": "Oxide dissolves in acid.",
+    "explanation": "A metal oxide reacts with acid.",
+    "xp": 20,
+    "difficulty": 2,
+    "animation": "reaction"
+  },
+  {
+    "id": "mgso4_naoh",
+    "reactants": [
+      {
+        "compound": "magnesium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "magnesium_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_sulfate",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "MgSO₄ + 2NaOH → Mg(OH)₂ + Na₂SO₄",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A precipitate forms.",
+    "explanation": "A double-displacement reaction produces an insoluble product.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "cuso4_koh",
+    "reactants": [
+      {
+        "compound": "copper_ii_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "copper_ii_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_sulfate",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "CuSO₄ + 2KOH → Cu(OH)₂ + K₂SO₄",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A precipitate forms.",
+    "explanation": "A double-displacement reaction produces an insoluble product.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "fecl2_koh",
+    "reactants": [
+      {
+        "compound": "iron_ii_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "iron_ii_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_chloride",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "FeCl₂ + 2KOH → Fe(OH)₂ + 2KCl",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A precipitate forms.",
+    "explanation": "A double-displacement reaction produces an insoluble product.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "fecl3_koh",
+    "reactants": [
+      {
+        "compound": "iron_iii_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_hydroxide",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "compound": "iron_iii_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_chloride",
+        "coefficient": 3
+      }
+    ],
+    "balanced_equation": "FeCl₃ + 3KOH → Fe(OH)₃ + 3KCl",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A precipitate forms.",
+    "explanation": "A double-displacement reaction produces an insoluble product.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "zncl2_koh",
+    "reactants": [
+      {
+        "compound": "zinc_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "zinc_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_chloride",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "ZnCl₂ + 2KOH → Zn(OH)₂ + 2KCl",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A precipitate forms.",
+    "explanation": "A double-displacement reaction produces an insoluble product.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "alcl3_koh",
+    "reactants": [
+      {
+        "compound": "aluminium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_hydroxide",
+        "coefficient": 3
+      }
+    ],
+    "products": [
+      {
+        "compound": "aluminium_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_chloride",
+        "coefficient": 3
+      }
+    ],
+    "balanced_equation": "AlCl₃ + 3KOH → Al(OH)₃ + 3KCl",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A precipitate forms.",
+    "explanation": "A double-displacement reaction produces an insoluble product.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "pbno3_koh",
+    "reactants": [
+      {
+        "compound": "lead_ii_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "lead_ii_hydroxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_nitrate",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "Pb(NO₃)₂ + 2KOH → Pb(OH)₂ + 2KNO₃",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A precipitate forms.",
+    "explanation": "A double-displacement reaction produces an insoluble product.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "cacl2_k2co3",
+    "reactants": [
+      {
+        "compound": "calcium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_carbonate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "calcium_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_chloride",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "CaCl₂ + K₂CO₃ → CaCO₃ + 2KCl",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A precipitate forms.",
+    "explanation": "A double-displacement reaction produces an insoluble product.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "mgcl2_k2co3",
+    "reactants": [
+      {
+        "compound": "magnesium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_carbonate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "magnesium_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_chloride",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "MgCl₂ + K₂CO₃ → MgCO₃ + 2KCl",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A precipitate forms.",
+    "explanation": "A double-displacement reaction produces an insoluble product.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "zncl2_k2co3",
+    "reactants": [
+      {
+        "compound": "zinc_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_carbonate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "zinc_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_chloride",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "ZnCl₂ + K₂CO₃ → ZnCO₃ + 2KCl",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A precipitate forms.",
+    "explanation": "A double-displacement reaction produces an insoluble product.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "pbno3_na2co3",
+    "reactants": [
+      {
+        "compound": "lead_ii_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_carbonate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "lead_ii_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_nitrate",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "Pb(NO₃)₂ + Na₂CO₃ → PbCO₃ + 2NaNO₃",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A precipitate forms.",
+    "explanation": "A double-displacement reaction produces an insoluble product.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "znso4_na2co3",
+    "reactants": [
+      {
+        "compound": "zinc_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_carbonate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "zinc_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_sulfate",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "ZnSO₄ + Na₂CO₃ → ZnCO₃ + Na₂SO₄",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A precipitate forms.",
+    "explanation": "A double-displacement reaction produces an insoluble product.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "fe2so43_naoh",
+    "reactants": [
+      {
+        "compound": "iron_iii_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 6
+      }
+    ],
+    "products": [
+      {
+        "compound": "iron_iii_hydroxide",
+        "coefficient": 2
+      },
+      {
+        "compound": "sodium_sulfate",
+        "coefficient": 3
+      }
+    ],
+    "balanced_equation": "Fe₂(SO₄)₃ + 6NaOH → 2Fe(OH)₃ + 3Na₂SO₄",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A precipitate forms.",
+    "explanation": "A double-displacement reaction produces an insoluble product.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "al2so43_naoh",
+    "reactants": [
+      {
+        "compound": "aluminium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 6
+      }
+    ],
+    "products": [
+      {
+        "compound": "aluminium_hydroxide",
+        "coefficient": 2
+      },
+      {
+        "compound": "sodium_sulfate",
+        "coefficient": 3
+      }
+    ],
+    "balanced_equation": "Al₂(SO₄)₃ + 6NaOH → 2Al(OH)₃ + 3Na₂SO₄",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A precipitate forms.",
+    "explanation": "A double-displacement reaction produces an insoluble product.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "agno3_cacl2",
+    "reactants": [
+      {
+        "compound": "silver_nitrate",
+        "coefficient": 2
+      },
+      {
+        "compound": "calcium_chloride",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "silver_chloride",
+        "coefficient": 2
+      },
+      {
+        "compound": "calcium_nitrate",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "2AgNO₃ + CaCl₂ → 2AgCl + Ca(NO₃)₂",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A precipitate forms.",
+    "explanation": "Insoluble salt formation drives the reaction.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "agno3_mgcl2",
+    "reactants": [
+      {
+        "compound": "silver_nitrate",
+        "coefficient": 2
+      },
+      {
+        "compound": "magnesium_chloride",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "silver_chloride",
+        "coefficient": 2
+      },
+      {
+        "compound": "magnesium_nitrate",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "2AgNO₃ + MgCl₂ → 2AgCl + Mg(NO₃)₂",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A precipitate forms.",
+    "explanation": "Insoluble salt formation drives the reaction.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "bacl2_cuso4",
+    "reactants": [
+      {
+        "compound": "barium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "copper_ii_sulfate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "barium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "copper_ii_chloride",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "BaCl₂ + CuSO₄ → BaSO₄ + CuCl₂",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A precipitate forms.",
+    "explanation": "Insoluble salt formation drives the reaction.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "bacl2_fe2so43",
+    "reactants": [
+      {
+        "compound": "barium_chloride",
+        "coefficient": 3
+      },
+      {
+        "compound": "iron_iii_sulfate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "barium_sulfate",
+        "coefficient": 3
+      },
+      {
+        "compound": "iron_iii_chloride",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "3BaCl₂ + Fe₂(SO₄)₃ → 3BaSO₄ + 2FeCl₃",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A precipitate forms.",
+    "explanation": "Insoluble salt formation drives the reaction.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "bacl2_mgso4",
+    "reactants": [
+      {
+        "compound": "barium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "magnesium_sulfate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "barium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "magnesium_chloride",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "BaCl₂ + MgSO₄ → BaSO₄ + MgCl₂",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A precipitate forms.",
+    "explanation": "Insoluble salt formation drives the reaction.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "pbno3_cuso4",
+    "reactants": [
+      {
+        "compound": "lead_ii_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "copper_ii_sulfate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "lead_ii_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "copper_ii_nitrate",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Pb(NO₃)₂ + CuSO₄ → PbSO₄ + Cu(NO₃)₂",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A precipitate forms.",
+    "explanation": "Insoluble salt formation drives the reaction.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "pbno3_na2so4",
+    "reactants": [
+      {
+        "compound": "lead_ii_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_sulfate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "lead_ii_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_nitrate",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "Pb(NO₃)₂ + Na₂SO₄ → PbSO₄ + 2NaNO₃",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A precipitate forms.",
+    "explanation": "Insoluble salt formation drives the reaction.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "pbno3_k2so4",
+    "reactants": [
+      {
+        "compound": "lead_ii_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_sulfate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "lead_ii_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "potassium_nitrate",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "Pb(NO₃)₂ + K₂SO₄ → PbSO₄ + 2KNO₃",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A precipitate forms.",
+    "explanation": "Insoluble salt formation drives the reaction.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "agno3_na2s2o3",
+    "reactants": [
+      {
+        "compound": "silver_nitrate",
+        "coefficient": 2
+      },
+      {
+        "compound": "sodium_thiosulfate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "silver_sulfide",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_nitrate",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "2AgNO₃ + Na₂S₂O₃ → Ag₂S + 2NaNO₃",
+    "reaction_type": "precipitation",
+    "conditions": [],
+    "observation": "A precipitate forms.",
+    "explanation": "Insoluble salt formation drives the reaction.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "precipitate"
+  },
+  {
+    "id": "k2co3_hcl",
+    "reactants": [
+      {
+        "compound": "potassium_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "potassium_chloride",
+        "coefficient": 2
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "K₂CO₃ + 2HCl → 2KCl + H₂O + CO₂",
+    "reaction_type": "acid_carbonate",
+    "conditions": [],
+    "observation": "Carbon dioxide bubbles form.",
+    "explanation": "A carbonate reacts with acid to form salt, water and carbon dioxide.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "bubbles"
+  },
+  {
+    "id": "k2co3_h2so4",
+    "reactants": [
+      {
+        "compound": "potassium_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sulfuric_acid",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "potassium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "K₂CO₃ + H₂SO₄ → K₂SO₄ + H₂O + CO₂",
+    "reaction_type": "acid_carbonate",
+    "conditions": [],
+    "observation": "Carbon dioxide bubbles form.",
+    "explanation": "A carbonate reacts with acid to form salt, water and carbon dioxide.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "bubbles"
+  },
+  {
+    "id": "mgco3_hno3",
+    "reactants": [
+      {
+        "compound": "magnesium_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "nitric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "magnesium_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "MgCO₃ + 2HNO₃ → Mg(NO₃)₂ + H₂O + CO₂",
+    "reaction_type": "acid_carbonate",
+    "conditions": [],
+    "observation": "Carbon dioxide bubbles form.",
+    "explanation": "A carbonate reacts with acid to form salt, water and carbon dioxide.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "bubbles"
+  },
+  {
+    "id": "znco3_hno3",
+    "reactants": [
+      {
+        "compound": "zinc_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "nitric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "zinc_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "ZnCO₃ + 2HNO₃ → Zn(NO₃)₂ + H₂O + CO₂",
+    "reaction_type": "acid_carbonate",
+    "conditions": [],
+    "observation": "Carbon dioxide bubbles form.",
+    "explanation": "A carbonate reacts with acid to form salt, water and carbon dioxide.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "bubbles"
+  },
+  {
+    "id": "pbco3_hcl",
+    "reactants": [
+      {
+        "compound": "lead_ii_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "lead_ii_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "PbCO₃ + 2HCl → PbCl₂ + H₂O + CO₂",
+    "reaction_type": "acid_carbonate",
+    "conditions": [],
+    "observation": "Carbon dioxide bubbles form.",
+    "explanation": "A carbonate reacts with acid to form salt, water and carbon dioxide.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "bubbles"
+  },
+  {
+    "id": "fe2co3_hcl",
+    "reactants": [
+      {
+        "compound": "iron_ii_carbonate",
+        "coefficient": 1
+      },
+      {
+        "compound": "hydrochloric_acid",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "iron_ii_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "FeCO₃ + 2HCl → FeCl₂ + H₂O + CO₂",
+    "reaction_type": "acid_carbonate",
+    "conditions": [],
+    "observation": "Carbon dioxide bubbles form.",
+    "explanation": "A carbonate reacts with acid to form salt, water and carbon dioxide.",
+    "xp": 20,
+    "difficulty": 1,
+    "animation": "bubbles"
+  },
+  {
+    "id": "zn_fecl2",
+    "reactants": [
+      {
+        "compound": "zinc",
+        "coefficient": 1
+      },
+      {
+        "compound": "iron_ii_chloride",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "zinc_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "iron",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Zn + FeCl₂ → ZnCl₂ + Fe",
+    "reaction_type": "single_displacement",
+    "conditions": [],
+    "observation": "A less reactive metal is displaced.",
+    "explanation": "A more reactive metal displaces a less reactive metal from its salt.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "deposit"
+  },
+  {
+    "id": "zn_pbno3",
+    "reactants": [
+      {
+        "compound": "zinc",
+        "coefficient": 1
+      },
+      {
+        "compound": "lead_ii_nitrate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "zinc_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "lead",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Zn + Pb(NO₃)₂ → Zn(NO₃)₂ + Pb",
+    "reaction_type": "single_displacement",
+    "conditions": [],
+    "observation": "A less reactive metal is displaced.",
+    "explanation": "A more reactive metal displaces a less reactive metal from its salt.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "deposit"
+  },
+  {
+    "id": "mg_fecl2",
+    "reactants": [
+      {
+        "compound": "magnesium",
+        "coefficient": 1
+      },
+      {
+        "compound": "iron_ii_chloride",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "magnesium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "iron",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Mg + FeCl₂ → MgCl₂ + Fe",
+    "reaction_type": "single_displacement",
+    "conditions": [],
+    "observation": "A less reactive metal is displaced.",
+    "explanation": "A more reactive metal displaces a less reactive metal from its salt.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "deposit"
+  },
+  {
+    "id": "mg_pbno3",
+    "reactants": [
+      {
+        "compound": "magnesium",
+        "coefficient": 1
+      },
+      {
+        "compound": "lead_ii_nitrate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "magnesium_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "lead",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Mg + Pb(NO₃)₂ → Mg(NO₃)₂ + Pb",
+    "reaction_type": "single_displacement",
+    "conditions": [],
+    "observation": "A less reactive metal is displaced.",
+    "explanation": "A more reactive metal displaces a less reactive metal from its salt.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "deposit"
+  },
+  {
+    "id": "ca_cuso4",
+    "reactants": [
+      {
+        "compound": "calcium",
+        "coefficient": 1
+      },
+      {
+        "compound": "copper_ii_sulfate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "calcium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "copper",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Ca + CuSO₄ → CaSO₄ + Cu",
+    "reaction_type": "single_displacement",
+    "conditions": [],
+    "observation": "A less reactive metal is displaced.",
+    "explanation": "A more reactive metal displaces a less reactive metal from its salt.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "deposit"
+  },
+  {
+    "id": "ca_fecl2",
+    "reactants": [
+      {
+        "compound": "calcium",
+        "coefficient": 1
+      },
+      {
+        "compound": "iron_ii_chloride",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "calcium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "iron",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Ca + FeCl₂ → CaCl₂ + Fe",
+    "reaction_type": "single_displacement",
+    "conditions": [],
+    "observation": "A less reactive metal is displaced.",
+    "explanation": "A more reactive metal displaces a less reactive metal from its salt.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "deposit"
+  },
+  {
+    "id": "al_fecl3",
+    "reactants": [
+      {
+        "compound": "aluminium",
+        "coefficient": 1
+      },
+      {
+        "compound": "iron_iii_chloride",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "aluminium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "iron",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Al + FeCl₃ → AlCl₃ + Fe",
+    "reaction_type": "single_displacement",
+    "conditions": [
+      "remove oxide layer"
+    ],
+    "observation": "A less reactive metal is displaced.",
+    "explanation": "A more reactive metal displaces a less reactive metal from its salt.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "deposit"
+  },
+  {
+    "id": "mgoh2_heat",
+    "reactants": [
+      {
+        "compound": "magnesium_hydroxide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "magnesium_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Mg(OH)₂ → MgO + H₂O",
+    "reaction_type": "thermal_decomposition",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "The compound decomposes on heating.",
+    "explanation": "Thermal decomposition releases simpler substances.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "heat"
+  },
+  {
+    "id": "caoh2_heat",
+    "reactants": [
+      {
+        "compound": "calcium_hydroxide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "calcium_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "Ca(OH)₂ → CaO + H₂O",
+    "reaction_type": "thermal_decomposition",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "The compound decomposes on heating.",
+    "explanation": "Thermal decomposition releases simpler substances.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "heat"
+  },
+  {
+    "id": "aloh3_heat",
+    "reactants": [
+      {
+        "compound": "aluminium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "aluminium_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 3
+      }
+    ],
+    "balanced_equation": "2Al(OH)₃ → Al₂O₃ + 3H₂O",
+    "reaction_type": "thermal_decomposition",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "The compound decomposes on heating.",
+    "explanation": "Thermal decomposition releases simpler substances.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "heat"
+  },
+  {
+    "id": "feoh3_heat",
+    "reactants": [
+      {
+        "compound": "iron_iii_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "iron_iii_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 3
+      }
+    ],
+    "balanced_equation": "2Fe(OH)₃ → Fe₂O₃ + 3H₂O",
+    "reaction_type": "thermal_decomposition",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "The compound decomposes on heating.",
+    "explanation": "Thermal decomposition releases simpler substances.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "heat"
+  },
+  {
+    "id": "znco3_heat",
+    "reactants": [
+      {
+        "compound": "zinc_carbonate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "zinc_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "ZnCO₃ → ZnO + CO₂",
+    "reaction_type": "thermal_decomposition",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "The compound decomposes on heating.",
+    "explanation": "Thermal decomposition releases simpler substances.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "heat"
+  },
+  {
+    "id": "pbco3_heat",
+    "reactants": [
+      {
+        "compound": "lead_ii_carbonate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "lead_ii_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "PbCO₃ → PbO + CO₂",
+    "reaction_type": "thermal_decomposition",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "The compound decomposes on heating.",
+    "explanation": "Thermal decomposition releases simpler substances.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "heat"
+  },
+  {
+    "id": "fe2co3_heat",
+    "reactants": [
+      {
+        "compound": "iron_ii_carbonate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "iron_ii_oxide",
+        "coefficient": 1
+      },
+      {
+        "compound": "carbon_dioxide",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "FeCO₃ → FeO + CO₂",
+    "reaction_type": "thermal_decomposition",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "The compound decomposes on heating.",
+    "explanation": "Thermal decomposition releases simpler substances.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "heat"
+  },
+  {
+    "id": "mgso4_hydrated_heat",
+    "reactants": [
+      {
+        "compound": "magnesium_sulfate",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "magnesium_sulfate",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "MgSO₄·7H₂O → MgSO₄ + 7H₂O",
+    "reaction_type": "thermal_decomposition",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "The compound decomposes on heating.",
+    "explanation": "Thermal decomposition releases simpler substances.",
+    "xp": 25,
+    "difficulty": 2,
+    "animation": "heat"
+  },
+  {
+    "id": "nh4cl_cao",
+    "reactants": [
+      {
+        "compound": "ammonium_chloride",
+        "coefficient": 2
+      },
+      {
+        "compound": "calcium_hydroxide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "ammonia",
+        "coefficient": 2
+      },
+      {
+        "compound": "calcium_chloride",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "2NH₄Cl + Ca(OH)₂ → 2NH₃ + CaCl₂ + 2H₂O",
+    "reaction_type": "gas_evolution",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Ammonia gas is released.",
+    "explanation": "A strong base liberates ammonia from an ammonium salt.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "gas"
+  },
+  {
+    "id": "nh4no3_naoh",
+    "reactants": [
+      {
+        "compound": "ammonium_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 1
+      }
+    ],
+    "products": [
+      {
+        "compound": "ammonia",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_nitrate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 1
+      }
+    ],
+    "balanced_equation": "NH₄NO₃ + NaOH → NH₃ + NaNO₃ + H₂O",
+    "reaction_type": "gas_evolution",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Ammonia gas is released.",
+    "explanation": "A strong base liberates ammonia from an ammonium salt.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "gas"
+  },
+  {
+    "id": "nh4so4_naoh",
+    "reactants": [
+      {
+        "compound": "ammonium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "sodium_hydroxide",
+        "coefficient": 2
+      }
+    ],
+    "products": [
+      {
+        "compound": "ammonia",
+        "coefficient": 2
+      },
+      {
+        "compound": "sodium_sulfate",
+        "coefficient": 1
+      },
+      {
+        "compound": "water",
+        "coefficient": 2
+      }
+    ],
+    "balanced_equation": "(NH₄)₂SO₄ + 2NaOH → 2NH₃ + Na₂SO₄ + 2H₂O",
+    "reaction_type": "gas_evolution",
+    "conditions": [
+      "heat"
+    ],
+    "observation": "Ammonia gas is released.",
+    "explanation": "A strong base liberates ammonia from an ammonium salt.",
+    "xp": 30,
+    "difficulty": 2,
+    "animation": "gas"
+  }
+]
