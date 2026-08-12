@@ -327,7 +327,7 @@ function addReactant(id) {
 
     renderReactants();
 }
-
+function processReaction(reaction, products, newCompound) {
     const rid = String(reaction.id);
     const firstReaction = !Game.discoveredReactions.has(rid);
     Game.discoveredReactions.add(rid);
