@@ -1,41 +1,21 @@
 /* =========================================================
-   CHEMCRAFT - PROGRESSIVE DATABASE VERSION
-   Elements unlock by level; compounds unlock only by discovery.
+   CHEMCRAFT - PROGRESSIVE 5-LEVEL ENGINE
+   ---------------------------------------------------------
+   - Shows 8 starter elements immediately.
+   - Loads only level 1 data initially.
+   - Elements unlock by level.
+   - Compounds unlock only when discovered by reactions.
+   - Inventory buttons show FORMULA ONLY.
+   - Higher-level datasets load when that level is reached.
    ========================================================= */
 
 "use strict";
 
-const LEVEL_ELEMENTS = {
-    1: ["H","C","N","O","Na","Cl","K","Ca"],
-    2: ["Mg","Al","S","P","F","Li"],
-    3: ["Fe","Cu","Zn","Si","Ti","Br"],
-    4: ["Co","Ni","Be","B","Ga","I"],
-    5: ["Au","Cs","Ba","Hg","Pb","Sn"]
-};
+/* ----------------------------- CONFIG ----------------------------- */
 
-function getUnlockedSymbols(level = Game.level) {
-    const symbols = [];
+const MAX_REACTANTS = 5;
+const SAVE_KEY = "chemcraft_progressive_v2";
 
-    for (let l = 1; l <= level; l++) {
-        const elements = LEVEL_ELEMENTS[l] || [];
-
-        for (const symbol of elements) {
-            if (!symbols.includes(symbol)) {
-                symbols.push(symbol);
-            }
-        }
-    }
-
-    return symbols;
-}
-function esc(value) {
-    return String(value ?? "")
-        .replaceAll("&", "&amp;")
-        .replaceAll("<", "&lt;")
-        .replaceAll(">", "&gt;")
-        .replaceAll('"', "&quot;")
-        .replaceAll("'", "&#039;");
-}
 const XP_LEVELS = {
     1: 0,
     2: 250,
@@ -44,522 +24,2304 @@ const XP_LEVELS = {
     5: 1000
 };
 
-const SAVE_KEY = "chemcraft_progressive_v1";
-const MAX_REACTANTS = 5;
-
-const Game = {
-    level: 1,
-    xp: 0,
-    compounds: [],
-    reactions: [],
-    compoundMap: new Map(),
-    discoveredCompounds: new Set(),
-    discoveredReactions: new Set(),
-    selectedReactants: [],
-    reactionHistory: [],
-    loadedLevels: new Set(),
-    reactionsLoaded: false
+/*
+ * Playable elemental substances.
+ *
+ * Important:
+ * H, N, O and Cl are represented by their elemental molecular
+ * forms H2, N2, O2 and Cl2.
+ */
+const LEVEL_STARTERS = {
+    1: ["h2", "c", "n2", "o2", "na", "cl2", "k", "ca"],
+    2: ["li", "f2", "mg", "al", "p4", "s8"],
+    3: ["si", "ti", "fe", "cu", "zn", "br2"],
+    4: ["be", "b", "co", "ni", "ga", "i2"],
+    5: ["sn", "cs", "ba", "au", "hg", "pb"]
 };
 
 
+/*
+ * These are used immediately while the JSON files are
+ * still loading.
+ */
+const STARTER_META = {
+
+    h2: {
+        id: "h2",
+        name: "Hydrogen",
+        formula: "H₂",
+        category: "elemental_form"
+    },
+
+    c: {
+        id: "c",
+        name: "Carbon",
+        formula: "C",
+        category: "element"
+    },
+
+    n2: {
+        id: "n2",
+        name: "Nitrogen",
+        formula: "N₂",
+        category: "elemental_form"
+    },
+
+    o2: {
+        id: "o2",
+        name: "Oxygen",
+        formula: "O₂",
+        category: "elemental_form"
+    },
+
+    na: {
+        id: "na",
+        name: "Sodium",
+        formula: "Na",
+        category: "element"
+    },
+
+    cl2: {
+        id: "cl2",
+        name: "Chlorine",
+        formula: "Cl₂",
+        category: "elemental_form"
+    },
+
+    k: {
+        id: "k",
+        name: "Potassium",
+        formula: "K",
+        category: "element"
+    },
+
+    ca: {
+        id: "ca",
+        name: "Calcium",
+        formula: "Ca",
+        category: "element"
+    },
+
+
+    li: {
+        id: "li",
+        name: "Lithium",
+        formula: "Li",
+        category: "element"
+    },
+
+    f2: {
+        id: "f2",
+        name: "Fluorine",
+        formula: "F₂",
+        category: "elemental_form"
+    },
+
+    mg: {
+        id: "mg",
+        name: "Magnesium",
+        formula: "Mg",
+        category: "element"
+    },
+
+    al: {
+        id: "al",
+        name: "Aluminium",
+        formula: "Al",
+        category: "element"
+    },
+
+    p4: {
+        id: "p4",
+        name: "Phosphorus",
+        formula: "P₄",
+        category: "elemental_form"
+    },
+
+    s8: {
+        id: "s8",
+        name: "Sulfur",
+        formula: "S₈",
+        category: "elemental_form"
+    },
+
+
+    si: {
+        id: "si",
+        name: "Silicon",
+        formula: "Si",
+        category: "element"
+    },
+
+    ti: {
+        id: "ti",
+        name: "Titanium",
+        formula: "Ti",
+        category: "element"
+    },
+
+    fe: {
+        id: "fe",
+        name: "Iron",
+        formula: "Fe",
+        category: "element"
+    },
+
+    cu: {
+        id: "cu",
+        name: "Copper",
+        formula: "Cu",
+        category: "element"
+    },
+
+    zn: {
+        id: "zn",
+        name: "Zinc",
+        formula: "Zn",
+        category: "element"
+    },
+
+    br2: {
+        id: "br2",
+        name: "Bromine",
+        formula: "Br₂",
+        category: "elemental_form"
+    },
+
+
+    be: {
+        id: "be",
+        name: "Beryllium",
+        formula: "Be",
+        category: "element"
+    },
+
+    b: {
+        id: "b",
+        name: "Boron",
+        formula: "B",
+        category: "element"
+    },
+
+    co: {
+        id: "co",
+        name: "Cobalt",
+        formula: "Co",
+        category: "element"
+    },
+
+    ni: {
+        id: "ni",
+        name: "Nickel",
+        formula: "Ni",
+        category: "element"
+    },
+
+    ga: {
+        id: "ga",
+        name: "Gallium",
+        formula: "Ga",
+        category: "element"
+    },
+
+    i2: {
+        id: "i2",
+        name: "Iodine",
+        formula: "I₂",
+        category: "elemental_form"
+    },
+
+
+    sn: {
+        id: "sn",
+        name: "Tin",
+        formula: "Sn",
+        category: "element"
+    },
+
+    cs: {
+        id: "cs",
+        name: "Cesium",
+        formula: "Cs",
+        category: "element"
+    },
+
+    ba: {
+        id: "ba",
+        name: "Barium",
+        formula: "Ba",
+        category: "element"
+    },
+
+    au: {
+        id: "au",
+        name: "Gold",
+        formula: "Au",
+        category: "element"
+    },
+
+    hg: {
+        id: "hg",
+        name: "Mercury",
+        formula: "Hg",
+        category: "element"
+    },
+
+    pb: {
+        id: "pb",
+        name: "Lead",
+        formula: "Pb",
+        category: "element"
+    }
+};
+
+
+/* ----------------------------- STATE ------------------------------ */
+
+const Game = {
+
+    level: 1,
+
+    xp: 0,
+
+    compounds: [],
+
+    compoundMap: new Map(),
+
+    reactions: [],
+
+    reactionMap: new Map(),
+
+    selectedReactants: [],
+
+    discoveredCompounds: new Set(),
+
+    discoveredReactions: new Set(),
+
+    reactionHistory: [],
+
+    loadedLevels: new Set(),
+
+    loadingLevels: new Map()
+};
+
+
+/* -------------------------- SMALL HELPERS ------------------------- */
+
+function esc(value) {
+
+    return String(value ?? "")
+
+        .replaceAll("&", "&amp;")
+
+        .replaceAll("<", "&lt;")
+
+        .replaceAll(">", "&gt;")
+
+        .replaceAll('"', "&quot;")
+
+        .replaceAll("'", "&#039;");
+}
+
+
+function getCompound(id) {
+
+    return Game.compoundMap.get(
+        String(id)
+    );
+}
+
+
+function formula(id) {
+
+    const compound =
+        getCompound(id);
+
+
+    if (compound) {
+
+        return (
+            compound.formula ||
+            compound.symbol ||
+            compound.name ||
+            String(id)
+        );
+    }
+
+
+    const fallback =
+        STARTER_META[String(id)];
+
+
+    return fallback
+        ? fallback.formula
+        : String(id);
+}
+
+
+function name(id) {
+
+    const compound =
+        getCompound(id);
+
+
+    if (compound) {
+
+        return (
+            compound.name ||
+            compound.formula ||
+            String(id)
+        );
+    }
+
+
+    const fallback =
+        STARTER_META[String(id)];
+
+
+    return fallback
+        ? fallback.name
+        : String(id);
+}
+
+
+function showMessage(text) {
+
+    const box =
+        document.getElementById(
+            "message"
+        );
+
+
+    if (box) {
+
+        box.textContent =
+            text;
+    }
+
+
+    console.log(text);
+}
+
+
+function setStat(
+    id,
+    value
+) {
+
+    const node =
+        document.getElementById(id);
+
+
+    if (node) {
+
+        node.textContent =
+            value;
+    }
+}
+
+
+/* ------------------------ LEVEL / XP HELPERS ---------------------- */
+
+function levelForXP(xp) {
+
+    if (
+        xp >= XP_LEVELS[5]
+    ) {
+        return 5;
+    }
+
+
+    if (
+        xp >= XP_LEVELS[4]
+    ) {
+        return 4;
+    }
+
+
+    if (
+        xp >= XP_LEVELS[3]
+    ) {
+        return 3;
+    }
+
+
+    if (
+        xp >= XP_LEVELS[2]
+    ) {
+        return 2;
+    }
+
+
+    return 1;
+}
+
+
+function starterIDsUpToLevel(
+    level
+) {
+
+    const ids = [];
+
+
+    for (
+        let l = 1;
+        l <= level;
+        l++
+    ) {
+
+        for (
+            const id
+            of (
+                LEVEL_STARTERS[l] ||
+                []
+            )
+        ) {
+
+            if (
+                !ids.includes(id)
+            ) {
+
+                ids.push(id);
+            }
+        }
+    }
+
+
+    return ids;
+}
+
+
+/* ----------------------- DATABASE LOADING ------------------------- */
+
 async function loadJSON(file) {
 
-    console.log("Trying to load:", file);
+    const response =
+        await fetch(
+            file,
+            {
+                cache: "no-store"
+            }
+        );
 
-    const url = new URL(
-        file,
-        window.location.href
-    ).href;
-
-    console.log("Full URL:", url);
-
-    const response = await fetch(url, {
-        cache: "no-store"
-    });
-
-    console.log(
-        file,
-        "HTTP status:",
-        response.status
-    );
 
     if (!response.ok) {
 
         throw new Error(
-            "Could not load " +
-            file +
-            " - HTTP " +
-            response.status +
-            " - " +
-            url
+            `Could not load ${file}: HTTP ${response.status}`
         );
     }
 
-    const text =
-        await response.text();
 
-    console.log(
-        file,
-        "downloaded:",
-        text.length,
-        "characters"
+    const data =
+        await response.json();
+
+
+    if (!Array.isArray(data)) {
+
+        throw new Error(
+            `${file} is not a JSON array.`
+        );
+    }
+
+
+    return data;
+}
+
+
+/*
+ * Seed starter compounds immediately.
+ */
+function seedStarterCompounds(
+    level
+) {
+
+    for (
+        const id
+        of starterIDsUpToLevel(level)
+    ) {
+
+        if (
+            !Game.compoundMap.has(id) &&
+            STARTER_META[id]
+        ) {
+
+            const copy =
+                {
+                    ...STARTER_META[id]
+                };
+
+
+            Game.compounds.push(
+                copy
+            );
+
+
+            Game.compoundMap.set(
+                id,
+                copy
+            );
+        }
+    }
+}
+
+
+/*
+ * Load one level only.
+ */
+async function loadLevel(
+    level
+) {
+
+    level =
+        Number(level);
+
+
+    if (
+        level < 1 ||
+        level > 5
+    ) {
+
+        return;
+    }
+
+
+    if (
+        Game.loadedLevels.has(level)
+    ) {
+
+        return;
+    }
+
+
+    if (
+        Game.loadingLevels.has(level)
+    ) {
+
+        return Game.loadingLevels.get(
+            level
+        );
+    }
+
+
+    /*
+     * Seed buttons before database
+     * finishes downloading.
+     */
+
+    seedStarterCompounds(level);
+
+    renderInventory();
+
+    updateStats();
+
+
+    const promise =
+        (async () => {
+
+            const [
+                compoundData,
+                reactionData
+            ] =
+                await Promise.all([
+
+                    loadJSON(
+                        `level${level}_compounds.json`
+                    ),
+
+                    loadJSON(
+                        `level${level}_reactions.json`
+                    )
+
+                ]);
+
+
+            /*
+             * Add/replace compounds.
+             */
+
+            for (
+                const compound
+                of compoundData
+            ) {
+
+                if (
+                    !compound ||
+                    !compound.id
+                ) {
+
+                    continue;
+                }
+
+
+                const id =
+                    String(
+                        compound.id
+                    );
+
+
+                Game.compoundMap.set(
+                    id,
+                    compound
+                );
+
+
+                const index =
+                    Game.compounds.findIndex(
+                        c =>
+                            String(c.id)
+                            === id
+                    );
+
+
+                if (
+                    index === -1
+                ) {
+
+                    Game.compounds.push(
+                        compound
+                    );
+
+                } else {
+
+                    Game.compounds[index] =
+                        compound;
+                }
+            }
+
+
+            /*
+             * Add reactions.
+             */
+
+            for (
+                const reaction
+                of reactionData
+            ) {
+
+                if (
+                    !reaction ||
+                    !reaction.id
+                ) {
+
+                    continue;
+                }
+
+
+                const id =
+                    String(
+                        reaction.id
+                    );
+
+
+                if (
+                    !Game.reactionMap.has(
+                        id
+                    )
+                ) {
+
+                    Game.reactions.push(
+                        reaction
+                    );
+
+
+                    Game.reactionMap.set(
+                        id,
+                        reaction
+                    );
+                }
+            }
+
+
+            Game.loadedLevels.add(
+                level
+            );
+
+
+            console.log(
+                `Level ${level} loaded: ` +
+                `${compoundData.length} compounds, ` +
+                `${reactionData.length} reactions`
+            );
+
+
+            renderInventory();
+
+            updateStats();
+
+        })();
+
+
+    Game.loadingLevels.set(
+        level,
+        promise
     );
+
 
     try {
 
-        return JSON.parse(text);
+        await promise;
 
-    } catch (error) {
+    } finally {
 
-        throw new Error(
-            file +
-            " was downloaded but is not valid JSON."
+        Game.loadingLevels.delete(
+            level
         );
     }
 }
 
-/* Elements are available by level.
-   Compounds are available only if discovered. */
-function isAvailable(c) {
-    const id = String(c.id);
-    if (Game.discoveredCompounds.has(id)) return true;
 
-    const unlocked = new Set(getUnlockedSymbols());
-    const f = String(c.formula || "").trim();
-    const s = String(c.symbol || "").trim();
-    return unlocked.has(f) || unlocked.has(s);
+/* ---------------------- DISCOVERY / INVENTORY --------------------- */
+
+function isStarterElement(
+    id
+) {
+
+    return starterIDsUpToLevel(
+        Game.level
+    ).includes(
+        String(id)
+    );
 }
 
-async function loadLevel(level) {
-    if (Game.loadedLevels.has(level)) return;
 
-    const [cdata, rdata] = await Promise.all([
-        loadJSON(`level${level}_compounds.json`),
-        loadJSON(`level${level}_reactions.json`)
-    ]);
+function isAvailable(
+    id
+) {
 
-    const newCompounds = Array.isArray(cdata) ? cdata : (cdata.compounds || []);
-    const newReactions = Array.isArray(rdata) ? rdata : (rdata.reactions || []);
+    const sid =
+        String(id);
 
-    for (const c of newCompounds) {
-        const id = String(c.id);
-        if (!Game.compoundMap.has(id)) {
-            Game.compounds.push(c);
-            Game.compoundMap.set(id, c);
+
+    return (
+        isStarterElement(sid) ||
+        Game.discoveredCompounds.has(sid)
+    );
+}
+
+
+/*
+ * Add new level's actual element substances
+ * to discovered inventory.
+ *
+ * Compounds are NOT added here.
+ */
+function addStarterElementsForLevel(
+    level
+) {
+
+    for (
+        const id
+        of (
+            LEVEL_STARTERS[level] ||
+            []
+        )
+    ) {
+
+        Game.discoveredCompounds.add(
+            id
+        );
+    }
+}
+
+
+/* -------------------------- INVENTORY ----------------------------- */
+
+function renderInventory(
+    search = ""
+) {
+
+    const box =
+        document.getElementById(
+            "compound-list"
+        );
+
+
+    if (!box) {
+
+        return;
+    }
+
+
+    box.innerHTML =
+        "";
+
+
+    const q =
+        String(search)
+            .trim()
+            .toLowerCase();
+
+
+    const unique =
+        new Map();
+
+
+    /*
+     * Show available elements and
+     * discovered compounds.
+     */
+
+    for (
+        const c
+        of Game.compounds
+    ) {
+
+        const id =
+            String(c.id);
+
+
+        if (
+            !isAvailable(id)
+        ) {
+
+            continue;
+        }
+
+
+        if (q) {
+
+            const haystack =
+                `${c.formula || ""} ${c.name || ""}`
+                    .toLowerCase();
+
+
+            if (
+                !haystack.includes(q)
+            ) {
+
+                continue;
+            }
+        }
+
+
+        /*
+         * Do not show atomic duplicates
+         * when molecular elemental form exists.
+         */
+
+        if (
+            id === "h" &&
+            unique.has("h2")
+        ) {
+
+            continue;
+        }
+
+
+        if (
+            id === "n" &&
+            unique.has("n2")
+        ) {
+
+            continue;
+        }
+
+
+        if (
+            id === "o" &&
+            unique.has("o2")
+        ) {
+
+            continue;
+        }
+
+
+        if (
+            id === "cl" &&
+            unique.has("cl2")
+        ) {
+
+            continue;
+        }
+
+
+        unique.set(
+            id,
+            c
+        );
+    }
+
+
+    /*
+     * Ensure starter elements are shown
+     * even while JSON is loading.
+     */
+
+    for (
+        const id
+        of starterIDsUpToLevel(
+            Game.level
+        )
+    ) {
+
+        if (
+            !unique.has(id) &&
+            STARTER_META[id]
+        ) {
+
+            unique.set(
+                id,
+                STARTER_META[id]
+            );
         }
     }
 
-    const existingReactionIDs = new Set(Game.reactions.map(r => String(r.id)));
-    for (const r of newReactions) {
-        if (!existingReactionIDs.has(String(r.id))) Game.reactions.push(r);
-    }
 
-    Game.loadedLevels.add(level);
-    Game.reactionsLoaded = true;
+    const items =
+        [...unique.values()];
 
-    console.log(`Level ${level} data loaded: ${newCompounds.length} compounds, ${newReactions.length} reactions`);
-}
 
-function saveGame() {
-    localStorage.setItem(SAVE_KEY, JSON.stringify({
-        level: Game.level,
-        xp: Game.xp,
-        discoveredCompounds: [...Game.discoveredCompounds],
-        discoveredReactions: [...Game.discoveredReactions],
-        reactionHistory: Game.reactionHistory.slice(0,100)
-    }));
-}
+    if (
+        !items.length
+    ) {
 
-function loadSave() {
-    Game.level = 1;
-    Game.xp = 0;
-    Game.discoveredCompounds = new Set();
-    Game.discoveredReactions = new Set();
-    Game.reactionHistory = [];
+        box.innerHTML =
+            "<p>No chemicals available yet.</p>";
 
-    try {
-        const raw = localStorage.getItem(SAVE_KEY);
-        if (!raw) return;
-        const s = JSON.parse(raw);
-        Game.level = Math.max(1, Math.min(5, Number(s.level) || 1));
-        Game.xp = Number(s.xp) || 0;
-        Game.discoveredCompounds = new Set((s.discoveredCompounds || []).map(String));
-        Game.discoveredReactions = new Set((s.discoveredReactions || []).map(String));
-        Game.reactionHistory = Array.isArray(s.reactionHistory) ? s.reactionHistory : [];
-    } catch {
-        console.warn("Starting with a fresh save.");
-    }
-}
-
-function showLevelUnlock(level) {
-    const old = document.getElementById("level-unlock-popup");
-    if (old) old.remove();
-
-    const elements = LEVEL_ELEMENTS[level] || [];
-    const popup = document.createElement("div");
-    popup.id = "level-unlock-popup";
-    popup.innerHTML = `
-        <div style="
-            position:fixed; inset:0; z-index:9999;
-            background:rgba(0,0,0,.65);
-            display:flex; align-items:center; justify-content:center;
-            padding:20px; font-family:inherit;">
-            <div style="
-                max-width:520px; width:100%; padding:28px;
-                background:#fff; color:#111; border-radius:16px;
-                text-align:center; box-shadow:0 12px 50px rgba(0,0,0,.35);">
-                <h2 style="margin-top:0">🎉 You reached Level ${level}!</h2>
-                <p style="font-size:18px">
-                    ${level === 1
-                        ? "Your starting elements are:"
-                        : "New elements unlocked:"}
-                </p>
-                <p style="font-size:22px; font-weight:bold; line-height:1.8">
-                    ${elements.map(esc).join(" &nbsp; ")}
-                </p>
-                <button id="level-unlock-close"
-                    style="padding:10px 22px; cursor:pointer;">
-                    Continue
-                </button>
-            </div>
-        </div>`;
-    document.body.appendChild(popup);
-    document.getElementById("level-unlock-close").onclick = () => popup.remove();
-}
-
-function renderInventory(search = "") {
-    const box = document.getElementById("compound-list");
-    if (!box) return;
-
-    box.innerHTML = "";
-    const q = String(search).trim().toLowerCase();
-
-    const items = Game.compounds.filter(c => {
-        if (!isAvailable(c)) return false;
-        if (!q) return true;
-        return `${c.name || ""} ${c.formula || ""}`.toLowerCase().includes(q);
-    });
-
-    if (!items.length) {
-        box.innerHTML = "<p>No chemicals available yet.</p>";
         return;
     }
 
-    for (const c of items) {
-        const b = document.createElement("button");
-        b.type = "button";
-        b.className = "compound-button";
-        b.innerHTML = `<strong>${esc(c.formula || c.name)}</strong><span>${esc(c.name || "")}</span>`;
-        b.onclick = () => addReactant(c.id);
-        box.appendChild(b);
+
+    for (
+        const compound
+        of items
+    ) {
+
+        const button =
+            document.createElement(
+                "button"
+            );
+
+
+        button.type =
+            "button";
+
+
+        button.className =
+            "compound-button";
+
+
+        /*
+         * FORMULA ONLY.
+         *
+         * H₂
+         * O₂
+         * Na
+         * Ca
+         * Na₂O
+         */
+
+        button.textContent =
+            compound.formula ||
+            compound.symbol ||
+            compound.name ||
+            compound.id;
+
+
+        button.onclick =
+            () =>
+                addReactant(
+                    compound.id
+                );
+
+
+        box.appendChild(
+            button
+        );
     }
 }
+
+
+/* ----------------------- REACTANT AREA ---------------------------- */
 
 function renderReactants() {
-    const box = document.getElementById("reactants");
 
-    if (!box) return;
+    const box =
+        document.getElementById(
+            "reactants"
+        );
 
-    box.innerHTML = "";
 
-    if (Game.selectedReactants.length === 0) {
-        box.innerHTML = "<p>No reactants selected.</p>";
+    if (!box) {
+
         return;
     }
 
-    Game.selectedReactants.forEach((id, index) => {
-        const d = document.createElement("div");
 
-        d.className = "reactant-item";
+    box.innerHTML =
+        "";
 
-       const compound = Game.compounds.find(
-    c => String(c.id) === String(id)
-);
-        const displayFormula =
-            compound?.formula ||
-            compound?.symbol ||
-            compound?.name ||
-            id;
 
-        const displayName =
-            compound?.name ||
-            "";
+    if (
+        Game.selectedReactants.length
+        === 0
+    ) {
 
-        d.innerHTML = `
-            <span>
-                <strong>${esc(displayFormula)}</strong>
-                ${displayName ? " — " + esc(displayName) : ""}
-            </span>
-            <button type="button">×</button>
-        `;
+        box.innerHTML =
+            "<p>No reactants selected.</p>";
 
-        d.querySelector("button").onclick = () => {
-            Game.selectedReactants.splice(index, 1);
-            renderReactants();
-        };
+        return;
+    }
 
-        box.appendChild(d);
-    });
+
+    Game.selectedReactants.forEach(
+        (
+            id,
+            index
+        ) => {
+
+            const item =
+                document.createElement(
+                    "div"
+                );
+
+
+            item.className =
+                "reactant-item";
+
+
+            const label =
+                document.createElement(
+                    "span"
+                );
+
+
+            label.textContent =
+                formula(id);
+
+
+            const remove =
+                document.createElement(
+                    "button"
+                );
+
+
+            remove.type =
+                "button";
+
+
+            remove.textContent =
+                "×";
+
+
+            remove.onclick =
+                () => {
+
+                    Game.selectedReactants.splice(
+                        index,
+                        1
+                    );
+
+
+                    renderReactants();
+                };
+
+
+            item.appendChild(
+                label
+            );
+
+
+            item.appendChild(
+                remove
+            );
+
+
+            box.appendChild(
+                item
+            );
+        }
+    );
 }
-function addReactant(id) {
 
-    id = String(id);
 
-    const compound = Game.compounds.find(
-        c => String(c.id) === id
-    );
+function addReactant(
+    id
+) {
 
-    if (!compound) {
-        console.error("Compound not found:", id);
-        showMessage("Could not find this chemical.");
+    const sid =
+        String(id);
+
+
+    if (
+        Game.selectedReactants.length
+        >= MAX_REACTANTS
+    ) {
+
+        showMessage(
+            `Maximum ${MAX_REACTANTS} reactants.`
+        );
+
         return;
     }
 
-    if (Game.selectedReactants.length >= MAX_REACTANTS) {
-        showMessage("Maximum 5 reactants.");
+
+    if (
+        !isAvailable(sid)
+    ) {
+
+        showMessage(
+            "You have not discovered this compound yet."
+        );
+
         return;
     }
 
-    Game.selectedReactants.push(id);
 
-    console.log(
-        "Reactant added:",
-        compound.formula || compound.name,
-        Game.selectedReactants
+    Game.selectedReactants.push(
+        sid
     );
+
 
     renderReactants();
 }
-function performReaction() {
 
-    // Nothing selected
-    if (Game.selectedReactants.length === 0) {
-        showMessage("Add at least one reactant.");
-        return;
+
+/* -------------------------- REACTION MATCH ------------------------ */
+
+function reactionSideIDs(
+    items
+) {
+
+    if (
+        !Array.isArray(items)
+    ) {
+
+        return [];
     }
 
-    const selected = Game.selectedReactants
-        .map(id => String(id))
-        .sort();
 
-    // Find a reaction matching the selected reactants
-    let reaction = null;
+    return items
 
-    for (const r of Game.reactions) {
+        .flatMap(
+            item => {
 
-        if (!Array.isArray(r.reactants)) {
-            continue;
-        }
+                if (
+                    typeof item ===
+                    "string"
+                ) {
 
-        const required = r.reactants.map(item => {
-
-            if (typeof item === "string") {
-                return String(item);
-            }
-
-            if (item && item.compound) {
-                return String(item.compound);
-            }
-
-            return null;
-        }).filter(Boolean).sort();
-
-        if (required.length !== selected.length) {
-            continue;
-        }
-
-        const matches =
-            required.every((id, i) => id === selected[i]);
-
-        if (matches) {
-            reaction = r;
-            break;
-        }
-    }
-
-    // No reaction found
-    if (!reaction) {
-        showMessage("No reaction found for these chemicals.");
-        showNoReaction();
-        return;
-    }
-
-    // Extract product IDs
-    const products = [];
-
-    if (Array.isArray(reaction.products)) {
-
-        for (const item of reaction.products) {
-
-            if (typeof item === "string") {
-                products.push(String(item));
-            }
-
-            else if (item && item.compound) {
-
-                const coefficient =
-                    Number(item.coefficient) || 1;
-
-                for (let i = 0; i < coefficient; i++) {
-                    products.push(String(item.compound));
+                    return [
+                        String(item)
+                    ];
                 }
+
+
+                if (
+                    item &&
+                    item.compound
+                ) {
+
+                    const coefficient =
+                        Math.max(
+                            1,
+                            Number(
+                                item.coefficient
+                            ) || 1
+                        );
+
+
+                    return Array(
+                        coefficient
+                    )
+                    .fill(
+                        String(
+                            item.compound
+                        )
+                    );
+                }
+
+
+                return [];
             }
+        )
+
+        .filter(Boolean);
+}
+
+
+function normalizedUnique(
+    items
+) {
+
+    return [
+        ...new Set(
+            items.map(String)
+        )
+    ].sort();
+}
+
+
+/*
+ * Match the selected substances against
+ * reaction reactants.
+ *
+ * Coefficients are ignored for selection,
+ * because the player chooses substances,
+ * not stoichiometric quantities.
+ */
+function findReaction() {
+
+    if (
+        Game.selectedReactants.length
+        === 0
+    ) {
+
+        return null;
+    }
+
+
+    const selected =
+        normalizedUnique(
+            Game.selectedReactants
+        );
+
+
+    const candidates =
+        Game.reactions.filter(
+            reaction => {
+
+                const required =
+                    normalizedUnique(
+                        reactionSideIDs(
+                            reaction.reactants
+                        )
+                    );
+
+
+                return (
+                    required.length ===
+                    selected.length &&
+
+                    required.every(
+                        (
+                            id,
+                            index
+                        ) =>
+                            id ===
+                            selected[index]
+                    )
+                );
+            }
+        );
+
+
+    return (
+        candidates[0] ||
+        null
+    );
+}
+
+
+/* ---------------------------- REACT ------------------------------- */
+
+async function performReaction() {
+
+    if (
+        Game.selectedReactants.length
+        === 0
+    ) {
+
+        showMessage(
+            "Select at least one reactant."
+        );
+
+        return;
+    }
+
+
+    /*
+     * Don't say "No reaction" while
+     * the database is still loading.
+     */
+
+    if (
+        !Game.loadedLevels.has(
+            Game.level
+        )
+    ) {
+
+        showMessage(
+            "Reactions are still loading..."
+        );
+
+        return;
+    }
+
+
+    const reaction =
+        findReaction();
+
+
+    if (!reaction) {
+
+        showNoReaction();
+
+
+        showMessage(
+            "No reaction found for these reactants."
+        );
+
+
+        return;
+    }
+
+
+    /*
+     * Extract actual products.
+     */
+
+    const products =
+        reactionSideIDs(
+            reaction.products
+        );
+
+
+    let newCompound =
+        false;
+
+
+    /*
+     * Every product is a newly discovered
+     * compound unless already discovered.
+     */
+
+    for (
+        const id
+        of products
+    ) {
+
+        if (
+            !Game.discoveredCompounds.has(
+                id
+            )
+        ) {
+
+            Game.discoveredCompounds.add(
+                id
+            );
+
+
+            newCompound =
+                true;
         }
     }
 
-    // Check whether a new compound was discovered
-    let newCompound = false;
 
-    for (const productId of products) {
+    const reactionID =
+        String(
+            reaction.id
+        );
 
-        if (!Game.discoveredCompounds.has(productId)) {
-            Game.discoveredCompounds.add(productId);
-            newCompound = true;
-        }
-    }
-
-    // Reaction discovery
-    const rid = String(reaction.id);
 
     const firstReaction =
-        !Game.discoveredReactions.has(rid);
+        !Game.discoveredReactions.has(
+            reactionID
+        );
 
-    Game.discoveredReactions.add(rid);
 
-    // XP
-    Game.xp += newCompound ? 35 : 10;
+    Game.discoveredReactions.add(
+        reactionID
+    );
 
-    // Save history
+
+    /*
+     * XP
+     */
+
+    Game.xp +=
+        newCompound
+            ? 35
+            : 10;
+
+
+    /*
+     * Determine whether level
+     * has changed.
+     */
+
+    const oldLevel =
+        Game.level;
+
+
+    const newLevel =
+        levelForXP(
+            Game.xp
+        );
+
+
+    /*
+     * History
+     */
+
     Game.reactionHistory.unshift({
-        reactionID: rid,
-        equation: reaction.equation || "",
-        reactants: [...Game.selectedReactants],
-        products: products,
-        timestamp: new Date().toISOString()
+
+        reactionID,
+
+        equation:
+            reaction.equation ||
+            "",
+
+        reactants:
+            [
+                ...Game.selectedReactants
+            ],
+
+        products:
+            [
+                ...products
+            ],
+
+        timestamp:
+            new Date().toISOString()
     });
 
-    if (Game.reactionHistory.length > 100) {
-        Game.reactionHistory.length = 100;
+
+    if (
+        Game.reactionHistory.length
+        > 100
+    ) {
+
+        Game.reactionHistory.length =
+            100;
     }
+
 
     saveGame();
 
-    // Show result
+
+    /*
+     * Show reaction result.
+     */
+
     showReactionResult(
+
         reaction,
+
         products,
+
         newCompound,
+
         firstReaction
+
     );
 
+
     renderInventory();
+
     renderReactants();
+
     updateStats();
-}
 
-function showReactionResult(reaction, products, newCompound, firstReaction) {
-    const box = document.getElementById("reaction-result");
-    if (!box) return;
 
-    box.innerHTML = `
-        ${newCompound ? "<h3>🎉 NEW COMPOUND DISCOVERED!</h3>" : ""}
-        ${firstReaction ? "<p>New reaction discovered!</p>" : ""}
-        <p><strong>${esc(reaction.equation || "Reaction complete")}</strong></p>
-        <h4>Products</h4>
-       ${(products || []).map(id => `<div><strong>${esc(formula(id))}</strong> — ${esc(name(id))}</div>`).join("")}
-        ${reaction.conditions ? `<p><strong>Conditions:</strong> ${esc(reaction.conditions)}</p>` : ""}
-    `;
-}
+    /*
+     * Level up.
+     */
 
-function updateStats() {
-    const l = document.getElementById("level");
-    const x = document.getElementById("xp");
-    const c = document.getElementById("compound-count");
-    const r = document.getElementById("reaction-count");
+    if (
+        newLevel > oldLevel
+    ) {
 
-    if (l) l.textContent = Game.level;
-    if (x) x.textContent = Game.xp;
-    if (c) c.textContent = `${Game.discoveredCompounds.size}/${Game.compounds.length}`;
-    if (r) r.textContent = `${Game.discoveredReactions.size}/${Game.reactions.length}`;
-}
+        Game.level =
+            newLevel;
 
-function showMessage(text) {
-    const box = document.getElementById("message");
-    if (box) box.textContent = text;
-    console.log(text);
-}
-
-function setupUI() {
-    const search = document.getElementById("compound-search");
-    if (search) search.oninput = () => renderInventory(search.value);
-
-    const react = document.getElementById("react-button");
-    if (react) react.onclick = performReaction;
-
-    const clear = document.getElementById("clear-button");
-    if (clear) clear.onclick = () => {
-        Game.selectedReactants = [];
-        renderReactants();
-    };
-
-    const reset = document.getElementById("reset-button");
-    if (reset) reset.onclick = resetGame;
-}
-
-function resetGame() {
-    if (!confirm("Reset all ChemCraft progress?")) return;
-    localStorage.removeItem(SAVE_KEY);
-    location.reload();
-}
-
-async function init() {
-    try {
-        loadSave();
-        setupUI();
-
-        /* Only level 1 is downloaded initially. */
-        await loadLevel(1);
-
-        /* Level-1 elements are available immediately.
-           No compounds are marked discovered. */
-        renderInventory();
-        renderReactants();
-        updateStats();
-        showLevelUnlock(1);
 
         /*
-          If an old save is at a higher level, load only those
-          level files now, one by one. Nothing is discovered
-          automatically.
-        */
-        for (let l = 2; l <= Game.level; l++) {
-            await loadLevel(l);
-        }
+         * Unlock ONLY the new
+         * elemental substances.
+         */
+
+        addStarterElementsForLevel(
+            newLevel
+        );
+
+
+        /*
+         * Show popup immediately.
+         */
+
+        showLevelUnlock(
+            newLevel
+        );
+
 
         renderInventory();
+
         updateStats();
 
-        /* New game: reactions are already loaded for level 1.
-           Higher-level files are loaded only when the player
-           reaches those levels. */
-    } catch (e) {
-        console.error(e);
-        const err = document.getElementById("error");
-        if (err) {
-            err.style.display = "block";
-            err.textContent = e.message;
-        }
-        showMessage("Could not load the current level database.");
+
+        /*
+         * Load new level's database
+         * without blocking the popup/UI.
+         */
+
+        loadLevel(
+            newLevel
+        )
+        .catch(
+            error => {
+
+                console.error(
+                    `Level ${newLevel} load failed:`,
+                    error
+                );
+
+
+                showMessage(
+                    `Level ${newLevel} elements unlocked, ` +
+                    `but the database failed to load.`
+                );
+            }
+        );
+
+
+        saveGame();
     }
 }
 
-document.addEventListener("DOMContentLoaded", init);
+
+/* ------------------------- REACTION RESULT ------------------------ */
+
+function showReactionResult(
+    reaction,
+    products,
+    newCompound,
+    firstReaction
+) {
+
+    const box =
+        document.getElementById(
+            "reaction-result"
+        );
+
+
+    if (!box) {
+
+        return;
+    }
+
+
+    const productHTML =
+        (
+            products ||
+            []
+        )
+
+        .map(
+            id => {
+
+                return `
+                    <div class="product-result">
+                        <strong>
+                            ${esc(
+                                formula(id)
+                            )}
+                        </strong>
+                    </div>
+                `;
+            }
+        )
+
+        .join("");
+
+
+    box.innerHTML = `
+
+        ${
+            newCompound
+                ? "<h3>🎉 NEW COMPOUND DISCOVERED!</h3>"
+                : ""
+        }
+
+        ${
+            firstReaction
+                ? "<p>New reaction discovered!</p>"
+                : ""
+        }
+
+        <p>
+            <strong>
+                ${esc(
+                    reaction.equation ||
+                    "Reaction complete"
+                )}
+            </strong>
+        </p>
+
+        <h4>
+            Products
+        </h4>
+
+        ${
+            productHTML ||
+            "<p>No products recorded.</p>"
+        }
+
+        ${
+            reaction.conditions
+                ? `
+                    <p>
+                        <strong>
+                            Conditions:
+                        </strong>
+
+                        ${esc(
+                            reaction.conditions
+                        )}
+                    </p>
+                `
+                : ""
+        }
+
+    `;
+}
+
+
+/* --------------------------- NO REACTION -------------------------- */
+
+function showNoReaction() {
+
+    const box =
+        document.getElementById(
+            "reaction-result"
+        );
+
+
+    if (!box) {
+
+        return;
+    }
+
+
+    box.innerHTML = `
+
+        <h3>
+            No Reaction
+        </h3>
+
+        <p>
+            These chemicals do not have a reaction
+            registered in the loaded database.
+        </p>
+
+    `;
+}
+
+
+/* ----------------------- LEVEL UNLOCK POPUP ----------------------- */
+
+function showLevelUnlock(
+    level
+) {
+
+    const old =
+        document.getElementById(
+            "level-unlock-popup"
+        );
+
+
+    if (old) {
+
+        old.remove();
+    }
+
+
+    const ids =
+        LEVEL_STARTERS[level] ||
+        [];
+
+
+    const labels =
+        ids
+
+            .map(
+                id =>
+                    formula(id)
+            )
+
+            .join(
+                " &nbsp; "
+            );
+
+
+    const popup =
+        document.createElement(
+            "div"
+        );
+
+
+    popup.id =
+        "level-unlock-popup";
+
+
+    popup.innerHTML = `
+
+        <div style="
+            position:fixed;
+            inset:0;
+            z-index:9999;
+            background:rgba(0,0,0,.68);
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            padding:20px;
+            font-family:inherit;
+        ">
+
+            <div style="
+                width:min(520px, 100%);
+                padding:30px;
+                background:#fff;
+                color:#111;
+                border-radius:18px;
+                text-align:center;
+                box-shadow:0 15px 60px rgba(0,0,0,.4);
+            ">
+
+                <h2 style="margin-top:0">
+
+                    🎉 You reached Level ${level}!
+
+                </h2>
+
+                <p style="font-size:18px">
+
+                    ${
+                        level === 1
+                            ? "Your starting elements:"
+                            : "New elements unlocked:"
+                    }
+
+                </p>
+
+                <p style="
+                    font-size:28px;
+                    font-weight:700;
+                    line-height:1.7;
+                ">
+
+                    ${esc(labels)}
+
+                </p>
+
+                <button
+                    id="level-unlock-close"
+                    type="button"
+                    style="
+                        padding:10px 24px;
+                        font-size:16px;
+                        cursor:pointer;
+                    "
+                >
+
+                    Continue
+
+                </button>
+
+            </div>
+
+        </div>
+    `;
+
+
+    document.body.appendChild(
+        popup
+    );
+
+
+    const close =
+        document.getElementById(
+            "level-unlock-close"
+        );
+
+
+    if (close) {
+
+        close.onclick =
+            () =>
+                popup.remove();
+    }
+}
+
+
+/* --------------------------- STATS -------------------------------- */
+
+function updateStats() {
+
+    setStat(
+        "level",
+        Game.level
+    );
+
+
+    setStat(
+        "xp",
+        Game.xp
+    );
+
+
+    setStat(
+        "compound-count",
+        `${Game.discoveredCompounds.size}/${Game.compounds.length}`
+    );
+
+
+    setStat(
+        "reaction-count",
+        `${Game.discoveredReactions.size}/${Game.reactions.length}`
+    );
+}
+
+
+/* -------------------------- HISTORY -------------------------------- */
+
+function renderHistory() {
+
+    const box =
+        document.getElementById(
+            "reaction-history"
+        );
+
+
+    if (!box) {
+
+        return;
+    }
+
+
+    if (
+        !Game.reactionHistory.length
+    ) {
+
+        box.innerHTML =
+            "<p>No reactions discovered yet.</p>";
+
+        return;
+    }
+
+
+    box.innerHTML =
+        "";
+
+
+    for (
+        const entry
+        of Game.reactionHistory
+    ) {
+
+        const row =
+            document.createElement(
+                "div"
+            );
+
+
+        row.className =
+            "history-item";
+
+
+        row.textContent =
+            entry.equation ||
+            "Reaction";
+
+
+        box.appendChild(
+            row
+        );
+    }
+}
+
+
+/* --------------------------- SAVE --------------------------------- */
+
+function saveGame() {
+
+    localStorage.setItem(
+
+        SAVE_KEY,
+
+        JSON.stringify({
+
+            level:
+                Game.level,
+
+            xp:
+                Game.xp,
+
+            discoveredCompounds:
+                [
+                    ...Game.discoveredCompounds
+                ],
+
+            discoveredReactions:
+                [
+                    ...Game.discoveredReactions
+                ],
+
+            reactionHistory:
+                Game.reactionHistory.slice(
+                    0,
+                    100
+                )
+
+        })
+    );
+}
+
+
+function loadSave() {
+
+    Game.level =
+        1;
+
+
+    Game.xp =
+        0;
+
+
+    Game.discoveredCompounds =
+        new Set();
+
+
+    Game.discoveredReactions =
+        new Set();
+
+
+    Game.reactionHistory =
+        [];
+
+
+    try {
+
+        const raw =
+            localStorage.getItem(
+                SAVE_KEY
+            );
+
+
+        if (!raw) {
+
+            return;
+        }
+
+
+        const save =
+            JSON.parse(raw);
+
+
+        Game.level =
+            Math.max(
+                1,
+                Math.min(
+                    5,
+                    Number(
+                        save.level
+                    ) || 1
+                )
+            );
+
+
+        Game.xp =
+            Math.max(
+                0,
+                Number(
+                    save.xp
+                ) || 0
+            );
+
+
+        Game.discoveredCompounds =
+            new Set(
+
+                Array.isArray(
+                    save.discoveredCompounds
+                )
+
+                    ? save.discoveredCompounds
+                        .map(String)
+
+                    : []
+
+            );
+
+
+        Game.discoveredReactions =
+            new Set(
+
+                Array.isArray(
+                    save.discoveredReactions
+                )
+
+                    ? save.discoveredReactions
+                        .map(String)
+
+                    : []
+
+            );
+
+
+        Game.reactionHistory =
+
+            Array.isArray(
+                save.reactionHistory
+            )
+
+                ? save.reactionHistory
+
+                : [];
+
+
+    } catch (error) {
+
+        console.warn(
+            "Save was invalid; starting a new game.",
+            error
+        );
+    }
+}
+
+
+/* --------------------------- RESET -------------------------------- */
+
+function resetGame() {
+
+    if (
+        !confirm(
+            "Reset all ChemCraft progress?"
+        )
+    ) {
+
+        return;
+    }
+
+
+    localStorage.removeItem(
+        SAVE_KEY
+    );
+
+
+    location.reload();
+}
+
+
+/* -------------------------- UI SETUP ------------------------------ */
+
+function setupUI() {
+
+    const search =
+        document.getElementById(
+            "compound-search"
+        );
+
+
+    if (search) {
+
+        search.oninput =
+            () =>
+                renderInventory(
+                    search.value
+                );
+    }
+
+
+    const react =
+        document.getElementById(
+            "react-button"
+        );
+
+
+    if (react) {
+
+        react.onclick =
+            performReaction;
+    }
+
+
+    const clear =
+        document.getElementById(
+            "clear-button"
+        );
+
+
+    if (clear) {
+
+        clear.onclick =
+            () => {
+
+                Game.selectedReactants =
+                    [];
+
+
+                renderReactants();
+            };
+    }
+
+
+    const reset =
+        document.getElementById(
+            "reset-button"
+        );
+
+
+    if (reset) {
+
+        reset.onclick =
+            resetGame;
+    }
+}
+
+
+/* ----------------------------- INIT ------------------------------- */
+
+async function init() {
+
+    try {
+
+        /*
+         * Load saved progress FIRST.
+         */
+
+        loadSave();
+
+
+        /*
+         * Seed currently unlocked
+         * elemental substances immediately.
+         */
+
+        seedStarterCompounds(
+            Game.level
+        );
+
+
+        addStarterElementsForLevel(
+            Game.level
+        );
+
+
+        setupUI();
+
+
+        /*
+         * Render BEFORE JSON loading.
+         */
+
+        renderInventory();
+
+        renderReactants();
+
+        updateStats();
+
+        renderHistory();
+
+
+        /*
+         * New player gets the Level 1 popup.
+         */
+
+        if (
+            Game.level === 1
+        ) {
+
+            showLevelUnlock(1);
+        }
+
+
+        /*
+         * Load already unlocked level
+         * datasets.
+         */
+
+        const levelPromises = [];
+
+
+        for (
+            let level = 1;
+            level <= Game.level;
+            level++
+        ) {
+
+            levelPromises.push(
+                loadLevel(level)
+            );
+        }
+
+
+        await Promise.all(
+            levelPromises
+        );
+
+
+        renderInventory();
+
+        updateStats();
+
+        renderHistory();
+
+
+        console.log(
+            "ChemCraft ready."
+        );
+
+
+    } catch (error) {
+
+        console.error(
+            "ChemCraft initialization failed:",
+            error
+        );
+
+
+        const errorBox =
+            document.getElementById(
+                "error"
+            );
+
+
+        if (errorBox) {
+
+            errorBox.style.display =
+                "block";
+
+
+            errorBox.textContent =
+                error.message;
+        }
+
+
+        showMessage(
+            "ChemCraft could not load its database."
+        );
+    }
+}
+
+
+/* ------------------------- START --------------------------------- */
+
+document.addEventListener(
+    "DOMContentLoaded",
+    init
+);
+
+
+/* ------------------------- GLOBAL API ----------------------------- */
 
 window.ChemCraft = {
+
     Game,
+
+    loadLevel,
+
     addReactant,
+
     performReaction,
+
     resetGame,
+
+    saveGame,
+
     renderInventory,
+
     renderReactants
+
 };
