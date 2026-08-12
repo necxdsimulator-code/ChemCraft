@@ -272,8 +272,9 @@ function renderReactants() {
 
         d.className = "reactant-item";
 
-        const compound = getCompound(id);
-
+       const compound = Game.compounds.find(
+    c => String(c.id) === String(id)
+);
         const displayFormula =
             compound?.formula ||
             compound?.symbol ||
@@ -381,7 +382,7 @@ function showReactionResult(reaction, products, newCompound, firstReaction) {
         ${firstReaction ? "<p>New reaction discovered!</p>" : ""}
         <p><strong>${esc(reaction.equation || "Reaction complete")}</strong></p>
         <h4>Products</h4>
-        ${products.map(id => `<div><strong>${esc(formula(id))}</strong> — ${esc(name(id))}</div>`).join("")}
+       ${(products || []).map(id => `<div><strong>${esc(formula(id))}</strong> — ${esc(name(id))}</div>`).join("")}
         ${reaction.conditions ? `<p><strong>Conditions:</strong> ${esc(reaction.conditions)}</p>` : ""}
     `;
 }
