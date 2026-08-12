@@ -13,6 +13,21 @@ const LEVEL_ELEMENTS = {
     5: ["Au","Cs","Ba","Hg","Pb","Sn"]
 };
 
+function getUnlockedSymbols(level = Game.level) {
+    const symbols = [];
+
+    for (let l = 1; l <= level; l++) {
+        const elements = LEVEL_ELEMENTS[l] || [];
+
+        for (const symbol of elements) {
+            if (!symbols.includes(symbol)) {
+                symbols.push(symbol);
+            }
+        }
+    }
+
+    return symbols;
+}
 const XP_LEVELS = {
     1: 0,
     2: 250,
