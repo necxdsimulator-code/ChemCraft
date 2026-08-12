@@ -256,54 +256,20 @@ function renderInventory(search = "") {
 }
 
 function renderReactants() {
-    const box = document.getElementById("reactants");
+const box = document.getElementById("reactants");
+if (!box) return;
+box.innerHTML = "";
 
-    if (!box) {
-        console.error("Could not find #reactants");
-        return;
-    }
-
-    box.innerHTML = "";
-
-    if (Game.selectedReactants.length === 0) {
-        box.innerHTML = "<p>No reactants selected.</p>";
-        return;
-    }
-
-    Game.selectedReactants.forEach((id, index) => {
-
-        const d = document.createElement("div");
-
-        d.className = "reactant-item";
-
-        const compound = getCompound(id);
-
-        const displayFormula =
-            compound?.formula ||
-            compound?.symbol ||
-            compound?.name ||
-            id;
-
-        const displayName =
-            compound?.name ||
-            "";
-
-        d.innerHTML = `
-            <span>
-                <strong>${esc(displayFormula)}</strong>
-                ${displayName ? " — " + esc(displayName) : ""}
-            </span>
-
-            <button type="button">×</button>
-        `;
-
-        d.querySelector("button").onclick = () => {
-            Game.selectedReactants.splice(index, 1);
-            renderReactants();
-        };
-
-        box.appendChild(d);
-    });
+Game.selectedReactants.forEach((id, index) => {
+    const d = document.createElement("div");
+    d.className = "reactant-item";
+    d.innerHTML = `<span>${esc(formula(id))}</span><button type="button">×</button>`;
+    d.querySelector("button").onclick = () => {
+        Game.selectedReactants.splice(index,1);
+        renderReactants();
+    };
+    box.appendChild(d);
+});
 }
 function addReactant(id) {
 
