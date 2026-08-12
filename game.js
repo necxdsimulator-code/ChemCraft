@@ -257,79 +257,81 @@ function renderInventory(search = "") {
 
 function renderReactants() {
     const box = document.getElementById("reactants");
-    if (!box) return;
+
+    if (!box) {
+        console.error("Could not find #reactants");
+        return;
+    }
+
     box.innerHTML = "";
 
+    if (Game.selectedReactants.length === 0) {
+        box.innerHTML = "<p>No reactants selected.</p>";
+        return;
+    }
+
     Game.selectedReactants.forEach((id, index) => {
+
         const d = document.createElement("div");
+
         d.className = "reactant-item";
-        d.innerHTML = `<span>${esc(formula(id))}</span><button type="button">×</button>`;
+
+        const compound = getCompound(id);
+
+        const displayFormula =
+            compound?.formula ||
+            compound?.symbol ||
+            compound?.name ||
+            id;
+
+        const displayName =
+            compound?.name ||
+            "";
+
+        d.innerHTML = `
+            <span>
+                <strong>${esc(displayFormula)}</strong>
+                ${displayName ? " — " + esc(displayName) : ""}
+            </span>
+
+            <button type="button">×</button>
+        `;
+
         d.querySelector("button").onclick = () => {
-            Game.selectedReactants.splice(index,1);
+            Game.selectedReactants.splice(index, 1);
             renderReactants();
         };
+
         box.appendChild(d);
     });
 }
-
 function addReactant(id) {
+
+    id = String(id);
+
+    const compound = getCompound(id);
+
+    if (!compound) {
+        console.error("Compound not found:", id);
+        showMessage("Could not find this chemical.");
+        return;
+    }
+
     if (Game.selectedReactants.length >= MAX_REACTANTS) {
         showMessage("Maximum 5 reactants.");
         return;
     }
-    if (!isAvailable(getCompound(id))) {
-        showMessage("You have not discovered this compound yet.");
-        return;
-    }
-    Game.selectedReactants.push(String(id));
+
+    Game.selectedReactants.push(id);
+
+    console.log(
+        "Reactant added:",
+        compound.formula || compound.name,
+        Game.selectedReactants
+    );
+
     renderReactants();
 }
-
-function idsFrom(items) {
-    return (items || []).map(x =>
-        typeof x === "string" ? String(x) : String(x.compound || x.id || "")
-    ).filter(Boolean);
-}
-
-function sameArray(a,b) {
-    a = [...a].map(String).sort();
-    b = [...b].map(String).sort();
-    return a.length === b.length && a.every((x,i) => x === b[i]);
-}
-
-function findReaction() {
-    if (!Game.reactionsLoaded) return null;
-    const selected = [...Game.selectedReactants];
-    return Game.reactions.find(r => sameArray(selected, idsFrom(r.reactants))) || null;
-}
-
-async function performReaction() {
-    if (!Game.selectedReactants.length) {
-        showMessage("Select at least one reactant.");
-        return;
-    }
-
-    if (!Game.reactionsLoaded) {
-        showMessage("The current level's reactions are still loading...");
-        return;
-    }
-
-    const reaction = findReaction();
-
-    if (!reaction) {
-        showMessage("No reaction found for these reactants.");
-        return;
-    }
-
-    const products = idsFrom(reaction.products);
-    let newCompound = false;
-
-    for (const id of products) {
-        if (Game.compoundMap.has(id) && !Game.discoveredCompounds.has(id)) {
-            Game.discoveredCompounds.add(id);
-            newCompound = true;
-        }
-    }
 
     const rid = String(reaction.id);
     const firstReaction = !Game.discoveredReactions.has(rid);
