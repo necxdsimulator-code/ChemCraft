@@ -330,47 +330,131 @@ function addReactant(id) {
 
     renderReactants();
 }
-function performReaction(reaction, products, newCompound) {
+function performReaction() {
+
+    // Nothing selected
+    if (Game.selectedReactants.length === 0) {
+        showMessage("Add at least one reactant.");
+        return;
+    }
+
+    const selected = Game.selectedReactants
+        .map(id => String(id))
+        .sort();
+
+    // Find a reaction matching the selected reactants
+    let reaction = null;
+
+    for (const r of Game.reactions) {
+
+        if (!Array.isArray(r.reactants)) {
+            continue;
+        }
+
+        const required = r.reactants.map(item => {
+
+            if (typeof item === "string") {
+                return String(item);
+            }
+
+            if (item && item.compound) {
+                return String(item.compound);
+            }
+
+            return null;
+        }).filter(Boolean).sort();
+
+        if (required.length !== selected.length) {
+            continue;
+        }
+
+        const matches =
+            required.every((id, i) => id === selected[i]);
+
+        if (matches) {
+            reaction = r;
+            break;
+        }
+    }
+
+    // No reaction found
+    if (!reaction) {
+        showMessage("No reaction found for these chemicals.");
+        showNoReaction();
+        return;
+    }
+
+    // Extract product IDs
+    const products = [];
+
+    if (Array.isArray(reaction.products)) {
+
+        for (const item of reaction.products) {
+
+            if (typeof item === "string") {
+                products.push(String(item));
+            }
+
+            else if (item && item.compound) {
+
+                const coefficient =
+                    Number(item.coefficient) || 1;
+
+                for (let i = 0; i < coefficient; i++) {
+                    products.push(String(item.compound));
+                }
+            }
+        }
+    }
+
+    // Check whether a new compound was discovered
+    let newCompound = false;
+
+    for (const productId of products) {
+
+        if (!Game.discoveredCompounds.has(productId)) {
+            Game.discoveredCompounds.add(productId);
+            newCompound = true;
+        }
+    }
+
+    // Reaction discovery
     const rid = String(reaction.id);
-    const firstReaction = !Game.discoveredReactions.has(rid);
+
+    const firstReaction =
+        !Game.discoveredReactions.has(rid);
+
     Game.discoveredReactions.add(rid);
 
+    // XP
     Game.xp += newCompound ? 35 : 10;
 
-    const oldLevel = Game.level;
-    const newLevel = Math.min(5,
-        Game.xp >= 1000 ? 5 :
-        Game.xp >= 700 ? 4 :
-        Game.xp >= 450 ? 3 :
-        Game.xp >= 250 ? 2 : 1
-    );
-
+    // Save history
     Game.reactionHistory.unshift({
         reactionID: rid,
         equation: reaction.equation || "",
         reactants: [...Game.selectedReactants],
-        products,
+        products: products,
         timestamp: new Date().toISOString()
     });
 
-    if (Game.reactionHistory.length > 100) Game.reactionHistory.length = 100;
-
-    if (newLevel > oldLevel) {
-        Game.level = newLevel;
-        loadLevel(newLevel);
-        saveGame();
-        renderInventory();
-        renderReactants();
-        updateStats();
-        showReactionResult(reaction, products, newCompound, firstReaction);
-        showLevelUnlock(newLevel);
-        return;
+    if (Game.reactionHistory.length > 100) {
+        Game.reactionHistory.length = 100;
     }
 
     saveGame();
+
+    // Show result
+    showReactionResult(
+        reaction,
+        products,
+        newCompound,
+        firstReaction
+    );
+
     renderInventory();
+    renderReactants();
     updateStats();
-    showReactionResult(reaction, products, newCompound, firstReaction);
 }
 
 function showReactionResult(reaction, products, newCompound, firstReaction) {
