@@ -304,7 +304,9 @@ function addReactant(id) {
 
     id = String(id);
 
-    const compound = getCompound(id);
+    const compound = Game.compounds.find(
+        c => String(c.id) === id
+    );
 
     if (!compound) {
         console.error("Compound not found:", id);
