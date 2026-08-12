@@ -354,7 +354,7 @@ function addReactant(id) {
 
     if (newLevel > oldLevel) {
         Game.level = newLevel;
-        await loadLevel(newLevel);
+        loadLevel(newLevel);
         saveGame();
         renderInventory();
         renderReactants();
