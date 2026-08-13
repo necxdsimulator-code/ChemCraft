@@ -1245,6 +1245,8 @@
 "conditions": "Light"
 },
 {
+,
+{
 "id": "reaction_1547",
 "reactants": [
 "na",
@@ -1258,6 +1260,11 @@
 {
 "compound": "h2",
 "coefficient": 1
+}
+],
+"equation": "2Na + 2HCl → 2NaCl + H₂",
+"type": "Single Displacement",
+"conditions": "Aqueous"
 },
 {
 "id": "reaction_1548",
