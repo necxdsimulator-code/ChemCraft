@@ -8874,5 +8874,45 @@
     "equation": "Fe + Cu(NO₃)2 → Fe(NO₃)2 + Cu",
     "type": "Single Displacement",
     "conditions": "Aqueous"
-  }
+  },
+{
+"id": "reaction_1410",
+"reactants": [
+"zn",
+"h2so4"
+],
+"products": [
+{
+"compound": "zn_so4",
+"coefficient": 1
+},
+{
+"compound": "h2",
+"coefficient": 1
+}
+],
+"equation": "Zn + H₂SO₄ → ZnSO₄ + H₂",
+"type": "Single Displacement",
+"conditions": "Dilute"
+},
+{
+"id": "reaction_1411",
+"reactants": [
+"fe",
+"h2so4"
+],
+"products": [
+{
+"compound": "fe2_so4",
+"coefficient": 1
+},
+{
+"compound": "h2",
+"coefficient": 1
+}
+],
+"equation": "Fe + H₂SO₄ → FeSO₄ + H₂",
+"type": "Single Displacement",
+"conditions": "Dilute"
+}
 ]
