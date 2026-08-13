@@ -1876,6 +1876,26 @@
 {
 "compound": "p4o10",
 "coefficient": 1
+},
+{
+"id": "reaction_1582",
+"reactants": [
+"ca_oh",
+"co2"
+],
+"products": [
+{
+"compound": "ca_co3",
+"coefficient": 1
+},
+{
+"compound": "h2o",
+"coefficient": 1
+}
+],
+"equation": "Ca(OH)₂ + CO₂ → CaCO₃ + H₂O",
+"type": "Combination",
+"conditions": "Aqueous"
 }
 ],
 "equation": "P₄ + 5O₂ → P₄O₁₀",
