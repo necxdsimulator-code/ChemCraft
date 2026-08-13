@@ -1741,7 +1741,7 @@ function showLevelUnlock(
             )
 
             .join(
-                " &nbsp; "
+                " . "
             );
 
 
