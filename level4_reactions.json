@@ -8134,5 +8134,25 @@
     "equation": "Ni + Cu(NO₃)2 → Ni(NO₃)2 + Cu",
     "type": "Single Displacement",
     "conditions": "Aqueous"
-  }
+  },
+{
+"id": "reaction_1591",
+"reactants": [
+"be",
+"h2so4"
+],
+"products": [
+{
+"compound": "be_so4",
+"coefficient": 1
+},
+{
+"compound": "h2",
+"coefficient": 1
+}
+],
+"equation": "Be + H₂SO₄ → BeSO₄ + H₂",
+"type": "Single Displacement",
+"conditions": "Dilute"
+}
 ]
