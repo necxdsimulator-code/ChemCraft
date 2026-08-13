@@ -1227,4 +1227,21 @@
     "type": "Single Displacement",
     "conditions": "Aqueous"
   }
+,
+{
+"id": "reaction_1546",
+"reactants": [
+"h2",
+"cl2"
+],
+"products": [
+{
+"compound": "hcl",
+"coefficient": 2
+}
+],
+"equation": "H₂ + Cl₂ → 2HCl",
+"type": "Combination",
+"conditions": "Light"
+}
 ]
