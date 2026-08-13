@@ -1239,7 +1239,10 @@
 "compound": "hcl",
 "coefficient": 2
 }
-,
+],
+"equation": "H₂ + Cl₂ → 2HCl",
+"type": "Combination",
+"conditions": "Light",
 {
 "id": "reaction_1547",
 "reactants": [
@@ -1260,9 +1263,5 @@
 "type": "Single Displacement",
 "conditions": "Aqueous"
 }
-],
-"equation": "H₂ + Cl₂ → 2HCl",
-"type": "Combination",
-"conditions": "Light"
 }
 ]
