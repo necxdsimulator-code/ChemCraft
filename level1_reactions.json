@@ -2018,11 +2018,7 @@
 "equation": "CH₃COOH + NaHCO₃ → CH₃COONa + CO₂ + H₂O",
 "type": "Acid-Carbonate",
 "conditions": "Aqueous"
-}
-
-Acetic acid + washing soda (Na₂CO₃):
-
-,
+},
 {
 "id": "reaction_1598",
 "reactants": [
