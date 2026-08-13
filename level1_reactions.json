@@ -1258,29 +1258,28 @@
 {
 "compound": "h2",
 "coefficient": 1
-}
+},
   ,
 {
-"id": "reaction_1546",
-"reactants": ["h2", "cl2"],
-"products": [
-{"compound": "hcl", "coefficient": 2}
+"id": "reaction_1548",
+"reactants": [
+"ca",
+"hcl"
 ],
-"equation": "H₂ + Cl₂ → 2HCl",
-"type": "Combination",
-"conditions": "Light"
+"products": [
+{
+"compound": "ca_cl2",
+"coefficient": 1
 },
 {
-"id": "reaction_1547",
-"reactants": ["na", "hcl"],
-"products": [
-{"compound": "na_cl", "coefficient": 2},
-{"compound": "h2", "coefficient": 1}
+"compound": "h2",
+"coefficient": 1
+}
 ],
-"equation": "2Na + 2HCl → 2NaCl + H₂",
+"equation": "Ca + 2HCl → CaCl₂ + H₂",
 "type": "Single Displacement",
 "conditions": "Aqueous"
-},
+}
 {
 "id": "reaction_1548",
 "reactants": ["k", "hcl"],
