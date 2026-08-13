@@ -1830,5 +1830,24 @@
 "equation": "2Ca(OH)₂ + 2Cl₂ → Ca(ClO)₂ + CaCl₂ + 2H₂O",
 "type": "Disproportionation",
 "conditions": "Cold, dilute"
+},
+{
+"id": "reaction_1579",
+"reactants": [
+"h2o"
+],
+"products": [
+{
+"compound": "h2",
+"coefficient": 2
+},
+{
+"compound": "o2",
+"coefficient": 1
+}
+],
+"equation": "2H₂O → 2H₂ + O₂",
+"type": "Decomposition",
+"conditions": "Electrolysis"
 }
 ]
