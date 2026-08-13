@@ -1248,6 +1248,7 @@
 "reactants": [
 "na",
 "hcl"
+}
 ],
 "products": [
 {
@@ -1262,6 +1263,5 @@
 "equation": "2Na + 2HCl → 2NaCl + H₂",
 "type": "Single Displacement",
 "conditions": "Aqueous"
-}
 }
 ]
