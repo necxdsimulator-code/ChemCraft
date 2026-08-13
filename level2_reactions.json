@@ -5270,5 +5270,105 @@
     "equation": "Li + NaCl → LiCl + Na",
     "type": "Single Displacement",
     "conditions": "Aqueous"
-  }
+  },
+{
+"id": "reaction_1585",
+"reactants": [
+"li",
+"h2so4"
+],
+"products": [
+{
+"compound": "li_so4",
+"coefficient": 1
+},
+{
+"compound": "h2",
+"coefficient": 1
+}
+],
+"equation": "2Li + H₂SO₄ → Li₂SO₄ + H₂",
+"type": "Single Displacement",
+"conditions": "Dilute"
+},
+{
+"id": "reaction_1586",
+"reactants": [
+"mg",
+"h2so4"
+],
+"products": [
+{
+"compound": "mg_so4",
+"coefficient": 1
+},
+{
+"compound": "h2",
+"coefficient": 1
+}
+],
+"equation": "Mg + H₂SO₄ → MgSO₄ + H₂",
+"type": "Single Displacement",
+"conditions": "Dilute"
+},
+{
+"id": "reaction_1587",
+"reactants": [
+"al",
+"h2so4"
+],
+"products": [
+{
+"compound": "al_so4",
+"coefficient": 1
+},
+{
+"compound": "h2",
+"coefficient": 3
+}
+],
+"equation": "2Al + 3H₂SO₄ → Al₂(SO₄)₃ + 3H₂",
+"type": "Single Displacement",
+"conditions": "Dilute"
+},
+{
+"id": "reaction_1588",
+"reactants": [
+"na",
+"h2so4"
+],
+"products": [
+{
+"compound": "na_so4",
+"coefficient": 1
+},
+{
+"compound": "h2",
+"coefficient": 1
+}
+],
+"equation": "2Na + H₂SO₄ → Na₂SO₄ + H₂",
+"type": "Single Displacement",
+"conditions": "Dilute"
+},
+{
+"id": "reaction_1589",
+"reactants": [
+"k",
+"h2so4"
+],
+"products": [
+{
+"compound": "k_so4",
+"coefficient": 1
+},
+{
+"compound": "h2",
+"coefficient": 1
+}
+],
+"equation": "2K + H₂SO₄ → K₂SO₄ + H₂",
+"type": "Single Displacement",
+"conditions": "Dilute"
+}
 ]
