@@ -1806,5 +1806,29 @@
 "equation": "2NO + O₂ → 2NO₂",
 "type": "Combination",
 "conditions": "Oxygen"
+},
+{
+"id": "reaction_1578",
+"reactants": [
+"ca_oh",
+"cl2"
+],
+"products": [
+{
+"compound": "ca_clo",
+"coefficient": 1
+},
+{
+"compound": "ca_cl",
+"coefficient": 1
+},
+{
+"compound": "h2o",
+"coefficient": 1
+}
+],
+"equation": "2Ca(OH)₂ + 2Cl₂ → Ca(ClO)₂ + CaCl₂ + 2H₂O",
+"type": "Disproportionation",
+"conditions": "Cold, dilute"
 }
 ]
