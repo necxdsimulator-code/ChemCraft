@@ -1239,6 +1239,27 @@
 "compound": "hcl",
 "coefficient": 2
 }
+,
+{
+"id": "reaction_1547",
+"reactants": [
+"na",
+"hcl"
+],
+"products": [
+{
+"compound": "nacl",
+"coefficient": 2
+},
+{
+"compound": "h2",
+"coefficient": 1
+}
+],
+"equation": "2Na + 2HCl → 2NaCl + H₂",
+"type": "Single Displacement",
+"conditions": "Aqueous"
+}
 ],
 "equation": "H₂ + Cl₂ → 2HCl",
 "type": "Combination",
