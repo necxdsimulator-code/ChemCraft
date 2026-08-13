@@ -1923,5 +1923,76 @@
 "equation": "NaCl + NH₃ + CO₂ + H₂O → NaHCO₃ + NH₄Cl",
 "type": "Double Displacement",
 "conditions": "Aqueous, Solvay process"
+},
+{
+"id": "reaction_1595",
+"reactants": [
+"ch4"
+],
+"products": [
+{
+"compound": "c2h2",
+"coefficient": 1
+},
+{
+"compound": "h2",
+"coefficient": 3
+}
+],
+"equation": "2CH₄ → C₂H₂ + 3H₂",
+"type": "Dehydrogenation",
+"conditions": "Very high temperature"
+},
+{
+"id": "reaction_1596",
+"reactants": [
+"c2h2",
+"h2"
+],
+"products": [
+{
+"compound": "c2h4",
+"coefficient": 1
+}
+],
+"equation": "C₂H₂ + H₂ → C₂H₄",
+"type": "Hydrogenation",
+"conditions": "Catalyst"
+},
+{
+"id": "reaction_1593",
+"reactants": [
+"c2h4",
+"h2o"
+],
+"products": [
+{
+"compound": "c2h5oh",
+"coefficient": 1
+}
+],
+"equation": "C₂H₄ + H₂O → C₂H₅OH",
+"type": "Addition",
+"conditions": "Phosphoric acid catalyst, high temperature and pressure"
+},
+{
+"id": "reaction_1592",
+"reactants": [
+"c2h5oh",
+"o2"
+],
+"products": [
+{
+"compound": "ch3cooh",
+"coefficient": 1
+},
+{
+"compound": "h2o",
+"coefficient": 1
+}
+],
+"equation": "C₂H₅OH + O₂ → CH₃COOH + H₂O",
+"type": "Oxidation",
+"conditions": "Acetic acid bacteria"
 }
 ]
