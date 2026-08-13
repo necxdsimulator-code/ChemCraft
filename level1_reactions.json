@@ -1901,5 +1901,27 @@
 "equation": "P₄ + 5O₂ → P₄O₁₀",
 "type": "Combination",
 "conditions": "Burning in oxygen"
+},
+{
+"id": "reaction_1583",
+"reactants": [
+"na_cl",
+"nh3",
+"co2",
+"h2o"
+],
+"products": [
+{
+"compound": "na_hco3",
+"coefficient": 1
+},
+{
+"compound": "nh4_cl",
+"coefficient": 1
+}
+],
+"equation": "NaCl + NH₃ + CO₂ + H₂O → NaHCO₃ + NH₄Cl",
+"type": "Double Displacement",
+"conditions": "Aqueous, Solvay process"
 }
 ]
