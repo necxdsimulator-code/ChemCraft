@@ -5370,5 +5370,25 @@
 "equation": "2K + H₂SO₄ → K₂SO₄ + H₂",
 "type": "Single Displacement",
 "conditions": "Dilute"
+},
+{
+"id": "reaction_1590",
+"reactants": [
+"ca",
+"h2so4"
+],
+"products": [
+{
+"compound": "ca_so4",
+"coefficient": 1
+},
+{
+"compound": "h2",
+"coefficient": 1
+}
+],
+"equation": "Ca + H₂SO₄ → CaSO₄ + H₂",
+"type": "Single Displacement",
+"conditions": "Dilute"
 }
 ]
