@@ -1849,5 +1849,37 @@
 "equation": "2H₂O → 2H₂ + O₂",
 "type": "Decomposition",
 "conditions": "Electrolysis"
+},
+{
+"id": "reaction_1580",
+"reactants": [
+"s8",
+"o2"
+],
+"products": [
+{
+"compound": "so2",
+"coefficient": 8
+}
+],
+"equation": "S₈ + 8O₂ → 8SO₂",
+"type": "Combination",
+"conditions": "Burning in oxygen"
+},
+{
+"id": "reaction_1581",
+"reactants": [
+"p4",
+"o2"
+],
+"products": [
+{
+"compound": "p4o10",
+"coefficient": 1
+}
+],
+"equation": "P₄ + 5O₂ → P₄O₁₀",
+"type": "Combination",
+"conditions": "Burning in oxygen"
 }
 ]
