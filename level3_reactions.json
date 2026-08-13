@@ -8914,5 +8914,25 @@
 "equation": "Fe + H₂SO₄ → FeSO₄ + H₂",
 "type": "Single Displacement",
 "conditions": "Dilute"
+},
+{
+"id": "reaction_1599",
+"reactants": [
+"cuo",
+"h2so4"
+],
+"products": [
+{
+"compound": "cu2_so4",
+"coefficient": 1
+},
+{
+"compound": "h2o",
+"coefficient": 1
+}
+],
+"equation": "CuO + H₂SO₄ → CuSO₄ + H₂O",
+"type": "Neutralization",
+"conditions": "Aqueous, warming"
 }
 ]
