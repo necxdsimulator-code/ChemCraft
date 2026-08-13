@@ -1278,9 +1278,9 @@
 "equation": "Ca + 2HCl → CaCl₂ + H₂",
 "type": "Single Displacement",
 "conditions": "Aqueous"
-}
+},
 {
-"id": "reaction_1548",
+"id": "reaction_1575",
 "reactants": ["k", "hcl"],
 "products": [
 {"compound": "k_cl", "coefficient": 2},
