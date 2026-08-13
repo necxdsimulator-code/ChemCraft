@@ -1994,5 +1994,57 @@
 "equation": "C₂H₅OH + O₂ → CH₃COOH + H₂O",
 "type": "Oxidation",
 "conditions": "Acetic acid bacteria"
+},
+{
+"id": "reaction_1597",
+"reactants": [
+"ch3cooh",
+"na_hco3"
+],
+"products": [
+{
+"compound": "ch3coona",
+"coefficient": 1
+},
+{
+"compound": "co2",
+"coefficient": 1
+},
+{
+"compound": "h2o",
+"coefficient": 1
+}
+],
+"equation": "CH₃COOH + NaHCO₃ → CH₃COONa + CO₂ + H₂O",
+"type": "Acid-Carbonate",
+"conditions": "Aqueous"
+}
+
+Acetic acid + washing soda (Na₂CO₃):
+
+,
+{
+"id": "reaction_1598",
+"reactants": [
+"ch3cooh",
+"na2co3"
+],
+"products": [
+{
+"compound": "ch3coona",
+"coefficient": 2
+},
+{
+"compound": "co2",
+"coefficient": 1
+},
+{
+"compound": "h2o",
+"coefficient": 1
+}
+],
+"equation": "2CH₃COOH + Na₂CO₃ → 2CH₃COONa + CO₂ + H₂O",
+"type": "Acid-Carbonate",
+"conditions": "Aqueous"
 }
 ]
