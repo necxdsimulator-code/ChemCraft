@@ -1408,5 +1408,12 @@
     "name": "Mercury(II) Oxide",
     "formula": "HgO",
     "category": "oxide"
-  }
+  },
+  {
+"id": "pbno3",
+"name": "Lead Nitrate",
+"formula": "Pb(NO₃)₂",
+"category": "salt",
+"type": "compound"
+}
 ]
