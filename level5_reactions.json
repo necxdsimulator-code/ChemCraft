@@ -10582,5 +10582,25 @@
 "equation": "PbO + 2HNO₃ → Pb(NO₃)₂ + H₂O",
 "type": "Neutralization",
 "conditions": "Aqueous"
+},
+{
+"id": "reaction_16021",
+"reactants": [
+"pb_no3",
+"ki"
+],
+"products": [
+{
+"compound": "pb_i2",
+"coefficient": 1
+},
+{
+"compound": "k_no3",
+"coefficient": 2
+}
+],
+"equation": "Pb(NO₃)₂ + 2KI → PbI₂ + 2KNO₃",
+"type": "Double Displacement",
+"conditions": "Aqueous"
 }
 ]
