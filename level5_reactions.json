@@ -10562,5 +10562,25 @@
     "equation": "Pb + Cu(NO₃)2 → Pb(NO₃)2 + Cu",
     "type": "Single Displacement",
     "conditions": "Aqueous"
-  }
+  },
+{
+"id": "reaction_1601",
+"reactants": [
+"pbo",
+"hno3"
+],
+"products": [
+{
+"compound": "pb_no3",
+"coefficient": 1
+},
+{
+"compound": "h2o",
+"coefficient": 1
+}
+],
+"equation": "PbO + 2HNO₃ → Pb(NO₃)₂ + H₂O",
+"type": "Neutralization",
+"conditions": "Aqueous"
+}
 ]
