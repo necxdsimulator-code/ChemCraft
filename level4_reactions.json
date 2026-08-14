@@ -8154,5 +8154,41 @@
 "equation": "Be + H₂SO₄ → BeSO₄ + H₂",
 "type": "Single Displacement",
 "conditions": "Dilute"
+},
+{
+"id": "reaction_1599",
+"reactants": [
+"k",
+"hi"
+],
+"products": [
+{
+"compound": "ki",
+"coefficient": 2
+},
+{
+"compound": "h2",
+"coefficient": 1
+}
+],
+"equation": "2K + 2HI → 2KI + H₂",
+"type": "Single Displacement",
+"conditions": "Aqueous"
+},
+{
+"id": "reaction_1600",
+"reactants": [
+"h2",
+"i2"
+],
+"products": [
+{
+"compound": "hi",
+"coefficient": 2
+}
+],
+"equation": "H₂ + I₂ → 2HI",
+"type": "Combination",
+"conditions": "Heat"
 }
 ]
