@@ -1415,5 +1415,12 @@
 "formula": "Pb(NO₃)₂",
 "category": "salt",
 "type": "compound"
+},
+{
+"id": "pb_i2",
+"name": "Lead(II) Iodide",
+"formula": "PbI₂",
+"category": "salt",
+"type": "compound"
 }
 ]
