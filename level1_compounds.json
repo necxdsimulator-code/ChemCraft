@@ -676,5 +676,12 @@
     "name": "Sodium Carbonate",
     "formula": "Na₂CO₃",
     "category": "salt"
-  }
+  },
+  {
+"id": "no",
+"name": "Nitric Oxide",
+"formula": "NO",
+"category": "oxide",
+"type": "compound"
+}
 ]
