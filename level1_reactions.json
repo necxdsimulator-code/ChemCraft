@@ -2042,5 +2042,53 @@
 "equation": "2CH₃COOH + Na₂CO₃ → 2CH₃COONa + CO₂ + H₂O",
 "type": "Acid-Carbonate",
 "conditions": "Aqueous"
+},
+{
+"id": "reaction_1599",
+"reactants": [
+"n2",
+"o2"
+],
+"products": [
+{
+"compound": "no",
+"coefficient": 2
+}
+],
+"equation": "N₂ + O₂ → 2NO",
+"type": "Combination",
+"conditions": "High temperature"
+},
+{
+"id": "reaction_1600",
+"reactants": [
+"no",
+"o2"
+],
+"products": [
+{
+"compound": "no2",
+"coefficient": 2
+}
+],
+"equation": "2NO + O₂ → 2NO₂",
+"type": "Oxidation",
+"conditions": "Oxygen"
+},
+{
+"id": "reaction_1601",
+"reactants": [
+"no2",
+"o2"
+],
+"products": [
+{
+"compound": "n2o5",
+"coefficient": 2
+}
+],
+"equation": "4NO₂ + O₂ → 2N₂O₅",
+"type": "Oxidation",
+"conditions": "Oxidation"
 }
 ]
