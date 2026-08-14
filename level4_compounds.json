@@ -994,5 +994,12 @@
     "name": "Cobalt(II) Oxide",
     "formula": "CoO",
     "category": "oxide"
-  }
+  },
+  {
+"id": "ki",
+"name": "Potassium Iodide",
+"formula": "KI",
+"category": "salt",
+"type": "compound"
+}
 ]
