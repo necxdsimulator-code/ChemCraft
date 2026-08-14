@@ -8156,7 +8156,7 @@
 "conditions": "Dilute"
 },
 {
-"id": "reaction_1599",
+"id": "reaction_1592",
 "reactants": [
 "k",
 "hi"
@@ -8176,7 +8176,7 @@
 "conditions": "Aqueous"
 },
 {
-"id": "reaction_1600",
+"id": "reaction_1593",
 "reactants": [
 "h2",
 "i2"
