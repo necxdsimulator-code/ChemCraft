@@ -1410,17 +1410,17 @@
     "category": "oxide"
   },
   {
-"id": "pbno3",
-"name": "Lead Nitrate",
-"formula": "Pb(NO₃)₂",
-"category": "salt",
-"type": "compound"
-},
-{
-"id": "pbi2",
-"name": "Lead(II) Iodide",
-"formula": "PbI₂",
-"category": "salt",
-"type": "compound"
-}
+  "id": "pbno3",
+  "name": "Lead Nitrate",
+  "formula": "Pb(NO₃)₂",
+  "category": "salt",
+  "type": "compound"
+  },
+  {
+  "id": "pbi2",
+  "name": "Lead(II) Iodide",
+  "formula": "PbI₂",
+  "category": "salt",
+  "type": "compound"
+  }
 ]
