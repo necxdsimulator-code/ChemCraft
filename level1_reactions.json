@@ -1994,7 +1994,8 @@
 "equation": "C₂H₅OH + O₂ → CH₃COOH + H₂O",
 "type": "Oxidation",
 "conditions": "Acetic acid bacteria"
-}{
+},
+{
 "id": "reaction_1597",
 "reactants": [
 "ch3cooh",
