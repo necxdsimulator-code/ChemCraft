@@ -2111,7 +2111,7 @@
 "conditions": "High temperature"
 },
 {
-"id": "reaction_1607",
+"id": "reaction_1603",
 "reactants": [
 "na_cl",
 "h2o"
@@ -2135,7 +2135,7 @@
 "conditions": "Aqueous NaCl, electrolysis"
 },
 {
-"id": "reaction_1608",
+"id": "reaction_1604",
 "reactants": [
 "caco3",
 "co2",
