@@ -8977,5 +8977,25 @@
 "equation": "Fe + CuSO₄ → FeSO₄ + Cu",
 "type": "Single Displacement",
 "conditions": "Aqueous"
+},
+{
+"id": "reaction_1610",
+"reactants": [
+"mg",
+"cu2_so4"
+],
+"products": [
+{
+"compound": "mg_so4",
+"coefficient": 1
+},
+{
+"compound": "cu",
+"coefficient": 1
+}
+],
+"equation": "Mg + CuSO₄ → MgSO₄ + Cu",
+"type": "Single Displacement",
+"conditions": "Aqueous"
 }
 ]
