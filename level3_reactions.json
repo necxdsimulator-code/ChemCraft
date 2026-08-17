@@ -8957,5 +8957,25 @@
 "equation": "2FeSO₄ → Fe₂O₃ + SO₂ + SO₃",
 "type": "Decomposition",
 "conditions": "Strong heating"
+},
+{
+"id": "reaction_14130",
+"reactants": [
+"fe",
+"cu2_so4"
+],
+"products": [
+{
+"compound": "fe2_so4",
+"coefficient": 1
+},
+{
+"compound": "cu",
+"coefficient": 1
+}
+],
+"equation": "Fe + CuSO₄ → FeSO₄ + Cu",
+"type": "Single Displacement",
+"conditions": "Aqueous"
 }
 ]
