@@ -8916,7 +8916,7 @@
 "conditions": "Dilute"
 },
 {
-"id": "reaction_1599",
+"id": "reaction_14110",
 "reactants": [
 "cuo",
 "h2so4"
@@ -8934,5 +8934,28 @@
 "equation": "CuO + H₂SO₄ → CuSO₄ + H₂O",
 "type": "Neutralization",
 "conditions": "Aqueous, warming"
+},
+{
+"id": "reaction_114120",
+"reactants": [
+"fe2_so4"
+],
+"products": [
+{
+"compound": "fe2o3",
+"coefficient": 1
+},
+{
+"compound": "so2",
+"coefficient": 1
+},
+{
+"compound": "so3",
+"coefficient": 1
+}
+],
+"equation": "2FeSO₄ → Fe₂O₃ + SO₂ + SO₃",
+"type": "Decomposition",
+"conditions": "Strong heating"
 }
 ]
