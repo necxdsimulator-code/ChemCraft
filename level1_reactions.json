@@ -2090,5 +2090,48 @@
 "equation": "4NO₂ + O₂ → 2N₂O₅",
 "type": "Oxidation",
 "conditions": "Oxidation"
+},
+{
+"id": "reaction_1602",
+"reactants": [
+"nh3"
+],
+"products": [
+{
+"compound": "n2",
+"coefficient": 1
+},
+{
+"compound": "h2",
+"coefficient": 3
+}
+],
+"equation": "2NH₃ → N₂ + 3H₂",
+"type": "Decomposition",
+"conditions": "High temperature"
+},
+{
+"id": "reaction_1607",
+"reactants": [
+"na_cl",
+"h2o"
+],
+"products": [
+{
+"compound": "na_oh",
+"coefficient": 2
+},
+{
+"compound": "h2",
+"coefficient": 1
+},
+{
+"compound": "cl2",
+"coefficient": 1
+}
+],
+"equation": "2NaCl + 2H₂O → 2NaOH + H₂ + Cl₂",
+"type": "Electrolysis",
+"conditions": "Aqueous NaCl, electrolysis"
 }
 ]
