@@ -2133,5 +2133,22 @@
 "equation": "2NaCl + 2H₂O → 2NaOH + H₂ + Cl₂",
 "type": "Electrolysis",
 "conditions": "Aqueous NaCl, electrolysis"
+},
+{
+"id": "reaction_1608",
+"reactants": [
+"caco3",
+"co2",
+"h2o"
+],
+"products": [
+{
+"compound": "ca_hco3",
+"coefficient": 1
+}
+],
+"equation": "CaCO₃ + CO₂ + H₂O → Ca(HCO₃)₂",
+"type": "Combination",
+"conditions": "Excess CO₂"
 }
 ]
