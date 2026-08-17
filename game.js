@@ -18,10 +18,10 @@ const SAVE_KEY = "chemcraft_progressive_v2";
 
 const XP_LEVELS = {
     1: 0,
-    2: 250,
-    3: 450,
-    4: 700,
-    5: 1000
+    2: 500,
+    3: 900,
+    4: 1200,
+    5: 2000
 };
 
 /*
