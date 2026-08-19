@@ -12010,5 +12010,123 @@
     "equation": "BaO + 2HCl → Ba(Cl)2 + H₂O",
     "type": "Neutralization",
     "conditions": "Aqueous, warm"
+  },
+{
+ "id": "reaction_1622",
+ "reactants": [
+  "ag_no3",
+  "hcl"
+ ],
+ "products": [
+  {
+   "compound": "ag_cl",
+   "coefficient": 1
+  },
+  {
+   "compound": "hno3",
+   "coefficient": 1
   }
+ ],
+ "equation": "AgNO₃ + HCl → AgCl + HNO₃",
+ "type": "Double Displacement",
+ "conditions": "Aqueous"
+},
+{
+ "id": "reaction_1623",
+ "reactants": [
+  "ag_cl"
+ ],
+ "products": [
+  {
+   "compound": "ag",
+   "coefficient": 2
+  },
+  {
+   "compound": "cl2",
+   "coefficient": 1
+  }
+ ],
+ "equation": "2AgCl → 2Ag + Cl₂",
+ "type": "Photolytic Decomposition",
+ "conditions": "Sunlight"
+},
+{
+ "id": "reaction_1624",
+ "reactants": [
+  "ag_no3",
+  "k_br"
+ ],
+ "products": [
+  {
+   "compound": "ag_br",
+   "coefficient": 1
+  },
+  {
+   "compound": "k_no3",
+   "coefficient": 1
+  }
+ ],
+ "equation": "AgNO₃ + KBr → AgBr + KNO₃",
+ "type": "Double Displacement",
+ "conditions": "Aqueous"
+},
+{
+ "id": "reaction_1625",
+ "reactants": [
+  "ag_br"
+ ],
+ "products": [
+  {
+   "compound": "ag",
+   "coefficient": 2
+  },
+  {
+   "compound": "br2",
+   "coefficient": 1
+  }
+ ],
+ "equation": "2AgBr → 2Ag + Br₂",
+ "type": "Photolytic Decomposition",
+ "conditions": "Sunlight"
+},
+{
+ "id": "reaction_1626",
+ "reactants": [
+  "ag",
+  "h2s"
+ ],
+ "products": [
+  {
+   "compound": "ag2_s",
+   "coefficient": 1
+  },
+  {
+   "compound": "h2",
+   "coefficient": 1
+  }
+ ],
+ "equation": "2Ag + H₂S → Ag₂S + H₂",
+ "type": "Combination",
+ "conditions": "Hydrogen sulfide, air"
+},
+{
+"id": "reaction_1621",
+"reactants": [
+"ag_no3",
+"na_oh"
+],
+"products": [
+{
+"compound": "ag_oh",
+"coefficient": 1
+},
+{
+"compound": "na_no3",
+"coefficient": 1
+}
+],
+"equation": "AgNO₃ + NaOH → AgOH + NaNO₃",
+"type": "Double Displacement",
+"conditions": "Aqueous"
+}
 ]
