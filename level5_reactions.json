@@ -12128,5 +12128,29 @@
 "equation": "AgNO₃ + NaOH → AgOH + NaNO₃",
 "type": "Double Displacement",
 "conditions": "Aqueous"
+},
+{
+ "id": "reaction_1622",
+ "reactants": [
+  "ag",
+  "hno3"
+ ],
+ "products": [
+  {
+   "compound": "ag_no3",
+   "coefficient": 1
+  },
+  {
+   "compound": "no2",
+   "coefficient": 1
+  },
+  {
+   "compound": "h2o",
+   "coefficient": 1
+  }
+ ],
+ "equation": "Ag + 2HNO₃ → AgNO₃ + NO₂ + H₂O",
+ "type": "Redox",
+ "conditions": "Concentrated HNO₃"
 }
 ]
