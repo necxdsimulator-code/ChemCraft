@@ -12012,7 +12012,7 @@
     "conditions": "Aqueous, warm"
   },
 {
- "id": "reaction_2039",
+ "id": "reaction_2039ag",
  "reactants": [
   "ag_no3",
   "hcl"
@@ -12032,7 +12032,7 @@
  "conditions": "Aqueous"
 },
 {
- "id": "reaction_2040",
+ "id": "reaction_2040ag",
  "reactants": [
   "ag_cl"
  ],
@@ -12071,7 +12071,7 @@
  "conditions": "Aqueous"
 },
 {
- "id": "reaction_2042",
+ "id": "reaction_2042ag",
  "reactants": [
   "ag_br"
  ],
@@ -12090,7 +12090,7 @@
  "conditions": "Sunlight"
 },
 {
- "id": "reaction_2043",
+ "id": "reaction_2043ag",
  "reactants": [
   "ag",
   "h2s"
@@ -12110,7 +12110,7 @@
  "conditions": "Hydrogen sulfide, air"
 },
 {
-"id": "reaction_2044",
+"id": "reaction_2044ag",
 "reactants": [
 "ag_no3",
 "na_oh"
@@ -12130,7 +12130,7 @@
 "conditions": "Aqueous"
 },
 {
- "id": "reaction_2045",
+ "id": "reaction_2045ag",
  "reactants": [
   "ag",
   "hno3"
