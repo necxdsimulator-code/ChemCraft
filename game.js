@@ -36,7 +36,7 @@ const LEVEL_STARTERS = {
     2: ["li", "f2", "mg", "al", "p4", "s8"],
     3: ["si", "ti", "fe", "cu", "zn", "br2"],
     4: ["be", "b", "co", "ni", "ga", "i2"],
-    5: ["sn", "cs", "ba", "au", "hg", "pb"]
+    5: ["sn", "cs", "ba", "ag", "hg", "pb"]
 };
 
 
@@ -253,10 +253,10 @@ const STARTER_META = {
         category: "element"
     },
 
-    au: {
-        id: "au",
-        name: "Gold",
-        formula: "Au",
+    ag: {
+        id: "ag",
+        name: "Silver",
+        formula: "Ag",
         category: "element"
     },
 
