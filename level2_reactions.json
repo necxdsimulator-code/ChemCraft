@@ -6770,5 +6770,21 @@
     "equation": "Al₂O₃ + 6HCl → 2Al(Cl)3 + 3H₂O",
     "type": "Neutralization",
     "conditions": "Aqueous, warm"
-  }
+  },
+{
+"id": "reaction_2047",
+"reactants": [
+"h2",
+"s"
+],
+"products": [
+{
+"compound": "h2s",
+"coefficient": 1
+}
+],
+"equation": "H₂ + S → H₂S",
+"type": "Combination",
+"conditions": "Heat"
+}
 ]
