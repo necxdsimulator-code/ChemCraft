@@ -80,11 +80,11 @@
     "reward_xp": 100
   },
   {
-    "id": "fifty_reactions",
+    "id": "onefifty_reactions",
     "title": "Reaction Machine",
-    "description": "Complete 50 reactions.",
+    "description": "Complete 150 reactions.",
     "type": "reaction_count",
-    "target": 50,
-    "reward_xp": 300
+    "target": 150,
+    "reward_xp": 900
   }
 ]
