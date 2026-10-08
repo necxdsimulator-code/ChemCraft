@@ -1,0 +1,6752 @@
+[
+  {
+    "id": "mission_0001",
+    "title": "Discover C₁₀H₂₀",
+    "description": "Chemistry Challenge: discover Dec-1-ene (C₁₀H₂₀).",
+    "target_compound": "c10h20_1",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0002",
+    "title": "Discover C₁₀H₂₂",
+    "description": "Mission: find Decane (C₁₀H₂₂) in your inventory.",
+    "target_compound": "c10h22",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0003",
+    "title": "Discover C₂H₂",
+    "description": "Experiment Goal: produce Ethyne (C₂H₂).",
+    "target_compound": "c2h2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0004",
+    "title": "Discover C₂H₂Br₂",
+    "description": "Can you discover 1,2-Dibromoethene (C₂H₂Br₂)?",
+    "target_compound": "c2h2br2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0005",
+    "title": "Discover C₂H₂Br₄",
+    "description": "Your next target is 1,1,2,2-Tetrabromoethane (C₂H₂Br₄). Make it.",
+    "target_compound": "c2h2br4",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0006",
+    "title": "Discover C₂H₄",
+    "description": "Research Task: discover Ethene (C₂H₄).",
+    "target_compound": "c2h4",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0007",
+    "title": "Discover C₂H₄Br₂",
+    "description": "Chemistry Challenge: discover 1,2-Dibromoethane (C₂H₄Br₂).",
+    "target_compound": "c2h4br2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0008",
+    "title": "Discover C₂H₅Br",
+    "description": "Mission: find Bromoethane (C₂H₅Br) in your inventory.",
+    "target_compound": "c2h5br",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0009",
+    "title": "Discover C₂H₅Cl",
+    "description": "Experiment Goal: produce Chloroethane (C₂H₅Cl).",
+    "target_compound": "c2h5cl",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0010",
+    "title": "Discover C₂H₅I",
+    "description": "Can you discover Iodoethane (C₂H₅I)?",
+    "target_compound": "c2h5i",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0011",
+    "title": "Discover C₄H₁₀O",
+    "description": "Your next target is Diethyl Ether (C₄H₁₀O). Make it.",
+    "target_compound": "c2h5oc2h5",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0012",
+    "title": "Discover C₂H₅OH",
+    "description": "Research Task: discover Ethanol (C₂H₅OH).",
+    "target_compound": "c2h5oh",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0013",
+    "title": "Discover C₂H₅ONa",
+    "description": "Chemistry Challenge: discover Sodium Ethoxide (C₂H₅ONa).",
+    "target_compound": "c2h5ona",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0014",
+    "title": "Discover C₂H₆",
+    "description": "Mission: find Ethane (C₂H₆) in your inventory.",
+    "target_compound": "c2h6",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0015",
+    "title": "Discover C₃H₆",
+    "description": "Experiment Goal: produce Propene (C₃H₆).",
+    "target_compound": "c3h6",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0016",
+    "title": "Discover C₃H₆Br₂",
+    "description": "Can you discover 1,2-Dibromopropane (C₃H₆Br₂)?",
+    "target_compound": "c3h6br2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0017",
+    "title": "Discover C₃H₇Br",
+    "description": "Your next target is 1-Bromopropane (C₃H₇Br). Make it.",
+    "target_compound": "c3h7br",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0018",
+    "title": "Discover C₄H₈O",
+    "description": "Research Task: discover Butanal (C₄H₈O).",
+    "target_compound": "c3h7cho",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0019",
+    "title": "Discover C₃H₇Cl",
+    "description": "Chemistry Challenge: discover 2-Chloropropane (C₃H₇Cl).",
+    "target_compound": "c3h7cl_2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0020",
+    "title": "Discover C₄H₈O₂",
+    "description": "Mission: find Butanoic Acid (C₄H₈O₂) in your inventory.",
+    "target_compound": "c3h7cooh",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0021",
+    "title": "Discover C₃H₇I",
+    "description": "Experiment Goal: produce 1-Iodopropane (C₃H₇I).",
+    "target_compound": "c3h7i",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0022",
+    "title": "Discover C₃H₈O",
+    "description": "Can you discover Propan-1-ol (C₃H₈O)?",
+    "target_compound": "c3h7oh_1",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0023",
+    "title": "Discover C₃H₈O",
+    "description": "Your next target is Propan-2-ol (C₃H₈O). Make it.",
+    "target_compound": "c3h7oh_2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0024",
+    "title": "Discover C₃H₈",
+    "description": "Research Task: discover Propane (C₃H₈).",
+    "target_compound": "c3h8",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0025",
+    "title": "Discover C₄H₁₀",
+    "description": "Chemistry Challenge: discover Butane (C₄H₁₀).",
+    "target_compound": "c4h10",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0026",
+    "title": "Discover C₄H₁₀",
+    "description": "Mission: find 2-Methylpropane (C₄H₁₀) in your inventory.",
+    "target_compound": "c4h10_iso",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0027",
+    "title": "Discover C₄H₈",
+    "description": "Experiment Goal: produce But-1-ene (C₄H₈).",
+    "target_compound": "c4h8_1",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0028",
+    "title": "Discover C₄H₈",
+    "description": "Can you discover But-2-ene (C₄H₈)?",
+    "target_compound": "c4h8_2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0029",
+    "title": "Discover C₄H₈",
+    "description": "Your next target is 2-Methylpropene (C₄H₈). Make it.",
+    "target_compound": "c4h8_iso",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0030",
+    "title": "Discover C₄H₈Br₂",
+    "description": "Research Task: discover 1,2-Dibromobutane (C₄H₈Br₂).",
+    "target_compound": "c4h8br2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0031",
+    "title": "Discover C₄H₈Br₂",
+    "description": "Chemistry Challenge: discover 2,3-Dibromobutane (C₄H₈Br₂).",
+    "target_compound": "c4h8br2_2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0032",
+    "title": "Discover C₄H₈O",
+    "description": "Mission: find Butan-2-one (C₄H₈O) in your inventory.",
+    "target_compound": "c4h8o_2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0033",
+    "title": "Discover C₄H₉Br",
+    "description": "Experiment Goal: produce 1-Bromobutane (C₄H₉Br).",
+    "target_compound": "c4h9br",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0034",
+    "title": "Discover C₅H₁₀O",
+    "description": "Can you discover Pentanal (C₅H₁₀O)?",
+    "target_compound": "c4h9cho",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0035",
+    "title": "Discover C₄H₉Cl",
+    "description": "Your next target is 1-Chlorobutane (C₄H₉Cl). Make it.",
+    "target_compound": "c4h9cl",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0036",
+    "title": "Discover C₅H₁₀O₂",
+    "description": "Research Task: discover Pentanoic Acid (C₅H₁₀O₂).",
+    "target_compound": "c4h9cooh",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0037",
+    "title": "Discover C₄H₉I",
+    "description": "Chemistry Challenge: discover 1-Iodobutane (C₄H₉I).",
+    "target_compound": "c4h9i",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0038",
+    "title": "Discover C₄H₁₀O",
+    "description": "Mission: find Butan-1-ol (C₄H₁₀O) in your inventory.",
+    "target_compound": "c4h9oh_1",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0039",
+    "title": "Discover C₄H₁₀O",
+    "description": "Experiment Goal: produce Butan-2-ol (C₄H₁₀O).",
+    "target_compound": "c4h9oh_2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0040",
+    "title": "Discover C₅H₁₀",
+    "description": "Can you discover Pent-1-ene (C₅H₁₀)?",
+    "target_compound": "c5h10_1",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0041",
+    "title": "Discover C₅H₁₀",
+    "description": "Your next target is Pent-2-ene (C₅H₁₀). Make it.",
+    "target_compound": "c5h10_2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0042",
+    "title": "Discover C₅H₁₀",
+    "description": "Research Task: discover 2-Methylbut-2-ene (C₅H₁₀).",
+    "target_compound": "c5h10_3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0043",
+    "title": "Discover C₅H₁₀",
+    "description": "Chemistry Challenge: discover 2-Methylbut-1-ene (C₅H₁₀).",
+    "target_compound": "c5h10_iso",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0044",
+    "title": "Discover C₅H₁₀Br₂",
+    "description": "Mission: find 1,2-Dibromopentane (C₅H₁₀Br₂) in your inventory.",
+    "target_compound": "c5h10br2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0045",
+    "title": "Discover C₅H₁₀Br₂",
+    "description": "Experiment Goal: produce 2,3-Dibromopentane (C₅H₁₀Br₂).",
+    "target_compound": "c5h10br2_2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0046",
+    "title": "Discover C₅H₁₀O",
+    "description": "Can you discover Pentan-2-one (C₅H₁₀O)?",
+    "target_compound": "c5h10o_2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0047",
+    "title": "Discover C₅H₁₁Br",
+    "description": "Your next target is 1-Bromopentane (C₅H₁₁Br). Make it.",
+    "target_compound": "c5h11br",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0048",
+    "title": "Discover C₆H₁₂O",
+    "description": "Research Task: discover Hexanal (C₆H₁₂O).",
+    "target_compound": "c5h11cho",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0049",
+    "title": "Discover C₈H₁₆O₂",
+    "description": "Chemistry Challenge: discover Ethyl Hexanoate (C₈H₁₆O₂).",
+    "target_compound": "c5h11cooc2h5",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0050",
+    "title": "Discover C₇H₁₄O₂",
+    "description": "Mission: find Methyl Hexanoate (C₇H₁₄O₂) in your inventory.",
+    "target_compound": "c5h11cooch3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0051",
+    "title": "Discover C₆H₁₂O₂",
+    "description": "Experiment Goal: produce Hexanoic Acid (C₆H₁₂O₂).",
+    "target_compound": "c5h11cooh",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0052",
+    "title": "Discover C₅H₁₂O",
+    "description": "Can you discover Pentan-1-ol (C₅H₁₂O)?",
+    "target_compound": "c5h11oh_1",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0053",
+    "title": "Discover C₅H₁₂O",
+    "description": "Your next target is Pentan-2-ol (C₅H₁₂O). Make it.",
+    "target_compound": "c5h11oh_2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0054",
+    "title": "Discover C₅H₁₂",
+    "description": "Research Task: discover Pentane (C₅H₁₂).",
+    "target_compound": "c5h12",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0055",
+    "title": "Discover C₅H₁₂",
+    "description": "Chemistry Challenge: discover 2-Methylbutane (C₅H₁₂).",
+    "target_compound": "c5h12_iso",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0056",
+    "title": "Discover C₅H₁₂",
+    "description": "Mission: find 2,2-Dimethylpropane (C₅H₁₂) in your inventory.",
+    "target_compound": "c5h12_neo",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0057",
+    "title": "Discover C₅H₈",
+    "description": "Experiment Goal: produce Pent-1-yne (C₅H₈).",
+    "target_compound": "c5h8_1",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0058",
+    "title": "Discover C₅H₈",
+    "description": "Can you discover Pent-2-yne (C₅H₈)?",
+    "target_compound": "c5h8_2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0059",
+    "title": "Discover C₆H₁₀",
+    "description": "Your next target is Hex-1-yne (C₆H₁₀). Make it.",
+    "target_compound": "c6h10_1",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0060",
+    "title": "Discover C₆H₁₀",
+    "description": "Research Task: discover Hex-2-yne (C₆H₁₀).",
+    "target_compound": "c6h10_2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0061",
+    "title": "Discover C₆H₁₂",
+    "description": "Chemistry Challenge: discover Hex-1-ene (C₆H₁₂).",
+    "target_compound": "c6h12_1",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0062",
+    "title": "Discover C₆H₁₂",
+    "description": "Mission: find Hex-2-ene (C₆H₁₂) in your inventory.",
+    "target_compound": "c6h12_2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0063",
+    "title": "Discover C₆H₁₂",
+    "description": "Experiment Goal: produce Cyclohexane (C₆H₁₂).",
+    "target_compound": "c6h12_cyc",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0064",
+    "title": "Discover C₆H₁₂Br₂",
+    "description": "Can you discover 1,2-Dibromohexane (C₆H₁₂Br₂)?",
+    "target_compound": "c6h12br2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0065",
+    "title": "Discover C₆H₁₂Br₂",
+    "description": "Your next target is 2,3-Dibromohexane (C₆H₁₂Br₂). Make it.",
+    "target_compound": "c6h12br2_2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0066",
+    "title": "Discover C₆H₁₂O₆",
+    "description": "Research Task: discover Glucose (C₆H₁₂O₆).",
+    "target_compound": "c6h12o6",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0067",
+    "title": "Discover C₆H₁₂O",
+    "description": "Chemistry Challenge: discover Hexan-2-one (C₆H₁₂O).",
+    "target_compound": "c6h12o_2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0068",
+    "title": "Discover C₆H₁₃Br",
+    "description": "Mission: find 1-Bromohexane (C₆H₁₃Br) in your inventory.",
+    "target_compound": "c6h13br",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0069",
+    "title": "Discover C₆H₁₄O",
+    "description": "Experiment Goal: produce Hexan-1-ol (C₆H₁₄O).",
+    "target_compound": "c6h13oh_1",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0070",
+    "title": "Discover C₆H₁₄O",
+    "description": "Can you discover Hexan-2-ol (C₆H₁₄O)?",
+    "target_compound": "c6h13oh_2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0071",
+    "title": "Discover C₆H₁₄",
+    "description": "Your next target is Hexane (C₆H₁₄). Make it.",
+    "target_compound": "c6h14",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0072",
+    "title": "Discover C₆H₅Br",
+    "description": "Research Task: discover Bromobenzene (C₆H₅Br).",
+    "target_compound": "c6h5br",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0073",
+    "title": "Discover C₆H₅Cl",
+    "description": "Chemistry Challenge: discover Chlorobenzene (C₆H₅Cl).",
+    "target_compound": "c6h5cl",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0074",
+    "title": "Discover C₉H₁₀O₂",
+    "description": "Mission: find Ethyl Benzoate (C₉H₁₀O₂) in your inventory.",
+    "target_compound": "c6h5cooc2h5",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0075",
+    "title": "Discover C₈H₈O₂",
+    "description": "Experiment Goal: produce Methyl Benzoate (C₈H₈O₂).",
+    "target_compound": "c6h5cooch3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0076",
+    "title": "Discover C₆H₅COOH",
+    "description": "Can you discover Benzoic Acid (C₆H₅COOH)?",
+    "target_compound": "c6h5cooh",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0077",
+    "title": "Discover C₆H₅NO₂",
+    "description": "Your next target is Nitrobenzene (C₆H₅NO₂). Make it.",
+    "target_compound": "c6h5no2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0078",
+    "title": "Discover C₆H₅OH",
+    "description": "Research Task: discover Phenol (C₆H₅OH).",
+    "target_compound": "c6h5oh",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0079",
+    "title": "Discover C₆H₆",
+    "description": "Chemistry Challenge: discover Benzene (C₆H₆).",
+    "target_compound": "c6h6",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0080",
+    "title": "Discover C₆H₇N",
+    "description": "Mission: find Aniline (C₆H₇N) in your inventory.",
+    "target_compound": "c6h7n",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0081",
+    "title": "Discover C₇H₁₄",
+    "description": "Experiment Goal: produce Hept-1-ene (C₇H₁₄).",
+    "target_compound": "c7h14_1",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0082",
+    "title": "Discover C₇H₁₆",
+    "description": "Can you discover Heptane (C₇H₁₆)?",
+    "target_compound": "c7h16",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0083",
+    "title": "Discover C₇H₈",
+    "description": "Your next target is Toluene (C₇H₈). Make it.",
+    "target_compound": "c7h8",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0084",
+    "title": "Discover C₇H₈O",
+    "description": "Research Task: discover Anisole (Methoxybenzene) (C₇H₈O).",
+    "target_compound": "c7h8o",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0085",
+    "title": "Discover C₈H₁₀",
+    "description": "Chemistry Challenge: discover Ethylbenzene (C₈H₁₀).",
+    "target_compound": "c8h10",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0086",
+    "title": "Discover C₈H₁₆",
+    "description": "Mission: find Oct-1-ene (C₈H₁₆) in your inventory.",
+    "target_compound": "c8h16_1",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0087",
+    "title": "Discover C₈H₁₈",
+    "description": "Experiment Goal: produce Octane (C₈H₁₈).",
+    "target_compound": "c8h18",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0088",
+    "title": "Discover C₈H₈",
+    "description": "Can you discover Styrene (Ethenylbenzene) (C₈H₈)?",
+    "target_compound": "c8h8",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0089",
+    "title": "Discover C₉H₁₈",
+    "description": "Your next target is Non-1-ene (C₉H₁₈). Make it.",
+    "target_compound": "c9h18_1",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0090",
+    "title": "Discover C₉H₂₀",
+    "description": "Research Task: discover Nonane (C₉H₂₀).",
+    "target_compound": "c9h20",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0091",
+    "title": "Discover Ca(CH₃COO)2",
+    "description": "Chemistry Challenge: discover Calcium Acetate (Ca(CH₃COO)2).",
+    "target_compound": "ca_ch3coo",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0092",
+    "title": "Discover Ca(Cl)2",
+    "description": "Mission: find Calcium Chloride (Ca(Cl)2) in your inventory.",
+    "target_compound": "ca_cl",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0093",
+    "title": "Discover Ca(ClO)2",
+    "description": "Experiment Goal: produce Calcium Hypochlorite (Ca(ClO)2).",
+    "target_compound": "ca_clo",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0094",
+    "title": "Discover Ca(CN)2",
+    "description": "Can you discover Calcium Cyanide (Ca(CN)2)?",
+    "target_compound": "ca_cn",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0095",
+    "title": "Discover CaCO₃",
+    "description": "Your next target is Calcium Carbonate (CaCO₃). Make it.",
+    "target_compound": "ca_co3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0096",
+    "title": "Discover CaH₂",
+    "description": "Research Task: discover Calcium Hydride (CaH₂).",
+    "target_compound": "ca_h2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0097",
+    "title": "Discover Ca(HCO₃)2",
+    "description": "Chemistry Challenge: discover Calcium Hydrogen Carbonate (Ca(HCO₃)2).",
+    "target_compound": "ca_hco3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0098",
+    "title": "Discover Ca(NO₂)2",
+    "description": "Mission: find Calcium Nitrite (Ca(NO₂)2) in your inventory.",
+    "target_compound": "ca_no2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0099",
+    "title": "Discover Ca(NO₃)2",
+    "description": "Experiment Goal: produce Calcium Nitrate (Ca(NO₃)2).",
+    "target_compound": "ca_no3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0100",
+    "title": "Discover CaO",
+    "description": "Can you discover Calcium Oxide (CaO)?",
+    "target_compound": "cao",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0101",
+    "title": "Discover CH₂Cl₂",
+    "description": "Your next target is Dichloromethane (CH₂Cl₂). Make it.",
+    "target_compound": "ch2cl2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0102",
+    "title": "Discover CH₃Br",
+    "description": "Research Task: discover Bromomethane (CH₃Br).",
+    "target_compound": "ch3br",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0103",
+    "title": "Discover C₇H₁₄O₂",
+    "description": "Chemistry Challenge: discover Ethyl Butanoate (C₇H₁₄O₂).",
+    "target_compound": "ch3ch2ch2ch2cooc2h5",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0104",
+    "title": "Discover C₈H₁₆O₂",
+    "description": "Mission: find Propyl Butanoate (C₈H₁₆O₂) in your inventory.",
+    "target_compound": "ch3ch2ch2ch2cooc3h7",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0105",
+    "title": "Discover C₆H₁₂O₂",
+    "description": "Experiment Goal: produce Methyl Butanoate (C₆H₁₂O₂).",
+    "target_compound": "ch3ch2ch2ch2cooch3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0106",
+    "title": "Discover C₃H₆O",
+    "description": "Can you discover Propanal (C₃H₆O)?",
+    "target_compound": "ch3ch2cho",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0107",
+    "title": "Discover C₅H₁₀O₂",
+    "description": "Your next target is Ethyl Propanoate (C₅H₁₀O₂). Make it.",
+    "target_compound": "ch3ch2cooc2h5",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0108",
+    "title": "Discover C₄H₈O₂",
+    "description": "Research Task: discover Methyl Propanoate (C₄H₈O₂).",
+    "target_compound": "ch3ch2cooch3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0109",
+    "title": "Discover C₃H₆O₂",
+    "description": "Chemistry Challenge: discover Propanoic Acid (C₃H₆O₂).",
+    "target_compound": "ch3ch2cooh",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0110",
+    "title": "Discover CH₃CHO",
+    "description": "Mission: find Ethanal (CH₃CHO) in your inventory.",
+    "target_compound": "ch3cho",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0111",
+    "title": "Discover CH₃Cl",
+    "description": "Experiment Goal: produce Chloromethane (CH₃Cl).",
+    "target_compound": "ch3cl",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0112",
+    "title": "Discover CH₃COCH₃",
+    "description": "Can you discover Propanone (CH₃COCH₃)?",
+    "target_compound": "ch3coch3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0113",
+    "title": "Discover C₄H₈O₂",
+    "description": "Your next target is Ethyl Ethanoate (C₄H₈O₂). Make it.",
+    "target_compound": "ch3cooc2h5",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0114",
+    "title": "Discover C₅H₁₀O₂",
+    "description": "Research Task: discover Propyl Ethanoate (C₅H₁₀O₂).",
+    "target_compound": "ch3cooc3h7",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0115",
+    "title": "Discover C₃H₆O₂",
+    "description": "Chemistry Challenge: discover Methyl Ethanoate (C₃H₆O₂).",
+    "target_compound": "ch3cooch3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0116",
+    "title": "Discover CH₃COOH",
+    "description": "Mission: find Acetic Acid (CH₃COOH) in your inventory.",
+    "target_compound": "ch3cooh",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0117",
+    "title": "Discover CH₃COONa",
+    "description": "Experiment Goal: produce Sodium Acetate (CH₃COONa).",
+    "target_compound": "ch3coona",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0118",
+    "title": "Discover CH₃I",
+    "description": "Can you discover Iodomethane (CH₃I)?",
+    "target_compound": "ch3i",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0119",
+    "title": "Discover C₃H₈O",
+    "description": "Your next target is Methoxyethane (Methyl Ethyl Ether) (C₃H₈O). Make it.",
+    "target_compound": "ch3oc2h5",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0120",
+    "title": "Discover C₂H₆O",
+    "description": "Research Task: discover Dimethyl Ether (C₂H₆O).",
+    "target_compound": "ch3och3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0121",
+    "title": "Discover CH₃OH",
+    "description": "Chemistry Challenge: discover Methanol (CH₃OH).",
+    "target_compound": "ch3oh",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0122",
+    "title": "Discover CH₃ONa",
+    "description": "Mission: find Sodium Methoxide (CH₃ONa) in your inventory.",
+    "target_compound": "ch3ona",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0123",
+    "title": "Discover CH₄",
+    "description": "Experiment Goal: produce Methane (CH₄).",
+    "target_compound": "ch4",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0124",
+    "title": "Discover CHCl₃",
+    "description": "Can you discover Trichloromethane (Chloroform) (CHCl₃)?",
+    "target_compound": "chcl3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0125",
+    "title": "Discover Cl₂",
+    "description": "Your next target is Chlorine (diatomic) (Cl₂). Make it.",
+    "target_compound": "cl2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0126",
+    "title": "Discover CO₂",
+    "description": "Research Task: discover Carbon Dioxide (CO₂).",
+    "target_compound": "co2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0127",
+    "title": "Discover Co(CH₃COO)2",
+    "description": "Chemistry Challenge: discover Cobalt(II) Acetate (Co(CH₃COO)2).",
+    "target_compound": "co2_ch3coo",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0128",
+    "title": "Discover Co(Cl)2",
+    "description": "Mission: find Cobalt(II) Chloride (Co(Cl)2) in your inventory.",
+    "target_compound": "co2_cl",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0129",
+    "title": "Discover Co(NO₃)2",
+    "description": "Experiment Goal: produce Cobalt(II) Nitrate (Co(NO₃)2).",
+    "target_compound": "co2_no3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0130",
+    "title": "Discover C₆H₁₂O₆",
+    "description": "Can you discover Fructose (C₆H₁₂O₆)?",
+    "target_compound": "fructose",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0131",
+    "title": "Discover H₂",
+    "description": "Your next target is Hydrogen (diatomic) (H₂). Make it.",
+    "target_compound": "h2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0132",
+    "title": "Discover H₂CO₃",
+    "description": "Research Task: discover Carbonic Acid (H₂CO₃).",
+    "target_compound": "h2co3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0133",
+    "title": "Discover H₂O",
+    "description": "Chemistry Challenge: discover Water (H₂O).",
+    "target_compound": "h2o",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0134",
+    "title": "Discover HCl",
+    "description": "Mission: find Hydrochloric Acid (HCl) in your inventory.",
+    "target_compound": "hcl",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0135",
+    "title": "Discover HClO",
+    "description": "Experiment Goal: produce Hypochlorous Acid (HClO).",
+    "target_compound": "hclo",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0136",
+    "title": "Discover C₃H₆O₂",
+    "description": "Can you discover Ethyl Methanoate (C₃H₆O₂)?",
+    "target_compound": "hcooc2h5",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0137",
+    "title": "Discover C₂H₄O₂",
+    "description": "Your next target is Methyl Methanoate (C₂H₄O₂). Make it.",
+    "target_compound": "hcooch3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0138",
+    "title": "Discover HCOOH",
+    "description": "Research Task: discover Methanoic Acid (HCOOH).",
+    "target_compound": "hcooh",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0139",
+    "title": "Discover HNO₃",
+    "description": "Chemistry Challenge: discover Nitric Acid (HNO₃).",
+    "target_compound": "hno3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0140",
+    "title": "Discover K₂O",
+    "description": "Mission: find Potassium Oxide (K₂O) in your inventory.",
+    "target_compound": "k2o",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0141",
+    "title": "Discover KBr",
+    "description": "Experiment Goal: produce Potassium Bromide (KBr).",
+    "target_compound": "k_br",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0142",
+    "title": "Discover KCH₃COO",
+    "description": "Can you discover Potassium Acetate (KCH₃COO)?",
+    "target_compound": "k_ch3coo",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0143",
+    "title": "Discover KCl",
+    "description": "Your next target is Potassium Chloride (KCl). Make it.",
+    "target_compound": "k_cl",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0144",
+    "title": "Discover KClO",
+    "description": "Research Task: discover Potassium Hypochlorite (KClO).",
+    "target_compound": "k_clo",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0145",
+    "title": "Discover KCN",
+    "description": "Chemistry Challenge: discover Potassium Cyanide (KCN).",
+    "target_compound": "k_cn",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0146",
+    "title": "Discover (K)2CO₃",
+    "description": "Mission: find Potassium Carbonate ((K)2CO₃) in your inventory.",
+    "target_compound": "k_co3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0147",
+    "title": "Discover KH",
+    "description": "Experiment Goal: produce Potassium Hydride (KH).",
+    "target_compound": "k_h",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0148",
+    "title": "Discover KNO₂",
+    "description": "Can you discover Potassium Nitrite (KNO₂)?",
+    "target_compound": "k_no2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0149",
+    "title": "Discover KNO₃",
+    "description": "Your next target is Potassium Nitrate (KNO₃). Make it.",
+    "target_compound": "k_no3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0150",
+    "title": "Discover N₂",
+    "description": "Research Task: discover Nitrogen (diatomic) (N₂).",
+    "target_compound": "n2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0151",
+    "title": "Discover N₂O₅",
+    "description": "Chemistry Challenge: discover Dinitrogen Pentoxide (N₂O₅).",
+    "target_compound": "n2o5",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0152",
+    "title": "Discover Na₂CO₃",
+    "description": "Mission: find Sodium Carbonate (Na₂CO₃) in your inventory.",
+    "target_compound": "na2co3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0153",
+    "title": "Discover Na₂O",
+    "description": "Experiment Goal: produce Sodium Oxide (Na₂O).",
+    "target_compound": "na2o",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0154",
+    "title": "Discover NaBr",
+    "description": "Can you discover Sodium Bromide (NaBr)?",
+    "target_compound": "na_br",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0155",
+    "title": "Discover C₃H₅NaO₂",
+    "description": "Your next target is Sodium Propionate (C₃H₅NaO₂). Make it.",
+    "target_compound": "na_c2h5coo",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0156",
+    "title": "Discover C₄H₇NaO₂",
+    "description": "Research Task: discover Sodium Butyrate (C₄H₇NaO₂).",
+    "target_compound": "na_c3h7coo",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0157",
+    "title": "Discover C₅H₉NaO₂",
+    "description": "Chemistry Challenge: discover Sodium Pentanoate (C₅H₉NaO₂).",
+    "target_compound": "na_c4h9coo",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0158",
+    "title": "Discover C₆H₁₁NaO₂",
+    "description": "Mission: find Sodium Hexanoate (C₆H₁₁NaO₂) in your inventory.",
+    "target_compound": "na_c5h11coo",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0159",
+    "title": "Discover C₇H₅NaO₂",
+    "description": "Experiment Goal: produce Sodium Benzoate (C₇H₅NaO₂).",
+    "target_compound": "na_c6h5coo",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0160",
+    "title": "Discover C₆H₅NaO",
+    "description": "Can you discover Sodium Phenoxide (C₆H₅NaO)?",
+    "target_compound": "na_c6h5o",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0161",
+    "title": "Discover NaCH₃COO",
+    "description": "Your next target is Sodium Acetate (NaCH₃COO). Make it.",
+    "target_compound": "na_ch3coo",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0162",
+    "title": "Discover NaCl",
+    "description": "Research Task: discover Sodium Chloride (NaCl).",
+    "target_compound": "na_cl",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0163",
+    "title": "Discover NaClO",
+    "description": "Chemistry Challenge: discover Sodium Hypochlorite (NaClO).",
+    "target_compound": "na_clo",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0164",
+    "title": "Discover NaCN",
+    "description": "Mission: find Sodium Cyanide (NaCN) in your inventory.",
+    "target_compound": "na_cn",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0165",
+    "title": "Discover (Na)2CO₃",
+    "description": "Experiment Goal: produce Sodium Carbonate ((Na)2CO₃).",
+    "target_compound": "na_co3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0166",
+    "title": "Discover NaH",
+    "description": "Can you discover Sodium Hydride (NaH)?",
+    "target_compound": "na_h",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0167",
+    "title": "Discover NaHCO₃",
+    "description": "Your next target is Sodium Hydrogen Carbonate (NaHCO₃). Make it.",
+    "target_compound": "na_hco3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0168",
+    "title": "Discover HCOONa",
+    "description": "Research Task: discover Sodium Formate (HCOONa).",
+    "target_compound": "na_hcoo",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0169",
+    "title": "Discover NaI",
+    "description": "Chemistry Challenge: discover Sodium Iodide (NaI).",
+    "target_compound": "na_i",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0170",
+    "title": "Discover NaNO₂",
+    "description": "Mission: find Sodium Nitrite (NaNO₂) in your inventory.",
+    "target_compound": "na_no2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0171",
+    "title": "Discover NaNO₃",
+    "description": "Experiment Goal: produce Sodium Nitrate (NaNO₃).",
+    "target_compound": "na_no3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0172",
+    "title": "Discover NaOH",
+    "description": "Can you discover Sodium Hydroxide (NaOH)?",
+    "target_compound": "na_oh",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0173",
+    "title": "Discover NH₃",
+    "description": "Your next target is Ammonia (NH₃). Make it.",
+    "target_compound": "nh3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0174",
+    "title": "Discover NH₄CH₃COO",
+    "description": "Research Task: discover Ammonium Acetate (NH₄CH₃COO).",
+    "target_compound": "nh4_ch3coo",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0175",
+    "title": "Discover NH₄Cl",
+    "description": "Chemistry Challenge: discover Ammonium Chloride (NH₄Cl).",
+    "target_compound": "nh4_cl",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0176",
+    "title": "Discover NH₄ClO",
+    "description": "Mission: find Ammonium Hypochlorite (NH₄ClO) in your inventory.",
+    "target_compound": "nh4_clo",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0177",
+    "title": "Discover NH₄CN",
+    "description": "Experiment Goal: produce Ammonium Cyanide (NH₄CN).",
+    "target_compound": "nh4_cn",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0178",
+    "title": "Discover (NH₄)2CO₃",
+    "description": "Can you discover Ammonium Carbonate ((NH₄)2CO₃)?",
+    "target_compound": "nh4_co3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0179",
+    "title": "Discover NH₄NO₂",
+    "description": "Your next target is Ammonium Nitrite (NH₄NO₂). Make it.",
+    "target_compound": "nh4_no2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0180",
+    "title": "Discover NH₄NO₃",
+    "description": "Research Task: discover Ammonium Nitrate (NH₄NO₃).",
+    "target_compound": "nh4_no3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0181",
+    "title": "Discover NO",
+    "description": "Chemistry Challenge: discover Nitric Oxide (NO).",
+    "target_compound": "no",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0182",
+    "title": "Discover NO₂",
+    "description": "Mission: find Nitrogen Dioxide (NO₂) in your inventory.",
+    "target_compound": "no2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0183",
+    "title": "Discover O₂",
+    "description": "Experiment Goal: produce Oxygen (diatomic) (O₂).",
+    "target_compound": "o2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0184",
+    "title": "Discover Al₂O₃",
+    "description": "Can you discover Aluminium Oxide (Al₂O₃)?",
+    "target_compound": "al2o3",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0185",
+    "title": "Discover Al(CH₃COO)3",
+    "description": "Your next target is Aluminium Acetate (Al(CH₃COO)3). Make it.",
+    "target_compound": "al_ch3coo",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0186",
+    "title": "Discover Al(Cl)3",
+    "description": "Research Task: discover Aluminium Chloride (Al(Cl)3).",
+    "target_compound": "al_cl",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0187",
+    "title": "Discover Al(ClO)3",
+    "description": "Chemistry Challenge: discover Aluminium Hypochlorite (Al(ClO)3).",
+    "target_compound": "al_clo",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0188",
+    "title": "Discover Al(CN)3",
+    "description": "Mission: find Aluminium Cyanide (Al(CN)3) in your inventory.",
+    "target_compound": "al_cn",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0189",
+    "title": "Discover (Al)2CO₃3",
+    "description": "Experiment Goal: produce Aluminium Carbonate ((Al)2CO₃3).",
+    "target_compound": "al_co3",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0190",
+    "title": "Discover Al(F)3",
+    "description": "Can you discover Aluminium Fluoride (Al(F)3)?",
+    "target_compound": "al_f",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0191",
+    "title": "Discover AlH₃",
+    "description": "Your next target is Aluminium Hydride (AlH₃). Make it.",
+    "target_compound": "al_h3",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0192",
+    "title": "Discover Al(NO₂)3",
+    "description": "Research Task: discover Aluminium Nitrite (Al(NO₂)3).",
+    "target_compound": "al_no2",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0193",
+    "title": "Discover Al(NO₃)3",
+    "description": "Chemistry Challenge: discover Aluminium Nitrate (Al(NO₃)3).",
+    "target_compound": "al_no3",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0194",
+    "title": "Discover AlPO₄",
+    "description": "Mission: find Aluminium Phosphate (AlPO₄) in your inventory.",
+    "target_compound": "al_po4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0195",
+    "title": "Discover (Al)2S3",
+    "description": "Experiment Goal: produce Aluminium Sulfide ((Al)2S3).",
+    "target_compound": "al_s",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0196",
+    "title": "Discover (Al)2SO₃3",
+    "description": "Can you discover Aluminium Sulfite ((Al)2SO₃3)?",
+    "target_compound": "al_so3",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0197",
+    "title": "Discover (Al)2SO₄3",
+    "description": "Your next target is Aluminium Sulfate ((Al)2SO₄3). Make it.",
+    "target_compound": "al_so4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0198",
+    "title": "Discover Ca(F)2",
+    "description": "Research Task: discover Calcium Fluoride (Ca(F)2).",
+    "target_compound": "ca_f",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0199",
+    "title": "Discover (Ca)3PO₄2",
+    "description": "Chemistry Challenge: discover Calcium Phosphate ((Ca)3PO₄2).",
+    "target_compound": "ca_po4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0200",
+    "title": "Discover CaS",
+    "description": "Mission: find Calcium Sulfide (CaS) in your inventory.",
+    "target_compound": "ca_s",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0201",
+    "title": "Discover CaSO₃",
+    "description": "Experiment Goal: produce Calcium Sulfite (CaSO₃).",
+    "target_compound": "ca_so3",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0202",
+    "title": "Discover CaSO₄",
+    "description": "Can you discover Calcium Sulfate (CaSO₄)?",
+    "target_compound": "ca_so4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0203",
+    "title": "Discover (Co)3PO₄2",
+    "description": "Your next target is Cobalt(II) Phosphate ((Co)3PO₄2). Make it.",
+    "target_compound": "co2_po4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0204",
+    "title": "Discover CoSO₃",
+    "description": "Research Task: discover Cobalt(II) Sulfite (CoSO₃).",
+    "target_compound": "co2_so3",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0205",
+    "title": "Discover CoSO₄",
+    "description": "Chemistry Challenge: discover Cobalt(II) Sulfate (CoSO₄).",
+    "target_compound": "co2_so4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0206",
+    "title": "Discover H₂S",
+    "description": "Mission: find Hydrogen Sulfide (H₂S) in your inventory.",
+    "target_compound": "h2s",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0207",
+    "title": "Discover H₂SO₄",
+    "description": "Experiment Goal: produce Sulfuric Acid (H₂SO₄).",
+    "target_compound": "h2so4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0208",
+    "title": "Discover H₃PO₄",
+    "description": "Can you discover Phosphoric Acid (H₃PO₄)?",
+    "target_compound": "h3po4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0209",
+    "title": "Discover KF",
+    "description": "Your next target is Potassium Fluoride (KF). Make it.",
+    "target_compound": "k_f",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0210",
+    "title": "Discover (K)3PO₄",
+    "description": "Research Task: discover Potassium Phosphate ((K)3PO₄).",
+    "target_compound": "k_po4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0211",
+    "title": "Discover (K)2S",
+    "description": "Chemistry Challenge: discover Potassium Sulfide ((K)2S).",
+    "target_compound": "k_s",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0212",
+    "title": "Discover (K)2SO₃",
+    "description": "Mission: find Potassium Sulfite ((K)2SO₃) in your inventory.",
+    "target_compound": "k_so3",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0213",
+    "title": "Discover (K)2SO₄",
+    "description": "Experiment Goal: produce Potassium Sulfate ((K)2SO₄).",
+    "target_compound": "k_so4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0214",
+    "title": "Discover Li₂O",
+    "description": "Can you discover Lithium Oxide (Li₂O)?",
+    "target_compound": "li2o",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0215",
+    "title": "Discover LiCH₃COO",
+    "description": "Your next target is Lithium Acetate (LiCH₃COO). Make it.",
+    "target_compound": "li_ch3coo",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0216",
+    "title": "Discover LiCl",
+    "description": "Research Task: discover Lithium Chloride (LiCl).",
+    "target_compound": "li_cl",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0217",
+    "title": "Discover LiClO",
+    "description": "Chemistry Challenge: discover Lithium Hypochlorite (LiClO).",
+    "target_compound": "li_clo",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0218",
+    "title": "Discover LiCN",
+    "description": "Mission: find Lithium Cyanide (LiCN) in your inventory.",
+    "target_compound": "li_cn",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0219",
+    "title": "Discover (Li)2CO₃",
+    "description": "Experiment Goal: produce Lithium Carbonate ((Li)2CO₃).",
+    "target_compound": "li_co3",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0220",
+    "title": "Discover LiF",
+    "description": "Can you discover Lithium Fluoride (LiF)?",
+    "target_compound": "li_f",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0221",
+    "title": "Discover LiNO₂",
+    "description": "Your next target is Lithium Nitrite (LiNO₂). Make it.",
+    "target_compound": "li_no2",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0222",
+    "title": "Discover LiNO₃",
+    "description": "Research Task: discover Lithium Nitrate (LiNO₃).",
+    "target_compound": "li_no3",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0223",
+    "title": "Discover (Li)3PO₄",
+    "description": "Chemistry Challenge: discover Lithium Phosphate ((Li)3PO₄).",
+    "target_compound": "li_po4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0224",
+    "title": "Discover (Li)2S",
+    "description": "Mission: find Lithium Sulfide ((Li)2S) in your inventory.",
+    "target_compound": "li_s",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0225",
+    "title": "Discover (Li)2SO₃",
+    "description": "Experiment Goal: produce Lithium Sulfite ((Li)2SO₃).",
+    "target_compound": "li_so3",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0226",
+    "title": "Discover (Li)2SO₄",
+    "description": "Can you discover Lithium Sulfate ((Li)2SO₄)?",
+    "target_compound": "li_so4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0227",
+    "title": "Discover Mg(CH₃COO)2",
+    "description": "Your next target is Magnesium Acetate (Mg(CH₃COO)2). Make it.",
+    "target_compound": "mg_ch3coo",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0228",
+    "title": "Discover Mg(Cl)2",
+    "description": "Research Task: discover Magnesium Chloride (Mg(Cl)2).",
+    "target_compound": "mg_cl",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0229",
+    "title": "Discover Mg(ClO)2",
+    "description": "Chemistry Challenge: discover Magnesium Hypochlorite (Mg(ClO)2).",
+    "target_compound": "mg_clo",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0230",
+    "title": "Discover Mg(CN)2",
+    "description": "Mission: find Magnesium Cyanide (Mg(CN)2) in your inventory.",
+    "target_compound": "mg_cn",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0231",
+    "title": "Discover MgCO₃",
+    "description": "Experiment Goal: produce Magnesium Carbonate (MgCO₃).",
+    "target_compound": "mg_co3",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0232",
+    "title": "Discover Mg(F)2",
+    "description": "Can you discover Magnesium Fluoride (Mg(F)2)?",
+    "target_compound": "mg_f",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0233",
+    "title": "Discover Mg(NO₂)2",
+    "description": "Your next target is Magnesium Nitrite (Mg(NO₂)2). Make it.",
+    "target_compound": "mg_no2",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0234",
+    "title": "Discover Mg(NO₃)2",
+    "description": "Research Task: discover Magnesium Nitrate (Mg(NO₃)2).",
+    "target_compound": "mg_no3",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0235",
+    "title": "Discover (Mg)3PO₄2",
+    "description": "Chemistry Challenge: discover Magnesium Phosphate ((Mg)3PO₄2).",
+    "target_compound": "mg_po4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0236",
+    "title": "Discover MgS",
+    "description": "Mission: find Magnesium Sulfide (MgS) in your inventory.",
+    "target_compound": "mg_s",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0237",
+    "title": "Discover MgSO₃",
+    "description": "Experiment Goal: produce Magnesium Sulfite (MgSO₃).",
+    "target_compound": "mg_so3",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0238",
+    "title": "Discover MgSO₄",
+    "description": "Can you discover Magnesium Sulfate (MgSO₄)?",
+    "target_compound": "mg_so4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0239",
+    "title": "Discover MgH₂",
+    "description": "Your next target is Magnesium Hydride (MgH₂). Make it.",
+    "target_compound": "mgh2",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0240",
+    "title": "Discover MgO",
+    "description": "Research Task: discover Magnesium Oxide (MgO).",
+    "target_compound": "mgo",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0241",
+    "title": "Discover NaF",
+    "description": "Chemistry Challenge: discover Sodium Fluoride (NaF).",
+    "target_compound": "na_f",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0242",
+    "title": "Discover (Na)3PO₄",
+    "description": "Mission: find Sodium Phosphate ((Na)3PO₄) in your inventory.",
+    "target_compound": "na_po4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0243",
+    "title": "Discover (Na)2S",
+    "description": "Experiment Goal: produce Sodium Sulfide ((Na)2S).",
+    "target_compound": "na_s",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0244",
+    "title": "Discover (Na)2SO₃",
+    "description": "Can you discover Sodium Sulfite ((Na)2SO₃)?",
+    "target_compound": "na_so3",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0245",
+    "title": "Discover (Na)2SO₄",
+    "description": "Your next target is Sodium Sulfate ((Na)2SO₄). Make it.",
+    "target_compound": "na_so4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0246",
+    "title": "Discover (NH₄)3PO₄",
+    "description": "Research Task: discover Ammonium Phosphate ((NH₄)3PO₄).",
+    "target_compound": "nh4_po4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0247",
+    "title": "Discover (NH₄)2S",
+    "description": "Chemistry Challenge: discover Ammonium Sulfide ((NH₄)2S).",
+    "target_compound": "nh4_s",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0248",
+    "title": "Discover (NH₄)2SO₃",
+    "description": "Mission: find Ammonium Sulfite ((NH₄)2SO₃) in your inventory.",
+    "target_compound": "nh4_so3",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0249",
+    "title": "Discover (NH₄)2SO₄",
+    "description": "Experiment Goal: produce Ammonium Sulfate ((NH₄)2SO₄).",
+    "target_compound": "nh4_so4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0250",
+    "title": "Discover P₄O₁₀",
+    "description": "Can you discover Phosphorus(V) Oxide (P₄O₁₀)?",
+    "target_compound": "p4o10",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0251",
+    "title": "Discover SO₂",
+    "description": "Your next target is Sulfur Dioxide (SO₂). Make it.",
+    "target_compound": "so2",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0252",
+    "title": "Discover SO₃",
+    "description": "Research Task: discover Sulfur Trioxide (SO₃).",
+    "target_compound": "so3",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0253",
+    "title": "Discover Al(Br)3",
+    "description": "Chemistry Challenge: discover Aluminium Bromide (Al(Br)3).",
+    "target_compound": "al_br",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0254",
+    "title": "Discover Ca(Br)2",
+    "description": "Mission: find Calcium Bromide (Ca(Br)2) in your inventory.",
+    "target_compound": "ca_br",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0255",
+    "title": "Discover Co(Br)2",
+    "description": "Experiment Goal: produce Cobalt(II) Bromide (Co(Br)2).",
+    "target_compound": "co2_br",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0256",
+    "title": "Discover CuBr",
+    "description": "Can you discover Copper(I) Bromide (CuBr)?",
+    "target_compound": "cu1_br",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0257",
+    "title": "Discover CuCH₃COO",
+    "description": "Your next target is Copper(I) Acetate (CuCH₃COO). Make it.",
+    "target_compound": "cu1_ch3coo",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0258",
+    "title": "Discover CuCl",
+    "description": "Research Task: discover Copper(I) Chloride (CuCl).",
+    "target_compound": "cu1_cl",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0259",
+    "title": "Discover CuClO",
+    "description": "Chemistry Challenge: discover Copper(I) Hypochlorite (CuClO).",
+    "target_compound": "cu1_clo",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0260",
+    "title": "Discover CuCN",
+    "description": "Mission: find Copper(I) Cyanide (CuCN) in your inventory.",
+    "target_compound": "cu1_cn",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0261",
+    "title": "Discover (Cu)2CO₃",
+    "description": "Experiment Goal: produce Copper(I) Carbonate ((Cu)2CO₃).",
+    "target_compound": "cu1_co3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0262",
+    "title": "Discover CuF",
+    "description": "Can you discover Copper(I) Fluoride (CuF)?",
+    "target_compound": "cu1_f",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0263",
+    "title": "Discover CuNO₂",
+    "description": "Your next target is Copper(I) Nitrite (CuNO₂). Make it.",
+    "target_compound": "cu1_no2",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0264",
+    "title": "Discover CuNO₃",
+    "description": "Research Task: discover Copper(I) Nitrate (CuNO₃).",
+    "target_compound": "cu1_no3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0265",
+    "title": "Discover (Cu)3PO₄",
+    "description": "Chemistry Challenge: discover Copper(I) Phosphate ((Cu)3PO₄).",
+    "target_compound": "cu1_po4",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0266",
+    "title": "Discover (Cu)2S",
+    "description": "Mission: find Copper(I) Sulfide ((Cu)2S) in your inventory.",
+    "target_compound": "cu1_s",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0267",
+    "title": "Discover (Cu)2SO₃",
+    "description": "Experiment Goal: produce Copper(I) Sulfite ((Cu)2SO₃).",
+    "target_compound": "cu1_so3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0268",
+    "title": "Discover (Cu)2SO₄",
+    "description": "Can you discover Copper(I) Sulfate ((Cu)2SO₄)?",
+    "target_compound": "cu1_so4",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0269",
+    "title": "Discover Cu(Br)2",
+    "description": "Your next target is Copper(II) Bromide (Cu(Br)2). Make it.",
+    "target_compound": "cu2_br",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0270",
+    "title": "Discover Cu(CH₃COO)2",
+    "description": "Research Task: discover Copper(II) Acetate (Cu(CH₃COO)2).",
+    "target_compound": "cu2_ch3coo",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0271",
+    "title": "Discover Cu(Cl)2",
+    "description": "Chemistry Challenge: discover Copper(II) Chloride (Cu(Cl)2).",
+    "target_compound": "cu2_cl",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0272",
+    "title": "Discover Cu(ClO)2",
+    "description": "Mission: find Copper(II) Hypochlorite (Cu(ClO)2) in your inventory.",
+    "target_compound": "cu2_clo",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0273",
+    "title": "Discover Cu(CN)2",
+    "description": "Experiment Goal: produce Copper(II) Cyanide (Cu(CN)2).",
+    "target_compound": "cu2_cn",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0274",
+    "title": "Discover CuCO₃",
+    "description": "Can you discover Copper(II) Carbonate (CuCO₃)?",
+    "target_compound": "cu2_co3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0275",
+    "title": "Discover Cu(F)2",
+    "description": "Your next target is Copper(II) Fluoride (Cu(F)2). Make it.",
+    "target_compound": "cu2_f",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0276",
+    "title": "Discover Cu(NO₂)2",
+    "description": "Research Task: discover Copper(II) Nitrite (Cu(NO₂)2).",
+    "target_compound": "cu2_no2",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0277",
+    "title": "Discover Cu(NO₃)2",
+    "description": "Chemistry Challenge: discover Copper(II) Nitrate (Cu(NO₃)2).",
+    "target_compound": "cu2_no3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0278",
+    "title": "Discover (Cu)3PO₄2",
+    "description": "Mission: find Copper(II) Phosphate ((Cu)3PO₄2) in your inventory.",
+    "target_compound": "cu2_po4",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0279",
+    "title": "Discover CuS",
+    "description": "Experiment Goal: produce Copper(II) Sulfide (CuS).",
+    "target_compound": "cu2_s",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0280",
+    "title": "Discover CuSO₃",
+    "description": "Can you discover Copper(II) Sulfite (CuSO₃)?",
+    "target_compound": "cu2_so3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0281",
+    "title": "Discover CuSO₄",
+    "description": "Your next target is Copper(II) Sulfate (CuSO₄). Make it.",
+    "target_compound": "cu2_so4",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0282",
+    "title": "Discover Cu₂O",
+    "description": "Research Task: discover Copper(I) Oxide (Cu₂O).",
+    "target_compound": "cu2o",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0283",
+    "title": "Discover CuO",
+    "description": "Chemistry Challenge: discover Copper(II) Oxide (CuO).",
+    "target_compound": "cuo",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0284",
+    "title": "Discover Fe(Br)2",
+    "description": "Mission: find Iron(II) Bromide (Fe(Br)2) in your inventory.",
+    "target_compound": "fe2_br",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0285",
+    "title": "Discover Fe(CH₃COO)2",
+    "description": "Experiment Goal: produce Iron(II) Acetate (Fe(CH₃COO)2).",
+    "target_compound": "fe2_ch3coo",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0286",
+    "title": "Discover Fe(Cl)2",
+    "description": "Can you discover Iron(II) Chloride (Fe(Cl)2)?",
+    "target_compound": "fe2_cl",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0287",
+    "title": "Discover Fe(ClO)2",
+    "description": "Your next target is Iron(II) Hypochlorite (Fe(ClO)2). Make it.",
+    "target_compound": "fe2_clo",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0288",
+    "title": "Discover Fe(CN)2",
+    "description": "Research Task: discover Iron(II) Cyanide (Fe(CN)2).",
+    "target_compound": "fe2_cn",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0289",
+    "title": "Discover FeCO₃",
+    "description": "Chemistry Challenge: discover Iron(II) Carbonate (FeCO₃).",
+    "target_compound": "fe2_co3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0290",
+    "title": "Discover Fe(F)2",
+    "description": "Mission: find Iron(II) Fluoride (Fe(F)2) in your inventory.",
+    "target_compound": "fe2_f",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0291",
+    "title": "Discover Fe(NO₂)2",
+    "description": "Experiment Goal: produce Iron(II) Nitrite (Fe(NO₂)2).",
+    "target_compound": "fe2_no2",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0292",
+    "title": "Discover Fe(NO₃)2",
+    "description": "Can you discover Iron(II) Nitrate (Fe(NO₃)2)?",
+    "target_compound": "fe2_no3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0293",
+    "title": "Discover (Fe)3PO₄2",
+    "description": "Your next target is Iron(II) Phosphate ((Fe)3PO₄2). Make it.",
+    "target_compound": "fe2_po4",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0294",
+    "title": "Discover FeS",
+    "description": "Research Task: discover Iron(II) Sulfide (FeS).",
+    "target_compound": "fe2_s",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0295",
+    "title": "Discover FeSO₃",
+    "description": "Chemistry Challenge: discover Iron(II) Sulfite (FeSO₃).",
+    "target_compound": "fe2_so3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0296",
+    "title": "Discover FeSO₄",
+    "description": "Mission: find Iron(II) Sulfate (FeSO₄) in your inventory.",
+    "target_compound": "fe2_so4",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0297",
+    "title": "Discover Fe₂O₃",
+    "description": "Experiment Goal: produce Iron(III) Oxide (Fe₂O₃).",
+    "target_compound": "fe2o3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0298",
+    "title": "Discover Fe(Br)3",
+    "description": "Can you discover Iron(III) Bromide (Fe(Br)3)?",
+    "target_compound": "fe3_br",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0299",
+    "title": "Discover Fe(CH₃COO)3",
+    "description": "Your next target is Iron(III) Acetate (Fe(CH₃COO)3). Make it.",
+    "target_compound": "fe3_ch3coo",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0300",
+    "title": "Discover Fe(Cl)3",
+    "description": "Research Task: discover Iron(III) Chloride (Fe(Cl)3).",
+    "target_compound": "fe3_cl",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0301",
+    "title": "Discover Fe(ClO)3",
+    "description": "Chemistry Challenge: discover Iron(III) Hypochlorite (Fe(ClO)3).",
+    "target_compound": "fe3_clo",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0302",
+    "title": "Discover Fe(CN)3",
+    "description": "Mission: find Iron(III) Cyanide (Fe(CN)3) in your inventory.",
+    "target_compound": "fe3_cn",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0303",
+    "title": "Discover (Fe)2CO₃3",
+    "description": "Experiment Goal: produce Iron(III) Carbonate ((Fe)2CO₃3).",
+    "target_compound": "fe3_co3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0304",
+    "title": "Discover Fe(F)3",
+    "description": "Can you discover Iron(III) Fluoride (Fe(F)3)?",
+    "target_compound": "fe3_f",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0305",
+    "title": "Discover Fe(NO₂)3",
+    "description": "Your next target is Iron(III) Nitrite (Fe(NO₂)3). Make it.",
+    "target_compound": "fe3_no2",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0306",
+    "title": "Discover Fe(NO₃)3",
+    "description": "Research Task: discover Iron(III) Nitrate (Fe(NO₃)3).",
+    "target_compound": "fe3_no3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0307",
+    "title": "Discover Fe₃O₄",
+    "description": "Chemistry Challenge: discover Iron(II,III) Oxide (Fe₃O₄).",
+    "target_compound": "fe3_o4",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0308",
+    "title": "Discover FePO₄",
+    "description": "Mission: find Iron(III) Phosphate (FePO₄) in your inventory.",
+    "target_compound": "fe3_po4",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0309",
+    "title": "Discover (Fe)2S3",
+    "description": "Experiment Goal: produce Iron(III) Sulfide ((Fe)2S3).",
+    "target_compound": "fe3_s",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0310",
+    "title": "Discover (Fe)2SO₃3",
+    "description": "Can you discover Iron(III) Sulfite ((Fe)2SO₃3)?",
+    "target_compound": "fe3_so3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0311",
+    "title": "Discover (Fe)2SO₄3",
+    "description": "Your next target is Iron(III) Sulfate ((Fe)2SO₄3). Make it.",
+    "target_compound": "fe3_so4",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0312",
+    "title": "Discover HBr",
+    "description": "Research Task: discover Hydrobromic Acid (HBr).",
+    "target_compound": "hbr",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0313",
+    "title": "Discover LiBr",
+    "description": "Chemistry Challenge: discover Lithium Bromide (LiBr).",
+    "target_compound": "li_br",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0314",
+    "title": "Discover Mg(Br)2",
+    "description": "Mission: find Magnesium Bromide (Mg(Br)2) in your inventory.",
+    "target_compound": "mg_br",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0315",
+    "title": "Discover NH₄Br",
+    "description": "Experiment Goal: produce Ammonium Bromide (NH₄Br).",
+    "target_compound": "nh4_br",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0316",
+    "title": "Discover SiO₂",
+    "description": "Can you discover Silicon Dioxide (SiO₂)?",
+    "target_compound": "sio2",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0317",
+    "title": "Discover Ti(Br)3",
+    "description": "Your next target is Titanium(III) Bromide (Ti(Br)3). Make it.",
+    "target_compound": "ti3_br",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0318",
+    "title": "Discover Ti(CH₃COO)3",
+    "description": "Research Task: discover Titanium(III) Acetate (Ti(CH₃COO)3).",
+    "target_compound": "ti3_ch3coo",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0319",
+    "title": "Discover Ti(Cl)3",
+    "description": "Chemistry Challenge: discover Titanium(III) Chloride (Ti(Cl)3).",
+    "target_compound": "ti3_cl",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0320",
+    "title": "Discover Ti(ClO)3",
+    "description": "Mission: find Titanium(III) Hypochlorite (Ti(ClO)3) in your inventory.",
+    "target_compound": "ti3_clo",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0321",
+    "title": "Discover Ti(CN)3",
+    "description": "Experiment Goal: produce Titanium(III) Cyanide (Ti(CN)3).",
+    "target_compound": "ti3_cn",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0322",
+    "title": "Discover (Ti)2CO₃3",
+    "description": "Can you discover Titanium(III) Carbonate ((Ti)2CO₃3)?",
+    "target_compound": "ti3_co3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0323",
+    "title": "Discover Ti(F)3",
+    "description": "Your next target is Titanium(III) Fluoride (Ti(F)3). Make it.",
+    "target_compound": "ti3_f",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0324",
+    "title": "Discover Ti(NO₂)3",
+    "description": "Research Task: discover Titanium(III) Nitrite (Ti(NO₂)3).",
+    "target_compound": "ti3_no2",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0325",
+    "title": "Discover Ti(NO₃)3",
+    "description": "Chemistry Challenge: discover Titanium(III) Nitrate (Ti(NO₃)3).",
+    "target_compound": "ti3_no3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0326",
+    "title": "Discover TiPO₄",
+    "description": "Mission: find Titanium(III) Phosphate (TiPO₄) in your inventory.",
+    "target_compound": "ti3_po4",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0327",
+    "title": "Discover (Ti)2S3",
+    "description": "Experiment Goal: produce Titanium(III) Sulfide ((Ti)2S3).",
+    "target_compound": "ti3_s",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0328",
+    "title": "Discover (Ti)2SO₃3",
+    "description": "Can you discover Titanium(III) Sulfite ((Ti)2SO₃3)?",
+    "target_compound": "ti3_so3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0329",
+    "title": "Discover (Ti)2SO₄3",
+    "description": "Your next target is Titanium(III) Sulfate ((Ti)2SO₄3). Make it.",
+    "target_compound": "ti3_so4",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0330",
+    "title": "Discover Ti(Br)4",
+    "description": "Research Task: discover Titanium(IV) Bromide (Ti(Br)4).",
+    "target_compound": "ti4_br",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0331",
+    "title": "Discover Ti(CH₃COO)4",
+    "description": "Chemistry Challenge: discover Titanium(IV) Acetate (Ti(CH₃COO)4).",
+    "target_compound": "ti4_ch3coo",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0332",
+    "title": "Discover Ti(Cl)4",
+    "description": "Mission: find Titanium(IV) Chloride (Ti(Cl)4) in your inventory.",
+    "target_compound": "ti4_cl",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0333",
+    "title": "Discover Ti(ClO)4",
+    "description": "Experiment Goal: produce Titanium(IV) Hypochlorite (Ti(ClO)4).",
+    "target_compound": "ti4_clo",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0334",
+    "title": "Discover Ti(CN)4",
+    "description": "Can you discover Titanium(IV) Cyanide (Ti(CN)4)?",
+    "target_compound": "ti4_cn",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0335",
+    "title": "Discover Ti(CO₃)2",
+    "description": "Your next target is Titanium(IV) Carbonate (Ti(CO₃)2). Make it.",
+    "target_compound": "ti4_co3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0336",
+    "title": "Discover Ti(F)4",
+    "description": "Research Task: discover Titanium(IV) Fluoride (Ti(F)4).",
+    "target_compound": "ti4_f",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0337",
+    "title": "Discover Ti(NO₂)4",
+    "description": "Chemistry Challenge: discover Titanium(IV) Nitrite (Ti(NO₂)4).",
+    "target_compound": "ti4_no2",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0338",
+    "title": "Discover Ti(NO₃)4",
+    "description": "Mission: find Titanium(IV) Nitrate (Ti(NO₃)4) in your inventory.",
+    "target_compound": "ti4_no3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0339",
+    "title": "Discover (Ti)3PO₄4",
+    "description": "Experiment Goal: produce Titanium(IV) Phosphate ((Ti)3PO₄4).",
+    "target_compound": "ti4_po4",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0340",
+    "title": "Discover Ti(S)2",
+    "description": "Can you discover Titanium(IV) Sulfide (Ti(S)2)?",
+    "target_compound": "ti4_s",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0341",
+    "title": "Discover Ti(SO₃)2",
+    "description": "Your next target is Titanium(IV) Sulfite (Ti(SO₃)2). Make it.",
+    "target_compound": "ti4_so3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0342",
+    "title": "Discover Ti(SO₄)2",
+    "description": "Research Task: discover Titanium(IV) Sulfate (Ti(SO₄)2).",
+    "target_compound": "ti4_so4",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0343",
+    "title": "Discover TiO₂",
+    "description": "Chemistry Challenge: discover Titanium(IV) Oxide (TiO₂).",
+    "target_compound": "tio2",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0344",
+    "title": "Discover Zn(Br)2",
+    "description": "Mission: find Zinc Bromide (Zn(Br)2) in your inventory.",
+    "target_compound": "zn_br",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0345",
+    "title": "Discover Zn(CH₃COO)2",
+    "description": "Experiment Goal: produce Zinc Acetate (Zn(CH₃COO)2).",
+    "target_compound": "zn_ch3coo",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0346",
+    "title": "Discover Zn(Cl)2",
+    "description": "Can you discover Zinc Chloride (Zn(Cl)2)?",
+    "target_compound": "zn_cl",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0347",
+    "title": "Discover Zn(ClO)2",
+    "description": "Your next target is Zinc Hypochlorite (Zn(ClO)2). Make it.",
+    "target_compound": "zn_clo",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0348",
+    "title": "Discover Zn(CN)2",
+    "description": "Research Task: discover Zinc Cyanide (Zn(CN)2).",
+    "target_compound": "zn_cn",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0349",
+    "title": "Discover ZnCO₃",
+    "description": "Chemistry Challenge: discover Zinc Carbonate (ZnCO₃).",
+    "target_compound": "zn_co3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0350",
+    "title": "Discover Zn(F)2",
+    "description": "Mission: find Zinc Fluoride (Zn(F)2) in your inventory.",
+    "target_compound": "zn_f",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0351",
+    "title": "Discover Zn(NO₂)2",
+    "description": "Experiment Goal: produce Zinc Nitrite (Zn(NO₂)2).",
+    "target_compound": "zn_no2",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0352",
+    "title": "Discover Zn(NO₃)2",
+    "description": "Can you discover Zinc Nitrate (Zn(NO₃)2)?",
+    "target_compound": "zn_no3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0353",
+    "title": "Discover (Zn)3PO₄2",
+    "description": "Your next target is Zinc Phosphate ((Zn)3PO₄2). Make it.",
+    "target_compound": "zn_po4",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0354",
+    "title": "Discover ZnS",
+    "description": "Research Task: discover Zinc Sulfide (ZnS).",
+    "target_compound": "zn_s",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0355",
+    "title": "Discover ZnSO₃",
+    "description": "Chemistry Challenge: discover Zinc Sulfite (ZnSO₃).",
+    "target_compound": "zn_so3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0356",
+    "title": "Discover ZnSO₄",
+    "description": "Mission: find Zinc Sulfate (ZnSO₄) in your inventory.",
+    "target_compound": "zn_so4",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0357",
+    "title": "Discover ZnO",
+    "description": "Experiment Goal: produce Zinc Oxide (ZnO).",
+    "target_compound": "zno",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0358",
+    "title": "Discover Al(I)3",
+    "description": "Can you discover Aluminium Iodide (Al(I)3)?",
+    "target_compound": "al_i",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0359",
+    "title": "Discover B₂O₃",
+    "description": "Your next target is Boron Oxide (B₂O₃). Make it.",
+    "target_compound": "b2o3",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0360",
+    "title": "Discover Be(Br)2",
+    "description": "Research Task: discover Beryllium Bromide (Be(Br)2).",
+    "target_compound": "be_br",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0361",
+    "title": "Discover Be(CH₃COO)2",
+    "description": "Chemistry Challenge: discover Beryllium Acetate (Be(CH₃COO)2).",
+    "target_compound": "be_ch3coo",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0362",
+    "title": "Discover Be(Cl)2",
+    "description": "Mission: find Beryllium Chloride (Be(Cl)2) in your inventory.",
+    "target_compound": "be_cl",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0363",
+    "title": "Discover Be(ClO)2",
+    "description": "Experiment Goal: produce Beryllium Hypochlorite (Be(ClO)2).",
+    "target_compound": "be_clo",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0364",
+    "title": "Discover Be(CN)2",
+    "description": "Can you discover Beryllium Cyanide (Be(CN)2)?",
+    "target_compound": "be_cn",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0365",
+    "title": "Discover BeCO₃",
+    "description": "Your next target is Beryllium Carbonate (BeCO₃). Make it.",
+    "target_compound": "be_co3",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0366",
+    "title": "Discover Be(F)2",
+    "description": "Research Task: discover Beryllium Fluoride (Be(F)2).",
+    "target_compound": "be_f",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0367",
+    "title": "Discover Be(I)2",
+    "description": "Chemistry Challenge: discover Beryllium Iodide (Be(I)2).",
+    "target_compound": "be_i",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0368",
+    "title": "Discover Be(NO₂)2",
+    "description": "Mission: find Beryllium Nitrite (Be(NO₂)2) in your inventory.",
+    "target_compound": "be_no2",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0369",
+    "title": "Discover Be(NO₃)2",
+    "description": "Experiment Goal: produce Beryllium Nitrate (Be(NO₃)2).",
+    "target_compound": "be_no3",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0370",
+    "title": "Discover (Be)3PO₄2",
+    "description": "Can you discover Beryllium Phosphate ((Be)3PO₄2)?",
+    "target_compound": "be_po4",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0371",
+    "title": "Discover BeS",
+    "description": "Your next target is Beryllium Sulfide (BeS). Make it.",
+    "target_compound": "be_s",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0372",
+    "title": "Discover BeSO₃",
+    "description": "Research Task: discover Beryllium Sulfite (BeSO₃).",
+    "target_compound": "be_so3",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0373",
+    "title": "Discover BeSO₄",
+    "description": "Chemistry Challenge: discover Beryllium Sulfate (BeSO₄).",
+    "target_compound": "be_so4",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0374",
+    "title": "Discover Ca(I)2",
+    "description": "Mission: find Calcium Iodide (Ca(I)2) in your inventory.",
+    "target_compound": "ca_i",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0375",
+    "title": "Discover Co(ClO)2",
+    "description": "Experiment Goal: produce Cobalt(II) Hypochlorite (Co(ClO)2).",
+    "target_compound": "co2_clo",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0376",
+    "title": "Discover Co(CN)2",
+    "description": "Can you discover Cobalt(II) Cyanide (Co(CN)2)?",
+    "target_compound": "co2_cn",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0377",
+    "title": "Discover CoCO₃",
+    "description": "Your next target is Cobalt(II) Carbonate (CoCO₃). Make it.",
+    "target_compound": "co2_co3",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0378",
+    "title": "Discover Co(F)2",
+    "description": "Research Task: discover Cobalt(II) Fluoride (Co(F)2).",
+    "target_compound": "co2_f",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0379",
+    "title": "Discover Co(I)2",
+    "description": "Chemistry Challenge: discover Cobalt(II) Iodide (Co(I)2).",
+    "target_compound": "co2_i",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0380",
+    "title": "Discover Co(NO₂)2",
+    "description": "Mission: find Cobalt(II) Nitrite (Co(NO₂)2) in your inventory.",
+    "target_compound": "co2_no2",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0381",
+    "title": "Discover CoS",
+    "description": "Experiment Goal: produce Cobalt(II) Sulfide (CoS).",
+    "target_compound": "co2_s",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0382",
+    "title": "Discover Co(Br)3",
+    "description": "Can you discover Cobalt(III) Bromide (Co(Br)3)?",
+    "target_compound": "co3_br",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0383",
+    "title": "Discover Co(CH₃COO)3",
+    "description": "Your next target is Cobalt(III) Acetate (Co(CH₃COO)3). Make it.",
+    "target_compound": "co3_ch3coo",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0384",
+    "title": "Discover Co(Cl)3",
+    "description": "Research Task: discover Cobalt(III) Chloride (Co(Cl)3).",
+    "target_compound": "co3_cl",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0385",
+    "title": "Discover Co(ClO)3",
+    "description": "Chemistry Challenge: discover Cobalt(III) Hypochlorite (Co(ClO)3).",
+    "target_compound": "co3_clo",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0386",
+    "title": "Discover Co(CN)3",
+    "description": "Mission: find Cobalt(III) Cyanide (Co(CN)3) in your inventory.",
+    "target_compound": "co3_cn",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0387",
+    "title": "Discover (Co)2CO₃3",
+    "description": "Experiment Goal: produce Cobalt(III) Carbonate ((Co)2CO₃3).",
+    "target_compound": "co3_co3",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0388",
+    "title": "Discover Co(F)3",
+    "description": "Can you discover Cobalt(III) Fluoride (Co(F)3)?",
+    "target_compound": "co3_f",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0389",
+    "title": "Discover Co(I)3",
+    "description": "Your next target is Cobalt(III) Iodide (Co(I)3). Make it.",
+    "target_compound": "co3_i",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0390",
+    "title": "Discover Co(NO₂)3",
+    "description": "Research Task: discover Cobalt(III) Nitrite (Co(NO₂)3).",
+    "target_compound": "co3_no2",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0391",
+    "title": "Discover Co(NO₃)3",
+    "description": "Chemistry Challenge: discover Cobalt(III) Nitrate (Co(NO₃)3).",
+    "target_compound": "co3_no3",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0392",
+    "title": "Discover CoPO₄",
+    "description": "Mission: find Cobalt(III) Phosphate (CoPO₄) in your inventory.",
+    "target_compound": "co3_po4",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0393",
+    "title": "Discover (Co)2S3",
+    "description": "Experiment Goal: produce Cobalt(III) Sulfide ((Co)2S3).",
+    "target_compound": "co3_s",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0394",
+    "title": "Discover (Co)2SO₃3",
+    "description": "Can you discover Cobalt(III) Sulfite ((Co)2SO₃3)?",
+    "target_compound": "co3_so3",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0395",
+    "title": "Discover (Co)2SO₄3",
+    "description": "Your next target is Cobalt(III) Sulfate ((Co)2SO₄3). Make it.",
+    "target_compound": "co3_so4",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0396",
+    "title": "Discover CoO",
+    "description": "Research Task: discover Cobalt(II) Oxide (CoO).",
+    "target_compound": "coo",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0397",
+    "title": "Discover CuI",
+    "description": "Chemistry Challenge: discover Copper(I) Iodide (CuI).",
+    "target_compound": "cu1_i",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0398",
+    "title": "Discover Cu(I)2",
+    "description": "Mission: find Copper(II) Iodide (Cu(I)2) in your inventory.",
+    "target_compound": "cu2_i",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0399",
+    "title": "Discover Fe(I)2",
+    "description": "Experiment Goal: produce Iron(II) Iodide (Fe(I)2).",
+    "target_compound": "fe2_i",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0400",
+    "title": "Discover Fe(I)3",
+    "description": "Can you discover Iron(III) Iodide (Fe(I)3)?",
+    "target_compound": "fe3_i",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0401",
+    "title": "Discover Ga(Br)3",
+    "description": "Your next target is Gallium(III) Bromide (Ga(Br)3). Make it.",
+    "target_compound": "ga3_br",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0402",
+    "title": "Discover Ga(CH₃COO)3",
+    "description": "Research Task: discover Gallium(III) Acetate (Ga(CH₃COO)3).",
+    "target_compound": "ga3_ch3coo",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0403",
+    "title": "Discover Ga(Cl)3",
+    "description": "Chemistry Challenge: discover Gallium(III) Chloride (Ga(Cl)3).",
+    "target_compound": "ga3_cl",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0404",
+    "title": "Discover Ga(ClO)3",
+    "description": "Mission: find Gallium(III) Hypochlorite (Ga(ClO)3) in your inventory.",
+    "target_compound": "ga3_clo",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0405",
+    "title": "Discover Ga(CN)3",
+    "description": "Experiment Goal: produce Gallium(III) Cyanide (Ga(CN)3).",
+    "target_compound": "ga3_cn",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0406",
+    "title": "Discover (Ga)2CO₃3",
+    "description": "Can you discover Gallium(III) Carbonate ((Ga)2CO₃3)?",
+    "target_compound": "ga3_co3",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0407",
+    "title": "Discover Ga(F)3",
+    "description": "Your next target is Gallium(III) Fluoride (Ga(F)3). Make it.",
+    "target_compound": "ga3_f",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0408",
+    "title": "Discover Ga(I)3",
+    "description": "Research Task: discover Gallium(III) Iodide (Ga(I)3).",
+    "target_compound": "ga3_i",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0409",
+    "title": "Discover Ga(NO₂)3",
+    "description": "Chemistry Challenge: discover Gallium(III) Nitrite (Ga(NO₂)3).",
+    "target_compound": "ga3_no2",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0410",
+    "title": "Discover Ga(NO₃)3",
+    "description": "Mission: find Gallium(III) Nitrate (Ga(NO₃)3) in your inventory.",
+    "target_compound": "ga3_no3",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0411",
+    "title": "Discover GaPO₄",
+    "description": "Experiment Goal: produce Gallium(III) Phosphate (GaPO₄).",
+    "target_compound": "ga3_po4",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0412",
+    "title": "Discover (Ga)2S3",
+    "description": "Can you discover Gallium(III) Sulfide ((Ga)2S3)?",
+    "target_compound": "ga3_s",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0413",
+    "title": "Discover (Ga)2SO₃3",
+    "description": "Your next target is Gallium(III) Sulfite ((Ga)2SO₃3). Make it.",
+    "target_compound": "ga3_so3",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0414",
+    "title": "Discover (Ga)2SO₄3",
+    "description": "Research Task: discover Gallium(III) Sulfate ((Ga)2SO₄3).",
+    "target_compound": "ga3_so4",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0415",
+    "title": "Discover HI",
+    "description": "Chemistry Challenge: discover Hydroiodic Acid (HI).",
+    "target_compound": "hi",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0416",
+    "title": "Discover KI",
+    "description": "Mission: find Potassium Iodide (KI) in your inventory.",
+    "target_compound": "k_i",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0417",
+    "title": "Discover KI",
+    "description": "Experiment Goal: produce Potassium Iodide (KI).",
+    "target_compound": "ki",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0418",
+    "title": "Discover LiI",
+    "description": "Can you discover Lithium Iodide (LiI)?",
+    "target_compound": "li_i",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0419",
+    "title": "Discover Mg(I)2",
+    "description": "Your next target is Magnesium Iodide (Mg(I)2). Make it.",
+    "target_compound": "mg_i",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0420",
+    "title": "Discover NH₄I",
+    "description": "Research Task: discover Ammonium Iodide (NH₄I).",
+    "target_compound": "nh4_i",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0421",
+    "title": "Discover Ni(Br)2",
+    "description": "Chemistry Challenge: discover Nickel(II) Bromide (Ni(Br)2).",
+    "target_compound": "ni2_br",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0422",
+    "title": "Discover Ni(CH₃COO)2",
+    "description": "Mission: find Nickel(II) Acetate (Ni(CH₃COO)2) in your inventory.",
+    "target_compound": "ni2_ch3coo",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0423",
+    "title": "Discover Ni(Cl)2",
+    "description": "Experiment Goal: produce Nickel(II) Chloride (Ni(Cl)2).",
+    "target_compound": "ni2_cl",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0424",
+    "title": "Discover Ni(ClO)2",
+    "description": "Can you discover Nickel(II) Hypochlorite (Ni(ClO)2)?",
+    "target_compound": "ni2_clo",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0425",
+    "title": "Discover Ni(CN)2",
+    "description": "Your next target is Nickel(II) Cyanide (Ni(CN)2). Make it.",
+    "target_compound": "ni2_cn",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0426",
+    "title": "Discover NiCO₃",
+    "description": "Research Task: discover Nickel(II) Carbonate (NiCO₃).",
+    "target_compound": "ni2_co3",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0427",
+    "title": "Discover Ni(F)2",
+    "description": "Chemistry Challenge: discover Nickel(II) Fluoride (Ni(F)2).",
+    "target_compound": "ni2_f",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0428",
+    "title": "Discover Ni(I)2",
+    "description": "Mission: find Nickel(II) Iodide (Ni(I)2) in your inventory.",
+    "target_compound": "ni2_i",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0429",
+    "title": "Discover Ni(NO₂)2",
+    "description": "Experiment Goal: produce Nickel(II) Nitrite (Ni(NO₂)2).",
+    "target_compound": "ni2_no2",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0430",
+    "title": "Discover Ni(NO₃)2",
+    "description": "Can you discover Nickel(II) Nitrate (Ni(NO₃)2)?",
+    "target_compound": "ni2_no3",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0431",
+    "title": "Discover (Ni)3PO₄2",
+    "description": "Your next target is Nickel(II) Phosphate ((Ni)3PO₄2). Make it.",
+    "target_compound": "ni2_po4",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0432",
+    "title": "Discover NiS",
+    "description": "Research Task: discover Nickel(II) Sulfide (NiS).",
+    "target_compound": "ni2_s",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0433",
+    "title": "Discover NiSO₃",
+    "description": "Chemistry Challenge: discover Nickel(II) Sulfite (NiSO₃).",
+    "target_compound": "ni2_so3",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0434",
+    "title": "Discover NiSO₄",
+    "description": "Mission: find Nickel(II) Sulfate (NiSO₄) in your inventory.",
+    "target_compound": "ni2_so4",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0435",
+    "title": "Discover NiO",
+    "description": "Experiment Goal: produce Nickel(II) Oxide (NiO).",
+    "target_compound": "nio",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0436",
+    "title": "Discover Ti(I)3",
+    "description": "Can you discover Titanium(III) Iodide (Ti(I)3)?",
+    "target_compound": "ti3_i",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0437",
+    "title": "Discover Ti(I)4",
+    "description": "Your next target is Titanium(IV) Iodide (Ti(I)4). Make it.",
+    "target_compound": "ti4_i",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0438",
+    "title": "Discover Zn(I)2",
+    "description": "Research Task: discover Zinc Iodide (Zn(I)2).",
+    "target_compound": "zn_i",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0439",
+    "title": "Discover AgBr",
+    "description": "Chemistry Challenge: discover Silver(I) Bromide (AgBr).",
+    "target_compound": "ag_br",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0440",
+    "title": "Discover AgCH₃COO",
+    "description": "Mission: find Silver(I) Acetate (AgCH₃COO) in your inventory.",
+    "target_compound": "ag_ch3coo",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0441",
+    "title": "Discover AgCl",
+    "description": "Experiment Goal: produce Silver(I) Chloride (AgCl).",
+    "target_compound": "ag_cl",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0442",
+    "title": "Discover AgClO",
+    "description": "Can you discover Silver(I) Hypochlorite (AgClO)?",
+    "target_compound": "ag_clo",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0443",
+    "title": "Discover AgCN",
+    "description": "Your next target is Silver(I) Cyanide (AgCN). Make it.",
+    "target_compound": "ag_cn",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0444",
+    "title": "Discover Ag₂CO₃",
+    "description": "Research Task: discover Silver(I) Carbonate (Ag₂CO₃).",
+    "target_compound": "ag_co3",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0445",
+    "title": "Discover AgF",
+    "description": "Chemistry Challenge: discover Silver(I) Fluoride (AgF).",
+    "target_compound": "ag_f",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0446",
+    "title": "Discover AgI",
+    "description": "Mission: find Silver(I) Iodide (AgI) in your inventory.",
+    "target_compound": "ag_i",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0447",
+    "title": "Discover AgNO₂",
+    "description": "Experiment Goal: produce Silver(I) Nitrite (AgNO₂).",
+    "target_compound": "ag_no2",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0448",
+    "title": "Discover AgNO₃",
+    "description": "Can you discover Silver(I) Nitrate (AgNO₃)?",
+    "target_compound": "ag_no3",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0449",
+    "title": "Discover Ag₃PO₄",
+    "description": "Your next target is Silver(I) Phosphate (Ag₃PO₄). Make it.",
+    "target_compound": "ag_po4",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0450",
+    "title": "Discover Ag₂S",
+    "description": "Research Task: discover Silver(I) Sulfide (Ag₂S).",
+    "target_compound": "ag_s",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0451",
+    "title": "Discover Ag₂SO₃",
+    "description": "Chemistry Challenge: discover Silver(I) Sulfite (Ag₂SO₃).",
+    "target_compound": "ag_so3",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0452",
+    "title": "Discover Ag₂SO₄",
+    "description": "Mission: find Silver(I) Sulfate (Ag₂SO₄) in your inventory.",
+    "target_compound": "ag_so4",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0453",
+    "title": "Discover Ba(Br)2",
+    "description": "Experiment Goal: produce Barium Bromide (Ba(Br)2).",
+    "target_compound": "ba_br",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0454",
+    "title": "Discover Ba(CH₃COO)2",
+    "description": "Can you discover Barium Acetate (Ba(CH₃COO)2)?",
+    "target_compound": "ba_ch3coo",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0455",
+    "title": "Discover Ba(Cl)2",
+    "description": "Your next target is Barium Chloride (Ba(Cl)2). Make it.",
+    "target_compound": "ba_cl",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0456",
+    "title": "Discover Ba(ClO)2",
+    "description": "Research Task: discover Barium Hypochlorite (Ba(ClO)2).",
+    "target_compound": "ba_clo",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0457",
+    "title": "Discover Ba(CN)2",
+    "description": "Chemistry Challenge: discover Barium Cyanide (Ba(CN)2).",
+    "target_compound": "ba_cn",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0458",
+    "title": "Discover BaCO₃",
+    "description": "Mission: find Barium Carbonate (BaCO₃) in your inventory.",
+    "target_compound": "ba_co3",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0459",
+    "title": "Discover Ba(F)2",
+    "description": "Experiment Goal: produce Barium Fluoride (Ba(F)2).",
+    "target_compound": "ba_f",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0460",
+    "title": "Discover Ba(I)2",
+    "description": "Can you discover Barium Iodide (Ba(I)2)?",
+    "target_compound": "ba_i",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0461",
+    "title": "Discover Ba(NO₂)2",
+    "description": "Your next target is Barium Nitrite (Ba(NO₂)2). Make it.",
+    "target_compound": "ba_no2",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0462",
+    "title": "Discover Ba(NO₃)2",
+    "description": "Research Task: discover Barium Nitrate (Ba(NO₃)2).",
+    "target_compound": "ba_no3",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0463",
+    "title": "Discover (Ba)3PO₄2",
+    "description": "Chemistry Challenge: discover Barium Phosphate ((Ba)3PO₄2).",
+    "target_compound": "ba_po4",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0464",
+    "title": "Discover BaS",
+    "description": "Mission: find Barium Sulfide (BaS) in your inventory.",
+    "target_compound": "ba_s",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0465",
+    "title": "Discover BaSO₃",
+    "description": "Experiment Goal: produce Barium Sulfite (BaSO₃).",
+    "target_compound": "ba_so3",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0466",
+    "title": "Discover BaSO₄",
+    "description": "Can you discover Barium Sulfate (BaSO₄)?",
+    "target_compound": "ba_so4",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0467",
+    "title": "Discover BaO",
+    "description": "Your next target is Barium Oxide (BaO). Make it.",
+    "target_compound": "bao",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0468",
+    "title": "Discover CsBr",
+    "description": "Research Task: discover Cesium Bromide (CsBr).",
+    "target_compound": "cs_br",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0469",
+    "title": "Discover CsCH₃COO",
+    "description": "Chemistry Challenge: discover Cesium Acetate (CsCH₃COO).",
+    "target_compound": "cs_ch3coo",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0470",
+    "title": "Discover CsCl",
+    "description": "Mission: find Cesium Chloride (CsCl) in your inventory.",
+    "target_compound": "cs_cl",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0471",
+    "title": "Discover CsClO",
+    "description": "Experiment Goal: produce Cesium Hypochlorite (CsClO).",
+    "target_compound": "cs_clo",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0472",
+    "title": "Discover CsCN",
+    "description": "Can you discover Cesium Cyanide (CsCN)?",
+    "target_compound": "cs_cn",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0473",
+    "title": "Discover (Cs)2CO₃",
+    "description": "Your next target is Cesium Carbonate ((Cs)2CO₃). Make it.",
+    "target_compound": "cs_co3",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0474",
+    "title": "Discover CsF",
+    "description": "Research Task: discover Cesium Fluoride (CsF).",
+    "target_compound": "cs_f",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0475",
+    "title": "Discover CsI",
+    "description": "Chemistry Challenge: discover Cesium Iodide (CsI).",
+    "target_compound": "cs_i",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0476",
+    "title": "Discover CsNO₂",
+    "description": "Mission: find Cesium Nitrite (CsNO₂) in your inventory.",
+    "target_compound": "cs_no2",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0477",
+    "title": "Discover CsNO₃",
+    "description": "Experiment Goal: produce Cesium Nitrate (CsNO₃).",
+    "target_compound": "cs_no3",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0478",
+    "title": "Discover (Cs)3PO₄",
+    "description": "Can you discover Cesium Phosphate ((Cs)3PO₄)?",
+    "target_compound": "cs_po4",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0479",
+    "title": "Discover (Cs)2S",
+    "description": "Your next target is Cesium Sulfide ((Cs)2S). Make it.",
+    "target_compound": "cs_s",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0480",
+    "title": "Discover (Cs)2SO₃",
+    "description": "Research Task: discover Cesium Sulfite ((Cs)2SO₃).",
+    "target_compound": "cs_so3",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0481",
+    "title": "Discover (Cs)2SO₄",
+    "description": "Chemistry Challenge: discover Cesium Sulfate ((Cs)2SO₄).",
+    "target_compound": "cs_so4",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0482",
+    "title": "Discover Hg(Br)2",
+    "description": "Mission: find Mercury(II) Bromide (Hg(Br)2) in your inventory.",
+    "target_compound": "hg2_br",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0483",
+    "title": "Discover Hg(CH₃COO)2",
+    "description": "Experiment Goal: produce Mercury(II) Acetate (Hg(CH₃COO)2).",
+    "target_compound": "hg2_ch3coo",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0484",
+    "title": "Discover Hg(Cl)2",
+    "description": "Can you discover Mercury(II) Chloride (Hg(Cl)2)?",
+    "target_compound": "hg2_cl",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0485",
+    "title": "Discover Hg(ClO)2",
+    "description": "Your next target is Mercury(II) Hypochlorite (Hg(ClO)2). Make it.",
+    "target_compound": "hg2_clo",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0486",
+    "title": "Discover Hg(CN)2",
+    "description": "Research Task: discover Mercury(II) Cyanide (Hg(CN)2).",
+    "target_compound": "hg2_cn",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0487",
+    "title": "Discover HgCO₃",
+    "description": "Chemistry Challenge: discover Mercury(II) Carbonate (HgCO₃).",
+    "target_compound": "hg2_co3",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0488",
+    "title": "Discover Hg(F)2",
+    "description": "Mission: find Mercury(II) Fluoride (Hg(F)2) in your inventory.",
+    "target_compound": "hg2_f",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0489",
+    "title": "Discover Hg(I)2",
+    "description": "Experiment Goal: produce Mercury(II) Iodide (Hg(I)2).",
+    "target_compound": "hg2_i",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0490",
+    "title": "Discover Hg(NO₂)2",
+    "description": "Can you discover Mercury(II) Nitrite (Hg(NO₂)2)?",
+    "target_compound": "hg2_no2",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0491",
+    "title": "Discover Hg(NO₃)2",
+    "description": "Your next target is Mercury(II) Nitrate (Hg(NO₃)2). Make it.",
+    "target_compound": "hg2_no3",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0492",
+    "title": "Discover (Hg)3PO₄2",
+    "description": "Research Task: discover Mercury(II) Phosphate ((Hg)3PO₄2).",
+    "target_compound": "hg2_po4",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0493",
+    "title": "Discover HgS",
+    "description": "Chemistry Challenge: discover Mercury(II) Sulfide (HgS).",
+    "target_compound": "hg2_s",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0494",
+    "title": "Discover HgSO₃",
+    "description": "Mission: find Mercury(II) Sulfite (HgSO₃) in your inventory.",
+    "target_compound": "hg2_so3",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0495",
+    "title": "Discover HgSO₄",
+    "description": "Experiment Goal: produce Mercury(II) Sulfate (HgSO₄).",
+    "target_compound": "hg2_so4",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0496",
+    "title": "Discover HgO",
+    "description": "Can you discover Mercury(II) Oxide (HgO)?",
+    "target_compound": "hgo",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0497",
+    "title": "Discover Pb(Br)2",
+    "description": "Your next target is Lead(II) Bromide (Pb(Br)2). Make it.",
+    "target_compound": "pb2_br",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0498",
+    "title": "Discover Pb(CH₃COO)2",
+    "description": "Research Task: discover Lead(II) Acetate (Pb(CH₃COO)2).",
+    "target_compound": "pb2_ch3coo",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0499",
+    "title": "Discover Pb(Cl)2",
+    "description": "Chemistry Challenge: discover Lead(II) Chloride (Pb(Cl)2).",
+    "target_compound": "pb2_cl",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0500",
+    "title": "Discover Pb(ClO)2",
+    "description": "Mission: find Lead(II) Hypochlorite (Pb(ClO)2) in your inventory.",
+    "target_compound": "pb2_clo",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0501",
+    "title": "Discover Pb(CN)2",
+    "description": "Experiment Goal: produce Lead(II) Cyanide (Pb(CN)2).",
+    "target_compound": "pb2_cn",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0502",
+    "title": "Discover PbCO₃",
+    "description": "Can you discover Lead(II) Carbonate (PbCO₃)?",
+    "target_compound": "pb2_co3",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0503",
+    "title": "Discover Pb(F)2",
+    "description": "Your next target is Lead(II) Fluoride (Pb(F)2). Make it.",
+    "target_compound": "pb2_f",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0504",
+    "title": "Discover Pb(NO₂)2",
+    "description": "Research Task: discover Lead(II) Nitrite (Pb(NO₂)2).",
+    "target_compound": "pb2_no2",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0505",
+    "title": "Discover (Pb)3PO₄2",
+    "description": "Chemistry Challenge: discover Lead(II) Phosphate ((Pb)3PO₄2).",
+    "target_compound": "pb2_po4",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0506",
+    "title": "Discover PbS",
+    "description": "Mission: find Lead(II) Sulfide (PbS) in your inventory.",
+    "target_compound": "pb2_s",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0507",
+    "title": "Discover PbSO₃",
+    "description": "Experiment Goal: produce Lead(II) Sulfite (PbSO₃).",
+    "target_compound": "pb2_so3",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0508",
+    "title": "Discover PbSO₄",
+    "description": "Can you discover Lead(II) Sulfate (PbSO₄)?",
+    "target_compound": "pb2_so4",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0509",
+    "title": "Discover Pb(Br)4",
+    "description": "Your next target is Lead(IV) Bromide (Pb(Br)4). Make it.",
+    "target_compound": "pb4_br",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0510",
+    "title": "Discover Pb(CH₃COO)4",
+    "description": "Research Task: discover Lead(IV) Acetate (Pb(CH₃COO)4).",
+    "target_compound": "pb4_ch3coo",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0511",
+    "title": "Discover Pb(Cl)4",
+    "description": "Chemistry Challenge: discover Lead(IV) Chloride (Pb(Cl)4).",
+    "target_compound": "pb4_cl",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0512",
+    "title": "Discover Pb(ClO)4",
+    "description": "Mission: find Lead(IV) Hypochlorite (Pb(ClO)4) in your inventory.",
+    "target_compound": "pb4_clo",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0513",
+    "title": "Discover Pb(CN)4",
+    "description": "Experiment Goal: produce Lead(IV) Cyanide (Pb(CN)4).",
+    "target_compound": "pb4_cn",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0514",
+    "title": "Discover Pb(CO₃)2",
+    "description": "Can you discover Lead(IV) Carbonate (Pb(CO₃)2)?",
+    "target_compound": "pb4_co3",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0515",
+    "title": "Discover Pb(F)4",
+    "description": "Your next target is Lead(IV) Fluoride (Pb(F)4). Make it.",
+    "target_compound": "pb4_f",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0516",
+    "title": "Discover Pb(I)4",
+    "description": "Research Task: discover Lead(IV) Iodide (Pb(I)4).",
+    "target_compound": "pb4_i",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0517",
+    "title": "Discover Pb(NO₂)4",
+    "description": "Chemistry Challenge: discover Lead(IV) Nitrite (Pb(NO₂)4).",
+    "target_compound": "pb4_no2",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0518",
+    "title": "Discover Pb(NO₃)4",
+    "description": "Mission: find Lead(IV) Nitrate (Pb(NO₃)4) in your inventory.",
+    "target_compound": "pb4_no3",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0519",
+    "title": "Discover (Pb)3PO₄4",
+    "description": "Experiment Goal: produce Lead(IV) Phosphate ((Pb)3PO₄4).",
+    "target_compound": "pb4_po4",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0520",
+    "title": "Discover Pb(S)2",
+    "description": "Can you discover Lead(IV) Sulfide (Pb(S)2)?",
+    "target_compound": "pb4_s",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0521",
+    "title": "Discover Pb(SO₃)2",
+    "description": "Your next target is Lead(IV) Sulfite (Pb(SO₃)2). Make it.",
+    "target_compound": "pb4_so3",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0522",
+    "title": "Discover Pb(SO₄)2",
+    "description": "Research Task: discover Lead(IV) Sulfate (Pb(SO₄)2).",
+    "target_compound": "pb4_so4",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0523",
+    "title": "Discover Pb(I)2",
+    "description": "Chemistry Challenge: discover Lead(II) Iodide (Pb(I)2).",
+    "target_compound": "pbi2",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0524",
+    "title": "Discover Pb(NO₃)2",
+    "description": "Mission: find Lead(II) Nitrate (Pb(NO₃)2) in your inventory.",
+    "target_compound": "pbno3",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0525",
+    "title": "Discover PbO",
+    "description": "Experiment Goal: produce Lead(II) Oxide (PbO).",
+    "target_compound": "pbo",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0526",
+    "title": "Discover Sn(Br)2",
+    "description": "Can you discover Tin(II) Bromide (Sn(Br)2)?",
+    "target_compound": "sn2_br",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0527",
+    "title": "Discover Sn(CH₃COO)2",
+    "description": "Your next target is Tin(II) Acetate (Sn(CH₃COO)2). Make it.",
+    "target_compound": "sn2_ch3coo",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0528",
+    "title": "Discover Sn(Cl)2",
+    "description": "Research Task: discover Tin(II) Chloride (Sn(Cl)2).",
+    "target_compound": "sn2_cl",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0529",
+    "title": "Discover Sn(ClO)2",
+    "description": "Chemistry Challenge: discover Tin(II) Hypochlorite (Sn(ClO)2).",
+    "target_compound": "sn2_clo",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0530",
+    "title": "Discover Sn(CN)2",
+    "description": "Mission: find Tin(II) Cyanide (Sn(CN)2) in your inventory.",
+    "target_compound": "sn2_cn",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0531",
+    "title": "Discover SnCO₃",
+    "description": "Experiment Goal: produce Tin(II) Carbonate (SnCO₃).",
+    "target_compound": "sn2_co3",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0532",
+    "title": "Discover Sn(F)2",
+    "description": "Can you discover Tin(II) Fluoride (Sn(F)2)?",
+    "target_compound": "sn2_f",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0533",
+    "title": "Discover Sn(I)2",
+    "description": "Your next target is Tin(II) Iodide (Sn(I)2). Make it.",
+    "target_compound": "sn2_i",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0534",
+    "title": "Discover Sn(NO₂)2",
+    "description": "Research Task: discover Tin(II) Nitrite (Sn(NO₂)2).",
+    "target_compound": "sn2_no2",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0535",
+    "title": "Discover Sn(NO₃)2",
+    "description": "Chemistry Challenge: discover Tin(II) Nitrate (Sn(NO₃)2).",
+    "target_compound": "sn2_no3",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0536",
+    "title": "Discover (Sn)3PO₄2",
+    "description": "Mission: find Tin(II) Phosphate ((Sn)3PO₄2) in your inventory.",
+    "target_compound": "sn2_po4",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0537",
+    "title": "Discover SnS",
+    "description": "Experiment Goal: produce Tin(II) Sulfide (SnS).",
+    "target_compound": "sn2_s",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0538",
+    "title": "Discover SnSO₃",
+    "description": "Can you discover Tin(II) Sulfite (SnSO₃)?",
+    "target_compound": "sn2_so3",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0539",
+    "title": "Discover SnSO₄",
+    "description": "Your next target is Tin(II) Sulfate (SnSO₄). Make it.",
+    "target_compound": "sn2_so4",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0540",
+    "title": "Discover Sn(Br)4",
+    "description": "Research Task: discover Tin(IV) Bromide (Sn(Br)4).",
+    "target_compound": "sn4_br",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0541",
+    "title": "Discover Sn(CH₃COO)4",
+    "description": "Chemistry Challenge: discover Tin(IV) Acetate (Sn(CH₃COO)4).",
+    "target_compound": "sn4_ch3coo",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0542",
+    "title": "Discover Sn(Cl)4",
+    "description": "Mission: find Tin(IV) Chloride (Sn(Cl)4) in your inventory.",
+    "target_compound": "sn4_cl",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0543",
+    "title": "Discover Sn(ClO)4",
+    "description": "Experiment Goal: produce Tin(IV) Hypochlorite (Sn(ClO)4).",
+    "target_compound": "sn4_clo",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0544",
+    "title": "Discover Sn(CN)4",
+    "description": "Can you discover Tin(IV) Cyanide (Sn(CN)4)?",
+    "target_compound": "sn4_cn",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0545",
+    "title": "Discover Sn(CO₃)2",
+    "description": "Your next target is Tin(IV) Carbonate (Sn(CO₃)2). Make it.",
+    "target_compound": "sn4_co3",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0546",
+    "title": "Discover Sn(F)4",
+    "description": "Research Task: discover Tin(IV) Fluoride (Sn(F)4).",
+    "target_compound": "sn4_f",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0547",
+    "title": "Discover Sn(I)4",
+    "description": "Chemistry Challenge: discover Tin(IV) Iodide (Sn(I)4).",
+    "target_compound": "sn4_i",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0548",
+    "title": "Discover Sn(NO₂)4",
+    "description": "Mission: find Tin(IV) Nitrite (Sn(NO₂)4) in your inventory.",
+    "target_compound": "sn4_no2",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0549",
+    "title": "Discover Sn(NO₃)4",
+    "description": "Experiment Goal: produce Tin(IV) Nitrate (Sn(NO₃)4).",
+    "target_compound": "sn4_no3",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0550",
+    "title": "Discover (Sn)3PO₄4",
+    "description": "Can you discover Tin(IV) Phosphate ((Sn)3PO₄4)?",
+    "target_compound": "sn4_po4",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0551",
+    "title": "Discover Sn(S)2",
+    "description": "Your next target is Tin(IV) Sulfide (Sn(S)2). Make it.",
+    "target_compound": "sn4_s",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0552",
+    "title": "Discover Sn(SO₃)2",
+    "description": "Research Task: discover Tin(IV) Sulfite (Sn(SO₃)2).",
+    "target_compound": "sn4_so3",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0553",
+    "title": "Discover Sn(SO₄)2",
+    "description": "Chemistry Challenge: discover Tin(IV) Sulfate (Sn(SO₄)2).",
+    "target_compound": "sn4_so4",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0554",
+    "title": "Discover SnO₂",
+    "description": "Mission: find Tin(IV) Oxide (SnO₂) in your inventory.",
+    "target_compound": "sno2",
+    "min_level": 5,
+    "xp_reward": 35,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0555",
+    "title": "Discover C₁₀H₂₀",
+    "description": "Experiment Goal: produce Dec-1-ene (C₁₀H₂₀).",
+    "target_compound": "c10h20_1",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0556",
+    "title": "Discover C₂H₂",
+    "description": "Can you discover Ethyne (C₂H₂)?",
+    "target_compound": "c2h2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0557",
+    "title": "Discover C₂H₂Br₄",
+    "description": "Your next target is 1,1,2,2-Tetrabromoethane (C₂H₂Br₄). Make it.",
+    "target_compound": "c2h2br4",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0558",
+    "title": "Discover C₂H₄Br₂",
+    "description": "Research Task: discover 1,2-Dibromoethane (C₂H₄Br₂).",
+    "target_compound": "c2h4br2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0559",
+    "title": "Discover C₂H₅Cl",
+    "description": "Chemistry Challenge: discover Chloroethane (C₂H₅Cl).",
+    "target_compound": "c2h5cl",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0560",
+    "title": "Discover C₄H₁₀O",
+    "description": "Mission: find Diethyl Ether (C₄H₁₀O) in your inventory.",
+    "target_compound": "c2h5oc2h5",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0561",
+    "title": "Discover C₂H₅ONa",
+    "description": "Experiment Goal: produce Sodium Ethoxide (C₂H₅ONa).",
+    "target_compound": "c2h5ona",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0562",
+    "title": "Discover C₃H₆",
+    "description": "Can you discover Propene (C₃H₆)?",
+    "target_compound": "c3h6",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0563",
+    "title": "Discover C₃H₇Br",
+    "description": "Your next target is 1-Bromopropane (C₃H₇Br). Make it.",
+    "target_compound": "c3h7br",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0564",
+    "title": "Discover C₃H₇Cl",
+    "description": "Research Task: discover 2-Chloropropane (C₃H₇Cl).",
+    "target_compound": "c3h7cl_2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0565",
+    "title": "Discover C₃H₇I",
+    "description": "Chemistry Challenge: discover 1-Iodopropane (C₃H₇I).",
+    "target_compound": "c3h7i",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0566",
+    "title": "Discover C₃H₈O",
+    "description": "Mission: find Propan-2-ol (C₃H₈O) in your inventory.",
+    "target_compound": "c3h7oh_2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0567",
+    "title": "Discover C₄H₁₀",
+    "description": "Experiment Goal: produce Butane (C₄H₁₀).",
+    "target_compound": "c4h10",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0568",
+    "title": "Discover C₄H₈",
+    "description": "Can you discover But-1-ene (C₄H₈)?",
+    "target_compound": "c4h8_1",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0569",
+    "title": "Discover C₄H₈",
+    "description": "Your next target is 2-Methylpropene (C₄H₈). Make it.",
+    "target_compound": "c4h8_iso",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0570",
+    "title": "Discover C₄H₈Br₂",
+    "description": "Research Task: discover 2,3-Dibromobutane (C₄H₈Br₂).",
+    "target_compound": "c4h8br2_2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0571",
+    "title": "Discover C₄H₉Br",
+    "description": "Chemistry Challenge: discover 1-Bromobutane (C₄H₉Br).",
+    "target_compound": "c4h9br",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0572",
+    "title": "Discover C₄H₉Cl",
+    "description": "Mission: find 1-Chlorobutane (C₄H₉Cl) in your inventory.",
+    "target_compound": "c4h9cl",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0573",
+    "title": "Discover C₄H₉I",
+    "description": "Experiment Goal: produce 1-Iodobutane (C₄H₉I).",
+    "target_compound": "c4h9i",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0574",
+    "title": "Discover C₄H₁₀O",
+    "description": "Can you discover Butan-2-ol (C₄H₁₀O)?",
+    "target_compound": "c4h9oh_2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0575",
+    "title": "Discover C₅H₁₀",
+    "description": "Your next target is Pent-2-ene (C₅H₁₀). Make it.",
+    "target_compound": "c5h10_2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0576",
+    "title": "Discover C₅H₁₀",
+    "description": "Research Task: discover 2-Methylbut-1-ene (C₅H₁₀).",
+    "target_compound": "c5h10_iso",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0577",
+    "title": "Discover C₅H₁₀Br₂",
+    "description": "Chemistry Challenge: discover 2,3-Dibromopentane (C₅H₁₀Br₂).",
+    "target_compound": "c5h10br2_2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0578",
+    "title": "Discover C₅H₁₁Br",
+    "description": "Mission: find 1-Bromopentane (C₅H₁₁Br) in your inventory.",
+    "target_compound": "c5h11br",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0579",
+    "title": "Discover C₈H₁₆O₂",
+    "description": "Experiment Goal: produce Ethyl Hexanoate (C₈H₁₆O₂).",
+    "target_compound": "c5h11cooc2h5",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0580",
+    "title": "Discover C₆H₁₂O₂",
+    "description": "Can you discover Hexanoic Acid (C₆H₁₂O₂)?",
+    "target_compound": "c5h11cooh",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0581",
+    "title": "Discover C₅H₁₂O",
+    "description": "Your next target is Pentan-2-ol (C₅H₁₂O). Make it.",
+    "target_compound": "c5h11oh_2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0582",
+    "title": "Discover C₅H₁₂",
+    "description": "Research Task: discover 2-Methylbutane (C₅H₁₂).",
+    "target_compound": "c5h12_iso",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0583",
+    "title": "Discover C₅H₈",
+    "description": "Chemistry Challenge: discover Pent-1-yne (C₅H₈).",
+    "target_compound": "c5h8_1",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0584",
+    "title": "Discover C₆H₁₀",
+    "description": "Mission: find Hex-1-yne (C₆H₁₀) in your inventory.",
+    "target_compound": "c6h10_1",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0585",
+    "title": "Discover C₆H₁₂",
+    "description": "Experiment Goal: produce Hex-1-ene (C₆H₁₂).",
+    "target_compound": "c6h12_1",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0586",
+    "title": "Discover C₆H₁₂",
+    "description": "Can you discover Cyclohexane (C₆H₁₂)?",
+    "target_compound": "c6h12_cyc",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0587",
+    "title": "Discover C₆H₁₂Br₂",
+    "description": "Your next target is 2,3-Dibromohexane (C₆H₁₂Br₂). Make it.",
+    "target_compound": "c6h12br2_2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0588",
+    "title": "Discover C₆H₁₂O",
+    "description": "Research Task: discover Hexan-2-one (C₆H₁₂O).",
+    "target_compound": "c6h12o_2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0589",
+    "title": "Discover C₆H₁₄O",
+    "description": "Chemistry Challenge: discover Hexan-1-ol (C₆H₁₄O).",
+    "target_compound": "c6h13oh_1",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0590",
+    "title": "Discover C₆H₁₄",
+    "description": "Mission: find Hexane (C₆H₁₄) in your inventory.",
+    "target_compound": "c6h14",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0591",
+    "title": "Discover C₆H₅Cl",
+    "description": "Experiment Goal: produce Chlorobenzene (C₆H₅Cl).",
+    "target_compound": "c6h5cl",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0592",
+    "title": "Discover C₈H₈O₂",
+    "description": "Can you discover Methyl Benzoate (C₈H₈O₂)?",
+    "target_compound": "c6h5cooch3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0593",
+    "title": "Discover C₆H₅NO₂",
+    "description": "Your next target is Nitrobenzene (C₆H₅NO₂). Make it.",
+    "target_compound": "c6h5no2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0594",
+    "title": "Discover C₆H₆",
+    "description": "Research Task: discover Benzene (C₆H₆).",
+    "target_compound": "c6h6",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0595",
+    "title": "Discover C₇H₁₄",
+    "description": "Chemistry Challenge: discover Hept-1-ene (C₇H₁₄).",
+    "target_compound": "c7h14_1",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0596",
+    "title": "Discover C₇H₈",
+    "description": "Mission: find Toluene (C₇H₈) in your inventory.",
+    "target_compound": "c7h8",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0597",
+    "title": "Discover C₈H₁₀",
+    "description": "Experiment Goal: produce Ethylbenzene (C₈H₁₀).",
+    "target_compound": "c8h10",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0598",
+    "title": "Discover C₈H₁₈",
+    "description": "Can you discover Octane (C₈H₁₈)?",
+    "target_compound": "c8h18",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0599",
+    "title": "Discover C₉H₁₈",
+    "description": "Your next target is Non-1-ene (C₉H₁₈). Make it.",
+    "target_compound": "c9h18_1",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0600",
+    "title": "Discover Ca(CH₃COO)2",
+    "description": "Research Task: discover Calcium Acetate (Ca(CH₃COO)2).",
+    "target_compound": "ca_ch3coo",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0601",
+    "title": "Discover Ca(ClO)2",
+    "description": "Chemistry Challenge: discover Calcium Hypochlorite (Ca(ClO)2).",
+    "target_compound": "ca_clo",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0602",
+    "title": "Discover CaCO₃",
+    "description": "Mission: find Calcium Carbonate (CaCO₃) in your inventory.",
+    "target_compound": "ca_co3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0603",
+    "title": "Discover Ca(HCO₃)2",
+    "description": "Experiment Goal: produce Calcium Hydrogen Carbonate (Ca(HCO₃)2).",
+    "target_compound": "ca_hco3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0604",
+    "title": "Discover Ca(NO₃)2",
+    "description": "Can you discover Calcium Nitrate (Ca(NO₃)2)?",
+    "target_compound": "ca_no3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0605",
+    "title": "Discover CH₂Cl₂",
+    "description": "Your next target is Dichloromethane (CH₂Cl₂). Make it.",
+    "target_compound": "ch2cl2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0606",
+    "title": "Discover C₇H₁₄O₂",
+    "description": "Research Task: discover Ethyl Butanoate (C₇H₁₄O₂).",
+    "target_compound": "ch3ch2ch2ch2cooc2h5",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0607",
+    "title": "Discover C₆H₁₂O₂",
+    "description": "Chemistry Challenge: discover Methyl Butanoate (C₆H₁₂O₂).",
+    "target_compound": "ch3ch2ch2ch2cooch3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0608",
+    "title": "Discover C₅H₁₀O₂",
+    "description": "Mission: find Ethyl Propanoate (C₅H₁₀O₂) in your inventory.",
+    "target_compound": "ch3ch2cooc2h5",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0609",
+    "title": "Discover C₃H₆O₂",
+    "description": "Experiment Goal: produce Propanoic Acid (C₃H₆O₂).",
+    "target_compound": "ch3ch2cooh",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0610",
+    "title": "Discover CH₃Cl",
+    "description": "Can you discover Chloromethane (CH₃Cl)?",
+    "target_compound": "ch3cl",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0611",
+    "title": "Discover C₄H₈O₂",
+    "description": "Your next target is Ethyl Ethanoate (C₄H₈O₂). Make it.",
+    "target_compound": "ch3cooc2h5",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0612",
+    "title": "Discover C₃H₆O₂",
+    "description": "Research Task: discover Methyl Ethanoate (C₃H₆O₂).",
+    "target_compound": "ch3cooch3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0613",
+    "title": "Discover CH₃COONa",
+    "description": "Chemistry Challenge: discover Sodium Acetate (CH₃COONa).",
+    "target_compound": "ch3coona",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0614",
+    "title": "Discover C₃H₈O",
+    "description": "Mission: find Methoxyethane (Methyl Ethyl Ether) (C₃H₈O) in your inventory.",
+    "target_compound": "ch3oc2h5",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0615",
+    "title": "Discover CH₃OH",
+    "description": "Experiment Goal: produce Methanol (CH₃OH).",
+    "target_compound": "ch3oh",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0616",
+    "title": "Discover CH₄",
+    "description": "Can you discover Methane (CH₄)?",
+    "target_compound": "ch4",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0617",
+    "title": "Discover Cl₂",
+    "description": "Your next target is Chlorine (diatomic) (Cl₂). Make it.",
+    "target_compound": "cl2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0618",
+    "title": "Discover Co(CH₃COO)2",
+    "description": "Research Task: discover Cobalt(II) Acetate (Co(CH₃COO)2).",
+    "target_compound": "co2_ch3coo",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0619",
+    "title": "Discover Co(NO₃)2",
+    "description": "Chemistry Challenge: discover Cobalt(II) Nitrate (Co(NO₃)2).",
+    "target_compound": "co2_no3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0620",
+    "title": "Discover H₂",
+    "description": "Mission: find Hydrogen (diatomic) (H₂) in your inventory.",
+    "target_compound": "h2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0621",
+    "title": "Discover H₂O",
+    "description": "Experiment Goal: produce Water (H₂O).",
+    "target_compound": "h2o",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0622",
+    "title": "Discover HClO",
+    "description": "Can you discover Hypochlorous Acid (HClO)?",
+    "target_compound": "hclo",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0623",
+    "title": "Discover C₂H₄O₂",
+    "description": "Your next target is Methyl Methanoate (C₂H₄O₂). Make it.",
+    "target_compound": "hcooch3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0624",
+    "title": "Discover HNO₃",
+    "description": "Research Task: discover Nitric Acid (HNO₃).",
+    "target_compound": "hno3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0625",
+    "title": "Discover KBr",
+    "description": "Chemistry Challenge: discover Potassium Bromide (KBr).",
+    "target_compound": "k_br",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0626",
+    "title": "Discover KCl",
+    "description": "Mission: find Potassium Chloride (KCl) in your inventory.",
+    "target_compound": "k_cl",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0627",
+    "title": "Discover KCN",
+    "description": "Experiment Goal: produce Potassium Cyanide (KCN).",
+    "target_compound": "k_cn",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0628",
+    "title": "Discover KH",
+    "description": "Can you discover Potassium Hydride (KH)?",
+    "target_compound": "k_h",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0629",
+    "title": "Discover KNO₃",
+    "description": "Your next target is Potassium Nitrate (KNO₃). Make it.",
+    "target_compound": "k_no3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0630",
+    "title": "Discover N₂O₅",
+    "description": "Research Task: discover Dinitrogen Pentoxide (N₂O₅).",
+    "target_compound": "n2o5",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0631",
+    "title": "Discover Na₂O",
+    "description": "Chemistry Challenge: discover Sodium Oxide (Na₂O).",
+    "target_compound": "na2o",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0632",
+    "title": "Discover C₃H₅NaO₂",
+    "description": "Mission: find Sodium Propionate (C₃H₅NaO₂) in your inventory.",
+    "target_compound": "na_c2h5coo",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0633",
+    "title": "Discover C₅H₉NaO₂",
+    "description": "Experiment Goal: produce Sodium Pentanoate (C₅H₉NaO₂).",
+    "target_compound": "na_c4h9coo",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0634",
+    "title": "Discover C₇H₅NaO₂",
+    "description": "Can you discover Sodium Benzoate (C₇H₅NaO₂)?",
+    "target_compound": "na_c6h5coo",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0635",
+    "title": "Discover NaCH₃COO",
+    "description": "Your next target is Sodium Acetate (NaCH₃COO). Make it.",
+    "target_compound": "na_ch3coo",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0636",
+    "title": "Discover NaClO",
+    "description": "Research Task: discover Sodium Hypochlorite (NaClO).",
+    "target_compound": "na_clo",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0637",
+    "title": "Discover (Na)2CO₃",
+    "description": "Chemistry Challenge: discover Sodium Carbonate ((Na)2CO₃).",
+    "target_compound": "na_co3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0638",
+    "title": "Discover NaHCO₃",
+    "description": "Mission: find Sodium Hydrogen Carbonate (NaHCO₃) in your inventory.",
+    "target_compound": "na_hco3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0639",
+    "title": "Discover NaI",
+    "description": "Experiment Goal: produce Sodium Iodide (NaI).",
+    "target_compound": "na_i",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0640",
+    "title": "Discover NaNO₃",
+    "description": "Can you discover Sodium Nitrate (NaNO₃)?",
+    "target_compound": "na_no3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0641",
+    "title": "Discover NH₃",
+    "description": "Your next target is Ammonia (NH₃). Make it.",
+    "target_compound": "nh3",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0642",
+    "title": "Discover NH₄Cl",
+    "description": "Research Task: discover Ammonium Chloride (NH₄Cl).",
+    "target_compound": "nh4_cl",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0643",
+    "title": "Discover NH₄CN",
+    "description": "Chemistry Challenge: discover Ammonium Cyanide (NH₄CN).",
+    "target_compound": "nh4_cn",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0644",
+    "title": "Discover NH₄NO₂",
+    "description": "Mission: find Ammonium Nitrite (NH₄NO₂) in your inventory.",
+    "target_compound": "nh4_no2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0645",
+    "title": "Discover NO",
+    "description": "Experiment Goal: produce Nitric Oxide (NO).",
+    "target_compound": "no",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0646",
+    "title": "Discover O₂",
+    "description": "Can you discover Oxygen (diatomic) (O₂)?",
+    "target_compound": "o2",
+    "min_level": 1,
+    "xp_reward": 18,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0647",
+    "title": "Discover Al(CH₃COO)3",
+    "description": "Your next target is Aluminium Acetate (Al(CH₃COO)3). Make it.",
+    "target_compound": "al_ch3coo",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0648",
+    "title": "Discover Al(ClO)3",
+    "description": "Research Task: discover Aluminium Hypochlorite (Al(ClO)3).",
+    "target_compound": "al_clo",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0649",
+    "title": "Discover (Al)2CO₃3",
+    "description": "Chemistry Challenge: discover Aluminium Carbonate ((Al)2CO₃3).",
+    "target_compound": "al_co3",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0650",
+    "title": "Discover AlH₃",
+    "description": "Mission: find Aluminium Hydride (AlH₃) in your inventory.",
+    "target_compound": "al_h3",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0651",
+    "title": "Discover Al(NO₃)3",
+    "description": "Experiment Goal: produce Aluminium Nitrate (Al(NO₃)3).",
+    "target_compound": "al_no3",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0652",
+    "title": "Discover (Al)2S3",
+    "description": "Can you discover Aluminium Sulfide ((Al)2S3)?",
+    "target_compound": "al_s",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0653",
+    "title": "Discover (Al)2SO₄3",
+    "description": "Your next target is Aluminium Sulfate ((Al)2SO₄3). Make it.",
+    "target_compound": "al_so4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0654",
+    "title": "Discover (Ca)3PO₄2",
+    "description": "Research Task: discover Calcium Phosphate ((Ca)3PO₄2).",
+    "target_compound": "ca_po4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0655",
+    "title": "Discover CaSO₃",
+    "description": "Chemistry Challenge: discover Calcium Sulfite (CaSO₃).",
+    "target_compound": "ca_so3",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0656",
+    "title": "Discover (Co)3PO₄2",
+    "description": "Mission: find Cobalt(II) Phosphate ((Co)3PO₄2) in your inventory.",
+    "target_compound": "co2_po4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0657",
+    "title": "Discover CoSO₄",
+    "description": "Experiment Goal: produce Cobalt(II) Sulfate (CoSO₄).",
+    "target_compound": "co2_so4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0658",
+    "title": "Discover H₂SO₄",
+    "description": "Can you discover Sulfuric Acid (H₂SO₄)?",
+    "target_compound": "h2so4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0659",
+    "title": "Discover KF",
+    "description": "Your next target is Potassium Fluoride (KF). Make it.",
+    "target_compound": "k_f",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0660",
+    "title": "Discover (K)2S",
+    "description": "Research Task: discover Potassium Sulfide ((K)2S).",
+    "target_compound": "k_s",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0661",
+    "title": "Discover (K)2SO₄",
+    "description": "Chemistry Challenge: discover Potassium Sulfate ((K)2SO₄).",
+    "target_compound": "k_so4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0662",
+    "title": "Discover LiCH₃COO",
+    "description": "Mission: find Lithium Acetate (LiCH₃COO) in your inventory.",
+    "target_compound": "li_ch3coo",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0663",
+    "title": "Discover LiClO",
+    "description": "Experiment Goal: produce Lithium Hypochlorite (LiClO).",
+    "target_compound": "li_clo",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0664",
+    "title": "Discover (Li)2CO₃",
+    "description": "Can you discover Lithium Carbonate ((Li)2CO₃)?",
+    "target_compound": "li_co3",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0665",
+    "title": "Discover LiNO₂",
+    "description": "Your next target is Lithium Nitrite (LiNO₂). Make it.",
+    "target_compound": "li_no2",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0666",
+    "title": "Discover (Li)3PO₄",
+    "description": "Research Task: discover Lithium Phosphate ((Li)3PO₄).",
+    "target_compound": "li_po4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0667",
+    "title": "Discover (Li)2SO₃",
+    "description": "Chemistry Challenge: discover Lithium Sulfite ((Li)2SO₃).",
+    "target_compound": "li_so3",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0668",
+    "title": "Discover Mg(CH₃COO)2",
+    "description": "Mission: find Magnesium Acetate (Mg(CH₃COO)2) in your inventory.",
+    "target_compound": "mg_ch3coo",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0669",
+    "title": "Discover Mg(ClO)2",
+    "description": "Experiment Goal: produce Magnesium Hypochlorite (Mg(ClO)2).",
+    "target_compound": "mg_clo",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0670",
+    "title": "Discover MgCO₃",
+    "description": "Can you discover Magnesium Carbonate (MgCO₃)?",
+    "target_compound": "mg_co3",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0671",
+    "title": "Discover Mg(NO₂)2",
+    "description": "Your next target is Magnesium Nitrite (Mg(NO₂)2). Make it.",
+    "target_compound": "mg_no2",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0672",
+    "title": "Discover (Mg)3PO₄2",
+    "description": "Research Task: discover Magnesium Phosphate ((Mg)3PO₄2).",
+    "target_compound": "mg_po4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0673",
+    "title": "Discover MgSO₃",
+    "description": "Chemistry Challenge: discover Magnesium Sulfite (MgSO₃).",
+    "target_compound": "mg_so3",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0674",
+    "title": "Discover MgH₂",
+    "description": "Mission: find Magnesium Hydride (MgH₂) in your inventory.",
+    "target_compound": "mgh2",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0675",
+    "title": "Discover NaF",
+    "description": "Experiment Goal: produce Sodium Fluoride (NaF).",
+    "target_compound": "na_f",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0676",
+    "title": "Discover (Na)2S",
+    "description": "Can you discover Sodium Sulfide ((Na)2S)?",
+    "target_compound": "na_s",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0677",
+    "title": "Discover (Na)2SO₄",
+    "description": "Your next target is Sodium Sulfate ((Na)2SO₄). Make it.",
+    "target_compound": "na_so4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0678",
+    "title": "Discover (NH₄)2S",
+    "description": "Research Task: discover Ammonium Sulfide ((NH₄)2S).",
+    "target_compound": "nh4_s",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0679",
+    "title": "Discover (NH₄)2SO₄",
+    "description": "Chemistry Challenge: discover Ammonium Sulfate ((NH₄)2SO₄).",
+    "target_compound": "nh4_so4",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0680",
+    "title": "Discover SO₂",
+    "description": "Mission: find Sulfur Dioxide (SO₂) in your inventory.",
+    "target_compound": "so2",
+    "min_level": 2,
+    "xp_reward": 22,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0681",
+    "title": "Discover Al(Br)3",
+    "description": "Experiment Goal: produce Aluminium Bromide (Al(Br)3).",
+    "target_compound": "al_br",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0682",
+    "title": "Discover Co(Br)2",
+    "description": "Can you discover Cobalt(II) Bromide (Co(Br)2)?",
+    "target_compound": "co2_br",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0683",
+    "title": "Discover CuCH₃COO",
+    "description": "Your next target is Copper(I) Acetate (CuCH₃COO). Make it.",
+    "target_compound": "cu1_ch3coo",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0684",
+    "title": "Discover CuClO",
+    "description": "Research Task: discover Copper(I) Hypochlorite (CuClO).",
+    "target_compound": "cu1_clo",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0685",
+    "title": "Discover (Cu)2CO₃",
+    "description": "Chemistry Challenge: discover Copper(I) Carbonate ((Cu)2CO₃).",
+    "target_compound": "cu1_co3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0686",
+    "title": "Discover CuNO₂",
+    "description": "Mission: find Copper(I) Nitrite (CuNO₂) in your inventory.",
+    "target_compound": "cu1_no2",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0687",
+    "title": "Discover (Cu)3PO₄",
+    "description": "Experiment Goal: produce Copper(I) Phosphate ((Cu)3PO₄).",
+    "target_compound": "cu1_po4",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0688",
+    "title": "Discover (Cu)2SO₃",
+    "description": "Can you discover Copper(I) Sulfite ((Cu)2SO₃)?",
+    "target_compound": "cu1_so3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0689",
+    "title": "Discover Cu(Br)2",
+    "description": "Your next target is Copper(II) Bromide (Cu(Br)2). Make it.",
+    "target_compound": "cu2_br",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0690",
+    "title": "Discover Cu(Cl)2",
+    "description": "Research Task: discover Copper(II) Chloride (Cu(Cl)2).",
+    "target_compound": "cu2_cl",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0691",
+    "title": "Discover Cu(CN)2",
+    "description": "Chemistry Challenge: discover Copper(II) Cyanide (Cu(CN)2).",
+    "target_compound": "cu2_cn",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0692",
+    "title": "Discover Cu(F)2",
+    "description": "Mission: find Copper(II) Fluoride (Cu(F)2) in your inventory.",
+    "target_compound": "cu2_f",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0693",
+    "title": "Discover Cu(NO₃)2",
+    "description": "Experiment Goal: produce Copper(II) Nitrate (Cu(NO₃)2).",
+    "target_compound": "cu2_no3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0694",
+    "title": "Discover CuS",
+    "description": "Can you discover Copper(II) Sulfide (CuS)?",
+    "target_compound": "cu2_s",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0695",
+    "title": "Discover CuSO₄",
+    "description": "Your next target is Copper(II) Sulfate (CuSO₄). Make it.",
+    "target_compound": "cu2_so4",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0696",
+    "title": "Discover CuO",
+    "description": "Research Task: discover Copper(II) Oxide (CuO).",
+    "target_compound": "cuo",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0697",
+    "title": "Discover Fe(CH₃COO)2",
+    "description": "Chemistry Challenge: discover Iron(II) Acetate (Fe(CH₃COO)2).",
+    "target_compound": "fe2_ch3coo",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0698",
+    "title": "Discover Fe(ClO)2",
+    "description": "Mission: find Iron(II) Hypochlorite (Fe(ClO)2) in your inventory.",
+    "target_compound": "fe2_clo",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0699",
+    "title": "Discover FeCO₃",
+    "description": "Experiment Goal: produce Iron(II) Carbonate (FeCO₃).",
+    "target_compound": "fe2_co3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0700",
+    "title": "Discover Fe(NO₂)2",
+    "description": "Can you discover Iron(II) Nitrite (Fe(NO₂)2)?",
+    "target_compound": "fe2_no2",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0701",
+    "title": "Discover (Fe)3PO₄2",
+    "description": "Your next target is Iron(II) Phosphate ((Fe)3PO₄2). Make it.",
+    "target_compound": "fe2_po4",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0702",
+    "title": "Discover FeSO₃",
+    "description": "Research Task: discover Iron(II) Sulfite (FeSO₃).",
+    "target_compound": "fe2_so3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0703",
+    "title": "Discover Fe₂O₃",
+    "description": "Chemistry Challenge: discover Iron(III) Oxide (Fe₂O₃).",
+    "target_compound": "fe2o3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0704",
+    "title": "Discover Fe(CH₃COO)3",
+    "description": "Mission: find Iron(III) Acetate (Fe(CH₃COO)3) in your inventory.",
+    "target_compound": "fe3_ch3coo",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0705",
+    "title": "Discover Fe(ClO)3",
+    "description": "Experiment Goal: produce Iron(III) Hypochlorite (Fe(ClO)3).",
+    "target_compound": "fe3_clo",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0706",
+    "title": "Discover (Fe)2CO₃3",
+    "description": "Can you discover Iron(III) Carbonate ((Fe)2CO₃3)?",
+    "target_compound": "fe3_co3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0707",
+    "title": "Discover Fe(NO₂)3",
+    "description": "Your next target is Iron(III) Nitrite (Fe(NO₂)3). Make it.",
+    "target_compound": "fe3_no2",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0708",
+    "title": "Discover Fe₃O₄",
+    "description": "Research Task: discover Iron(II,III) Oxide (Fe₃O₄).",
+    "target_compound": "fe3_o4",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0709",
+    "title": "Discover (Fe)2S3",
+    "description": "Chemistry Challenge: discover Iron(III) Sulfide ((Fe)2S3).",
+    "target_compound": "fe3_s",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0710",
+    "title": "Discover (Fe)2SO₄3",
+    "description": "Mission: find Iron(III) Sulfate ((Fe)2SO₄3) in your inventory.",
+    "target_compound": "fe3_so4",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0711",
+    "title": "Discover LiBr",
+    "description": "Experiment Goal: produce Lithium Bromide (LiBr).",
+    "target_compound": "li_br",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0712",
+    "title": "Discover NH₄Br",
+    "description": "Can you discover Ammonium Bromide (NH₄Br)?",
+    "target_compound": "nh4_br",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0713",
+    "title": "Discover Ti(Br)3",
+    "description": "Your next target is Titanium(III) Bromide (Ti(Br)3). Make it.",
+    "target_compound": "ti3_br",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0714",
+    "title": "Discover Ti(Cl)3",
+    "description": "Research Task: discover Titanium(III) Chloride (Ti(Cl)3).",
+    "target_compound": "ti3_cl",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0715",
+    "title": "Discover Ti(CN)3",
+    "description": "Chemistry Challenge: discover Titanium(III) Cyanide (Ti(CN)3).",
+    "target_compound": "ti3_cn",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0716",
+    "title": "Discover Ti(F)3",
+    "description": "Mission: find Titanium(III) Fluoride (Ti(F)3) in your inventory.",
+    "target_compound": "ti3_f",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0717",
+    "title": "Discover Ti(NO₃)3",
+    "description": "Experiment Goal: produce Titanium(III) Nitrate (Ti(NO₃)3).",
+    "target_compound": "ti3_no3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0718",
+    "title": "Discover (Ti)2S3",
+    "description": "Can you discover Titanium(III) Sulfide ((Ti)2S3)?",
+    "target_compound": "ti3_s",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0719",
+    "title": "Discover (Ti)2SO₄3",
+    "description": "Your next target is Titanium(III) Sulfate ((Ti)2SO₄3). Make it.",
+    "target_compound": "ti3_so4",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0720",
+    "title": "Discover Ti(CH₃COO)4",
+    "description": "Research Task: discover Titanium(IV) Acetate (Ti(CH₃COO)4).",
+    "target_compound": "ti4_ch3coo",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0721",
+    "title": "Discover Ti(ClO)4",
+    "description": "Chemistry Challenge: discover Titanium(IV) Hypochlorite (Ti(ClO)4).",
+    "target_compound": "ti4_clo",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0722",
+    "title": "Discover Ti(CO₃)2",
+    "description": "Mission: find Titanium(IV) Carbonate (Ti(CO₃)2) in your inventory.",
+    "target_compound": "ti4_co3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0723",
+    "title": "Discover Ti(NO₂)4",
+    "description": "Experiment Goal: produce Titanium(IV) Nitrite (Ti(NO₂)4).",
+    "target_compound": "ti4_no2",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0724",
+    "title": "Discover (Ti)3PO₄4",
+    "description": "Can you discover Titanium(IV) Phosphate ((Ti)3PO₄4)?",
+    "target_compound": "ti4_po4",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0725",
+    "title": "Discover Ti(SO₃)2",
+    "description": "Your next target is Titanium(IV) Sulfite (Ti(SO₃)2). Make it.",
+    "target_compound": "ti4_so3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0726",
+    "title": "Discover TiO₂",
+    "description": "Research Task: discover Titanium(IV) Oxide (TiO₂).",
+    "target_compound": "tio2",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0727",
+    "title": "Discover Zn(CH₃COO)2",
+    "description": "Chemistry Challenge: discover Zinc Acetate (Zn(CH₃COO)2).",
+    "target_compound": "zn_ch3coo",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0728",
+    "title": "Discover Zn(ClO)2",
+    "description": "Mission: find Zinc Hypochlorite (Zn(ClO)2) in your inventory.",
+    "target_compound": "zn_clo",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0729",
+    "title": "Discover ZnCO₃",
+    "description": "Experiment Goal: produce Zinc Carbonate (ZnCO₃).",
+    "target_compound": "zn_co3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0730",
+    "title": "Discover Zn(NO₂)2",
+    "description": "Can you discover Zinc Nitrite (Zn(NO₂)2)?",
+    "target_compound": "zn_no2",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0731",
+    "title": "Discover (Zn)3PO₄2",
+    "description": "Your next target is Zinc Phosphate ((Zn)3PO₄2). Make it.",
+    "target_compound": "zn_po4",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0732",
+    "title": "Discover ZnSO₃",
+    "description": "Research Task: discover Zinc Sulfite (ZnSO₃).",
+    "target_compound": "zn_so3",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0733",
+    "title": "Discover ZnO",
+    "description": "Chemistry Challenge: discover Zinc Oxide (ZnO).",
+    "target_compound": "zno",
+    "min_level": 3,
+    "xp_reward": 26,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0734",
+    "title": "Discover B₂O₃",
+    "description": "Mission: find Boron Oxide (B₂O₃) in your inventory.",
+    "target_compound": "b2o3",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0735",
+    "title": "Discover Be(CH₃COO)2",
+    "description": "Experiment Goal: produce Beryllium Acetate (Be(CH₃COO)2).",
+    "target_compound": "be_ch3coo",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0736",
+    "title": "Discover Be(ClO)2",
+    "description": "Can you discover Beryllium Hypochlorite (Be(ClO)2)?",
+    "target_compound": "be_clo",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0737",
+    "title": "Discover BeCO₃",
+    "description": "Your next target is Beryllium Carbonate (BeCO₃). Make it.",
+    "target_compound": "be_co3",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0738",
+    "title": "Discover Be(I)2",
+    "description": "Research Task: discover Beryllium Iodide (Be(I)2).",
+    "target_compound": "be_i",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0739",
+    "title": "Discover Be(NO₃)2",
+    "description": "Chemistry Challenge: discover Beryllium Nitrate (Be(NO₃)2).",
+    "target_compound": "be_no3",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0740",
+    "title": "Discover BeS",
+    "description": "Mission: find Beryllium Sulfide (BeS) in your inventory.",
+    "target_compound": "be_s",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0741",
+    "title": "Discover BeSO₄",
+    "description": "Experiment Goal: produce Beryllium Sulfate (BeSO₄).",
+    "target_compound": "be_so4",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0742",
+    "title": "Discover Co(ClO)2",
+    "description": "Can you discover Cobalt(II) Hypochlorite (Co(ClO)2)?",
+    "target_compound": "co2_clo",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0743",
+    "title": "Discover CoCO₃",
+    "description": "Your next target is Cobalt(II) Carbonate (CoCO₃). Make it.",
+    "target_compound": "co2_co3",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0744",
+    "title": "Discover Co(I)2",
+    "description": "Research Task: discover Cobalt(II) Iodide (Co(I)2).",
+    "target_compound": "co2_i",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0745",
+    "title": "Discover CoS",
+    "description": "Chemistry Challenge: discover Cobalt(II) Sulfide (CoS).",
+    "target_compound": "co2_s",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0746",
+    "title": "Discover Co(CH₃COO)3",
+    "description": "Mission: find Cobalt(III) Acetate (Co(CH₃COO)3) in your inventory.",
+    "target_compound": "co3_ch3coo",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0747",
+    "title": "Discover Co(ClO)3",
+    "description": "Experiment Goal: produce Cobalt(III) Hypochlorite (Co(ClO)3).",
+    "target_compound": "co3_clo",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0748",
+    "title": "Discover (Co)2CO₃3",
+    "description": "Can you discover Cobalt(III) Carbonate ((Co)2CO₃3)?",
+    "target_compound": "co3_co3",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0749",
+    "title": "Discover Co(I)3",
+    "description": "Your next target is Cobalt(III) Iodide (Co(I)3). Make it.",
+    "target_compound": "co3_i",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  },
+  {
+    "id": "mission_0750",
+    "title": "Discover Co(NO₃)3",
+    "description": "Research Task: discover Cobalt(III) Nitrate (Co(NO₃)3).",
+    "target_compound": "co3_no3",
+    "min_level": 4,
+    "xp_reward": 30,
+    "type": "discover_compound"
+  }
+]

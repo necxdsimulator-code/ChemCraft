@@ -1,0 +1,252 @@
+[
+  {
+    "id": "achievement_01",
+    "name": "First Reaction",
+    "description": "Perform your first successful reaction.",
+    "criteria": {
+      "type": "reactions_performed",
+      "value": 1
+    },
+    "xp_reward": 10
+  },
+  {
+    "id": "achievement_02",
+    "name": "Getting Started",
+    "description": "Perform 5 successful reactions.",
+    "criteria": {
+      "type": "reactions_performed",
+      "value": 5
+    },
+    "xp_reward": 15
+  },
+  {
+    "id": "achievement_03",
+    "name": "Active Experimenter",
+    "description": "Perform 10 successful reactions.",
+    "criteria": {
+      "type": "reactions_performed",
+      "value": 10
+    },
+    "xp_reward": 20
+  },
+  {
+    "id": "achievement_04",
+    "name": "Reaction Rookie",
+    "description": "Perform 25 successful reactions.",
+    "criteria": {
+      "type": "reactions_performed",
+      "value": 25
+    },
+    "xp_reward": 25
+  },
+  {
+    "id": "achievement_05",
+    "name": "Lab Regular",
+    "description": "Perform 50 successful reactions.",
+    "criteria": {
+      "type": "reactions_performed",
+      "value": 50
+    },
+    "xp_reward": 30
+  },
+  {
+    "id": "achievement_06",
+    "name": "Reaction Specialist",
+    "description": "Perform 100 successful reactions.",
+    "criteria": {
+      "type": "reactions_performed",
+      "value": 100
+    },
+    "xp_reward": 40
+  },
+  {
+    "id": "achievement_07",
+    "name": "Reaction Expert",
+    "description": "Perform 250 successful reactions.",
+    "criteria": {
+      "type": "reactions_performed",
+      "value": 250
+    },
+    "xp_reward": 60
+  },
+  {
+    "id": "achievement_08",
+    "name": "Reaction Veteran",
+    "description": "Perform 500 successful reactions.",
+    "criteria": {
+      "type": "reactions_performed",
+      "value": 500
+    },
+    "xp_reward": 80
+  },
+  {
+    "id": "achievement_09",
+    "name": "Reaction Machine",
+    "description": "Perform 1000 successful reactions.",
+    "criteria": {
+      "type": "reactions_performed",
+      "value": 1000
+    },
+    "xp_reward": 100
+  },
+  {
+    "id": "achievement_10",
+    "name": "First Collection",
+    "description": "Discover 5 different compounds.",
+    "criteria": {
+      "type": "compounds_discovered",
+      "value": 5
+    },
+    "xp_reward": 10
+  },
+  {
+    "id": "achievement_11",
+    "name": "Growing Collection",
+    "description": "Discover 10 different compounds.",
+    "criteria": {
+      "type": "compounds_discovered",
+      "value": 10
+    },
+    "xp_reward": 15
+  },
+  {
+    "id": "achievement_12",
+    "name": "Compound Collector",
+    "description": "Discover 25 different compounds.",
+    "criteria": {
+      "type": "compounds_discovered",
+      "value": 25
+    },
+    "xp_reward": 20
+  },
+  {
+    "id": "achievement_13",
+    "name": "Chemistry Shelf",
+    "description": "Discover 50 different compounds.",
+    "criteria": {
+      "type": "compounds_discovered",
+      "value": 50
+    },
+    "xp_reward": 30
+  },
+  {
+    "id": "achievement_14",
+    "name": "Large Collection",
+    "description": "Discover 100 different compounds.",
+    "criteria": {
+      "type": "compounds_discovered",
+      "value": 100
+    },
+    "xp_reward": 40
+  },
+  {
+    "id": "achievement_15",
+    "name": "Compound Hunter",
+    "description": "Discover 250 different compounds.",
+    "criteria": {
+      "type": "compounds_discovered",
+      "value": 250
+    },
+    "xp_reward": 60
+  },
+  {
+    "id": "achievement_16",
+    "name": "Master Collector",
+    "description": "Discover 500 different compounds.",
+    "criteria": {
+      "type": "compounds_discovered",
+      "value": 500
+    },
+    "xp_reward": 90
+  },
+  {
+    "id": "achievement_17",
+    "name": "First Unique Reaction",
+    "description": "Discover your first unique reaction.",
+    "criteria": {
+      "type": "unique_reactions",
+      "value": 1
+    },
+    "xp_reward": 10
+  },
+  {
+    "id": "achievement_18",
+    "name": "Reaction Catalog",
+    "description": "Discover 10 unique reactions.",
+    "criteria": {
+      "type": "unique_reactions",
+      "value": 10
+    },
+    "xp_reward": 20
+  },
+  {
+    "id": "achievement_19",
+    "name": "Reaction Library",
+    "description": "Discover 25 unique reactions.",
+    "criteria": {
+      "type": "unique_reactions",
+      "value": 25
+    },
+    "xp_reward": 30
+  },
+  {
+    "id": "achievement_20",
+    "name": "Reaction Archivist",
+    "description": "Discover 50 unique reactions.",
+    "criteria": {
+      "type": "unique_reactions",
+      "value": 50
+    },
+    "xp_reward": 40
+  },
+  {
+    "id": "achievement_21",
+    "name": "Reaction Scholar",
+    "description": "Discover 100 unique reactions.",
+    "criteria": {
+      "type": "unique_reactions",
+      "value": 100
+    },
+    "xp_reward": 60
+  },
+  {
+    "id": "achievement_22",
+    "name": "Reaction Master",
+    "description": "Discover 250 unique reactions.",
+    "criteria": {
+      "type": "unique_reactions",
+      "value": 250
+    },
+    "xp_reward": 90
+  },
+  {
+    "id": "achievement_23",
+    "name": "First Mission",
+    "description": "Complete your first chemistry mission.",
+    "criteria": {
+      "type": "missions_completed",
+      "value": 1
+    },
+    "xp_reward": 25
+  },
+  {
+    "id": "achievement_24",
+    "name": "Mission Streak",
+    "description": "Complete 10 chemistry missions.",
+    "criteria": {
+      "type": "missions_completed",
+      "value": 10
+    },
+    "xp_reward": 50
+  },
+  {
+    "id": "achievement_25",
+    "name": "Mission Master",
+    "description": "Complete 50 chemistry missions.",
+    "criteria": {
+      "type": "missions_completed",
+      "value": 50
+    },
+    "xp_reward": 100
+  }
+]
