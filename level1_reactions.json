@@ -1,0 +1,6940 @@
+[
+  {
+    "id": "reaction_0002",
+    "reactants": [
+      "na",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "na2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "Na + O₂ → Na₂O",
+    "type": "Combination",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_0003",
+    "reactants": [
+      "k",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "k2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "K + O₂ → K₂O",
+    "type": "Combination",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_0005",
+    "reactants": [
+      "ca",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "cao",
+        "coefficient": 1
+      }
+    ],
+    "equation": "Ca + O₂ → CaO",
+    "type": "Combination",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_0019",
+    "reactants": [
+      "c",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C + O₂ → CO₂",
+    "type": "Combination",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_0022",
+    "reactants": [
+      "h2",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "h2o",
+        "coefficient": 2
+      }
+    ],
+    "equation": "2H₂ + O₂ → 2H₂O",
+    "type": "Combination",
+    "conditions": "Heat/catalyst"
+  },
+  {
+    "id": "reaction_0023",
+    "reactants": [
+      "n2",
+      "h2"
+    ],
+    "products": [
+      {
+        "compound": "nh3",
+        "coefficient": 2
+      }
+    ],
+    "equation": "N₂ + 3H₂ → 2NH₃",
+    "type": "Combination",
+    "conditions": "Heat/catalyst"
+  },
+  {
+    "id": "reaction_0024",
+    "reactants": [
+      "c",
+      "h2"
+    ],
+    "products": [
+      {
+        "compound": "ch4",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C + 2H₂ → CH₄",
+    "type": "Combination",
+    "conditions": "Heat/catalyst"
+  },
+  {
+    "id": "reaction_0028",
+    "reactants": [
+      "co2",
+      "h2o"
+    ],
+    "products": [
+      {
+        "compound": "h2co3",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CO₂ + H₂O ⇌ H₂CO₃",
+    "type": "Combination",
+    "conditions": "Heat/catalyst"
+  },
+  {
+    "id": "reaction_0029",
+    "reactants": [
+      "n2o5",
+      "h2o"
+    ],
+    "products": [
+      {
+        "compound": "hno3",
+        "coefficient": 2
+      }
+    ],
+    "equation": "N₂O₅ + H₂O → 2HNO₃",
+    "type": "Combination",
+    "conditions": "Heat/catalyst"
+  },
+  {
+    "id": "reaction_0031",
+    "reactants": [
+      "cl2o",
+      "h2o"
+    ],
+    "products": [
+      {
+        "compound": "hclo",
+        "coefficient": 2
+      }
+    ],
+    "equation": "Cl₂O + H₂O → 2HClO",
+    "type": "Combination",
+    "conditions": "Heat/catalyst"
+  },
+  {
+    "id": "reaction_0040",
+    "reactants": [
+      "hcl",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "na_cl",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HCl + NaOH → NaCl + 1H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0043",
+    "reactants": [
+      "hno3",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "na_no3",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HNO₃ + NaOH → NaNO₃ + 1H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0047",
+    "reactants": [
+      "ch3cooh",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "na_ch3coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃COOH + NaOH → NaCH₃COO + 1H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0048",
+    "reactants": [
+      "hcl",
+      "k_oh"
+    ],
+    "products": [
+      {
+        "compound": "k_cl",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HCl + KOH → KCl + 1H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0051",
+    "reactants": [
+      "hno3",
+      "k_oh"
+    ],
+    "products": [
+      {
+        "compound": "k_no3",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HNO₃ + KOH → KNO₃ + 1H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0055",
+    "reactants": [
+      "ch3cooh",
+      "k_oh"
+    ],
+    "products": [
+      {
+        "compound": "k_ch3coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃COOH + KOH → KCH₃COO + 1H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0064",
+    "reactants": [
+      "hcl",
+      "nh4_oh"
+    ],
+    "products": [
+      {
+        "compound": "nh4_cl",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HCl + NH₄OH → NH₄Cl + 1H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0067",
+    "reactants": [
+      "hno3",
+      "nh4_oh"
+    ],
+    "products": [
+      {
+        "compound": "nh4_no3",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HNO₃ + NH₄OH → NH₄NO₃ + 1H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0071",
+    "reactants": [
+      "ch3cooh",
+      "nh4_oh"
+    ],
+    "products": [
+      {
+        "compound": "nh4_ch3coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃COOH + NH₄OH → NH₄CH₃COO + 1H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0080",
+    "reactants": [
+      "hcl",
+      "ca_oh"
+    ],
+    "products": [
+      {
+        "compound": "ca_cl",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 2
+      }
+    ],
+    "equation": "2HCl + Ca(OH)2 → Ca(Cl)2 + 2H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0083",
+    "reactants": [
+      "hno3",
+      "ca_oh"
+    ],
+    "products": [
+      {
+        "compound": "ca_no3",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 2
+      }
+    ],
+    "equation": "2HNO₃ + Ca(OH)2 → Ca(NO₃)2 + 2H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0087",
+    "reactants": [
+      "ch3cooh",
+      "ca_oh"
+    ],
+    "products": [
+      {
+        "compound": "ca_ch3coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 2
+      }
+    ],
+    "equation": "2CH₃COOH + Ca(OH)2 → Ca(CH₃COO)2 + 2H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0274",
+    "reactants": [
+      "hcl",
+      "na_co3"
+    ],
+    "products": [
+      {
+        "compound": "na_cl",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HCl + (Na)2CO₃ → NaCl + CO₂ + H₂O",
+    "type": "Acid + Salt",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0277",
+    "reactants": [
+      "hno3",
+      "na_co3"
+    ],
+    "products": [
+      {
+        "compound": "na_no3",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HNO₃ + (Na)2CO₃ → NaNO₃ + CO₂ + H₂O",
+    "type": "Acid + Salt",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0292",
+    "reactants": [
+      "hcl",
+      "k_co3"
+    ],
+    "products": [
+      {
+        "compound": "k_cl",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HCl + (K)2CO₃ → KCl + CO₂ + H₂O",
+    "type": "Acid + Salt",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0295",
+    "reactants": [
+      "hno3",
+      "k_co3"
+    ],
+    "products": [
+      {
+        "compound": "k_no3",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HNO₃ + (K)2CO₃ → KNO₃ + CO₂ + H₂O",
+    "type": "Acid + Salt",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0328",
+    "reactants": [
+      "hcl",
+      "nh4_co3"
+    ],
+    "products": [
+      {
+        "compound": "nh4_cl",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HCl + (NH₄)2CO₃ → NH₄Cl + CO₂ + H₂O",
+    "type": "Acid + Salt",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0331",
+    "reactants": [
+      "hno3",
+      "nh4_co3"
+    ],
+    "products": [
+      {
+        "compound": "nh4_no3",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HNO₃ + (NH₄)2CO₃ → NH₄NO₃ + CO₂ + H₂O",
+    "type": "Acid + Salt",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0364",
+    "reactants": [
+      "hcl",
+      "ca_co3"
+    ],
+    "products": [
+      {
+        "compound": "ca_cl",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HCl + CaCO₃ → Ca(Cl)2 + CO₂ + H₂O",
+    "type": "Acid + Salt",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0367",
+    "reactants": [
+      "hno3",
+      "ca_co3"
+    ],
+    "products": [
+      {
+        "compound": "ca_no3",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HNO₃ + CaCO₃ → Ca(NO₃)2 + CO₂ + H₂O",
+    "type": "Acid + Salt",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0780",
+    "reactants": [
+      "hcl",
+      "ca_oh"
+    ],
+    "products": [
+      {
+        "compound": "ca_cl",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HCl + Ca(OH)2 → Ca(Cl)2 + H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0783",
+    "reactants": [
+      "hno3",
+      "ca_oh"
+    ],
+    "products": [
+      {
+        "compound": "ca_no3",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HNO₃ + Ca(OH)2 → Ca(NO₃)2 + H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0787",
+    "reactants": [
+      "ch3cooh",
+      "ca_oh"
+    ],
+    "products": [
+      {
+        "compound": "ca_ch3coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃COOH + Ca(OH)2 → Ca(CH₃COO)2 + H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0961",
+    "reactants": [
+      "ch3cooh",
+      "na_co3"
+    ],
+    "products": [
+      {
+        "compound": "na_ch3coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃COOH + (Na)2CO₃ → NaCH₃COO + CO₂ + H₂O",
+    "type": "Acid + Salt",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0962",
+    "reactants": [
+      "hcl",
+      "na_hco3"
+    ],
+    "products": [
+      {
+        "compound": "na_cl",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HCl + NaHCO₃ → NaCl + CO₂ + H₂O",
+    "type": "Acid + Salt",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0965",
+    "reactants": [
+      "hno3",
+      "na_hco3"
+    ],
+    "products": [
+      {
+        "compound": "na_no3",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HNO₃ + NaHCO₃ → NaNO₃ + CO₂ + H₂O",
+    "type": "Acid + Salt",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0969",
+    "reactants": [
+      "ch3cooh",
+      "na_hco3"
+    ],
+    "products": [
+      {
+        "compound": "na_ch3coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃COOH + NaHCO₃ → NaCH₃COO + CO₂ + H₂O",
+    "type": "Acid + Salt",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0975",
+    "reactants": [
+      "ch3cooh",
+      "k_co3"
+    ],
+    "products": [
+      {
+        "compound": "k_ch3coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃COOH + (K)2CO₃ → KCH₃COO + CO₂ + H₂O",
+    "type": "Acid + Salt",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0976",
+    "reactants": [
+      "hcl",
+      "k_hco3"
+    ],
+    "products": [
+      {
+        "compound": "k_cl",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HCl + KHCO₃ → KCl + CO₂ + H₂O",
+    "type": "Acid + Salt",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0979",
+    "reactants": [
+      "hno3",
+      "k_hco3"
+    ],
+    "products": [
+      {
+        "compound": "k_no3",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HNO₃ + KHCO₃ → KNO₃ + CO₂ + H₂O",
+    "type": "Acid + Salt",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_0983",
+    "reactants": [
+      "ch3cooh",
+      "k_hco3"
+    ],
+    "products": [
+      {
+        "compound": "k_ch3coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃COOH + KHCO₃ → KCH₃COO + CO₂ + H₂O",
+    "type": "Acid + Salt",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1017",
+    "reactants": [
+      "ch3cooh",
+      "ca_co3"
+    ],
+    "products": [
+      {
+        "compound": "ca_ch3coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃COOH + CaCO₃ → Ca(CH₃COO)2 + CO₂ + H₂O",
+    "type": "Acid + Salt",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1018",
+    "reactants": [
+      "hcl",
+      "ca_hco3"
+    ],
+    "products": [
+      {
+        "compound": "ca_cl",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HCl + Ca(HCO₃)2 → Ca(Cl)2 + CO₂ + H₂O",
+    "type": "Acid + Salt",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1021",
+    "reactants": [
+      "hno3",
+      "ca_hco3"
+    ],
+    "products": [
+      {
+        "compound": "ca_no3",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HNO₃ + Ca(HCO₃)2 → Ca(NO₃)2 + CO₂ + H₂O",
+    "type": "Acid + Salt",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1025",
+    "reactants": [
+      "ch3cooh",
+      "ca_hco3"
+    ],
+    "products": [
+      {
+        "compound": "ca_ch3coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃COOH + Ca(HCO₃)2 → Ca(CH₃COO)2 + CO₂ + H₂O",
+    "type": "Acid + Salt",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1340",
+    "reactants": [
+      "na2o",
+      "hcl"
+    ],
+    "products": [
+      {
+        "compound": "na_cl",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "Na₂O + HCl → NaCl + H₂O",
+    "type": "Acid + Oxide",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1343",
+    "reactants": [
+      "na2o",
+      "hno3"
+    ],
+    "products": [
+      {
+        "compound": "na_no3",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "Na₂O + HNO₃ → NaNO₃ + H₂O",
+    "type": "Acid + Oxide",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1347",
+    "reactants": [
+      "na2o",
+      "ch3cooh"
+    ],
+    "products": [
+      {
+        "compound": "na_ch3coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "Na₂O + CH₃COOH → NaCH₃COO + H₂O",
+    "type": "Acid + Oxide",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1348",
+    "reactants": [
+      "k2o",
+      "hcl"
+    ],
+    "products": [
+      {
+        "compound": "k_cl",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "K₂O + HCl → KCl + H₂O",
+    "type": "Acid + Oxide",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1351",
+    "reactants": [
+      "k2o",
+      "hno3"
+    ],
+    "products": [
+      {
+        "compound": "k_no3",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "K₂O + HNO₃ → KNO₃ + H₂O",
+    "type": "Acid + Oxide",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1355",
+    "reactants": [
+      "k2o",
+      "ch3cooh"
+    ],
+    "products": [
+      {
+        "compound": "k_ch3coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "K₂O + CH₃COOH → KCH₃COO + H₂O",
+    "type": "Acid + Oxide",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1364",
+    "reactants": [
+      "cao",
+      "hcl"
+    ],
+    "products": [
+      {
+        "compound": "ca_cl",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CaO + HCl → Ca(Cl)2 + H₂O",
+    "type": "Acid + Oxide",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1367",
+    "reactants": [
+      "cao",
+      "hno3"
+    ],
+    "products": [
+      {
+        "compound": "ca_no3",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CaO + HNO₃ → Ca(NO₃)2 + H₂O",
+    "type": "Acid + Oxide",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1371",
+    "reactants": [
+      "cao",
+      "ch3cooh"
+    ],
+    "products": [
+      {
+        "compound": "ca_ch3coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CaO + CH₃COOH → Ca(CH₃COO)2 + H₂O",
+    "type": "Acid + Oxide",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1417",
+    "reactants": [
+      "na",
+      "cl2"
+    ],
+    "products": [
+      {
+        "compound": "na_cl",
+        "coefficient": 1
+      }
+    ],
+    "equation": "Na + Cl₂ → NaCl",
+    "type": "Combination",
+    "conditions": "Heat/light"
+  },
+  {
+    "id": "reaction_1421",
+    "reactants": [
+      "k",
+      "cl2"
+    ],
+    "products": [
+      {
+        "compound": "k_cl",
+        "coefficient": 1
+      }
+    ],
+    "equation": "K + Cl₂ → KCl",
+    "type": "Combination",
+    "conditions": "Heat/light"
+  },
+  {
+    "id": "reaction_1433",
+    "reactants": [
+      "ca",
+      "cl2"
+    ],
+    "products": [
+      {
+        "compound": "ca_cl",
+        "coefficient": 1
+      }
+    ],
+    "equation": "Ca + Cl₂ → Ca(Cl)2",
+    "type": "Combination",
+    "conditions": "Heat/light"
+  },
+  {
+    "id": "reaction_1534",
+    "reactants": [
+      "na",
+      "k_no3"
+    ],
+    "products": [
+      {
+        "compound": "na_no3",
+        "coefficient": 1
+      },
+      {
+        "compound": "k",
+        "coefficient": 1
+      }
+    ],
+    "equation": "Na + KNO₃ → NaNO₃ + K",
+    "type": "Single Displacement",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1535",
+    "reactants": [
+      "na",
+      "ca_no3"
+    ],
+    "products": [
+      {
+        "compound": "na_no3",
+        "coefficient": 1
+      },
+      {
+        "compound": "ca",
+        "coefficient": 1
+      }
+    ],
+    "equation": "Na + Ca(NO₃)2 → NaNO₃ + Ca",
+    "type": "Single Displacement",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1545",
+    "reactants": [
+      "k",
+      "ca_no3"
+    ],
+    "products": [
+      {
+        "compound": "k_no3",
+        "coefficient": 1
+      },
+      {
+        "compound": "ca",
+        "coefficient": 1
+      }
+    ],
+    "equation": "K + Ca(NO₃)2 → KNO₃ + Ca",
+    "type": "Single Displacement",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1603",
+    "reactants": [
+      "nh3"
+    ],
+    "products": [
+      {
+        "compound": "n2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2",
+        "coefficient": 3
+      }
+    ],
+    "equation": "2NH₃ → N₂ + 3H₂",
+    "type": "Decomposition",
+    "conditions": "High temperature"
+  },
+  {
+    "id": "reaction_1604",
+    "reactants": [
+      "h2co3"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "H₂CO₃ → CO₂ + H₂O",
+    "type": "Decomposition",
+    "conditions": "Room temperature"
+  },
+  {
+    "id": "reaction_1605",
+    "reactants": [
+      "na_cl",
+      "h2o"
+    ],
+    "products": [
+      {
+        "compound": "na_oh",
+        "coefficient": 2
+      },
+      {
+        "compound": "h2",
+        "coefficient": 1
+      },
+      {
+        "compound": "cl2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2NaCl + 2H₂O → 2NaOH + H₂ + Cl₂",
+    "type": "Electrolysis",
+    "conditions": "Chlor-alkali process"
+  },
+  {
+    "id": "reaction_1607",
+    "reactants": [
+      "ca_co3",
+      "co2",
+      "h2o"
+    ],
+    "products": [
+      {
+        "compound": "ca_hco3",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CaCO₃ + CO₂ + H₂O → Ca(HCO₃)₂",
+    "type": "Combination",
+    "conditions": "Excess CO₂"
+  },
+  {
+    "id": "reaction_1615",
+    "reactants": [
+      "na",
+      "h2"
+    ],
+    "products": [
+      {
+        "compound": "na_h",
+        "coefficient": 2
+      }
+    ],
+    "equation": "2Na + H₂ → 2NaH",
+    "type": "Combination",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_1616",
+    "reactants": [
+      "k",
+      "h2"
+    ],
+    "products": [
+      {
+        "compound": "k_h",
+        "coefficient": 2
+      }
+    ],
+    "equation": "2K + H₂ → 2KH",
+    "type": "Combination",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_1617",
+    "reactants": [
+      "ca",
+      "h2"
+    ],
+    "products": [
+      {
+        "compound": "ca_h2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "Ca + H₂ → CaH₂",
+    "type": "Combination",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_1623",
+    "reactants": [
+      "n2",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "no",
+        "coefficient": 2
+      }
+    ],
+    "equation": "N₂ + O₂ → 2NO",
+    "type": "Combination",
+    "conditions": "High temperature"
+  },
+  {
+    "id": "reaction_1624",
+    "reactants": [
+      "no",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "no2",
+        "coefficient": 2
+      }
+    ],
+    "equation": "2NO + O₂ → 2NO₂",
+    "type": "Oxidation",
+    "conditions": "Oxygen"
+  },
+  {
+    "id": "reaction_1625",
+    "reactants": [
+      "no2",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "n2o5",
+        "coefficient": 2
+      }
+    ],
+    "equation": "4NO₂ + O₂ → 2N₂O₅",
+    "type": "Oxidation",
+    "conditions": "Oxidation"
+  },
+  {
+    "id": "reaction_1626",
+    "reactants": [
+      "n2o5",
+      "h2o"
+    ],
+    "products": [
+      {
+        "compound": "hno3",
+        "coefficient": 2
+      }
+    ],
+    "equation": "N₂O₅ + H₂O → 2HNO₃",
+    "type": "Combination",
+    "conditions": "Water"
+  },
+  {
+    "id": "reaction_1627",
+    "reactants": [
+      "hcl",
+      "caco3"
+    ],
+    "products": [
+      {
+        "compound": "ca_cl",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2HCl + CaCO₃ → CaCl₂ + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1628",
+    "reactants": [
+      "ca_oh",
+      "co2"
+    ],
+    "products": [
+      {
+        "compound": "ca_co3",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "Ca(OH)₂ + CO₂ → CaCO₃ + H₂O",
+    "type": "Combination",
+    "conditions": "Excess not reached"
+  },
+  {
+    "id": "reaction_1629",
+    "reactants": [
+      "ca_oh",
+      "cl2"
+    ],
+    "products": [
+      {
+        "compound": "ca_clo",
+        "coefficient": 1
+      },
+      {
+        "compound": "ca_cl",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 2
+      }
+    ],
+    "equation": "2Ca(OH)₂ + 2Cl₂ → Ca(ClO)₂ + CaCl₂ + 2H₂O",
+    "type": "Disproportionation",
+    "conditions": "Cold, dilute"
+  },
+  {
+    "id": "reaction_1630",
+    "reactants": [
+      "na_cl",
+      "nh3",
+      "co2",
+      "h2o"
+    ],
+    "products": [
+      {
+        "compound": "na_hco3",
+        "coefficient": 1
+      },
+      {
+        "compound": "nh4_cl",
+        "coefficient": 1
+      }
+    ],
+    "equation": "NaCl + NH₃ + CO₂ + H₂O → NaHCO₃ + NH₄Cl",
+    "type": "Double Displacement",
+    "conditions": "Aqueous, Solvay process"
+  },
+  {
+    "id": "reaction_1631",
+    "reactants": [
+      "h2o"
+    ],
+    "products": [
+      {
+        "compound": "h2",
+        "coefficient": 2
+      },
+      {
+        "compound": "o2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2H₂O → 2H₂ + O₂",
+    "type": "Decomposition",
+    "conditions": "Electrolysis"
+  },
+  {
+    "id": "reaction_1643",
+    "reactants": [
+      "ch3cooh",
+      "na_hco3"
+    ],
+    "products": [
+      {
+        "compound": "ch3coona",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃COOH + NaHCO₃ → CH₃COONa + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1644",
+    "reactants": [
+      "ch3cooh",
+      "na2co3"
+    ],
+    "products": [
+      {
+        "compound": "ch3coona",
+        "coefficient": 2
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2CH₃COOH + Na₂CO₃ → 2CH₃COONa + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1645",
+    "reactants": [
+      "c2h4",
+      "h2o"
+    ],
+    "products": [
+      {
+        "compound": "c2h5oh",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₂H₄ + H₂O → C₂H₅OH",
+    "type": "Addition",
+    "conditions": "Phosphoric acid catalyst, high temperature and pressure"
+  },
+  {
+    "id": "reaction_1646",
+    "reactants": [
+      "c2h5oh"
+    ],
+    "products": [
+      {
+        "compound": "c2h4",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₂H₅OH → C₂H₄ + H₂O",
+    "type": "Elimination",
+    "conditions": "Concentrated H₂SO₄, 170°C"
+  },
+  {
+    "id": "reaction_1647",
+    "reactants": [
+      "c2h5oh",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "ch3cooh",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₂H₅OH + O₂ → CH₃COOH + H₂O",
+    "type": "Oxidation",
+    "conditions": "Acetic acid bacteria"
+  },
+  {
+    "id": "reaction_1648",
+    "reactants": [
+      "ch4"
+    ],
+    "products": [
+      {
+        "compound": "c2h2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2",
+        "coefficient": 3
+      }
+    ],
+    "equation": "2CH₄ → C₂H₂ + 3H₂",
+    "type": "Dehydrogenation",
+    "conditions": "Very high temperature"
+  },
+  {
+    "id": "reaction_1649",
+    "reactants": [
+      "c2h2",
+      "h2"
+    ],
+    "products": [
+      {
+        "compound": "c2h4",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₂H₂ + H₂ → C₂H₄",
+    "type": "Hydrogenation",
+    "conditions": "Catalyst"
+  },
+  {
+    "id": "reaction_1650",
+    "reactants": [
+      "hno2",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "na_no2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HNO₂ + NaOH → NaNO₂ + H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1651",
+    "reactants": [
+      "hno2",
+      "k_oh"
+    ],
+    "products": [
+      {
+        "compound": "k_no2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HNO₂ + KOH → KNO₂ + H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1652",
+    "reactants": [
+      "hno2",
+      "nh4_oh"
+    ],
+    "products": [
+      {
+        "compound": "nh4_no2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HNO₂ + NH₄OH → NH₄NO₂ + H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1653",
+    "reactants": [
+      "hno2",
+      "ca_oh"
+    ],
+    "products": [
+      {
+        "compound": "ca_no2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 2
+      }
+    ],
+    "equation": "2HNO₂ + Ca(OH)2 → Ca(NO₂)2 + 2H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1677",
+    "reactants": [
+      "hclo",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "na_clo",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HClO + NaOH → NaClO + H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1678",
+    "reactants": [
+      "hclo",
+      "k_oh"
+    ],
+    "products": [
+      {
+        "compound": "k_clo",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HClO + KOH → KClO + H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1679",
+    "reactants": [
+      "hclo",
+      "nh4_oh"
+    ],
+    "products": [
+      {
+        "compound": "nh4_clo",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HClO + NH₄OH → NH₄ClO + H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1680",
+    "reactants": [
+      "hclo",
+      "ca_oh"
+    ],
+    "products": [
+      {
+        "compound": "ca_clo",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 2
+      }
+    ],
+    "equation": "2HClO + Ca(OH)2 → Ca(ClO)2 + 2H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1731",
+    "reactants": [
+      "h2co3",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "na_co3",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 2
+      }
+    ],
+    "equation": "H₂CO₃ + 2NaOH → (Na)2CO₃ + 2H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1732",
+    "reactants": [
+      "h2co3",
+      "k_oh"
+    ],
+    "products": [
+      {
+        "compound": "k_co3",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 2
+      }
+    ],
+    "equation": "H₂CO₃ + 2KOH → (K)2CO₃ + 2H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1733",
+    "reactants": [
+      "h2co3",
+      "nh4_oh"
+    ],
+    "products": [
+      {
+        "compound": "nh4_co3",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 2
+      }
+    ],
+    "equation": "H₂CO₃ + 2NH₄OH → (NH₄)2CO₃ + 2H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1734",
+    "reactants": [
+      "h2co3",
+      "ca_oh"
+    ],
+    "products": [
+      {
+        "compound": "ca_co3",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 2
+      }
+    ],
+    "equation": "H₂CO₃ + Ca(OH)2 → CaCO₃ + 2H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1758",
+    "reactants": [
+      "hcn",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "na_cn",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HCN + NaOH → NaCN + H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1759",
+    "reactants": [
+      "hcn",
+      "k_oh"
+    ],
+    "products": [
+      {
+        "compound": "k_cn",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HCN + KOH → KCN + H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1760",
+    "reactants": [
+      "hcn",
+      "nh4_oh"
+    ],
+    "products": [
+      {
+        "compound": "nh4_cn",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HCN + NH₄OH → NH₄CN + H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1761",
+    "reactants": [
+      "hcn",
+      "ca_oh"
+    ],
+    "products": [
+      {
+        "compound": "ca_cn",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 2
+      }
+    ],
+    "equation": "2HCN + Ca(OH)2 → Ca(CN)2 + 2H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1785",
+    "reactants": [
+      "na_co3",
+      "hcl"
+    ],
+    "products": [
+      {
+        "compound": "na_cl",
+        "coefficient": 2
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "(Na)2CO₃ + 2HCl → 2NaCl + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1786",
+    "reactants": [
+      "k_co3",
+      "hcl"
+    ],
+    "products": [
+      {
+        "compound": "k_cl",
+        "coefficient": 2
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "(K)2CO₃ + 2HCl → 2KCl + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1787",
+    "reactants": [
+      "nh4_co3",
+      "hcl"
+    ],
+    "products": [
+      {
+        "compound": "nh4_cl",
+        "coefficient": 2
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "(NH₄)2CO₃ + 2HCl → 2NH₄Cl + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1830",
+    "reactants": [
+      "na_co3",
+      "hno2"
+    ],
+    "products": [
+      {
+        "compound": "na_no2",
+        "coefficient": 2
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "(Na)2CO₃ + 2HNO₂ → 2NaNO₂ + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1831",
+    "reactants": [
+      "k_co3",
+      "hno2"
+    ],
+    "products": [
+      {
+        "compound": "k_no2",
+        "coefficient": 2
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "(K)2CO₃ + 2HNO₂ → 2KNO₂ + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1832",
+    "reactants": [
+      "nh4_co3",
+      "hno2"
+    ],
+    "products": [
+      {
+        "compound": "nh4_no2",
+        "coefficient": 2
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "(NH₄)2CO₃ + 2HNO₂ → 2NH₄NO₂ + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1833",
+    "reactants": [
+      "ca_co3",
+      "hno2"
+    ],
+    "products": [
+      {
+        "compound": "ca_no2",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CaCO₃ + 2HNO₂ → Ca(NO₂)2 + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1857",
+    "reactants": [
+      "na_co3",
+      "hno3"
+    ],
+    "products": [
+      {
+        "compound": "na_no3",
+        "coefficient": 2
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "(Na)2CO₃ + 2HNO₃ → 2NaNO₃ + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1858",
+    "reactants": [
+      "k_co3",
+      "hno3"
+    ],
+    "products": [
+      {
+        "compound": "k_no3",
+        "coefficient": 2
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "(K)2CO₃ + 2HNO₃ → 2KNO₃ + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1859",
+    "reactants": [
+      "nh4_co3",
+      "hno3"
+    ],
+    "products": [
+      {
+        "compound": "nh4_no3",
+        "coefficient": 2
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "(NH₄)2CO₃ + 2HNO₃ → 2NH₄NO₃ + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1872",
+    "reactants": [
+      "na_co3",
+      "hclo"
+    ],
+    "products": [
+      {
+        "compound": "na_clo",
+        "coefficient": 2
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "(Na)2CO₃ + 2HClO → 2NaClO + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1873",
+    "reactants": [
+      "k_co3",
+      "hclo"
+    ],
+    "products": [
+      {
+        "compound": "k_clo",
+        "coefficient": 2
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "(K)2CO₃ + 2HClO → 2KClO + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1874",
+    "reactants": [
+      "nh4_co3",
+      "hclo"
+    ],
+    "products": [
+      {
+        "compound": "nh4_clo",
+        "coefficient": 2
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "(NH₄)2CO₃ + 2HClO → 2NH₄ClO + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1875",
+    "reactants": [
+      "ca_co3",
+      "hclo"
+    ],
+    "products": [
+      {
+        "compound": "ca_clo",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CaCO₃ + 2HClO → Ca(ClO)2 + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1969",
+    "reactants": [
+      "na_co3",
+      "h2co3"
+    ],
+    "products": [
+      {
+        "compound": "na_co3",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "(Na)2CO₃ + H₂CO₃ → (Na)2CO₃ + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1970",
+    "reactants": [
+      "k_co3",
+      "h2co3"
+    ],
+    "products": [
+      {
+        "compound": "k_co3",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "(K)2CO₃ + H₂CO₃ → (K)2CO₃ + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1971",
+    "reactants": [
+      "nh4_co3",
+      "h2co3"
+    ],
+    "products": [
+      {
+        "compound": "nh4_co3",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "(NH₄)2CO₃ + H₂CO₃ → (NH₄)2CO₃ + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1972",
+    "reactants": [
+      "ca_co3",
+      "h2co3"
+    ],
+    "products": [
+      {
+        "compound": "ca_co3",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CaCO₃ + H₂CO₃ → CaCO₃ + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1996",
+    "reactants": [
+      "na_co3",
+      "ch3cooh"
+    ],
+    "products": [
+      {
+        "compound": "na_ch3coo",
+        "coefficient": 2
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "(Na)2CO₃ + 2CH₃COOH → 2NaCH₃COO + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1997",
+    "reactants": [
+      "k_co3",
+      "ch3cooh"
+    ],
+    "products": [
+      {
+        "compound": "k_ch3coo",
+        "coefficient": 2
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "(K)2CO₃ + 2CH₃COOH → 2KCH₃COO + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_1998",
+    "reactants": [
+      "nh4_co3",
+      "ch3cooh"
+    ],
+    "products": [
+      {
+        "compound": "nh4_ch3coo",
+        "coefficient": 2
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "(NH₄)2CO₃ + 2CH₃COOH → 2NH₄CH₃COO + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_2011",
+    "reactants": [
+      "na_co3",
+      "hcn"
+    ],
+    "products": [
+      {
+        "compound": "na_cn",
+        "coefficient": 2
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "(Na)2CO₃ + 2HCN → 2NaCN + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_2012",
+    "reactants": [
+      "k_co3",
+      "hcn"
+    ],
+    "products": [
+      {
+        "compound": "k_cn",
+        "coefficient": 2
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "(K)2CO₃ + 2HCN → 2KCN + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_2013",
+    "reactants": [
+      "nh4_co3",
+      "hcn"
+    ],
+    "products": [
+      {
+        "compound": "nh4_cn",
+        "coefficient": 2
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "(NH₄)2CO₃ + 2HCN → 2NH₄CN + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_2014",
+    "reactants": [
+      "ca_co3",
+      "hcn"
+    ],
+    "products": [
+      {
+        "compound": "ca_cn",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CaCO₃ + 2HCN → Ca(CN)2 + CO₂ + H₂O",
+    "type": "Acid-Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_2049",
+    "reactants": [
+      "na2o",
+      "hcl"
+    ],
+    "products": [
+      {
+        "compound": "na_cl",
+        "coefficient": 2
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "Na₂O + 2HCl → 2NaCl + H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous, warm"
+  },
+  {
+    "id": "reaction_2050",
+    "reactants": [
+      "k2o",
+      "hcl"
+    ],
+    "products": [
+      {
+        "compound": "k_cl",
+        "coefficient": 2
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "K₂O + 2HCl → 2KCl + H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous, warm"
+  },
+  {
+    "id": "reaction_2051",
+    "reactants": [
+      "cao",
+      "hcl"
+    ],
+    "products": [
+      {
+        "compound": "ca_cl",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CaO + 2HCl → Ca(Cl)2 + H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous, warm"
+  },
+  {
+    "id": "reaction_2053",
+    "reactants": [
+      "c3h8"
+    ],
+    "products": [
+      {
+        "compound": "c3h6",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₃H₈ → C₃H₆ + H₂",
+    "type": "Elimination / Dehydrogenation",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2054",
+    "reactants": [
+      "c4h10"
+    ],
+    "products": [
+      {
+        "compound": "c4h8_1",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₄H₁₀ → C₄H₈ + H₂",
+    "type": "Elimination / Dehydrogenation",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2055",
+    "reactants": [
+      "c5h12"
+    ],
+    "products": [
+      {
+        "compound": "c5h10_1",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₅H₁₂ → C₅H₁₀ + H₂",
+    "type": "Elimination / Dehydrogenation",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2056",
+    "reactants": [
+      "c6h14"
+    ],
+    "products": [
+      {
+        "compound": "c6h12_1",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₁₄ → C₆H₁₂ + H₂",
+    "type": "Elimination / Dehydrogenation",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2057",
+    "reactants": [
+      "c4h10"
+    ],
+    "products": [
+      {
+        "compound": "c4h10_iso",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₄H₁₀ → 2-Methylpropane",
+    "type": "Isomerization",
+    "conditions": "Catalyst / heat"
+  },
+  {
+    "id": "reaction_2058",
+    "reactants": [
+      "c4h10_iso"
+    ],
+    "products": [
+      {
+        "compound": "c4h8_iso",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2-Methylpropane → 2-Methylpropene + H₂",
+    "type": "Elimination / Dehydrogenation",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2059",
+    "reactants": [
+      "c5h12"
+    ],
+    "products": [
+      {
+        "compound": "c5h12_iso",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₅H₁₂ → 2-Methylbutane",
+    "type": "Isomerization",
+    "conditions": "Catalyst / heat"
+  },
+  {
+    "id": "reaction_2060",
+    "reactants": [
+      "c5h12"
+    ],
+    "products": [
+      {
+        "compound": "c5h12_neo",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₅H₁₂ → 2,2-Dimethylpropane",
+    "type": "Isomerization",
+    "conditions": "Catalyst / heat"
+  },
+  {
+    "id": "reaction_2061",
+    "reactants": [
+      "c5h12_iso"
+    ],
+    "products": [
+      {
+        "compound": "c5h10_iso",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2-Methylbutane → 2-Methylbut-1-ene + H₂",
+    "type": "Elimination / Dehydrogenation",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2062",
+    "reactants": [
+      "c2h6"
+    ],
+    "products": [
+      {
+        "compound": "c2h4",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₂H₆ → C₂H₄ + H₂",
+    "type": "Elimination / Dehydrogenation",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2063",
+    "reactants": [
+      "c2h4"
+    ],
+    "products": [
+      {
+        "compound": "c2h6",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₂H₄ + H₂ → C₂H₆",
+    "type": "Addition / Hydrogenation",
+    "conditions": "Ni catalyst, heat"
+  },
+  {
+    "id": "reaction_2064",
+    "reactants": [
+      "c2h2"
+    ],
+    "products": [
+      {
+        "compound": "c2h4",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₂H₂ + H₂ → C₂H₄",
+    "type": "Addition / Hydrogenation",
+    "conditions": "Ni catalyst"
+  },
+  {
+    "id": "reaction_2065",
+    "reactants": [
+      "c3h4"
+    ],
+    "products": [
+      {
+        "compound": "c3h6",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₃H₄ + H₂ → C₃H₆",
+    "type": "Addition / Hydrogenation",
+    "conditions": "Ni catalyst"
+  },
+  {
+    "id": "reaction_2066",
+    "reactants": [
+      "c4h6_2"
+    ],
+    "products": [
+      {
+        "compound": "c4h8_2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₄H₆ + H₂ → C₄H₈",
+    "type": "Addition / Hydrogenation",
+    "conditions": "Ni catalyst"
+  },
+  {
+    "id": "reaction_2067",
+    "reactants": [
+      "c6h6"
+    ],
+    "products": [
+      {
+        "compound": "c6h12_cyc",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₆ + 3H₂ → C₆H₁₂",
+    "type": "Addition / Hydrogenation",
+    "conditions": "Ni catalyst, heat/pressure"
+  },
+  {
+    "id": "reaction_2068",
+    "reactants": [
+      "c3h6",
+      "h2o"
+    ],
+    "products": [
+      {
+        "compound": "c3h7oh_2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₃H₆ + H₂O → C₃H₇OH",
+    "type": "Hydration",
+    "conditions": "Acid catalyst"
+  },
+  {
+    "id": "reaction_2069",
+    "reactants": [
+      "c3h7cl",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "c3h7oh_1",
+        "coefficient": 1
+      },
+      {
+        "compound": "na_cl",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₃H₇Cl + NaOH → C₃H₇OH + NaCl",
+    "type": "Substitution",
+    "conditions": "Aqueous NaOH, heat"
+  },
+  {
+    "id": "reaction_2070",
+    "reactants": [
+      "c3h7br",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "c3h7oh_1",
+        "coefficient": 1
+      },
+      {
+        "compound": "na_cl",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₃H₇Br + NaOH → C₃H₇OH + NaBr",
+    "type": "Substitution",
+    "conditions": "Aqueous NaOH, heat"
+  },
+  {
+    "id": "reaction_2071",
+    "reactants": [
+      "c4h8_2",
+      "h2o"
+    ],
+    "products": [
+      {
+        "compound": "c4h9oh_2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₄H₈ + H₂O → C₄H₉OH",
+    "type": "Hydration",
+    "conditions": "Acid catalyst"
+  },
+  {
+    "id": "reaction_2072",
+    "reactants": [
+      "c3h7oh_1",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "ch3ch2cho",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₃H₇OH + O₂ → C₃H₆O + H₂O",
+    "type": "Oxidation",
+    "conditions": "Oxidizing agent"
+  },
+  {
+    "id": "reaction_2073",
+    "reactants": [
+      "c3h7oh_2"
+    ],
+    "products": [
+      {
+        "compound": "ch3coch3",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₃H₇OH → CH₃COCH₃ + H₂",
+    "type": "Dehydrogenation",
+    "conditions": "Cu, heat"
+  },
+  {
+    "id": "reaction_2074",
+    "reactants": [
+      "ch3ch2cho",
+      "h2"
+    ],
+    "products": [
+      {
+        "compound": "c3h7oh_1",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃CH₂CHO + H₂ → C₃H₇OH",
+    "type": "Reduction",
+    "conditions": "Ni catalyst"
+  },
+  {
+    "id": "reaction_2075",
+    "reactants": [
+      "c3h7cho",
+      "h2"
+    ],
+    "products": [
+      {
+        "compound": "c4h9oh_1",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₃H₇CHO + H₂ → C₄H₉OH",
+    "type": "Reduction",
+    "conditions": "Ni catalyst"
+  },
+  {
+    "id": "reaction_2076",
+    "reactants": [
+      "c3h7cho",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "c3h7cooh",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₃H₇CHO + O₂ → C₃H₇COOH",
+    "type": "Oxidation",
+    "conditions": "Oxidizing agent"
+  },
+  {
+    "id": "reaction_2077",
+    "reactants": [
+      "ch3ch2cho",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "ch3ch2cooh",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃CH₂CHO + O₂ → CH₃CH₂COOH",
+    "type": "Oxidation",
+    "conditions": "Oxidizing agent"
+  },
+  {
+    "id": "reaction_2078",
+    "reactants": [
+      "c4h9oh_1",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "c3h7cho",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₄H₉OH + O₂ → C₃H₇CHO + H₂O",
+    "type": "Oxidation",
+    "conditions": "Oxidizing agent"
+  },
+  {
+    "id": "reaction_2079",
+    "reactants": [
+      "c4h9oh_2",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "c4h8o_2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₄H₉OH + O₂ → C₄H₈O + H₂O",
+    "type": "Oxidation",
+    "conditions": "Oxidizing agent"
+  },
+  {
+    "id": "reaction_2080",
+    "reactants": [
+      "c4h8o_2",
+      "h2"
+    ],
+    "products": [
+      {
+        "compound": "c4h9oh_2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₄H₈O + H₂ → C₄H₉OH",
+    "type": "Reduction",
+    "conditions": "Ni catalyst"
+  },
+  {
+    "id": "reaction_2081",
+    "reactants": [
+      "ch4",
+      "cl2"
+    ],
+    "products": [
+      {
+        "compound": "ch3cl",
+        "coefficient": 1
+      },
+      {
+        "compound": "hcl",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₄ + Cl₂ → CH₃Cl + HCl",
+    "type": "Substitution",
+    "conditions": "Sunlight"
+  },
+  {
+    "id": "reaction_2082",
+    "reactants": [
+      "ch3cl",
+      "cl2"
+    ],
+    "products": [
+      {
+        "compound": "ch2cl2",
+        "coefficient": 1
+      },
+      {
+        "compound": "hcl",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃Cl + Cl₂ → CH₂Cl₂ + HCl",
+    "type": "Substitution",
+    "conditions": "Sunlight"
+  },
+  {
+    "id": "reaction_2083",
+    "reactants": [
+      "ch2cl2",
+      "cl2"
+    ],
+    "products": [
+      {
+        "compound": "chcl3",
+        "coefficient": 1
+      },
+      {
+        "compound": "hcl",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₂Cl₂ + Cl₂ → CHCl₃ + HCl",
+    "type": "Substitution",
+    "conditions": "Sunlight"
+  },
+  {
+    "id": "reaction_2084",
+    "reactants": [
+      "c2h6",
+      "cl2"
+    ],
+    "products": [
+      {
+        "compound": "c2h5cl",
+        "coefficient": 1
+      },
+      {
+        "compound": "hcl",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₂H₆ + Cl₂ → C₂H₅Cl + HCl",
+    "type": "Substitution",
+    "conditions": "Sunlight"
+  },
+  {
+    "id": "reaction_2085",
+    "reactants": [
+      "c2h6",
+      "br2"
+    ],
+    "products": [
+      {
+        "compound": "c2h5br",
+        "coefficient": 1
+      },
+      {
+        "compound": "hbr",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₂H₆ + Br₂ → C₂H₅Br + HBr",
+    "type": "Substitution",
+    "conditions": "Sunlight"
+  },
+  {
+    "id": "reaction_2086",
+    "reactants": [
+      "ch4",
+      "br2"
+    ],
+    "products": [
+      {
+        "compound": "ch3br",
+        "coefficient": 1
+      },
+      {
+        "compound": "hbr",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₄ + Br₂ → CH₃Br + HBr",
+    "type": "Substitution",
+    "conditions": "Sunlight"
+  },
+  {
+    "id": "reaction_2087",
+    "reactants": [
+      "c2h4",
+      "hcl"
+    ],
+    "products": [
+      {
+        "compound": "c2h5cl",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₂H₄ + HCl → C₂H₅Cl",
+    "type": "Addition",
+    "conditions": "Catalyst"
+  },
+  {
+    "id": "reaction_2088",
+    "reactants": [
+      "c2h4",
+      "br2"
+    ],
+    "products": [
+      {
+        "compound": "c2h4br2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₂H₄ + Br₂ → C₂H₄Br₂",
+    "type": "Addition",
+    "conditions": "Room temperature"
+  },
+  {
+    "id": "reaction_2089",
+    "reactants": [
+      "c3h6",
+      "br2"
+    ],
+    "products": [
+      {
+        "compound": "c3h6br2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₃H₆ + Br₂ → C₃H₆Br₂",
+    "type": "Addition",
+    "conditions": "Room temperature"
+  },
+  {
+    "id": "reaction_2090",
+    "reactants": [
+      "c4h8_1",
+      "br2"
+    ],
+    "products": [
+      {
+        "compound": "c4h8br2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₄H₈ + Br₂ → C₄H₈Br₂",
+    "type": "Addition",
+    "conditions": "Room temperature"
+  },
+  {
+    "id": "reaction_2091",
+    "reactants": [
+      "c4h8_2",
+      "br2"
+    ],
+    "products": [
+      {
+        "compound": "c4h8br2_2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₄H₈ + Br₂ → C₄H₈Br₂",
+    "type": "Addition",
+    "conditions": "Room temperature"
+  },
+  {
+    "id": "reaction_2092",
+    "reactants": [
+      "c2h2",
+      "br2"
+    ],
+    "products": [
+      {
+        "compound": "c2h2br2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₂H₂ + Br₂ → C₂H₂Br₂",
+    "type": "Addition",
+    "conditions": "Room temperature"
+  },
+  {
+    "id": "reaction_2093",
+    "reactants": [
+      "c2h2br2",
+      "br2"
+    ],
+    "products": [
+      {
+        "compound": "c2h2br4",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₂H₂Br₂ + Br₂ → C₂H₂Br₄",
+    "type": "Addition",
+    "conditions": "Excess Br₂"
+  },
+  {
+    "id": "reaction_2097",
+    "reactants": [
+      "c3h6",
+      "hbr"
+    ],
+    "products": [
+      {
+        "compound": "c3h7br",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₃H₆ + HBr → C₃H₇Br",
+    "type": "Addition",
+    "conditions": "Room temperature"
+  },
+  {
+    "id": "reaction_2098",
+    "reactants": [
+      "c4h8_1",
+      "hbr"
+    ],
+    "products": [
+      {
+        "compound": "c2h5br",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₄H₈ + HBr → haloalkane",
+    "type": "Addition",
+    "conditions": "Room temperature"
+  },
+  {
+    "id": "reaction_2099",
+    "reactants": [
+      "c2h5cl",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "c2h5oh",
+        "coefficient": 1
+      },
+      {
+        "compound": "na_cl",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₂H₅Cl + NaOH → C₂H₅OH + NaCl",
+    "type": "Substitution",
+    "conditions": "Aqueous NaOH, heat"
+  },
+  {
+    "id": "reaction_2101",
+    "reactants": [
+      "ch3cl",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "ch3oh",
+        "coefficient": 1
+      },
+      {
+        "compound": "na_cl",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃Cl + NaOH → CH₃OH + NaCl",
+    "type": "Substitution",
+    "conditions": "Aqueous NaOH, heat"
+  },
+  {
+    "id": "reaction_2102",
+    "reactants": [
+      "c6h6",
+      "cl2"
+    ],
+    "products": [
+      {
+        "compound": "c6h5cl",
+        "coefficient": 1
+      },
+      {
+        "compound": "hcl",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₆ + Cl₂ → C₆H₅Cl + HCl",
+    "type": "Electrophilic Substitution",
+    "conditions": "FeCl₃ catalyst"
+  },
+  {
+    "id": "reaction_2103",
+    "reactants": [
+      "c6h6",
+      "br2"
+    ],
+    "products": [
+      {
+        "compound": "c6h5br",
+        "coefficient": 1
+      },
+      {
+        "compound": "hbr",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₆ + Br₂ → C₆H₅Br + HBr",
+    "type": "Electrophilic Substitution",
+    "conditions": "FeBr₃ catalyst"
+  },
+  {
+    "id": "reaction_2104",
+    "reactants": [
+      "c6h6",
+      "c2h5cl"
+    ],
+    "products": [
+      {
+        "compound": "c8h10",
+        "coefficient": 1
+      },
+      {
+        "compound": "hcl",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₆ + C₂H₅Cl → C₈H₁₀ + HCl",
+    "type": "Electrophilic Substitution",
+    "conditions": "AlCl₃ catalyst"
+  },
+  {
+    "id": "reaction_2105",
+    "reactants": [
+      "c6h6",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₆ + 7.5O₂ → 6CO₂ + 3H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2106",
+    "reactants": [
+      "hcooh",
+      "ch3oh"
+    ],
+    "products": [
+      {
+        "compound": "hcooch3",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HCOOH + CH₃OH ⇌ HCOOCH₃ + H₂O",
+    "type": "Esterification",
+    "conditions": "Conc. H₂SO₄, heat"
+  },
+  {
+    "id": "reaction_2107",
+    "reactants": [
+      "hcooh",
+      "c2h5oh"
+    ],
+    "products": [
+      {
+        "compound": "hcooc2h5",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HCOOH + C₂H₅OH ⇌ HCOOC₂H₅ + H₂O",
+    "type": "Esterification",
+    "conditions": "Conc. H₂SO₄, heat"
+  },
+  {
+    "id": "reaction_2108",
+    "reactants": [
+      "ch3cooh",
+      "ch3oh"
+    ],
+    "products": [
+      {
+        "compound": "ch3cooch3",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃COOH + CH₃OH ⇌ CH₃COOCH₃ + H₂O",
+    "type": "Esterification",
+    "conditions": "Conc. H₂SO₄, heat"
+  },
+  {
+    "id": "reaction_2109",
+    "reactants": [
+      "ch3cooh",
+      "c2h5oh"
+    ],
+    "products": [
+      {
+        "compound": "ch3cooc2h5",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O",
+    "type": "Esterification",
+    "conditions": "Conc. H₂SO₄, heat"
+  },
+  {
+    "id": "reaction_2110",
+    "reactants": [
+      "ch3cooh",
+      "c3h7oh_1"
+    ],
+    "products": [
+      {
+        "compound": "ch3cooc3h7",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃COOH + C₃H₇OH ⇌ CH₃COOC₃H₇ + H₂O",
+    "type": "Esterification",
+    "conditions": "Conc. H₂SO₄, heat"
+  },
+  {
+    "id": "reaction_2111",
+    "reactants": [
+      "ch3ch2cooh",
+      "ch3oh"
+    ],
+    "products": [
+      {
+        "compound": "ch3ch2cooch3",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃CH₂COOH + CH₃OH ⇌ CH₃CH₂COOCH₃ + H₂O",
+    "type": "Esterification",
+    "conditions": "Conc. H₂SO₄, heat"
+  },
+  {
+    "id": "reaction_2112",
+    "reactants": [
+      "ch3ch2cooh",
+      "c2h5oh"
+    ],
+    "products": [
+      {
+        "compound": "ch3ch2cooc2h5",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃CH₂COOH + C₂H₅OH ⇌ CH₃CH₂COOC₂H₅ + H₂O",
+    "type": "Esterification",
+    "conditions": "Conc. H₂SO₄, heat"
+  },
+  {
+    "id": "reaction_2113",
+    "reactants": [
+      "ch3cooc2h5",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "ch3cooh",
+        "coefficient": 1
+      },
+      {
+        "compound": "c2h5oh",
+        "coefficient": 1
+      },
+      {
+        "compound": "na_oh",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃COOC₂H₅ + NaOH → CH₃COONa + C₂H₅OH",
+    "type": "Hydrolysis / Saponification",
+    "conditions": "Aqueous NaOH, heat"
+  },
+  {
+    "id": "reaction_2114",
+    "reactants": [
+      "hcooch3",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "hcooh",
+        "coefficient": 1
+      },
+      {
+        "compound": "ch3oh",
+        "coefficient": 1
+      },
+      {
+        "compound": "na_hcoo",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HCOOCH₃ + NaOH → HCOONa + CH₃OH",
+    "type": "Hydrolysis / Saponification",
+    "conditions": "Aqueous NaOH, heat"
+  },
+  {
+    "id": "reaction_2115",
+    "reactants": [
+      "hcooc2h5",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "hcooh",
+        "coefficient": 1
+      },
+      {
+        "compound": "c2h5oh",
+        "coefficient": 1
+      },
+      {
+        "compound": "na_hcoo",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HCOOC₂H₅ + NaOH → HCOONa + C₂H₅OH",
+    "type": "Hydrolysis / Saponification",
+    "conditions": "Aqueous NaOH, heat"
+  },
+  {
+    "id": "reaction_2116",
+    "reactants": [
+      "ch3cooch3",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "ch3cooh",
+        "coefficient": 1
+      },
+      {
+        "compound": "ch3oh",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃COOCH₃ + NaOH → CH₃COONa + CH₃OH",
+    "type": "Hydrolysis / Saponification",
+    "conditions": "Aqueous NaOH, heat"
+  },
+  {
+    "id": "reaction_2117",
+    "reactants": [
+      "ch3ch2cooch3",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "ch3ch2cooh",
+        "coefficient": 1
+      },
+      {
+        "compound": "ch3oh",
+        "coefficient": 1
+      },
+      {
+        "compound": "na_c2h5coo",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃CH₂COOCH₃ + NaOH → CH₃CH₂COONa + CH₃OH",
+    "type": "Hydrolysis / Saponification",
+    "conditions": "Aqueous NaOH, heat"
+  },
+  {
+    "id": "reaction_2118",
+    "reactants": [
+      "ch3ch2cooc2h5",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "ch3ch2cooh",
+        "coefficient": 1
+      },
+      {
+        "compound": "c2h5oh",
+        "coefficient": 1
+      },
+      {
+        "compound": "na_c2h5coo",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃CH₂COOC₂H₅ + NaOH → CH₃CH₂COONa + C₂H₅OH",
+    "type": "Hydrolysis / Saponification",
+    "conditions": "Aqueous NaOH, heat"
+  },
+  {
+    "id": "reaction_2119",
+    "reactants": [
+      "hcooh",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "na_hcoo",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HCOOH + NaOH → HCOONa + H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_2120",
+    "reactants": [
+      "ch3ch2cooh",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "na_c2h5coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃CH₂COOH + NaOH → CH₃CH₂COONa + H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_2121",
+    "reactants": [
+      "c3h7cooh",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "na_c3h7coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₃H₇COOH + NaOH → C₃H₇COONa + H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_2122",
+    "reactants": [
+      "hcooh",
+      "na_hco3"
+    ],
+    "products": [
+      {
+        "compound": "na_hcoo",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "HCOOH + NaHCO₃ → HCOONa + CO₂ + H₂O",
+    "type": "Acid + Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_2123",
+    "reactants": [
+      "ch3ch2cooh",
+      "na_hco3"
+    ],
+    "products": [
+      {
+        "compound": "na_c2h5coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃CH₂COOH + NaHCO₃ → CH₃CH₂COONa + CO₂ + H₂O",
+    "type": "Acid + Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_2124",
+    "reactants": [
+      "c3h7cooh",
+      "na_hco3"
+    ],
+    "products": [
+      {
+        "compound": "na_c3h7coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₃H₇COOH + NaHCO₃ → C₃H₇COONa + CO₂ + H₂O",
+    "type": "Acid + Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_2125",
+    "reactants": [
+      "ch3oh",
+      "na"
+    ],
+    "products": [
+      {
+        "compound": "ch3ona",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2CH₃OH + 2Na → 2CH₃ONa + H₂",
+    "type": "Substitution",
+    "conditions": "Room temperature"
+  },
+  {
+    "id": "reaction_2126",
+    "reactants": [
+      "c2h5oh",
+      "na"
+    ],
+    "products": [
+      {
+        "compound": "c2h5ona",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2C₂H₅OH + 2Na → 2C₂H₅ONa + H₂",
+    "type": "Substitution",
+    "conditions": "Room temperature"
+  },
+  {
+    "id": "reaction_2127",
+    "reactants": [
+      "c12h22o11",
+      "h2o"
+    ],
+    "products": [
+      {
+        "compound": "c6h12o6",
+        "coefficient": 1
+      },
+      {
+        "compound": "fructose",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₁₂H₂₂O₁₁ + H₂O → Glucose + Fructose",
+    "type": "Hydrolysis",
+    "conditions": "Dilute acid / enzyme"
+  },
+  {
+    "id": "reaction_2128",
+    "reactants": [
+      "fructose",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2129",
+    "reactants": [
+      "ch3oh",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2CH₃OH + 3O₂ → 2CO₂ + 4H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2130",
+    "reactants": [
+      "c2h5oh",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2131",
+    "reactants": [
+      "c3h8",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₃H₈ + 5O₂ → 3CO₂ + 4H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2132",
+    "reactants": [
+      "c4h10",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2C₄H₁₀ + 13O₂ → 8CO₂ + 10H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2133",
+    "reactants": [
+      "c5h12",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₅H₁₂ + 8O₂ → 5CO₂ + 6H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2134",
+    "reactants": [
+      "c6h14",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2C₆H₁₄ + 19O₂ → 12CO₂ + 14H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2135",
+    "reactants": [
+      "c3h6",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2C₃H₆ + 9O₂ → 6CO₂ + 6H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2136",
+    "reactants": [
+      "c2h2",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2C₂H₂ + 5O₂ → 4CO₂ + 2H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2137",
+    "reactants": [
+      "c6h6",
+      "ch3cl"
+    ],
+    "products": [
+      {
+        "compound": "c7h8",
+        "coefficient": 1
+      },
+      {
+        "compound": "hcl",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₆ + CH₃Cl → C₇H₈ + HCl",
+    "type": "Electrophilic Substitution",
+    "conditions": "AlCl₃ catalyst"
+  },
+  {
+    "id": "reaction_2138",
+    "reactants": [
+      "c7h8",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "c6h5cooh",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2C₇H₈ + 3O₂ → 2C₆H₅COOH + 2H₂O",
+    "type": "Oxidation",
+    "conditions": "Strong oxidizing conditions"
+  },
+  {
+    "id": "reaction_2139",
+    "reactants": [
+      "c6h5cl",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "c6h5oh",
+        "coefficient": 1
+      },
+      {
+        "compound": "na_cl",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₅Cl + NaOH → C₆H₅OH + NaCl",
+    "type": "Substitution",
+    "conditions": "High temperature / pressure"
+  },
+  {
+    "id": "reaction_2140",
+    "reactants": [
+      "c2h5oh",
+      "cuo"
+    ],
+    "products": [
+      {
+        "compound": "ch3cho",
+        "coefficient": 1
+      },
+      {
+        "compound": "cu",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₂H₅OH + CuO → CH₃CHO + Cu + H₂O",
+    "type": "Oxidation",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2141",
+    "reactants": [
+      "c3h7oh_1"
+    ],
+    "products": [
+      {
+        "compound": "c3h6",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₃H₇OH → C₃H₆ + H₂O",
+    "type": "Elimination / Dehydration",
+    "conditions": "Conc. H₂SO₄, heat"
+  },
+  {
+    "id": "reaction_2142",
+    "reactants": [
+      "c4h9oh_1"
+    ],
+    "products": [
+      {
+        "compound": "c4h8_1",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₄H₉OH → C₄H₈ + H₂O",
+    "type": "Elimination / Dehydration",
+    "conditions": "Conc. H₂SO₄, heat"
+  },
+  {
+    "id": "reaction_2143",
+    "reactants": [
+      "c4h9oh_2"
+    ],
+    "products": [
+      {
+        "compound": "c4h8_2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₄H₉OH → C₄H₈ + H₂O",
+    "type": "Elimination / Dehydration",
+    "conditions": "Conc. H₂SO₄, heat"
+  },
+  {
+    "id": "reaction_2144",
+    "reactants": [
+      "c5h11cho",
+      "h2"
+    ],
+    "products": [
+      {
+        "compound": "c6h13oh_1",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₁₂O + H₂ → C₆H₁₄O",
+    "type": "Reduction",
+    "conditions": "Ni catalyst"
+  },
+  {
+    "id": "reaction_2145",
+    "reactants": [
+      "c5h11oh_2",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "c5h10o_2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2C₅H₁₂O + O₂ → 2C₅H₁₀O + 2H₂O",
+    "type": "Oxidation",
+    "conditions": "Oxidizing agent"
+  },
+  {
+    "id": "reaction_2146",
+    "reactants": [
+      "c6h13oh_2",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "c6h12o_2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2C₆H₁₄O + O₂ → 2C₆H₁₂O + 2H₂O",
+    "type": "Oxidation",
+    "conditions": "Oxidizing agent"
+  },
+  {
+    "id": "reaction_2147",
+    "reactants": [
+      "c2h5br",
+      "c2h5ona"
+    ],
+    "products": [
+      {
+        "compound": "c2h5oc2h5",
+        "coefficient": 1
+      },
+      {
+        "compound": "na_br",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₂H₅Br + C₂H₅ONa → C₂H₅OC₂H₅ + NaBr",
+    "type": "Williamson Ether Synthesis",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2148",
+    "reactants": [
+      "c7h14_1",
+      "h2"
+    ],
+    "products": [
+      {
+        "compound": "c7h16",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₇H₁₄ + H₂ → C₇H₁₆",
+    "type": "Hydrogenation",
+    "conditions": "Ni catalyst"
+  },
+  {
+    "id": "reaction_2149",
+    "reactants": [
+      "c8h16_1",
+      "h2"
+    ],
+    "products": [
+      {
+        "compound": "c8h18",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₈H₁₆ + H₂ → C₈H₁₈",
+    "type": "Hydrogenation",
+    "conditions": "Ni catalyst"
+  },
+  {
+    "id": "reaction_2150",
+    "reactants": [
+      "c9h18_1",
+      "h2"
+    ],
+    "products": [
+      {
+        "compound": "c9h20",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₉H₁₈ + H₂ → C₉H₂₀",
+    "type": "Hydrogenation",
+    "conditions": "Ni catalyst"
+  },
+  {
+    "id": "reaction_2151",
+    "reactants": [
+      "c10h20_1",
+      "h2"
+    ],
+    "products": [
+      {
+        "compound": "c10h22",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₁₀H₂₀ + H₂ → C₁₀H₂₂",
+    "type": "Hydrogenation",
+    "conditions": "Ni catalyst"
+  },
+  {
+    "id": "reaction_2152",
+    "reactants": [
+      "c5h10_iso"
+    ],
+    "products": [
+      {
+        "compound": "c5h10_3",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2-Methylbut-1-ene → 2-Methylbut-2-ene",
+    "type": "Isomerization",
+    "conditions": "Acid catalyst"
+  },
+  {
+    "id": "reaction_2153",
+    "reactants": [
+      "c7h16"
+    ],
+    "products": [
+      {
+        "compound": "c7h14_1",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₇H₁₆ → C₇H₁₄ + H₂",
+    "type": "Dehydrogenation",
+    "conditions": "Heat / catalyst"
+  },
+  {
+    "id": "reaction_2154",
+    "reactants": [
+      "c8h18"
+    ],
+    "products": [
+      {
+        "compound": "c8h16_1",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₈H₁₈ → C₈H₁₆ + H₂",
+    "type": "Dehydrogenation",
+    "conditions": "Heat / catalyst"
+  },
+  {
+    "id": "reaction_2155",
+    "reactants": [
+      "c9h20"
+    ],
+    "products": [
+      {
+        "compound": "c9h18_1",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₉H₂₀ → C₉H₁₈ + H₂",
+    "type": "Dehydrogenation",
+    "conditions": "Heat / catalyst"
+  },
+  {
+    "id": "reaction_2156",
+    "reactants": [
+      "c10h22"
+    ],
+    "products": [
+      {
+        "compound": "c10h20_1",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₁₀H₂₂ → C₁₀H₂₀ + H₂",
+    "type": "Dehydrogenation",
+    "conditions": "Heat / catalyst"
+  },
+  {
+    "id": "reaction_2157",
+    "reactants": [
+      "c5h11oh_2"
+    ],
+    "products": [
+      {
+        "compound": "c5h10_2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₅H₁₂O → C₅H₁₀ + H₂O",
+    "type": "Dehydration",
+    "conditions": "Conc. H₂SO₄, heat"
+  },
+  {
+    "id": "reaction_2158",
+    "reactants": [
+      "c6h13oh_2"
+    ],
+    "products": [
+      {
+        "compound": "c6h12_2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₁₄O → C₆H₁₂ + H₂O",
+    "type": "Dehydration",
+    "conditions": "Conc. H₂SO₄, heat"
+  },
+  {
+    "id": "reaction_2159",
+    "reactants": [
+      "c5h11oh_1"
+    ],
+    "products": [
+      {
+        "compound": "c4h9cho",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₅H₁₂O → C₅H₁₀O + H₂",
+    "type": "Dehydrogenation",
+    "conditions": "Cu, heat"
+  },
+  {
+    "id": "reaction_2160",
+    "reactants": [
+      "c6h13oh_1",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "c5h11cho",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2C₆H₁₄O + O₂ → 2C₆H₁₂O + 2H₂O",
+    "type": "Oxidation",
+    "conditions": "Oxidizing agent"
+  },
+  {
+    "id": "reaction_2161",
+    "reactants": [
+      "c4h9cho",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "c4h9cooh",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2C₅H₁₀O + O₂ → 2C₅H₁₀O₂",
+    "type": "Oxidation",
+    "conditions": "Oxidizing agent"
+  },
+  {
+    "id": "reaction_2162",
+    "reactants": [
+      "c5h11cho",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "c5h11cooh",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2C₆H₁₂O + O₂ → 2C₆H₁₂O₂",
+    "type": "Oxidation",
+    "conditions": "Oxidizing agent"
+  },
+  {
+    "id": "reaction_2163",
+    "reactants": [
+      "c4h9cl",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "c4h9oh_1",
+        "coefficient": 1
+      },
+      {
+        "compound": "na_cl",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₄H₉Cl + NaOH → C₄H₉OH + NaCl",
+    "type": "Substitution",
+    "conditions": "Aqueous NaOH, heat"
+  },
+  {
+    "id": "reaction_2164",
+    "reactants": [
+      "c4h9br",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "c4h9oh_1",
+        "coefficient": 1
+      },
+      {
+        "compound": "na_br",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₄H₉Br + NaOH → C₄H₉OH + NaBr",
+    "type": "Substitution",
+    "conditions": "Aqueous NaOH, heat"
+  },
+  {
+    "id": "reaction_2165",
+    "reactants": [
+      "c5h11br",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "c5h11oh_1",
+        "coefficient": 1
+      },
+      {
+        "compound": "na_br",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₅H₁₁Br + NaOH → C₅H₁₁OH + NaBr",
+    "type": "Substitution",
+    "conditions": "Aqueous NaOH, heat"
+  },
+  {
+    "id": "reaction_2166",
+    "reactants": [
+      "c6h12_1",
+      "hbr"
+    ],
+    "products": [
+      {
+        "compound": "c6h13br",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₁₂ + HBr → C₆H₁₃Br",
+    "type": "Addition",
+    "conditions": "Room temperature"
+  },
+  {
+    "id": "reaction_2167",
+    "reactants": [
+      "c6h13br",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "c6h13oh_1",
+        "coefficient": 1
+      },
+      {
+        "compound": "na_br",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₁₃Br + NaOH → C₆H₁₃OH + NaBr",
+    "type": "Substitution",
+    "conditions": "Aqueous NaOH, heat"
+  },
+  {
+    "id": "reaction_2168",
+    "reactants": [
+      "c4h9i",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "c4h9oh_1",
+        "coefficient": 1
+      },
+      {
+        "compound": "na_i",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₄H₉I + NaOH → C₄H₉OH + NaI",
+    "type": "Substitution",
+    "conditions": "Aqueous NaOH, heat"
+  },
+  {
+    "id": "reaction_2169",
+    "reactants": [
+      "ch3oh",
+      "hi"
+    ],
+    "products": [
+      {
+        "compound": "ch3i",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃OH + HI → CH₃I + H₂O",
+    "type": "Substitution",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2170",
+    "reactants": [
+      "c2h5oh",
+      "hi"
+    ],
+    "products": [
+      {
+        "compound": "c2h5i",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₂H₅OH + HI → C₂H₅I + H₂O",
+    "type": "Substitution",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2171",
+    "reactants": [
+      "c3h7oh_1",
+      "hi"
+    ],
+    "products": [
+      {
+        "compound": "c3h7i",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₃H₇OH + HI → C₃H₇I + H₂O",
+    "type": "Substitution",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2172",
+    "reactants": [
+      "c3h7oh_2",
+      "hcl"
+    ],
+    "products": [
+      {
+        "compound": "c3h7cl_2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₃H₇OH + HCl → C₃H₇Cl + H₂O",
+    "type": "Substitution",
+    "conditions": "Heat / catalyst"
+  },
+  {
+    "id": "reaction_2173",
+    "reactants": [
+      "c5h10br2",
+      "k_oh"
+    ],
+    "products": [
+      {
+        "compound": "c5h8_1",
+        "coefficient": 1
+      },
+      {
+        "compound": "k_br",
+        "coefficient": 2
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 2
+      }
+    ],
+    "equation": "C₅H₁₀Br₂ + 2KOH → C₅H₈ + 2KBr + 2H₂O",
+    "type": "Elimination",
+    "conditions": "Alcoholic KOH, heat"
+  },
+  {
+    "id": "reaction_2174",
+    "reactants": [
+      "c5h10br2_2",
+      "k_oh"
+    ],
+    "products": [
+      {
+        "compound": "c5h8_2",
+        "coefficient": 1
+      },
+      {
+        "compound": "k_br",
+        "coefficient": 2
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 2
+      }
+    ],
+    "equation": "C₅H₁₀Br₂ + 2KOH → C₅H₈ + 2KBr + 2H₂O",
+    "type": "Elimination",
+    "conditions": "Alcoholic KOH, heat"
+  },
+  {
+    "id": "reaction_2175",
+    "reactants": [
+      "c6h12br2",
+      "k_oh"
+    ],
+    "products": [
+      {
+        "compound": "c6h10_1",
+        "coefficient": 1
+      },
+      {
+        "compound": "k_br",
+        "coefficient": 2
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 2
+      }
+    ],
+    "equation": "C₆H₁₂Br₂ + 2KOH → C₆H₁₀ + 2KBr + 2H₂O",
+    "type": "Elimination",
+    "conditions": "Alcoholic KOH, heat"
+  },
+  {
+    "id": "reaction_2176",
+    "reactants": [
+      "c6h12br2_2",
+      "k_oh"
+    ],
+    "products": [
+      {
+        "compound": "c6h10_2",
+        "coefficient": 1
+      },
+      {
+        "compound": "k_br",
+        "coefficient": 2
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 2
+      }
+    ],
+    "equation": "C₆H₁₂Br₂ + 2KOH → C₆H₁₀ + 2KBr + 2H₂O",
+    "type": "Elimination",
+    "conditions": "Alcoholic KOH, heat"
+  },
+  {
+    "id": "reaction_2177",
+    "reactants": [
+      "c5h10_1",
+      "br2"
+    ],
+    "products": [
+      {
+        "compound": "c5h10br2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₅H₁₀ + Br₂ → C₅H₁₀Br₂",
+    "type": "Addition",
+    "conditions": "Room temperature"
+  },
+  {
+    "id": "reaction_2178",
+    "reactants": [
+      "c5h10_2",
+      "br2"
+    ],
+    "products": [
+      {
+        "compound": "c5h10br2_2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₅H₁₀ + Br₂ → C₅H₁₀Br₂",
+    "type": "Addition",
+    "conditions": "Room temperature"
+  },
+  {
+    "id": "reaction_2179",
+    "reactants": [
+      "c6h12_1",
+      "br2"
+    ],
+    "products": [
+      {
+        "compound": "c6h12br2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₁₂ + Br₂ → C₆H₁₂Br₂",
+    "type": "Addition",
+    "conditions": "Room temperature"
+  },
+  {
+    "id": "reaction_2180",
+    "reactants": [
+      "c6h12_2",
+      "br2"
+    ],
+    "products": [
+      {
+        "compound": "c6h12br2_2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₁₂ + Br₂ → C₆H₁₂Br₂",
+    "type": "Addition",
+    "conditions": "Room temperature"
+  },
+  {
+    "id": "reaction_2181",
+    "reactants": [
+      "c4h9oh_1",
+      "hcl"
+    ],
+    "products": [
+      {
+        "compound": "c4h9cl",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₄H₉OH + HCl → C₄H₉Cl + H₂O",
+    "type": "Substitution",
+    "conditions": "Heat / catalyst"
+  },
+  {
+    "id": "reaction_2182",
+    "reactants": [
+      "c4h9oh_1",
+      "hbr"
+    ],
+    "products": [
+      {
+        "compound": "c4h9br",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₄H₉OH + HBr → C₄H₉Br + H₂O",
+    "type": "Substitution",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2183",
+    "reactants": [
+      "c5h11oh_1",
+      "hbr"
+    ],
+    "products": [
+      {
+        "compound": "c5h11br",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₅H₁₁OH + HBr → C₅H₁₁Br + H₂O",
+    "type": "Substitution",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2184",
+    "reactants": [
+      "c4h9oh_1",
+      "hi"
+    ],
+    "products": [
+      {
+        "compound": "c4h9i",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₄H₉OH + HI → C₄H₉I + H₂O",
+    "type": "Substitution",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2185",
+    "reactants": [
+      "c8h10"
+    ],
+    "products": [
+      {
+        "compound": "c8h8",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₈H₁₀ → C₈H₈ + H₂",
+    "type": "Dehydrogenation",
+    "conditions": "Heat / catalyst"
+  },
+  {
+    "id": "reaction_2186",
+    "reactants": [
+      "c6h6",
+      "hno3"
+    ],
+    "products": [
+      {
+        "compound": "c6h5no2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O",
+    "type": "Electrophilic Substitution",
+    "conditions": "Conc. H₂SO₄, warm"
+  },
+  {
+    "id": "reaction_2187",
+    "reactants": [
+      "c6h5no2",
+      "h2"
+    ],
+    "products": [
+      {
+        "compound": "c6h7n",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 2
+      }
+    ],
+    "equation": "C₆H₅NO₂ + 3H₂ → C₆H₇N + 2H₂O",
+    "type": "Reduction",
+    "conditions": "Ni catalyst"
+  },
+  {
+    "id": "reaction_2188",
+    "reactants": [
+      "c6h5cl",
+      "ch3ona"
+    ],
+    "products": [
+      {
+        "compound": "c7h8o",
+        "coefficient": 1
+      },
+      {
+        "compound": "na_cl",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₅Cl + CH₃ONa → C₆H₅OCH₃ + NaCl",
+    "type": "Substitution",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2189",
+    "reactants": [
+      "c8h8",
+      "h2"
+    ],
+    "products": [
+      {
+        "compound": "c8h10",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₈H₈ + H₂ → C₈H₁₀",
+    "type": "Hydrogenation",
+    "conditions": "Ni catalyst"
+  },
+  {
+    "id": "reaction_2190",
+    "reactants": [
+      "ch3oh",
+      "ch3oh"
+    ],
+    "products": [
+      {
+        "compound": "ch3och3",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2CH₃OH → CH₃OCH₃ + H₂O",
+    "type": "Dehydration",
+    "conditions": "Conc. H₂SO₄, controlled heat"
+  },
+  {
+    "id": "reaction_2191",
+    "reactants": [
+      "ch3oh",
+      "c2h5oh"
+    ],
+    "products": [
+      {
+        "compound": "ch3oc2h5",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃OH + C₂H₅OH → CH₃OC₂H₅ + H₂O",
+    "type": "Dehydration",
+    "conditions": "Acid catalyst, heat"
+  },
+  {
+    "id": "reaction_2192",
+    "reactants": [
+      "c3h7cooh",
+      "ch3oh"
+    ],
+    "products": [
+      {
+        "compound": "ch3ch2ch2ch2cooch3",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃CH₂CH₂COOH + CH₃OH ⇌ CH₃CH₂CH₂COOCH₃ + H₂O",
+    "type": "Esterification",
+    "conditions": "Conc. H₂SO₄, heat"
+  },
+  {
+    "id": "reaction_2193",
+    "reactants": [
+      "c3h7cooh",
+      "c2h5oh"
+    ],
+    "products": [
+      {
+        "compound": "ch3ch2ch2ch2cooc2h5",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃CH₂CH₂COOH + C₂H₅OH ⇌ CH₃CH₂CH₂COOC₂H₅ + H₂O",
+    "type": "Esterification",
+    "conditions": "Conc. H₂SO₄, heat"
+  },
+  {
+    "id": "reaction_2194",
+    "reactants": [
+      "c3h7cooh",
+      "c3h7oh_1"
+    ],
+    "products": [
+      {
+        "compound": "ch3ch2ch2ch2cooc3h7",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃CH₂CH₂COOH + C₃H₇OH ⇌ CH₃CH₂CH₂COOC₃H₇ + H₂O",
+    "type": "Esterification",
+    "conditions": "Conc. H₂SO₄, heat"
+  },
+  {
+    "id": "reaction_2195",
+    "reactants": [
+      "c6h5cooh",
+      "ch3oh"
+    ],
+    "products": [
+      {
+        "compound": "c6h5cooch3",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₅COOH + CH₃OH ⇌ C₆H₅COOCH₃ + H₂O",
+    "type": "Esterification",
+    "conditions": "Conc. H₂SO₄, heat"
+  },
+  {
+    "id": "reaction_2196",
+    "reactants": [
+      "c6h5cooh",
+      "c2h5oh"
+    ],
+    "products": [
+      {
+        "compound": "c6h5cooc2h5",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₅COOH + C₂H₅OH ⇌ C₆H₅COOC₂H₅ + H₂O",
+    "type": "Esterification",
+    "conditions": "Conc. H₂SO₄, heat"
+  },
+  {
+    "id": "reaction_2197",
+    "reactants": [
+      "c4h9cooh",
+      "ch3oh"
+    ],
+    "products": [
+      {
+        "compound": "ch3ch2ch2ch2cooch3",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₅H₁₀O₂ + CH₃OH ⇌ Methyl pentanoate + H₂O",
+    "type": "Esterification",
+    "conditions": "Conc. H₂SO₄, heat"
+  },
+  {
+    "id": "reaction_2198",
+    "reactants": [
+      "c4h9cooh",
+      "c2h5oh"
+    ],
+    "products": [
+      {
+        "compound": "ch3ch2ch2ch2cooc2h5",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₅H₁₀O₂ + C₂H₅OH ⇌ Ethyl pentanoate + H₂O",
+    "type": "Esterification",
+    "conditions": "Conc. H₂SO₄, heat"
+  },
+  {
+    "id": "reaction_2199",
+    "reactants": [
+      "c5h11cooh",
+      "ch3oh"
+    ],
+    "products": [
+      {
+        "compound": "c5h11cooch3",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₁₂O₂ + CH₃OH ⇌ Methyl hexanoate + H₂O",
+    "type": "Esterification",
+    "conditions": "Conc. H₂SO₄, heat"
+  },
+  {
+    "id": "reaction_2200",
+    "reactants": [
+      "c5h11cooh",
+      "c2h5oh"
+    ],
+    "products": [
+      {
+        "compound": "c5h11cooc2h5",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₁₂O₂ + C₂H₅OH ⇌ Ethyl hexanoate + H₂O",
+    "type": "Esterification",
+    "conditions": "Conc. H₂SO₄, heat"
+  },
+  {
+    "id": "reaction_2201",
+    "reactants": [
+      "c4h9cooh",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "na_c4h9coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₅H₁₀O₂ + NaOH → C₅H₉NaO₂ + H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_2202",
+    "reactants": [
+      "c5h11cooh",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "na_c5h11coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₁₂O₂ + NaOH → C₆H₁₁NaO₂ + H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_2203",
+    "reactants": [
+      "c6h5cooh",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "na_c6h5coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₅COOH + NaOH → C₆H₅COONa + H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_2204",
+    "reactants": [
+      "c6h5oh",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "na_c6h5o",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₅OH + NaOH → C₆H₅ONa + H₂O",
+    "type": "Neutralization",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_2205",
+    "reactants": [
+      "c4h9cooh",
+      "na"
+    ],
+    "products": [
+      {
+        "compound": "na_c4h9coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2C₅H₁₀O₂ + 2Na → 2C₅H₉NaO₂ + H₂",
+    "type": "Substitution",
+    "conditions": "Room temperature"
+  },
+  {
+    "id": "reaction_2206",
+    "reactants": [
+      "c5h11cooh",
+      "na"
+    ],
+    "products": [
+      {
+        "compound": "na_c5h11coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2C₆H₁₂O₂ + 2Na → 2C₆H₁₁NaO₂ + H₂",
+    "type": "Substitution",
+    "conditions": "Room temperature"
+  },
+  {
+    "id": "reaction_2207",
+    "reactants": [
+      "ch3ch2ch2ch2cooch3",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "na_c4h9coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "ch3oh",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃CH₂CH₂COOCH₃ + NaOH → CH₃CH₂CH₂COONa + CH₃OH",
+    "type": "Hydrolysis / Saponification",
+    "conditions": "Aqueous NaOH, heat"
+  },
+  {
+    "id": "reaction_2208",
+    "reactants": [
+      "ch3ch2ch2ch2cooc2h5",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "na_c4h9coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "c2h5oh",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃CH₂CH₂COOC₂H₅ + NaOH → CH₃CH₂CH₂COONa + C₂H₅OH",
+    "type": "Hydrolysis / Saponification",
+    "conditions": "Aqueous NaOH, heat"
+  },
+  {
+    "id": "reaction_2209",
+    "reactants": [
+      "ch3ch2ch2ch2cooc3h7",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "na_c4h9coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "c3h7oh_1",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃CH₂CH₂COOC₃H₇ + NaOH → CH₃CH₂CH₂COONa + C₃H₇OH",
+    "type": "Hydrolysis / Saponification",
+    "conditions": "Aqueous NaOH, heat"
+  },
+  {
+    "id": "reaction_2210",
+    "reactants": [
+      "c6h5cooch3",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "na_c6h5coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "ch3oh",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₅COOCH₃ + NaOH → C₆H₅COONa + CH₃OH",
+    "type": "Hydrolysis / Saponification",
+    "conditions": "Aqueous NaOH, heat"
+  },
+  {
+    "id": "reaction_2211",
+    "reactants": [
+      "c6h5cooc2h5",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "na_c6h5coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "c2h5oh",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₅COOC₂H₅ + NaOH → C₆H₅COONa + C₂H₅OH",
+    "type": "Hydrolysis / Saponification",
+    "conditions": "Aqueous NaOH, heat"
+  },
+  {
+    "id": "reaction_2212",
+    "reactants": [
+      "c5h11cooch3",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "na_c5h11coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "ch3oh",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₁₂O₂ + NaOH → C₆H₁₁NaO₂ + CH₃OH",
+    "type": "Hydrolysis / Saponification",
+    "conditions": "Aqueous NaOH, heat"
+  },
+  {
+    "id": "reaction_2213",
+    "reactants": [
+      "c5h11cooc2h5",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "na_c5h11coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "c2h5oh",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₁₂O₂ + NaOH → C₆H₁₁NaO₂ + C₂H₅OH",
+    "type": "Hydrolysis / Saponification",
+    "conditions": "Aqueous NaOH, heat"
+  },
+  {
+    "id": "reaction_2214",
+    "reactants": [
+      "c5h10_1",
+      "h2"
+    ],
+    "products": [
+      {
+        "compound": "c5h12",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₅H₁₀ + H₂ → C₅H₁₂",
+    "type": "Addition / Hydrogenation",
+    "conditions": "Ni catalyst"
+  },
+  {
+    "id": "reaction_2215",
+    "reactants": [
+      "c5h10_2",
+      "h2"
+    ],
+    "products": [
+      {
+        "compound": "c5h12",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₅H₁₀ + H₂ → C₅H₁₂",
+    "type": "Addition / Hydrogenation",
+    "conditions": "Ni catalyst"
+  },
+  {
+    "id": "reaction_2216",
+    "reactants": [
+      "c5h10_3",
+      "h2"
+    ],
+    "products": [
+      {
+        "compound": "c5h12_iso",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₅H₁₀ + H₂ → C₅H₁₂",
+    "type": "Addition / Hydrogenation",
+    "conditions": "Ni catalyst"
+  },
+  {
+    "id": "reaction_2217",
+    "reactants": [
+      "c6h12_1",
+      "h2"
+    ],
+    "products": [
+      {
+        "compound": "c6h14",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₁₂ + H₂ → C₆H₁₄",
+    "type": "Addition / Hydrogenation",
+    "conditions": "Ni catalyst"
+  },
+  {
+    "id": "reaction_2218",
+    "reactants": [
+      "c6h12_2",
+      "h2"
+    ],
+    "products": [
+      {
+        "compound": "c6h14",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₁₂ + H₂ → C₆H₁₄",
+    "type": "Addition / Hydrogenation",
+    "conditions": "Ni catalyst"
+  },
+  {
+    "id": "reaction_2219",
+    "reactants": [
+      "c5h8_1",
+      "h2"
+    ],
+    "products": [
+      {
+        "compound": "c5h10_1",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₅H₈ + H₂ → C₅H₁₀",
+    "type": "Addition / Hydrogenation",
+    "conditions": "Ni catalyst"
+  },
+  {
+    "id": "reaction_2220",
+    "reactants": [
+      "c5h8_2",
+      "h2"
+    ],
+    "products": [
+      {
+        "compound": "c5h10_2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₅H₈ + H₂ → C₅H₁₀",
+    "type": "Addition / Hydrogenation",
+    "conditions": "Ni catalyst"
+  },
+  {
+    "id": "reaction_2221",
+    "reactants": [
+      "c6h10_1",
+      "h2"
+    ],
+    "products": [
+      {
+        "compound": "c6h12_1",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₁₀ + H₂ → C₆H₁₂",
+    "type": "Addition / Hydrogenation",
+    "conditions": "Ni catalyst"
+  },
+  {
+    "id": "reaction_2222",
+    "reactants": [
+      "c6h10_2",
+      "h2"
+    ],
+    "products": [
+      {
+        "compound": "c6h12_2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₁₀ + H₂ → C₆H₁₂",
+    "type": "Addition / Hydrogenation",
+    "conditions": "Ni catalyst"
+  },
+  {
+    "id": "reaction_2223",
+    "reactants": [
+      "c5h10_1",
+      "h2o"
+    ],
+    "products": [
+      {
+        "compound": "c5h11oh_2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₅H₁₀ + H₂O → C₅H₁₂O",
+    "type": "Hydration",
+    "conditions": "Acid catalyst"
+  },
+  {
+    "id": "reaction_2224",
+    "reactants": [
+      "c5h10_2",
+      "h2o"
+    ],
+    "products": [
+      {
+        "compound": "c5h11oh_2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₅H₁₀ + H₂O → C₅H₁₂O",
+    "type": "Hydration",
+    "conditions": "Acid catalyst"
+  },
+  {
+    "id": "reaction_2225",
+    "reactants": [
+      "c6h12_1",
+      "h2o"
+    ],
+    "products": [
+      {
+        "compound": "c6h13oh_2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₁₂ + H₂O → C₆H₁₄O",
+    "type": "Hydration",
+    "conditions": "Acid catalyst"
+  },
+  {
+    "id": "reaction_2226",
+    "reactants": [
+      "c6h12_2",
+      "h2o"
+    ],
+    "products": [
+      {
+        "compound": "c6h13oh_2",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₁₂ + H₂O → C₆H₁₄O",
+    "type": "Hydration",
+    "conditions": "Acid catalyst"
+  },
+  {
+    "id": "reaction_2227",
+    "reactants": [
+      "c4h9cl",
+      "k_oh"
+    ],
+    "products": [
+      {
+        "compound": "c4h8_1",
+        "coefficient": 1
+      },
+      {
+        "compound": "k_cl",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₄H₉Cl + KOH → C₄H₈ + KCl + H₂O",
+    "type": "Elimination",
+    "conditions": "Alcoholic KOH, heat"
+  },
+  {
+    "id": "reaction_2228",
+    "reactants": [
+      "c4h9br",
+      "k_oh"
+    ],
+    "products": [
+      {
+        "compound": "c4h8_1",
+        "coefficient": 1
+      },
+      {
+        "compound": "k_br",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₄H₉Br + KOH → C₄H₈ + KBr + H₂O",
+    "type": "Elimination",
+    "conditions": "Alcoholic KOH, heat"
+  },
+  {
+    "id": "reaction_2229",
+    "reactants": [
+      "c5h11br",
+      "k_oh"
+    ],
+    "products": [
+      {
+        "compound": "c5h10_1",
+        "coefficient": 1
+      },
+      {
+        "compound": "k_br",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₅H₁₁Br + KOH → C₅H₁₀ + KBr + H₂O",
+    "type": "Elimination",
+    "conditions": "Alcoholic KOH, heat"
+  },
+  {
+    "id": "reaction_2230",
+    "reactants": [
+      "c3h7cl_2",
+      "k_oh"
+    ],
+    "products": [
+      {
+        "compound": "c3h6",
+        "coefficient": 1
+      },
+      {
+        "compound": "k_br",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₃H₇Cl + KOH → C₃H₆ + KCl + H₂O",
+    "type": "Elimination",
+    "conditions": "Alcoholic KOH, heat"
+  },
+  {
+    "id": "reaction_2231",
+    "reactants": [
+      "c4h9br",
+      "na"
+    ],
+    "products": [
+      {
+        "compound": "c8h18",
+        "coefficient": 1
+      },
+      {
+        "compound": "na_br",
+        "coefficient": 2
+      }
+    ],
+    "equation": "2C₄H₉Br + 2Na → C₈H₁₈ + 2NaBr",
+    "type": "Wurtz Reaction",
+    "conditions": "Dry ether"
+  },
+  {
+    "id": "reaction_2232",
+    "reactants": [
+      "c5h11br",
+      "na"
+    ],
+    "products": [
+      {
+        "compound": "c10h22",
+        "coefficient": 1
+      },
+      {
+        "compound": "na_br",
+        "coefficient": 2
+      }
+    ],
+    "equation": "2C₅H₁₁Br + 2Na → C₁₀H₂₂ + 2NaBr",
+    "type": "Wurtz Reaction",
+    "conditions": "Dry ether"
+  },
+  {
+    "id": "reaction_2233",
+    "reactants": [
+      "ch3i",
+      "na"
+    ],
+    "products": [
+      {
+        "compound": "c2h6",
+        "coefficient": 1
+      },
+      {
+        "compound": "na_i",
+        "coefficient": 2
+      }
+    ],
+    "equation": "2CH₃I + 2Na → C₂H₆ + 2NaI",
+    "type": "Wurtz Reaction",
+    "conditions": "Dry ether"
+  },
+  {
+    "id": "reaction_2234",
+    "reactants": [
+      "c2h5i",
+      "na"
+    ],
+    "products": [
+      {
+        "compound": "c4h10",
+        "coefficient": 1
+      },
+      {
+        "compound": "na_i",
+        "coefficient": 2
+      }
+    ],
+    "equation": "2C₂H₅I + 2Na → C₄H₁₀ + 2NaI",
+    "type": "Wurtz Reaction",
+    "conditions": "Dry ether"
+  },
+  {
+    "id": "reaction_2235",
+    "reactants": [
+      "na_ch3coo",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "ch4",
+        "coefficient": 1
+      },
+      {
+        "compound": "na2co3",
+        "coefficient": 1
+      }
+    ],
+    "equation": "CH₃COONa + NaOH → CH₄ + Na₂CO₃",
+    "type": "Decarboxylation",
+    "conditions": "Soda lime, heat"
+  },
+  {
+    "id": "reaction_2236",
+    "reactants": [
+      "na_c2h5coo",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "c2h6",
+        "coefficient": 1
+      },
+      {
+        "compound": "na2co3",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₂H₅COONa + NaOH → C₂H₆ + Na₂CO₃",
+    "type": "Decarboxylation",
+    "conditions": "Soda lime, heat"
+  },
+  {
+    "id": "reaction_2237",
+    "reactants": [
+      "na_c3h7coo",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "c3h8",
+        "coefficient": 1
+      },
+      {
+        "compound": "na2co3",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₃H₇COONa + NaOH → C₃H₈ + Na₂CO₃",
+    "type": "Decarboxylation",
+    "conditions": "Soda lime, heat"
+  },
+  {
+    "id": "reaction_2238",
+    "reactants": [
+      "na_c4h9coo",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "c4h10",
+        "coefficient": 1
+      },
+      {
+        "compound": "na2co3",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₄H₉COONa + NaOH → C₄H₁₀ + Na₂CO₃",
+    "type": "Decarboxylation",
+    "conditions": "Soda lime, heat"
+  },
+  {
+    "id": "reaction_2239",
+    "reactants": [
+      "na_c5h11coo",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "c5h12",
+        "coefficient": 1
+      },
+      {
+        "compound": "na2co3",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₅H₁₁COONa + NaOH → C₅H₁₂ + Na₂CO₃",
+    "type": "Decarboxylation",
+    "conditions": "Soda lime, heat"
+  },
+  {
+    "id": "reaction_2240",
+    "reactants": [
+      "na_c6h5coo",
+      "na_oh"
+    ],
+    "products": [
+      {
+        "compound": "c6h6",
+        "coefficient": 1
+      },
+      {
+        "compound": "na2co3",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₅COONa + NaOH → C₆H₆ + Na₂CO₃",
+    "type": "Decarboxylation",
+    "conditions": "Soda lime, heat"
+  },
+  {
+    "id": "reaction_2241",
+    "reactants": [
+      "c7h16",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 7
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 8
+      }
+    ],
+    "equation": "C₇H₁₆ + 11O₂ → 7CO₂ + 8H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2242",
+    "reactants": [
+      "c8h18",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 16
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 18
+      }
+    ],
+    "equation": "2C₈H₁₈ + 25O₂ → 16CO₂ + 18H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2243",
+    "reactants": [
+      "c9h20",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 9
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 10
+      }
+    ],
+    "equation": "C₉H₂₀ + 14O₂ → 9CO₂ + 10H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2244",
+    "reactants": [
+      "c10h22",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 20
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 22
+      }
+    ],
+    "equation": "2C₁₀H₂₂ + 31O₂ → 20CO₂ + 22H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2245",
+    "reactants": [
+      "c5h10_2",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 10
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 10
+      }
+    ],
+    "equation": "2C₅H₁₀ + 15O₂ → 10CO₂ + 10H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2246",
+    "reactants": [
+      "c5h10_3",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 10
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 10
+      }
+    ],
+    "equation": "2C₅H₁₀ + 15O₂ → 10CO₂ + 10H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2247",
+    "reactants": [
+      "c6h12_2",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 6
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 6
+      }
+    ],
+    "equation": "C₆H₁₂ + 9O₂ → 6CO₂ + 6H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2248",
+    "reactants": [
+      "c7h14_1",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 14
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 14
+      }
+    ],
+    "equation": "2C₇H₁₄ + 21O₂ → 14CO₂ + 14H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2249",
+    "reactants": [
+      "c8h16_1",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 8
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 8
+      }
+    ],
+    "equation": "C₈H₁₆ + 12O₂ → 8CO₂ + 8H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2250",
+    "reactants": [
+      "c9h18_1",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 18
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 18
+      }
+    ],
+    "equation": "2C₉H₁₈ + 27O₂ → 18CO₂ + 18H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2251",
+    "reactants": [
+      "c10h20_1",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 10
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 10
+      }
+    ],
+    "equation": "C₁₀H₂₀ + 15O₂ → 10CO₂ + 10H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2252",
+    "reactants": [
+      "c5h8_1",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 5
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 4
+      }
+    ],
+    "equation": "C₅H₈ + 7O₂ → 5CO₂ + 4H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2253",
+    "reactants": [
+      "c5h8_2",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 5
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 4
+      }
+    ],
+    "equation": "C₅H₈ + 7O₂ → 5CO₂ + 4H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2254",
+    "reactants": [
+      "c6h10_1",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 12
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 10
+      }
+    ],
+    "equation": "2C₆H₁₀ + 17O₂ → 12CO₂ + 10H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2255",
+    "reactants": [
+      "c6h10_2",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 12
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 10
+      }
+    ],
+    "equation": "2C₆H₁₀ + 17O₂ → 12CO₂ + 10H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2256",
+    "reactants": [
+      "c5h11oh_1",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 10
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 12
+      }
+    ],
+    "equation": "2C₅H₁₂O + 15O₂ → 10CO₂ + 12H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2257",
+    "reactants": [
+      "c4h9cho",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 5
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 5
+      }
+    ],
+    "equation": "C₅H₁₀O + 7O₂ → 5CO₂ + 5H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2258",
+    "reactants": [
+      "c5h11cho",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 12
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 12
+      }
+    ],
+    "equation": "2C₆H₁₂O + 17O₂ → 12CO₂ + 12H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2259",
+    "reactants": [
+      "c5h10o_2",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 5
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 5
+      }
+    ],
+    "equation": "C₅H₁₀O + 7O₂ → 5CO₂ + 5H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2260",
+    "reactants": [
+      "c6h12o_2",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 12
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 12
+      }
+    ],
+    "equation": "2C₆H₁₂O + 17O₂ → 12CO₂ + 12H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2261",
+    "reactants": [
+      "c4h9cooh",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 10
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 10
+      }
+    ],
+    "equation": "2C₅H₁₀O₂ + 13O₂ → 10CO₂ + 10H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2262",
+    "reactants": [
+      "c5h11cooh",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 6
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 6
+      }
+    ],
+    "equation": "C₆H₁₂O₂ + 8O₂ → 6CO₂ + 6H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2263",
+    "reactants": [
+      "c8h8",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 8
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 4
+      }
+    ],
+    "equation": "C₈H₈ + 10O₂ → 8CO₂ + 4H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2264",
+    "reactants": [
+      "c7h8o",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 14
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 8
+      }
+    ],
+    "equation": "2C₇H₈O + 17O₂ → 14CO₂ + 8H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2265",
+    "reactants": [
+      "ch3och3",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 2
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 3
+      }
+    ],
+    "equation": "C₂H₆O + 3O₂ → 2CO₂ + 3H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2266",
+    "reactants": [
+      "c2h5oc2h5",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 4
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 5
+      }
+    ],
+    "equation": "C₄H₁₀O + 6O₂ → 4CO₂ + 5H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2267",
+    "reactants": [
+      "ch3oc2h5",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 6
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 8
+      }
+    ],
+    "equation": "2C₃H₈O + 9O₂ → 6CO₂ + 8H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2268",
+    "reactants": [
+      "ch3ch2ch2ch2cooch3",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 6
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 6
+      }
+    ],
+    "equation": "C₆H₁₂O₂ + 8O₂ → 6CO₂ + 6H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2269",
+    "reactants": [
+      "ch3ch2ch2ch2cooc2h5",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 14
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 14
+      }
+    ],
+    "equation": "2C₇H₁₄O₂ + 19O₂ → 14CO₂ + 14H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2270",
+    "reactants": [
+      "ch3ch2ch2ch2cooc3h7",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 8
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 8
+      }
+    ],
+    "equation": "C₈H₁₆O₂ + 11O₂ → 8CO₂ + 8H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2271",
+    "reactants": [
+      "c6h5cooch3",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 8
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 4
+      }
+    ],
+    "equation": "C₈H₈O₂ + 9O₂ → 8CO₂ + 4H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2272",
+    "reactants": [
+      "c6h5cooc2h5",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 18
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 10
+      }
+    ],
+    "equation": "2C₉H₁₀O₂ + 21O₂ → 18CO₂ + 10H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2273",
+    "reactants": [
+      "c5h11cooch3",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 14
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 14
+      }
+    ],
+    "equation": "2C₇H₁₄O₂ + 19O₂ → 14CO₂ + 14H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2274",
+    "reactants": [
+      "c5h11cooc2h5",
+      "o2"
+    ],
+    "products": [
+      {
+        "compound": "co2",
+        "coefficient": 8
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 8
+      }
+    ],
+    "equation": "C₈H₁₆O₂ + 11O₂ → 8CO₂ + 8H₂O",
+    "type": "Combustion",
+    "conditions": "Heat"
+  },
+  {
+    "id": "reaction_2275",
+    "reactants": [
+      "c5h11cooh",
+      "na_hco3"
+    ],
+    "products": [
+      {
+        "compound": "na_c5h11coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₅H₁₀O₂ + NaHCO₃ → C₅H₉NaO₂ + CO₂ + H₂O",
+    "type": "Acid + Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_2276",
+    "reactants": [
+      "c4h9cooh",
+      "na_hco3"
+    ],
+    "products": [
+      {
+        "compound": "na_c4h9coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₅H₁₀O₂ + NaHCO₃ → C₅H₉NaO₂ + CO₂ + H₂O",
+    "type": "Acid + Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_2277",
+    "reactants": [
+      "c5h11cooh",
+      "na2co3"
+    ],
+    "products": [
+      {
+        "compound": "na_c5h11coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "2C₆H₁₂O₂ + Na₂CO₃ → 2C₆H₁₁NaO₂ + CO₂ + H₂O",
+    "type": "Acid + Carbonate",
+    "conditions": "Aqueous"
+  },
+  {
+    "id": "reaction_2278",
+    "reactants": [
+      "c6h5cooh",
+      "na_hco3"
+    ],
+    "products": [
+      {
+        "compound": "na_c6h5coo",
+        "coefficient": 1
+      },
+      {
+        "compound": "co2",
+        "coefficient": 1
+      },
+      {
+        "compound": "h2o",
+        "coefficient": 1
+      }
+    ],
+    "equation": "C₆H₅COOH + NaHCO₃ → C₆H₅COONa + CO₂ + H₂O",
+    "type": "Acid + Carbonate",
+    "conditions": "Aqueous"
+  }
+]

@@ -1,0 +1,1338 @@
+[
+  {
+    "id": "be",
+    "name": "Beryllium",
+    "formula": "Be",
+    "category": "element",
+    "visual_type": "electronic_configuration",
+    "image": "visuals/configuration/be.svg"
+  },
+  {
+    "id": "b",
+    "name": "Boron",
+    "formula": "B",
+    "category": "element",
+    "visual_type": "electronic_configuration",
+    "image": "visuals/configuration/b.svg"
+  },
+  {
+    "id": "co",
+    "name": "Cobalt",
+    "formula": "Co",
+    "category": "element",
+    "visual_type": "electronic_configuration",
+    "image": "visuals/configuration/co.svg"
+  },
+  {
+    "id": "ni",
+    "name": "Nickel",
+    "formula": "Ni",
+    "category": "element",
+    "visual_type": "electronic_configuration",
+    "image": "visuals/configuration/ni.svg"
+  },
+  {
+    "id": "ga",
+    "name": "Gallium",
+    "formula": "Ga",
+    "category": "element",
+    "visual_type": "electronic_configuration",
+    "image": "visuals/configuration/ga.svg"
+  },
+  {
+    "id": "i",
+    "name": "Iodine",
+    "formula": "I",
+    "category": "element",
+    "visual_type": "electronic_configuration",
+    "image": "visuals/configuration/i.svg"
+  },
+  {
+    "id": "i2",
+    "name": "Iodine (diatomic)",
+    "formula": "I₂",
+    "category": "elemental_form",
+    "visual_type": "structure",
+    "image": "visuals/structure/i2.svg"
+  },
+  {
+    "id": "hi",
+    "name": "Hydroiodic Acid",
+    "formula": "HI",
+    "category": "acid",
+    "visual_type": "structure",
+    "image": "visuals/structure/hi.svg"
+  },
+  {
+    "id": "bf3",
+    "name": "Boron Trifluoride",
+    "formula": "BF₃",
+    "category": "halide",
+    "visual_type": "structure",
+    "image": "visuals/structure/bf3.svg"
+  },
+  {
+    "id": "b2o3",
+    "name": "Boron Oxide",
+    "formula": "B₂O₃",
+    "category": "oxide",
+    "visual_type": "structure",
+    "image": "visuals/structure/b2o3.svg"
+  },
+  {
+    "id": "i2o5",
+    "name": "Diiodine Pentoxide",
+    "formula": "I₂O₅",
+    "category": "oxide",
+    "visual_type": "structure",
+    "image": "visuals/structure/i2o5.svg"
+  },
+  {
+    "id": "li_i",
+    "name": "Lithium Iodide",
+    "formula": "LiI",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/li_i.svg"
+  },
+  {
+    "id": "li_bo3",
+    "name": "Lithium Borate",
+    "formula": "(Li)3BO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/li_bo3.svg"
+  },
+  {
+    "id": "na_i",
+    "name": "Sodium Iodide",
+    "formula": "NaI",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/na_i.svg"
+  },
+  {
+    "id": "na_bo3",
+    "name": "Sodium Borate",
+    "formula": "(Na)3BO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/na_bo3.svg"
+  },
+  {
+    "id": "k_i",
+    "name": "Potassium Iodide",
+    "formula": "KI",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/k_i.svg"
+  },
+  {
+    "id": "k_bo3",
+    "name": "Potassium Borate",
+    "formula": "(K)3BO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/k_bo3.svg"
+  },
+  {
+    "id": "nh4_i",
+    "name": "Ammonium Iodide",
+    "formula": "NH₄I",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/nh4_i.svg"
+  },
+  {
+    "id": "nh4_bo3",
+    "name": "Ammonium Borate",
+    "formula": "(NH₄)3BO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/nh4_bo3.svg"
+  },
+  {
+    "id": "mg_i",
+    "name": "Magnesium Iodide",
+    "formula": "Mg(I)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/mg_i.svg"
+  },
+  {
+    "id": "mg_bo3",
+    "name": "Magnesium Borate",
+    "formula": "(Mg)3BO₃2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/mg_bo3.svg"
+  },
+  {
+    "id": "ca_i",
+    "name": "Calcium Iodide",
+    "formula": "Ca(I)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ca_i.svg"
+  },
+  {
+    "id": "ca_bo3",
+    "name": "Calcium Borate",
+    "formula": "(Ca)3BO₃2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ca_bo3.svg"
+  },
+  {
+    "id": "be_f",
+    "name": "Beryllium Fluoride",
+    "formula": "Be(F)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/be_f.svg"
+  },
+  {
+    "id": "be_cl",
+    "name": "Beryllium Chloride",
+    "formula": "Be(Cl)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/be_cl.svg"
+  },
+  {
+    "id": "be_br",
+    "name": "Beryllium Bromide",
+    "formula": "Be(Br)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/be_br.svg"
+  },
+  {
+    "id": "be_i",
+    "name": "Beryllium Iodide",
+    "formula": "Be(I)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/be_i.svg"
+  },
+  {
+    "id": "be_oh",
+    "name": "Beryllium Hydroxide",
+    "formula": "Be(OH)2",
+    "category": "base",
+    "visual_type": "structure",
+    "image": "visuals/structure/be_oh.svg"
+  },
+  {
+    "id": "be_no3",
+    "name": "Beryllium Nitrate",
+    "formula": "Be(NO₃)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/be_no3.svg"
+  },
+  {
+    "id": "be_no2",
+    "name": "Beryllium Nitrite",
+    "formula": "Be(NO₂)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/be_no2.svg"
+  },
+  {
+    "id": "be_so4",
+    "name": "Beryllium Sulfate",
+    "formula": "BeSO₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/be_so4.svg"
+  },
+  {
+    "id": "be_so3",
+    "name": "Beryllium Sulfite",
+    "formula": "BeSO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/be_so3.svg"
+  },
+  {
+    "id": "be_co3",
+    "name": "Beryllium Carbonate",
+    "formula": "BeCO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/be_co3.svg"
+  },
+  {
+    "id": "be_hco3",
+    "name": "Beryllium Hydrogen Carbonate",
+    "formula": "Be(HCO₃)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/be_hco3.svg"
+  },
+  {
+    "id": "be_po4",
+    "name": "Beryllium Phosphate",
+    "formula": "(Be)3PO₄2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/be_po4.svg"
+  },
+  {
+    "id": "be_hpo4",
+    "name": "Beryllium Hydrogen Phosphate",
+    "formula": "BeHPO₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/be_hpo4.svg"
+  },
+  {
+    "id": "be_h2po4",
+    "name": "Beryllium Dihydrogen Phosphate",
+    "formula": "Be(H₂PO₄)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/be_h2po4.svg"
+  },
+  {
+    "id": "be_s",
+    "name": "Beryllium Sulfide",
+    "formula": "BeS",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/be_s.svg"
+  },
+  {
+    "id": "be_clo",
+    "name": "Beryllium Hypochlorite",
+    "formula": "Be(ClO)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/be_clo.svg"
+  },
+  {
+    "id": "be_clo2",
+    "name": "Beryllium Chlorite",
+    "formula": "Be(ClO₂)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/be_clo2.svg"
+  },
+  {
+    "id": "be_clo3",
+    "name": "Beryllium Chlorate",
+    "formula": "Be(ClO₃)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/be_clo3.svg"
+  },
+  {
+    "id": "be_clo4",
+    "name": "Beryllium Perchlorate",
+    "formula": "Be(ClO₄)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/be_clo4.svg"
+  },
+  {
+    "id": "be_cn",
+    "name": "Beryllium Cyanide",
+    "formula": "Be(CN)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/be_cn.svg"
+  },
+  {
+    "id": "be_scn",
+    "name": "Beryllium Thiocyanate",
+    "formula": "Be(SCN)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/be_scn.svg"
+  },
+  {
+    "id": "be_ch3coo",
+    "name": "Beryllium Acetate",
+    "formula": "Be(CH₃COO)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/be_ch3coo.svg"
+  },
+  {
+    "id": "be_ox",
+    "name": "Beryllium Oxalate",
+    "formula": "BeC₂O₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/be_ox.svg"
+  },
+  {
+    "id": "be_bo3",
+    "name": "Beryllium Borate",
+    "formula": "(Be)3BO₃2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/be_bo3.svg"
+  },
+  {
+    "id": "be_sio3",
+    "name": "Beryllium Silicate",
+    "formula": "BeSiO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/be_sio3.svg"
+  },
+  {
+    "id": "zn_i",
+    "name": "Zinc Iodide",
+    "formula": "Zn(I)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/zn_i.svg"
+  },
+  {
+    "id": "zn_bo3",
+    "name": "Zinc Borate",
+    "formula": "(Zn)3BO₃2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/zn_bo3.svg"
+  },
+  {
+    "id": "al_i",
+    "name": "Aluminium Iodide",
+    "formula": "Al(I)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/al_i.svg"
+  },
+  {
+    "id": "al_bo3",
+    "name": "Aluminium Borate",
+    "formula": "AlBO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/al_bo3.svg"
+  },
+  {
+    "id": "fe2_i",
+    "name": "Iron(II) Iodide",
+    "formula": "Fe(I)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/fe2_i.svg"
+  },
+  {
+    "id": "fe2_bo3",
+    "name": "Iron(II) Borate",
+    "formula": "(Fe)3BO₃2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/fe2_bo3.svg"
+  },
+  {
+    "id": "fe3_i",
+    "name": "Iron(III) Iodide",
+    "formula": "Fe(I)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/fe3_i.svg"
+  },
+  {
+    "id": "fe3_bo3",
+    "name": "Iron(III) Borate",
+    "formula": "FeBO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/fe3_bo3.svg"
+  },
+  {
+    "id": "cu1_i",
+    "name": "Copper(I) Iodide",
+    "formula": "CuI",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cu1_i.svg"
+  },
+  {
+    "id": "cu1_bo3",
+    "name": "Copper(I) Borate",
+    "formula": "(Cu)3BO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cu1_bo3.svg"
+  },
+  {
+    "id": "cu2_i",
+    "name": "Copper(II) Iodide",
+    "formula": "Cu(I)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cu2_i.svg"
+  },
+  {
+    "id": "cu2_bo3",
+    "name": "Copper(II) Borate",
+    "formula": "(Cu)3BO₃2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cu2_bo3.svg"
+  },
+  {
+    "id": "ni2_f",
+    "name": "Nickel(II) Fluoride",
+    "formula": "Ni(F)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ni2_f.svg"
+  },
+  {
+    "id": "ni2_cl",
+    "name": "Nickel(II) Chloride",
+    "formula": "Ni(Cl)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ni2_cl.svg"
+  },
+  {
+    "id": "ni2_br",
+    "name": "Nickel(II) Bromide",
+    "formula": "Ni(Br)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ni2_br.svg"
+  },
+  {
+    "id": "ni2_i",
+    "name": "Nickel(II) Iodide",
+    "formula": "Ni(I)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ni2_i.svg"
+  },
+  {
+    "id": "ni2_oh",
+    "name": "Nickel(II) Hydroxide",
+    "formula": "Ni(OH)2",
+    "category": "base",
+    "visual_type": "structure",
+    "image": "visuals/structure/ni2_oh.svg"
+  },
+  {
+    "id": "ni2_no3",
+    "name": "Nickel(II) Nitrate",
+    "formula": "Ni(NO₃)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ni2_no3.svg"
+  },
+  {
+    "id": "ni2_no2",
+    "name": "Nickel(II) Nitrite",
+    "formula": "Ni(NO₂)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ni2_no2.svg"
+  },
+  {
+    "id": "ni2_so4",
+    "name": "Nickel(II) Sulfate",
+    "formula": "NiSO₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ni2_so4.svg"
+  },
+  {
+    "id": "ni2_so3",
+    "name": "Nickel(II) Sulfite",
+    "formula": "NiSO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ni2_so3.svg"
+  },
+  {
+    "id": "ni2_co3",
+    "name": "Nickel(II) Carbonate",
+    "formula": "NiCO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ni2_co3.svg"
+  },
+  {
+    "id": "ni2_hco3",
+    "name": "Nickel(II) Hydrogen Carbonate",
+    "formula": "Ni(HCO₃)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ni2_hco3.svg"
+  },
+  {
+    "id": "ni2_po4",
+    "name": "Nickel(II) Phosphate",
+    "formula": "(Ni)3PO₄2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ni2_po4.svg"
+  },
+  {
+    "id": "ni2_hpo4",
+    "name": "Nickel(II) Hydrogen Phosphate",
+    "formula": "NiHPO₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ni2_hpo4.svg"
+  },
+  {
+    "id": "ni2_h2po4",
+    "name": "Nickel(II) Dihydrogen Phosphate",
+    "formula": "Ni(H₂PO₄)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ni2_h2po4.svg"
+  },
+  {
+    "id": "ni2_s",
+    "name": "Nickel(II) Sulfide",
+    "formula": "NiS",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ni2_s.svg"
+  },
+  {
+    "id": "ni2_clo",
+    "name": "Nickel(II) Hypochlorite",
+    "formula": "Ni(ClO)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ni2_clo.svg"
+  },
+  {
+    "id": "ni2_clo2",
+    "name": "Nickel(II) Chlorite",
+    "formula": "Ni(ClO₂)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ni2_clo2.svg"
+  },
+  {
+    "id": "ni2_clo3",
+    "name": "Nickel(II) Chlorate",
+    "formula": "Ni(ClO₃)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ni2_clo3.svg"
+  },
+  {
+    "id": "ni2_clo4",
+    "name": "Nickel(II) Perchlorate",
+    "formula": "Ni(ClO₄)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ni2_clo4.svg"
+  },
+  {
+    "id": "ni2_cn",
+    "name": "Nickel(II) Cyanide",
+    "formula": "Ni(CN)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ni2_cn.svg"
+  },
+  {
+    "id": "ni2_scn",
+    "name": "Nickel(II) Thiocyanate",
+    "formula": "Ni(SCN)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ni2_scn.svg"
+  },
+  {
+    "id": "ni2_ch3coo",
+    "name": "Nickel(II) Acetate",
+    "formula": "Ni(CH₃COO)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ni2_ch3coo.svg"
+  },
+  {
+    "id": "ni2_ox",
+    "name": "Nickel(II) Oxalate",
+    "formula": "NiC₂O₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ni2_ox.svg"
+  },
+  {
+    "id": "ni2_bo3",
+    "name": "Nickel(II) Borate",
+    "formula": "(Ni)3BO₃2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ni2_bo3.svg"
+  },
+  {
+    "id": "ni2_sio3",
+    "name": "Nickel(II) Silicate",
+    "formula": "NiSiO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ni2_sio3.svg"
+  },
+  {
+    "id": "co2_f",
+    "name": "Cobalt(II) Fluoride",
+    "formula": "Co(F)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co2_f.svg"
+  },
+  {
+    "id": "co2_cl",
+    "name": "Cobalt(II) Chloride",
+    "formula": "Co(Cl)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co2_cl.svg"
+  },
+  {
+    "id": "co2_br",
+    "name": "Cobalt(II) Bromide",
+    "formula": "Co(Br)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co2_br.svg"
+  },
+  {
+    "id": "co2_i",
+    "name": "Cobalt(II) Iodide",
+    "formula": "Co(I)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co2_i.svg"
+  },
+  {
+    "id": "co2_oh",
+    "name": "Cobalt(II) Hydroxide",
+    "formula": "Co(OH)2",
+    "category": "base",
+    "visual_type": "structure",
+    "image": "visuals/structure/co2_oh.svg"
+  },
+  {
+    "id": "co2_no3",
+    "name": "Cobalt(II) Nitrate",
+    "formula": "Co(NO₃)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co2_no3.svg"
+  },
+  {
+    "id": "co2_no2",
+    "name": "Cobalt(II) Nitrite",
+    "formula": "Co(NO₂)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co2_no2.svg"
+  },
+  {
+    "id": "co2_so4",
+    "name": "Cobalt(II) Sulfate",
+    "formula": "CoSO₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co2_so4.svg"
+  },
+  {
+    "id": "co2_so3",
+    "name": "Cobalt(II) Sulfite",
+    "formula": "CoSO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co2_so3.svg"
+  },
+  {
+    "id": "co2_co3",
+    "name": "Cobalt(II) Carbonate",
+    "formula": "CoCO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co2_co3.svg"
+  },
+  {
+    "id": "co2_hco3",
+    "name": "Cobalt(II) Hydrogen Carbonate",
+    "formula": "Co(HCO₃)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co2_hco3.svg"
+  },
+  {
+    "id": "co2_po4",
+    "name": "Cobalt(II) Phosphate",
+    "formula": "(Co)3PO₄2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co2_po4.svg"
+  },
+  {
+    "id": "co2_hpo4",
+    "name": "Cobalt(II) Hydrogen Phosphate",
+    "formula": "CoHPO₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co2_hpo4.svg"
+  },
+  {
+    "id": "co2_h2po4",
+    "name": "Cobalt(II) Dihydrogen Phosphate",
+    "formula": "Co(H₂PO₄)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co2_h2po4.svg"
+  },
+  {
+    "id": "co2_s",
+    "name": "Cobalt(II) Sulfide",
+    "formula": "CoS",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co2_s.svg"
+  },
+  {
+    "id": "co2_clo",
+    "name": "Cobalt(II) Hypochlorite",
+    "formula": "Co(ClO)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co2_clo.svg"
+  },
+  {
+    "id": "co2_clo2",
+    "name": "Cobalt(II) Chlorite",
+    "formula": "Co(ClO₂)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co2_clo2.svg"
+  },
+  {
+    "id": "co2_clo3",
+    "name": "Cobalt(II) Chlorate",
+    "formula": "Co(ClO₃)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co2_clo3.svg"
+  },
+  {
+    "id": "co2_clo4",
+    "name": "Cobalt(II) Perchlorate",
+    "formula": "Co(ClO₄)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co2_clo4.svg"
+  },
+  {
+    "id": "co2_cn",
+    "name": "Cobalt(II) Cyanide",
+    "formula": "Co(CN)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co2_cn.svg"
+  },
+  {
+    "id": "co2_scn",
+    "name": "Cobalt(II) Thiocyanate",
+    "formula": "Co(SCN)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co2_scn.svg"
+  },
+  {
+    "id": "co2_ch3coo",
+    "name": "Cobalt(II) Acetate",
+    "formula": "Co(CH₃COO)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co2_ch3coo.svg"
+  },
+  {
+    "id": "co2_ox",
+    "name": "Cobalt(II) Oxalate",
+    "formula": "CoC₂O₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co2_ox.svg"
+  },
+  {
+    "id": "co2_bo3",
+    "name": "Cobalt(II) Borate",
+    "formula": "(Co)3BO₃2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co2_bo3.svg"
+  },
+  {
+    "id": "co2_sio3",
+    "name": "Cobalt(II) Silicate",
+    "formula": "CoSiO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co2_sio3.svg"
+  },
+  {
+    "id": "co3_f",
+    "name": "Cobalt(III) Fluoride",
+    "formula": "Co(F)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co3_f.svg"
+  },
+  {
+    "id": "co3_cl",
+    "name": "Cobalt(III) Chloride",
+    "formula": "Co(Cl)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co3_cl.svg"
+  },
+  {
+    "id": "co3_br",
+    "name": "Cobalt(III) Bromide",
+    "formula": "Co(Br)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co3_br.svg"
+  },
+  {
+    "id": "co3_i",
+    "name": "Cobalt(III) Iodide",
+    "formula": "Co(I)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co3_i.svg"
+  },
+  {
+    "id": "co3_oh",
+    "name": "Cobalt(III) Hydroxide",
+    "formula": "Co(OH)3",
+    "category": "base",
+    "visual_type": "structure",
+    "image": "visuals/structure/co3_oh.svg"
+  },
+  {
+    "id": "co3_no3",
+    "name": "Cobalt(III) Nitrate",
+    "formula": "Co(NO₃)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co3_no3.svg"
+  },
+  {
+    "id": "co3_no2",
+    "name": "Cobalt(III) Nitrite",
+    "formula": "Co(NO₂)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co3_no2.svg"
+  },
+  {
+    "id": "co3_so4",
+    "name": "Cobalt(III) Sulfate",
+    "formula": "(Co)2SO₄3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co3_so4.svg"
+  },
+  {
+    "id": "co3_so3",
+    "name": "Cobalt(III) Sulfite",
+    "formula": "(Co)2SO₃3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co3_so3.svg"
+  },
+  {
+    "id": "co3_co3",
+    "name": "Cobalt(III) Carbonate",
+    "formula": "(Co)2CO₃3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co3_co3.svg"
+  },
+  {
+    "id": "co3_hco3",
+    "name": "Cobalt(III) Hydrogen Carbonate",
+    "formula": "Co(HCO₃)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co3_hco3.svg"
+  },
+  {
+    "id": "co3_po4",
+    "name": "Cobalt(III) Phosphate",
+    "formula": "CoPO₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co3_po4.svg"
+  },
+  {
+    "id": "co3_hpo4",
+    "name": "Cobalt(III) Hydrogen Phosphate",
+    "formula": "(Co)2HPO₄3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co3_hpo4.svg"
+  },
+  {
+    "id": "co3_h2po4",
+    "name": "Cobalt(III) Dihydrogen Phosphate",
+    "formula": "Co(H₂PO₄)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co3_h2po4.svg"
+  },
+  {
+    "id": "co3_s",
+    "name": "Cobalt(III) Sulfide",
+    "formula": "(Co)2S3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co3_s.svg"
+  },
+  {
+    "id": "co3_clo",
+    "name": "Cobalt(III) Hypochlorite",
+    "formula": "Co(ClO)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co3_clo.svg"
+  },
+  {
+    "id": "co3_clo2",
+    "name": "Cobalt(III) Chlorite",
+    "formula": "Co(ClO₂)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co3_clo2.svg"
+  },
+  {
+    "id": "co3_clo3",
+    "name": "Cobalt(III) Chlorate",
+    "formula": "Co(ClO₃)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co3_clo3.svg"
+  },
+  {
+    "id": "co3_clo4",
+    "name": "Cobalt(III) Perchlorate",
+    "formula": "Co(ClO₄)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co3_clo4.svg"
+  },
+  {
+    "id": "co3_cn",
+    "name": "Cobalt(III) Cyanide",
+    "formula": "Co(CN)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co3_cn.svg"
+  },
+  {
+    "id": "co3_scn",
+    "name": "Cobalt(III) Thiocyanate",
+    "formula": "Co(SCN)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co3_scn.svg"
+  },
+  {
+    "id": "co3_ch3coo",
+    "name": "Cobalt(III) Acetate",
+    "formula": "Co(CH₃COO)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co3_ch3coo.svg"
+  },
+  {
+    "id": "co3_ox",
+    "name": "Cobalt(III) Oxalate",
+    "formula": "(Co)2C₂O₄3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co3_ox.svg"
+  },
+  {
+    "id": "co3_bo3",
+    "name": "Cobalt(III) Borate",
+    "formula": "CoBO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co3_bo3.svg"
+  },
+  {
+    "id": "co3_sio3",
+    "name": "Cobalt(III) Silicate",
+    "formula": "(Co)2SiO₃3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/co3_sio3.svg"
+  },
+  {
+    "id": "ti3_i",
+    "name": "Titanium(III) Iodide",
+    "formula": "Ti(I)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ti3_i.svg"
+  },
+  {
+    "id": "ti3_bo3",
+    "name": "Titanium(III) Borate",
+    "formula": "TiBO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ti3_bo3.svg"
+  },
+  {
+    "id": "ti4_i",
+    "name": "Titanium(IV) Iodide",
+    "formula": "Ti(I)4",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ti4_i.svg"
+  },
+  {
+    "id": "ti4_bo3",
+    "name": "Titanium(IV) Borate",
+    "formula": "(Ti)3BO₃4",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ti4_bo3.svg"
+  },
+  {
+    "id": "ga3_f",
+    "name": "Gallium(III) Fluoride",
+    "formula": "Ga(F)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ga3_f.svg"
+  },
+  {
+    "id": "ga3_cl",
+    "name": "Gallium(III) Chloride",
+    "formula": "Ga(Cl)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ga3_cl.svg"
+  },
+  {
+    "id": "ga3_br",
+    "name": "Gallium(III) Bromide",
+    "formula": "Ga(Br)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ga3_br.svg"
+  },
+  {
+    "id": "ga3_i",
+    "name": "Gallium(III) Iodide",
+    "formula": "Ga(I)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ga3_i.svg"
+  },
+  {
+    "id": "ga3_oh",
+    "name": "Gallium(III) Hydroxide",
+    "formula": "Ga(OH)3",
+    "category": "base",
+    "visual_type": "structure",
+    "image": "visuals/structure/ga3_oh.svg"
+  },
+  {
+    "id": "ga3_no3",
+    "name": "Gallium(III) Nitrate",
+    "formula": "Ga(NO₃)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ga3_no3.svg"
+  },
+  {
+    "id": "ga3_no2",
+    "name": "Gallium(III) Nitrite",
+    "formula": "Ga(NO₂)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ga3_no2.svg"
+  },
+  {
+    "id": "ga3_so4",
+    "name": "Gallium(III) Sulfate",
+    "formula": "(Ga)2SO₄3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ga3_so4.svg"
+  },
+  {
+    "id": "ga3_so3",
+    "name": "Gallium(III) Sulfite",
+    "formula": "(Ga)2SO₃3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ga3_so3.svg"
+  },
+  {
+    "id": "ga3_co3",
+    "name": "Gallium(III) Carbonate",
+    "formula": "(Ga)2CO₃3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ga3_co3.svg"
+  },
+  {
+    "id": "ga3_hco3",
+    "name": "Gallium(III) Hydrogen Carbonate",
+    "formula": "Ga(HCO₃)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ga3_hco3.svg"
+  },
+  {
+    "id": "ga3_po4",
+    "name": "Gallium(III) Phosphate",
+    "formula": "GaPO₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ga3_po4.svg"
+  },
+  {
+    "id": "ga3_hpo4",
+    "name": "Gallium(III) Hydrogen Phosphate",
+    "formula": "(Ga)2HPO₄3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ga3_hpo4.svg"
+  },
+  {
+    "id": "ga3_h2po4",
+    "name": "Gallium(III) Dihydrogen Phosphate",
+    "formula": "Ga(H₂PO₄)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ga3_h2po4.svg"
+  },
+  {
+    "id": "ga3_s",
+    "name": "Gallium(III) Sulfide",
+    "formula": "(Ga)2S3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ga3_s.svg"
+  },
+  {
+    "id": "ga3_clo",
+    "name": "Gallium(III) Hypochlorite",
+    "formula": "Ga(ClO)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ga3_clo.svg"
+  },
+  {
+    "id": "ga3_clo2",
+    "name": "Gallium(III) Chlorite",
+    "formula": "Ga(ClO₂)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ga3_clo2.svg"
+  },
+  {
+    "id": "ga3_clo3",
+    "name": "Gallium(III) Chlorate",
+    "formula": "Ga(ClO₃)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ga3_clo3.svg"
+  },
+  {
+    "id": "ga3_clo4",
+    "name": "Gallium(III) Perchlorate",
+    "formula": "Ga(ClO₄)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ga3_clo4.svg"
+  },
+  {
+    "id": "ga3_cn",
+    "name": "Gallium(III) Cyanide",
+    "formula": "Ga(CN)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ga3_cn.svg"
+  },
+  {
+    "id": "ga3_scn",
+    "name": "Gallium(III) Thiocyanate",
+    "formula": "Ga(SCN)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ga3_scn.svg"
+  },
+  {
+    "id": "ga3_ch3coo",
+    "name": "Gallium(III) Acetate",
+    "formula": "Ga(CH₃COO)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ga3_ch3coo.svg"
+  },
+  {
+    "id": "ga3_ox",
+    "name": "Gallium(III) Oxalate",
+    "formula": "(Ga)2C₂O₄3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ga3_ox.svg"
+  },
+  {
+    "id": "ga3_bo3",
+    "name": "Gallium(III) Borate",
+    "formula": "GaBO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ga3_bo3.svg"
+  },
+  {
+    "id": "ga3_sio3",
+    "name": "Gallium(III) Silicate",
+    "formula": "(Ga)2SiO₃3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ga3_sio3.svg"
+  },
+  {
+    "id": "nio",
+    "name": "Nickel(II) Oxide",
+    "formula": "NiO",
+    "category": "oxide",
+    "visual_type": "structure",
+    "image": "visuals/structure/nio.svg"
+  },
+  {
+    "id": "coo",
+    "name": "Cobalt(II) Oxide",
+    "formula": "CoO",
+    "category": "oxide",
+    "visual_type": "structure",
+    "image": "visuals/structure/coo.svg"
+  },
+  {
+    "id": "ki",
+    "name": "Potassium Iodide",
+    "formula": "KI",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ki.svg"
+  }
+]
