@@ -144,9 +144,6 @@ button:focus-visible,input:focus-visible{
   background:transparent;
   color:var(--cyan);
   font-size:30px;
-  z-index:10001;
-  pointer-events:auto;
-  cursor:pointer;
 }
 
 /* =========================================================
@@ -208,10 +205,6 @@ body.light .topbar{background:rgba(255,255,255,.97)}
   background:transparent;
   color:var(--cyan);
   font-size:28px;
-  position:relative;
-  z-index:10001;
-  pointer-events:auto;
-  cursor:pointer;
 }
 
 /* =========================================================
@@ -390,12 +383,10 @@ body.light .clear-btn{
 
 .output-info{
   display:grid;
-  grid-template-columns:minmax(0,.88fr) minmax(0,1.12fr);
+  grid-template-columns:1.08fr .92fr;
   gap:14px;
 }
-.output-panel{
-  padding:16px;
-}
+.output-panel,
 .info-panel{
   padding:18px;
 }
@@ -752,10 +743,7 @@ body.light .inventory-cell{
   background:rgba(0,0,0,.72);
   z-index:100;
 }
-.modal.open{
-  display:flex !important;
-  pointer-events:auto;
-}
+.modal.open{display:flex}
 .settings-card{
   width:min(450px,92%);
   border:1px solid var(--line);
@@ -872,971 +860,50 @@ body.light .theme-option button{
   }
 }
 
-/* =========================================================
-   PLAY SCREEN REFINEMENT — FINAL
-   ========================================================= */
-
-/* Preserve the prototype proportions, but give the center
-   reaction area enough vertical room for the reactant line. */
-.play-main{
-  grid-template-rows:340px minmax(390px,1fr);
-}
-
-.react-area{
-  min-height:340px;
-  overflow:hidden;
-}
-
-/* "Add up to 5 reactants" stays clearly above the actual
-   selected-reactant line. */
-.add-five{
-  top:26px;
-  z-index:2;
-  white-space:nowrap;
-}
-
-/* Selected reactants are inline, compact and never allowed to
-   collide with the heading. */
-#reactants{
-  width:100%;
-  min-height:44px;
-  margin-top:88px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  flex-wrap:wrap;
-  gap:18px;
-  padding:0 18px;
-  z-index:1;
-}
-
-#reactants .reactant-item{
-  flex:0 0 auto;
-  min-width:0;
-  width:auto;
-  height:40px;
-  min-height:40px;
-  padding:4px 6px;
-  border:0;
-  border-bottom:1px solid #5d7890;
-  background:transparent;
-  color:#c0dced;
-  font-size:21px;
-  line-height:1;
-  font-weight:900;
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  gap:5px;
-  white-space:nowrap;
-}
-
-#reactants .reactant-item span{
-  display:inline-block;
-  white-space:nowrap;
-}
-
-#reactants .reactant-item button{
-  border:0;
-  background:transparent;
-  color:#66899f;
-  font-size:17px;
-  line-height:1;
-  padding:0 1px;
-}
-
-/* Keep the output/result zone below the reactants. */
-.arrow-down{
-  margin:15px 0 14px;
-}
-
-/* Products: ONE UNDER ANOTHER. */
-#reaction-result .products{
-  display:flex;
-  flex-direction:column;
-  flex-wrap:nowrap;
-  align-items:stretch;
-  justify-content:flex-start;
-  gap:8px;
-  width:100%;
-}
-
-#reaction-result .product{
-  width:100%;
-  max-width:none;
-  min-width:0;
-  padding:11px 13px;
-  border:1px solid #245d7d;
-  border-radius:9px;
-  background:#071624;
-  display:flex;
-  flex-direction:column;
-  align-items:flex-start;
-  justify-content:center;
-  gap:5px;
-}
-
-#reaction-result .product strong{
-  color:#eaf7ff;
-  font-size:20px;
-  line-height:1.1;
-  white-space:nowrap;
-}
-
-#reaction-result .product span{
-  color:#8eacc0;
-  font-size:12px;
-  line-height:1.25;
-  text-align:left;
-  overflow-wrap:anywhere;
-}
-
-/* Reaction equation: ALWAYS one line. */
-#reaction-result h2,
-#reaction-result .equation{
-  width:100%;
-  padding:6px 4px 10px;
-  margin:0;
-  color:#dff6ff;
-  font-size:24px;
-  line-height:1.2;
-  font-weight:900;
-  text-align:left;
-  white-space:nowrap;
-  overflow-x:auto;
-  overflow-y:hidden;
-}
-
-/* Keep reaction metadata readable without forcing it into the
-   same horizontal product layout. */
-#reaction-result .reaction-card{
-  width:100%;
-  display:flex;
-  flex-direction:column;
-  gap:10px;
-  padding:6px 4px;
-}
-
-#reaction-result .reaction-card > p{
-  margin:0;
-  line-height:1.4;
-}
-
-#reaction-result .new-reaction{
-  width:max-content;
-  max-width:100%;
-  padding:7px 12px;
-  border:1px solid #1fc9ff;
-  border-radius:7px;
-  color:#7fe1ff;
-  background:rgba(24,191,255,.08);
-  font-size:13px;
-  font-weight:900;
-  letter-spacing:.4px;
-}
-
-body.light #reaction-result .product{
-  background:#f5fbff;
-  border-color:#8dbbd3;
-}
-
-body.light #reaction-result .product strong,
-body.light #reaction-result h2,
-body.light #reaction-result .equation{
-  color:#173044;
-}
-
-body.light #reaction-result .product span{
-  color:#5f7586;
-}
-
-/* Reaction Information remains readable and horizontal. */
-.info-table{
-  display:flex;
-  flex-direction:column;
-  gap:0;
-  margin-top:15px;
-  border:1px solid #1c628c;
-  border-radius:10px;
-  overflow:hidden;
-  background:#061421;
-}
-
-.info-row{
-  min-height:94px;
-  padding:15px 17px;
-  border:0;
-  border-bottom:1px solid #1d4a66;
-  background:transparent;
-}
-
-.info-row:last-child{
-  border-bottom:0;
-}
-
-.info-row strong{
-  display:block;
-  font-size:15px;
-  color:#a6d6ed;
-  margin-bottom:9px;
-}
-
-.info-row span{
-  display:block;
-  color:#e9f7ff;
-  font-size:17px;
-  line-height:1.45;
-  overflow-wrap:anywhere;
-}
-
-body.light .info-row{
-  background:#f5fbff;
-  border-color:#8dbbd3;
-}
-
-body.light .info-row strong{
-  color:#5f7586;
-}
-
-body.light .info-row span{
-  color:#173044;
-}
-
-.play-grid{
-  grid-template-columns:300px minmax(560px,1fr) 250px;
-}
-
-@media(max-width:1200px){
-  .play-grid{
-    grid-template-columns:280px 1fr;
-  }
-}
-
-@media(max-width:850px){
-  #reactants{
-    margin-top:82px;
-    gap:10px;
-    padding:0 8px;
-  }
-
-  #reactants .reactant-item{
-    font-size:18px;
-  }
-
-  #reaction-result h2,
-  #reaction-result .equation{
-    font-size:20px;
-  }
-
-  .info-table{
-    display:flex;
-    flex-direction:column;
-  }
-}
-
-
-/* =========================================================
-   FINAL THEME OVERRIDES
-   ========================================================= */
-
-body{
-  transition:background .2s ease,color .2s ease;
-}
-
-/* DARK */
-body:not(.light) .frame,
-body:not(.light) .topbar,
-body:not(.light) .elements-panel,
-body:not(.light) .inventory-main,
-body:not(.light) .inventory-sidebar,
-body:not(.light) .ency-main,
-body:not(.light) .achievements-panel,
-body:not(.light) .progress-panel,
-body:not(.light) .react-area,
-body:not(.light) .output-panel,
-body:not(.light) .info-panel{
-  background:#07111f;
-  color:#eaf7ff;
-}
-
-body:not(.light) .compound-button,
-body:not(.light) .inventory-cell,
-body:not(.light) .info-row,
-body:not(.light) .output-box{
-  background:#06121f;
-  color:#eaf7ff;
-}
-
-/* LIGHT */
-body.light{
-  color:#173044;
-  background:
-    radial-gradient(circle at 12% 18%,rgba(51,164,220,.16),transparent 28%),
-    radial-gradient(circle at 84% 78%,rgba(51,164,220,.12),transparent 30%),
-    linear-gradient(135deg,#dff5ff 0%,#eefaff 52%,#ffffff 100%);
-}
-
-body.light .frame,
-body.light .topbar,
-body.light .elements-panel,
-body.light .inventory-main,
-body.light .inventory-sidebar,
-body.light .ency-main,
-body.light .achievements-panel,
-body.light .progress-panel,
-body.light .react-area,
-body.light .output-panel,
-body.light .info-panel{
-  background:#ffffff;
-  color:#173044;
-}
-
-body.light .topbar{
-  border-color:#72b8db;
-  box-shadow:0 4px 20px rgba(51,134,180,.10);
-}
-
-body.light .brand,
-body.light .panel-title,
-body.light .progress-label,
-body.light .stat-label,
-body.light .achievement-title{
-  color:#173044;
-}
-
-body.light .nav button{
-  color:#5b7385;
-}
-
-body.light .nav button:hover,
-body.light .nav button.active{
-  color:#173044;
-  background:#e7f6fc;
-}
-
-body.light .search,
-body.light .compound-button,
-body.light .inventory-cell,
-body.light .info-row,
-body.light .output-box,
-body.light .info-table,
-body.light .detail-placeholder,
-body.light .react-area,
-body.light .visual-card,
-body.light .electron{
-  background:#f7fcff;
-  color:#173044;
-  border-color:#a4ccde;
-}
-
-body.light .search::placeholder{
-  color:#7790a0;
-}
-
-body.light .compound-button{
-  border-color:#8fbdd3;
-}
-
-body.light .compound-button strong,
-body.light .inventory-cell strong{
-  color:#173044;
-}
-
-body.light .compound-button span,
-body.light .inventory-cell small,
-body.light .subtle,
-body.light .detail-row p,
-body.light .progress-value,
-body.light .achievement-desc{
-  color:#617888;
-}
-
-body.light .progress-bar{
-  background:#dceef7;
-  border-color:#a4c9da;
-}
-
-body.light .progress-fill{
-  background:#36aee6;
-}
-
-body.light .segmented{
-  border-color:#8fbdd3;
-}
-
-body.light .segmented button{
-  background:#edf8fd;
-  color:#5c7384;
-}
-
-body.light .segmented button.active{
-  background:#1598d5;
-  color:#ffffff;
-}
-
-body.light .clear-btn{
-  background:#eef9fd;
-  color:#24536d;
-  border-color:#8bbbd2;
-}
-
-body.light .add-five,
-body.light .reactant-item,
-body.light .result-slot,
-body.light #message{
-  color:#617e90;
-}
-
-body.light .slot-plus{
-  color:#6caccd;
-}
-
-body.light .arrow-down{
-  color:#258fc5;
-}
-
-body.light .info-row{
-  border-color:#c6dfe9;
-}
-
-body.light .info-row strong{
-  color:#386075;
-}
-
-body.light .info-row span{
-  color:#173044;
-}
-
-body.light .theme-option{
-  border-color:#c6dfe9;
-}
-
-body.light .theme-option button{
-  background:#e9f7ff;
-  color:#173044;
-  border-color:#8fbdd3;
-}
-
-body.light .settings-card{
-  background:#ffffff;
-  color:#173044;
-  border-color:#72b8db;
-}
-
-body.light .settings-card .close{
-  color:#168ac5;
-}
-
-body.light .home-title{
-  color:#178ac7;
-  text-shadow:0 0 12px rgba(23,138,199,.25);
-}
-
-body.light .home-action{
-  background:#f5fbff;
-  color:#173044;
-  border-color:#8fbdd3;
-}
-
-body.light .home-action:hover{
-  background:#e8f7fd;
-}
-
-body.light .progress-item{
-  border-color:#c6dfe9;
-}
-
-body.light .achievement{
-  background:#f5fbff;
-  color:#173044;
-  border-color:#a0c8db;
-}
-
-body.light .badge{
-  border-color:#8fbdd3;
-  color:#2a8dbd;
-}
-
-/* Ensure the gear is always clickable. */
-.gear,
-.home-gear{
-  pointer-events:auto !important;
-  position:relative;
-  z-index:10002;
-  cursor:pointer;
-}
-.home-gear{
-  position:absolute;
-}
-
-
-/* =========================================================
-   GUARANTEED THEME SWITCH
-   Uses body[data-theme] in addition to body.light so the
-   visual change cannot be masked by earlier CSS rules.
-   ========================================================= */
-
-body[data-theme="dark"]{
-  --bg:#03070d !important;
-  --panel:#07111f !important;
-  --panel2:#0a1728 !important;
-  --line:#18bfff !important;
-  --line2:#245c83 !important;
-  --text:#eaf7ff !important;
-  --muted:#9bb6cc !important;
-  --cyan:#33cfff !important;
-  --green:#42ed68 !important;
-  --green-dark:#0f8f35 !important;
-  background:#03070d !important;
-  color:#eaf7ff !important;
-}
-
-body[data-theme="light"]{
-  --bg:#dff5ff !important;
-  --panel:#ffffff !important;
-  --panel2:#f3fbff !important;
-  --line:#1687bf !important;
-  --line2:#8ebfdc !important;
-  --text:#132b3d !important;
-  --muted:#587184 !important;
-  --cyan:#168ac5 !important;
-  --green:#35b96b !important;
-  --green-dark:#268b4f !important;
-  background:#dff5ff !important;
-  color:#132b3d !important;
-}
-
-/* DARK surfaces */
-body[data-theme="dark"] .frame,
-body[data-theme="dark"] .topbar,
-body[data-theme="dark"] .elements-panel,
-body[data-theme="dark"] .progress-panel,
-body[data-theme="dark"] .react-area,
-body[data-theme="dark"] .output-panel,
-body[data-theme="dark"] .info-panel,
-body[data-theme="dark"] .inventory-main,
-body[data-theme="dark"] .inventory-sidebar,
-body[data-theme="dark"] .ency-main,
-body[data-theme="dark"] .achievements-panel{
-  background:#07111f !important;
-  color:#eaf7ff !important;
-}
-
-body[data-theme="dark"] .compound-button,
-body[data-theme="dark"] .inventory-cell,
-body[data-theme="dark"] .info-row,
-body[data-theme="dark"] .output-box,
-body[data-theme="dark"] .search,
-body[data-theme="dark"] .segmented button{
-  background:#06121f !important;
-  color:#eaf7ff !important;
-}
-
-/* LIGHT surfaces */
-body[data-theme="light"] .frame,
-body[data-theme="light"] .topbar,
-body[data-theme="light"] .elements-panel,
-body[data-theme="light"] .progress-panel,
-body[data-theme="light"] .react-area,
-body[data-theme="light"] .output-panel,
-body[data-theme="light"] .info-panel,
-body[data-theme="light"] .inventory-main,
-body[data-theme="light"] .inventory-sidebar,
-body[data-theme="light"] .ency-main,
-body[data-theme="light"] .achievements-panel{
-  background:#ffffff !important;
-  color:#132b3d !important;
-}
-
-body[data-theme="light"] .compound-button,
-body[data-theme="light"] .inventory-cell,
-body[data-theme="light"] .info-row,
-body[data-theme="light"] .output-box,
-body[data-theme="light"] .search,
-body[data-theme="light"] .segmented button{
-  background:#f3fbff !important;
-  color:#132b3d !important;
-}
-
-body[data-theme="light"] .topbar{
-  border-color:#7eb8d2 !important;
-  box-shadow:0 5px 20px rgba(30,120,160,.10) !important;
-}
-
-body[data-theme="light"] .nav button{
-  color:#587184 !important;
-}
-
-body[data-theme="light"] .nav button:hover,
-body[data-theme="light"] .nav button.active{
-  color:#132b3d !important;
-  background:#e7f7fd !important;
-}
-
-body[data-theme="light"] .home-title{
-  color:#1685bd !important;
-  text-shadow:0 0 12px rgba(22,133,189,.20) !important;
-}
-
-body[data-theme="light"] .home-action{
-  background:#f5fcff !important;
-  color:#132b3d !important;
-  border-color:#8ebfdc !important;
-}
-
-body[data-theme="light"] .settings-card{
-  background:#ffffff !important;
-  color:#132b3d !important;
-  border-color:#7eb8d2 !important;
-}
-
-body[data-theme="light"] .theme-option button{
-  background:#eaf8fd !important;
-  color:#132b3d !important;
-  border-color:#8ebfdc !important;
-}
-
-body[data-theme="light"] .clear-btn{
-  background:#eef9fd !important;
-  color:#24536d !important;
-  border-color:#8ebfdc !important;
-}
-
-
-/* =========================================================
-   SETTINGS — CSS-ONLY FALLBACK
-   No JavaScript is required to OPEN settings or switch theme.
-   ========================================================= */
-
-#settings-toggle{
-  position:fixed;
-  width:1px;
-  height:1px;
-  opacity:0;
-  pointer-events:none;
-}
-
-.settings-trigger{
-  display:flex !important;
-  align-items:center;
-  justify-content:center;
-  position:relative;
-  z-index:10003;
-  cursor:pointer;
-  user-select:none;
-}
-
-.settings-panel-css{
-  position:fixed;
-  inset:0;
-  display:none;
-  align-items:center;
-  justify-content:center;
-  background:rgba(0,0,0,.74);
-  z-index:10000;
-  padding:20px;
-}
-
-#settings-toggle:checked ~ .settings-panel-css{
-  display:flex;
-}
-
-.settings-panel-css .settings-card{
-  width:min(450px,92%);
-  max-height:90vh;
-  overflow:auto;
-  border:1px solid #18bfff;
-  border-radius:14px;
-  background:#06111e;
-  color:#eaf7ff;
-  padding:24px;
-  box-shadow:0 0 45px rgba(0,155,255,.18);
-}
-
-.settings-panel-css .settings-option{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:18px;
-  margin-top:16px;
-  padding:16px;
-  border:1px solid #214e68;
-  border-radius:10px;
-  background:#071724;
-}
-
-.settings-panel-css .settings-option label{
-  display:flex;
-  flex-direction:column;
-  gap:4px;
-  cursor:pointer;
-  flex:1;
-}
-
-.settings-panel-css .settings-option .theme-radio{
-  position:absolute;
-  opacity:0;
-  pointer-events:none;
-}
-
-.settings-panel-css .theme-choice{
-  min-width:92px;
-  text-align:center;
-  padding:10px 14px;
-  border:1px solid #2b678a;
-  border-radius:9px;
-  background:#0a1e2d;
-  color:#cbe7f7;
-  font-weight:900;
-  cursor:pointer;
-}
-
-#theme-dark:checked ~ .settings-panel-css .dark-choice,
-#theme-light:checked ~ .settings-panel-css .light-choice{
-  background:#0b8fe5;
-  border-color:#42cfff;
-  color:#fff;
-}
-
-.settings-panel-css .close-settings{
-  border:0;
-  background:transparent;
-  color:#33cfff;
-  font-size:30px;
-  cursor:pointer;
-}
-
-/* Strong light theme, driven directly by the selected radio. */
-body:has(#theme-light:checked){
-  --bg:#dff5ff;
-  --panel:#fff;
-  --panel2:#f3fbff;
-  --line:#1687bf;
-  --line2:#8ebfdc;
-  --text:#132b3d;
-  --muted:#587184;
-  --cyan:#168ac5;
-  --green:#35b96b;
-  --green-dark:#268b4f;
-  background:linear-gradient(135deg,#dff5ff 0%,#eefaff 55%,#fff 100%) !important;
-  color:#132b3d !important;
-}
-
-body:has(#theme-light:checked) .frame,
-body:has(#theme-light:checked) .topbar,
-body:has(#theme-light:checked) .elements-panel,
-body:has(#theme-light:checked) .progress-panel,
-body:has(#theme-light:checked) .react-area,
-body:has(#theme-light:checked) .output-panel,
-body:has(#theme-light:checked) .info-panel,
-body:has(#theme-light:checked) .inventory-main,
-body:has(#theme-light:checked) .inventory-sidebar,
-body:has(#theme-light:checked) .ency-main,
-body:has(#theme-light:checked) .achievements-panel{
-  background:#fff !important;
-  color:#132b3d !important;
-}
-
-body:has(#theme-light:checked) .compound-button,
-body:has(#theme-light:checked) .inventory-cell,
-body:has(#theme-light:checked) .info-row,
-body:has(#theme-light:checked) .output-box,
-body:has(#theme-light:checked) .search,
-body:has(#theme-light:checked) .segmented button{
-  background:#f3fbff !important;
-  color:#132b3d !important;
-}
-
-body:has(#theme-light:checked) .nav button{
-  color:#587184 !important;
-}
-body:has(#theme-light:checked) .nav button:hover,
-body:has(#theme-light:checked) .nav button.active{
-  color:#132b3d !important;
-  background:#e7f7fd !important;
-}
-body:has(#theme-light:checked) .home-title{
-  color:#1685bd !important;
-  text-shadow:0 0 12px rgba(22,133,189,.20) !important;
-}
-body:has(#theme-light:checked) .home-action{
-  background:#f5fcff !important;
-  color:#132b3d !important;
-  border-color:#8ebfdc !important;
-}
-body:has(#theme-light:checked) .clear-btn{
-  background:#eef9fd !important;
-  color:#24536d !important;
-}
-body:has(#theme-light:checked) .settings-panel-css .settings-card{
-  background:#fff !important;
-  color:#132b3d !important;
-}
-body:has(#theme-light:checked) .settings-panel-css .settings-option{
-  background:#f3fbff !important;
-  border-color:#b5d7e9 !important;
-}
-body:has(#theme-light:checked) .settings-panel-css .theme-choice{
-  background:#eaf8fd;
-  color:#173044;
-  border-color:#8fbfd8;
-}
-
-/* Keep the original modal hidden so it cannot conflict with the
-   CSS-only modal. */
-#settingsModal{
-  display:none !important;
-}
-
-
-/* =========================================================
-   FINAL REACTANT + ENCYCLOPEDIA FIX
-   ========================================================= */
-
-#reactants,
-#reactants .reactant-item{
-  width:auto !important;
-  min-width:0 !important;
-  max-width:none !important;
-  height:auto !important;
-  min-height:0 !important;
-  padding:0 !important;
-  margin:0 !important;
-  border:0 !important;
-  border-bottom:0 !important;
-  outline:0 !important;
-  box-shadow:none !important;
-  background:transparent !important;
-}
-
-#reactants{
-  display:flex !important;
-  align-items:center !important;
-  justify-content:center !important;
-  flex-wrap:wrap !important;
-  gap:22px !important;
-}
-
-#reactants .reactant-item{
-  display:inline-flex !important;
-  align-items:center !important;
-  justify-content:center !important;
-  gap:5px !important;
-  white-space:nowrap !important;
-  font-size:21px !important;
-  line-height:1 !important;
-}
-
-#reactants .reactant-item button{
-  width:auto !important;
-  min-width:0 !important;
-  height:auto !important;
-  min-height:0 !important;
-  padding:0 2px !important;
-  margin:0 !important;
-  border:0 !important;
-  background:transparent !important;
-  box-shadow:none !important;
-}
-
-/* Encyclopedia: all entries are displayed independently of discovery. */
-.ency-results{
-  display:grid;
-  grid-template-columns:repeat(6,minmax(0,1fr));
-  gap:9px;
-  margin-top:16px;
-  max-height:245px;
-  overflow:auto;
-  padding:4px;
-  border:1px solid #1b5879;
-  border-radius:10px;
-  background:#06121f;
-}
-
-.ency-result{
-  min-height:65px;
-  border:1px solid #245d7d;
-  border-radius:8px;
-  background:#071624;
-  color:#eaf7ff;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  justify-content:center;
-  padding:6px;
-}
-
-.ency-result:hover,
-.ency-result.active{
-  border-color:#33cfff;
-  background:#0a2940;
-}
-
-.ency-result strong{
-  font-size:18px;
-  line-height:1;
-}
-
-.ency-result span{
-  margin-top:4px;
-  font-size:10px;
-  color:#8eacc0;
-  text-align:center;
-  line-height:1.15;
-}
-
-.ency-visual .visual-card{
-  overflow:hidden;
-}
-
-#visual-content.image-mode{
-  min-height:330px;
-  overflow:auto;
-}
-
-.ency-db-image{
-  width:100%;
-  max-width:600px;
-  max-height:360px;
-  object-fit:contain;
-  display:block;
-  margin:auto;
-  border-radius:8px;
-}
-
-/* Full alphabet is compact rather than stretching buttons vertically. */
-.alphabet{
-  overflow:auto;
-}
-
-.alphabet .letter{
-  flex:0 0 auto;
-  min-height:36px;
-}
-
-@media(max-width:1100px){
-  .ency-results{
-    grid-template-columns:repeat(5,minmax(0,1fr));
-  }
-}
-
-@media(max-width:850px){
-  .ency-results{
-    grid-template-columns:repeat(4,minmax(0,1fr));
-  }
-}
+/* ChemCraft usability fixes: keep the reaction lab controls visible. */
+.play-grid{grid-template-columns:minmax(230px,300px) minmax(360px,1fr) minmax(220px,265px); align-items:start}
+.play-main{min-width:0; min-height:0; grid-template-rows:minmax(350px,auto) minmax(360px,auto)}
+.react-area{min-height:350px; padding:18px; justify-content:flex-start}
+.add-five{position:static; width:100%; margin:0 0 12px; font-size:18px}
+.slot-line{width:100%; flex-wrap:wrap; gap:8px; margin-top:0; min-height:56px}
+.reactant-item{min-width:76px; max-width:100%; overflow-wrap:anywhere}
+.arrow-down{margin:10px 0; font-size:42px}
+.result-slot{max-width:100%; overflow-wrap:anywhere; min-height:42px}
+.action-row{flex-wrap:wrap; justify-content:center; gap:12px; margin-top:16px}
+.react-btn,.clear-btn{min-width:130px}
+#message{width:100%; overflow-wrap:anywhere}
+.output-box{height:auto; min-height:240px; overflow-wrap:anywhere}
+.output-info{min-width:0}
+.info-panel,.output-panel{min-width:0; overflow-wrap:anywhere}
+@media(max-width:1200px){.play-grid{grid-template-columns:minmax(220px,280px) minmax(0,1fr)} .play-main{grid-column:2; grid-row:1 / span 2} .progress-panel{grid-column:1/-1}}
+@media(max-width:850px){.play-grid{grid-template-columns:minmax(0,1fr)} .play-main{grid-column:auto;grid-row:auto}.elements-panel{min-height:0}.compound-list{height:320px}.output-info{grid-template-columns:minmax(0,1fr)}}
+
+/* Final reaction-lab layout correction: keep every control in normal flow. */
+.play-grid{grid-template-columns:minmax(220px,280px) minmax(0,1fr) minmax(205px,245px);gap:12px}
+.elements-panel{min-width:0;min-height:0}
+.compound-list{grid-template-columns:repeat(3,minmax(0,1fr));height:610px;min-width:0}
+.compound-button{min-width:0;overflow:hidden}
+.compound-button strong,.compound-button span{max-width:100%;overflow-wrap:anywhere;text-align:center}
+.play-main{min-width:0;min-height:0;grid-template-rows:auto auto;align-content:start;gap:12px}
+.react-area{min-width:0;min-height:390px;height:auto;padding:24px 18px;display:flex;flex-direction:column;align-items:stretch;justify-content:flex-start;gap:14px}
+.add-five{position:static;display:block;width:100%;margin:0;text-align:center;font-size:18px;line-height:1.4}
+.slot-line{width:100%;min-height:58px;margin:0;display:flex;flex-wrap:wrap;align-content:center;justify-content:center;gap:8px;padding:4px 0}
+.reactant-item{min-width:70px;min-height:42px;max-width:100%;padding:6px 9px;overflow-wrap:anywhere}
+.arrow-down{display:block;margin:0;text-align:center;font-size:42px;line-height:1}
+.result-slot{width:fit-content;max-width:100%;min-width:150px;min-height:44px;margin:0 auto;padding:10px 14px;overflow-wrap:anywhere}
+.action-row{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin:2px 0 0}
+.react-btn,.clear-btn{min-width:130px;max-width:100%}
+#message{min-height:22px;margin:0;text-align:center;overflow-wrap:anywhere}
+.output-info{min-width:0;gap:12px}
+.output-panel,.info-panel{min-width:0;overflow:hidden}
+.output-box{height:auto;min-height:250px;overflow-wrap:anywhere}
+@media(max-width:1200px){.play-grid{grid-template-columns:minmax(200px,260px) minmax(0,1fr)}.play-main{grid-column:2;grid-row:1 / span 2}.progress-panel{grid-column:1/-1}}
+@media(max-width:850px){.play-grid{grid-template-columns:minmax(0,1fr)}.play-main{grid-column:auto;grid-row:auto}.compound-list{grid-template-columns:repeat(3,minmax(0,1fr));height:320px}.react-area{min-height:360px}.output-info{grid-template-columns:minmax(0,1fr)}}
 
 </style>
 </head>
 
-<body data-theme="dark">
-
-<!-- CSS-only settings control -->
-<input type="checkbox" id="settings-toggle" aria-hidden="true">
-
-<!-- CSS-only theme selectors -->
-<input type="radio" class="theme-radio" name="theme" id="theme-dark" checked>
-<input type="radio" class="theme-radio" name="theme" id="theme-light">
+<body>
 
 <!-- =========================================================
      HOME
@@ -1844,7 +911,7 @@ body:has(#theme-light:checked) .settings-panel-css .theme-choice{
 <section id="home" class="screen active">
   <div class="home-wrap">
 
-    <label class="gear home-gear settings-trigger" for="settings-toggle" aria-label="Settings">⚙</label>
+    <button class="gear home-gear" id="homeGear" aria-label="Settings">⚙</button>
 
     <div class="home-title">CHEMCRAFT</div>
 
@@ -1881,7 +948,7 @@ body:has(#theme-light:checked) .settings-panel-css .theme-choice{
     <button data-screen="achievements">♜ &nbsp; Achievements</button>
   </nav>
 
-  <label class="gear settings-open settings-trigger" for="settings-toggle" aria-label="Settings">⚙</label>
+  <button class="gear settings-open" aria-label="Settings">⚙</button>
 </header>
 
 <div class="workspace">
@@ -2033,7 +1100,7 @@ body:has(#theme-light:checked) .settings-panel-css .theme-choice{
     <button data-screen="achievements">♜ &nbsp; Achievements</button>
   </nav>
 
-  <label class="gear settings-open settings-trigger" for="settings-toggle" aria-label="Settings">⚙</label>
+  <button class="gear settings-open" aria-label="Settings">⚙</button>
 </header>
 
 <div class="page">
@@ -2083,7 +1150,7 @@ body:has(#theme-light:checked) .settings-panel-css .theme-choice{
     <button data-screen="achievements">♜ &nbsp; Achievements</button>
   </nav>
 
-  <label class="gear settings-open settings-trigger" for="settings-toggle" aria-label="Settings">⚙</label>
+  <button class="gear settings-open" aria-label="Settings">⚙</button>
 </header>
 
 <div class="page">
@@ -2107,15 +1174,6 @@ body:has(#theme-light:checked) .settings-panel-css .theme-choice{
     <button class="letter" type="button">O</button>
     <button class="letter" type="button">P</button>
     <button class="letter" type="button">Q</button>
-    <button class="letter" type="button">R</button>
-    <button class="letter" type="button">S</button>
-    <button class="letter" type="button">T</button>
-    <button class="letter" type="button">U</button>
-    <button class="letter" type="button">V</button>
-    <button class="letter" type="button">W</button>
-    <button class="letter" type="button">X</button>
-    <button class="letter" type="button">Y</button>
-    <button class="letter" type="button">Z</button>
   </aside>
 
   <section class="frame ency-main">
@@ -2147,8 +1205,6 @@ body:has(#theme-light:checked) .settings-panel-css .theme-choice{
       </div>
 
     </div>
-
-    <div id="ency-results" class="ency-results"></div>
 
     <div class="ency-content">
 
@@ -2256,7 +1312,7 @@ body:has(#theme-light:checked) .settings-panel-css .theme-choice{
     <button class="active" data-screen="achievements">♜ &nbsp; Achievements</button>
   </nav>
 
-  <label class="gear settings-open settings-trigger" for="settings-toggle" aria-label="Settings">⚙</label>
+  <button class="gear settings-open" aria-label="Settings">⚙</button>
 </header>
 
 <div class="achievements-wrap">
@@ -2356,43 +1412,6 @@ body:has(#theme-light:checked) .settings-panel-css .theme-choice{
 </div>
 </section>
 
-
-<!-- =========================================================
-     SETTINGS — CSS ONLY
-     ========================================================= -->
-<div class="settings-panel-css">
-
-  <div class="settings-card">
-
-    <div class="settings-head">
-      <h2>Settings</h2>
-      <label class="close-settings" for="settings-toggle" aria-label="Close settings">×</label>
-    </div>
-
-    <div class="settings-option">
-      <label for="theme-dark">
-        <strong>Dark</strong>
-        <small>Navy blue + black</small>
-      </label>
-      <label class="theme-choice dark-choice" for="theme-dark">
-        DARK
-      </label>
-    </div>
-
-    <div class="settings-option">
-      <label for="theme-light">
-        <strong>Light</strong>
-        <small>Baby blue + white</small>
-      </label>
-      <label class="theme-choice light-choice" for="theme-light">
-        LIGHT
-      </label>
-    </div>
-
-  </div>
-
-</div>
-
 <!-- =========================================================
      SETTINGS
      ========================================================= -->
@@ -2410,7 +1429,7 @@ body:has(#theme-light:checked) .settings-panel-css .theme-choice{
         <strong>Dark</strong>
         <small>Navy blue + black</small>
       </div>
-      <button type="button" data-theme="dark" title="Switch to dark mode">Dark</button>
+      <button type="button" data-theme="dark">Use</button>
     </div>
 
     <div class="theme-option">
@@ -2418,7 +1437,30 @@ body:has(#theme-light:checked) .settings-panel-css .theme-choice{
         <strong>Light</strong>
         <small>Baby blue + white</small>
       </div>
-      <button type="button" data-theme="light" title="Switch to light mode">Light</button>
+      <button type="button" data-theme="light">Use</button>
+    </div>
+
+    <div class="theme-option">
+      <div>
+        <strong>Save Progress</strong>
+        <small id="save-status">Progress is stored in this browser.</small>
+      </div>
+      <button type="button" id="export-save">Backup</button>
+    </div>
+    <div class="theme-option">
+      <div>
+        <strong>Restore Progress</strong>
+        <small>Load a ChemCraft backup file.</small>
+      </div>
+      <button type="button" id="import-save">Restore</button>
+      <input type="file" id="save-file" accept="application/json,.json" hidden>
+    </div>
+    <div class="theme-option">
+      <div>
+        <strong>Reset Progress</strong>
+        <small>Erase this browser's saved game.</small>
+      </div>
+      <button type="button" id="reset-save">Reset</button>
     </div>
 
   </div>
@@ -2438,6 +1480,38 @@ const screens = [...document.querySelectorAll(".screen")];
 
 function getGame(){
   return window.ChemCraft?.Game || window.Game || null;
+}
+
+/* Achievement cards are calculated from live game progress, not placeholders. */
+function updateAchievements(){
+  const g = getGame();
+  const list = document.querySelector("#achievements .achievement-list");
+  if(!g || !list || !g.ready) return;
+
+  const reactionCount = g.reactionHistory?.length || 0;
+  const compoundCount = g.discoveredCompounds?.size || 0;
+  const uniqueReactionCount = g.discoveredReactions?.size || 0;
+  const definitions = [
+    {title:"First Reaction", desc:"Perform your first successful reaction.", icon:"◆", current:reactionCount, target:1},
+    {title:"Collector", desc:"Discover 10 compounds.", icon:"◇", current:compoundCount, target:10},
+    {title:"Experimenter", desc:"Discover 10 different reactions.", icon:"★", current:uniqueReactionCount, target:10},
+    {title:"Level 5", desc:"Reach the highest game level.", icon:"✦", current:g.level >= 5 ? 1 : 0, target:1},
+    {title:"Master Chemist", desc:"Complete 50 successful experiments.", icon:"○", current:reactionCount, target:50}
+  ];
+
+  list.innerHTML = definitions.map(a => {
+    const pct = Math.max(0, Math.min(100, Math.round(a.current / a.target * 100)));
+    const unlocked = a.current >= a.target;
+    const progressText = a.title === "Level 5" ? `Level ${g.level} / 5` : `${Math.min(a.current, a.target)} / ${a.target}`;
+    return `<div class="achievement ${unlocked ? "unlocked" : ""}">
+      <div class="badge">${a.icon}</div>
+      <div><div class="achievement-title">${a.title}</div><div class="achievement-desc">${a.desc}</div></div>
+      <div class="achievement-progress"><span>${unlocked ? "Unlocked ✓" : "In progress"}</span>
+        <div class="achievement-progress-bar"><div class="achievement-progress-fill" style="width:${pct}%"></div></div>
+        <div style="margin-top:5px">${pct}% <span style="float:right">${progressText}</span></div>
+      </div>
+    </div>`;
+  }).join("");
 }
 
 function openScreen(id){
@@ -2477,93 +1551,94 @@ document.getElementById("homePlay").addEventListener("click", () => {
 const modal = document.getElementById("settingsModal");
 
 function showSettings(){
-  if(modal) modal.classList.add("open");
+  modal.classList.add("open");
 }
 
 function hideSettings(){
-  if(modal) modal.classList.remove("open");
+  modal.classList.remove("open");
 }
 
-document.addEventListener("click", event => {
+document.getElementById("homeGear").addEventListener("click", showSettings);
 
-  const gear = event.target.closest("#homeGear, .settings-open");
+document.querySelectorAll(".settings-open").forEach(btn => {
+  btn.addEventListener("click", showSettings);
+});
 
-  if(gear){
-    event.preventDefault();
-    showSettings();
-    return;
-  }
+document.getElementById("closeSettings").addEventListener("click", hideSettings);
 
-  if(event.target.closest("#closeSettings")){
-    event.preventDefault();
-    hideSettings();
-    return;
-  }
-
+modal.addEventListener("click", event => {
   if(event.target === modal){
     hideSettings();
   }
 });
 
-/* Theme is deliberately applied in three ways:
-   1. body.light class
-   2. body[data-theme]
-   3. explicit CSS variable assignment
-   This avoids theme changes being hidden by earlier CSS. */
 function applyTheme(theme){
-
-  const isLight = theme === "light";
-
-  document.body.classList.toggle("light", isLight);
-  document.body.dataset.theme = isLight ? "light" : "dark";
-
-  const root = document.documentElement;
-
-  if(isLight){
-
-    root.style.setProperty("--bg","#dff5ff");
-    root.style.setProperty("--panel","#ffffff");
-    root.style.setProperty("--panel2","#f3fbff");
-    root.style.setProperty("--line","#1687bf");
-    root.style.setProperty("--line2","#8ebfdc");
-    root.style.setProperty("--text","#132b3d");
-    root.style.setProperty("--muted","#587184");
-    root.style.setProperty("--cyan","#168ac5");
-    root.style.setProperty("--green","#35b96b");
-    root.style.setProperty("--green-dark","#268b4f");
-
-  }else{
-
-    root.style.setProperty("--bg","#03070d");
-    root.style.setProperty("--panel","#07111f");
-    root.style.setProperty("--panel2","#0a1728");
-    root.style.setProperty("--line","#18bfff");
-    root.style.setProperty("--line2","#245c83");
-    root.style.setProperty("--text","#eaf7ff");
-    root.style.setProperty("--muted","#9bb6cc");
-    root.style.setProperty("--cyan","#33cfff");
-    root.style.setProperty("--green","#42ed68");
-    root.style.setProperty("--green-dark","#0f8f35");
-  }
-
-  localStorage.setItem("chemcraft-theme", isLight ? "light" : "dark");
+  document.body.classList.toggle("light", theme === "light");
+  localStorage.setItem("chemcraft-theme", theme);
 }
 
-document.querySelectorAll("[data-theme]").forEach(button => {
-
-  button.addEventListener("click", event => {
-
-    event.preventDefault();
-    event.stopPropagation();
-
-    applyTheme(button.dataset.theme);
-
-    /* Keep the setting panel open so the user can immediately
-       see the difference and switch back if needed. */
+document.querySelectorAll("[data-theme]").forEach(btn => {
+  btn.addEventListener("click", () => {
+    applyTheme(btn.dataset.theme);
+    hideSettings();
   });
 });
 
 applyTheme(localStorage.getItem("chemcraft-theme") || "dark");
+
+/* =========================================================
+   SAVE BACKUP / RESTORE
+   ========================================================= */
+const SAVE_KEY = "chemcraft-save-v1";
+const saveStatus = document.getElementById("save-status");
+function updateSaveStatus(message) {
+  if (saveStatus) saveStatus.textContent = message;
+}
+document.getElementById("export-save").addEventListener("click", () => {
+  const raw = localStorage.getItem(SAVE_KEY);
+  if (!raw) {
+    updateSaveStatus("No saved progress yet. Complete a reaction first.");
+    return;
+  }
+  const blob = new Blob([raw], {type:"application/json"});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "chemcraft-progress-backup.json";
+  a.click();
+  URL.revokeObjectURL(url);
+  updateSaveStatus("Backup downloaded successfully.");
+});
+document.getElementById("import-save").addEventListener("click", () => document.getElementById("save-file").click());
+document.getElementById("save-file").addEventListener("change", async event => {
+  const file = event.target.files?.[0];
+  if (!file) return;
+  try {
+    const data = JSON.parse(await file.text());
+    if (!data || typeof data !== "object" || !Array.isArray(data.discoveredCompounds) || !Array.isArray(data.discoveredReactions)) {
+      throw new Error("This does not look like a ChemCraft backup.");
+    }
+    localStorage.setItem(SAVE_KEY, JSON.stringify({
+      level: Math.max(1, Math.min(5, Number(data.level) || 1)),
+      xp: Math.max(0, Number(data.xp) || 0),
+      discoveredCompounds: data.discoveredCompounds.map(String),
+      discoveredReactions: data.discoveredReactions.map(String),
+      reactionHistory: Array.isArray(data.reactionHistory) ? data.reactionHistory.slice(0,100) : []
+    }));
+    updateSaveStatus("Backup restored. Reloading ChemCraft...");
+    setTimeout(() => location.reload(), 700);
+  } catch (err) {
+    updateSaveStatus(err.message || "Could not restore this backup.");
+  } finally { event.target.value = ""; }
+});
+document.getElementById("reset-save").addEventListener("click", () => {
+  if (confirm("Reset all saved ChemCraft progress in this browser? This cannot be undone unless you have a backup.")) {
+    localStorage.removeItem(SAVE_KEY);
+    updateSaveStatus("Progress cleared. Reloading...");
+    setTimeout(() => location.reload(), 500);
+  }
+});
+if (localStorage.getItem(SAVE_KEY)) updateSaveStatus("Saved progress found in this browser.");
 
 /* =========================================================
    HELPERS
@@ -2601,7 +1676,6 @@ function isElement(c){
   return (
     c.type === "element" ||
     c.category === "element" ||
-    c.category === "elemental_form" ||
     c.isElement === true ||
     (!!c.symbol && !c.formula?.match(/[0-9₂₃₄₅₆₇₈₉]/))
   );
@@ -2609,6 +1683,7 @@ function isElement(c){
 
 function isVisibleInInventory(c){
   if(!c) return false;
+  if(Number(c.level || 1) > currentLevel()) return false;
 
   /*
      Level-wise behavior:
@@ -2641,50 +1716,48 @@ function matchesQuery(c, query){
 
 function renderInventoryWindow(query = ""){
   const box = document.getElementById("inventory-grid");
+
   if(!box) return;
 
-  const preferred = {
-    H:"h2", N:"n2", O:"o2", F:"f2", Cl:"cl2",
-    Br:"br2", I:"i2", P:"p4", S:"s8"
-  };
-
-  const game = getGame();
-  const map = game?.compoundMap instanceof Map ? game.compoundMap : new Map();
-  const replaced = new Set();
-
-  for(const c of allCompounds()){
-    const f = String(c.formula || c.symbol || "").trim();
-    if(c.category === "element" && preferred[f] && map.has(preferred[f])){
-      replaced.add(String(c.id));
-    }
-  }
-
   const items = allCompounds()
-    .filter(c => {
-      if(!isVisibleInInventory(c)) return false;
-      if(c.category === "element" && replaced.has(String(c.id))) return false;
-      return matchesQuery(c, query);
-    });
+    .filter(isVisibleInInventory)
+    .filter(c => matchesQuery(c, query));
 
   box.innerHTML = "";
 
   for(const c of items){
+
     const cell = document.createElement("button");
     cell.type = "button";
     cell.className = "inventory-cell";
+
     cell.innerHTML = `
-      <strong>${escapeHTML(c.formula || c.symbol || c.name || c.id)}</strong>
-      <small>${escapeHTML(c.name || "")}</small>
+      <strong>
+        ${escapeHTML(c.formula || c.symbol || c.name || c.id)}
+      </strong>
+
+      <small>
+        ${escapeHTML(c.name || "")}
+      </small>
     `;
-    cell.addEventListener("click", () => showInventoryDetails(c));
+
+    cell.addEventListener("click", () => {
+      showInventoryDetails(c);
+    });
+
     box.appendChild(cell);
   }
 
   if(!items.length){
     box.innerHTML = `
-      <div style="grid-column:1/-1;color:var(--muted);padding:35px;text-align:center;">
+      <div style="
+        grid-column:1/-1;
+        color:var(--muted);
+        padding:35px;
+        text-align:center;">
         No inventory items available at this level.
-      </div>`;
+      </div>
+    `;
   }
 }
 
@@ -2738,9 +1811,7 @@ function encyclopediaItems(){
 
   return allCompounds().filter(c => {
 
-    const type = isElement(c)
-      ? "element"
-      : "compound";
+    const type = isElement(c) ? "element" : "compound";
 
     if(type !== encyclopediaType){
       return false;
@@ -2764,171 +1835,48 @@ function encyclopediaItems(){
   });
 }
 
-function visualPath(c){
-
-  if(!c) return "";
-
-  if(c.image){
-    return c.image;
-  }
-
-  if(c.category === "element" ||
-     c.category === "elemental_form"){
-    return `visuals/configuration/${c.id}.svg`;
-  }
-
-  return `visuals/structure/${c.id}.svg`;
-}
-
-function renderEncyclopedia(query = "", preferredId = null){
-
+function renderEncyclopedia(query = ""){
   const items = encyclopediaItems()
     .filter(c => matchesQuery(c, query));
 
-  const results =
-    document.getElementById("ency-results");
-
-  if(!results){
-    renderEncyclopediaDetails(items[0] || null);
-    return;
-  }
-
-  results.innerHTML = "";
-
-  for(const c of items){
-
-    const button =
-      document.createElement("button");
-
-    button.type = "button";
-    button.className = "ency-result";
-    button.dataset.id = c.id;
-
-    button.innerHTML = `
-      <strong>
-        ${escapeHTML(
-          c.formula ||
-          c.symbol ||
-          c.name ||
-          c.id
-        )}
-      </strong>
-
-      <span>
-        ${escapeHTML(
-          c.name ||
-          c.id
-        )}
-      </span>
-    `;
-
-    button.addEventListener("click", () => {
-
-      document
-        .querySelectorAll(".ency-result")
-        .forEach(x =>
-          x.classList.remove("active")
-        );
-
-      button.classList.add("active");
-      renderEncyclopediaDetails(c);
-    });
-
-    results.appendChild(button);
-  }
-
-  if(!items.length){
-
-    results.innerHTML = `
-      <div style="
-        grid-column:1/-1;
-        padding:25px;
-        text-align:center;
-        color:var(--muted);">
-        No database entries found.
-      </div>
-    `;
-
-    renderEncyclopediaDetails(null);
-    return;
-  }
-
-  const selected =
-    (preferredId &&
-      items.find(x =>
-        String(x.id) === String(preferredId)
-      )) ||
-    items[0];
-
-  const selectedButton =
-    results.querySelector(
-      `[data-id="${CSS.escape(selected.id)}"]`
-    );
-
-  if(selectedButton){
-    selectedButton.classList.add("active");
-  }
+  const selected = items[0] || null;
 
   renderEncyclopediaDetails(selected);
 }
 
 function renderEncyclopediaDetails(c){
 
-  const elementDetails =
-    document.getElementById("element-details");
+  const elementDetails = document.getElementById("element-details");
+  const compoundDetails = document.getElementById("compound-details");
 
-  const compoundDetails =
-    document.getElementById("compound-details");
-
-  const visualTitle =
-    document.getElementById("visual-title");
-
-  const visualContent =
-    document.getElementById("visual-content");
-
-  const bondBadge =
-    document.getElementById("compound-bond-badge");
-
-  const structureNote =
-    document.getElementById("structure-note");
+  const visualTitle = document.getElementById("visual-title");
+  const visualContent = document.getElementById("visual-content");
+  const bondBadge = document.getElementById("compound-bond-badge");
+  const structureNote = document.getElementById("structure-note");
 
   if(!c){
 
-    if(elementDetails){
-      elementDetails.style.display =
-        encyclopediaType === "element"
-          ? "block"
-          : "none";
-    }
+    elementDetails.style.display =
+      encyclopediaType === "element" ? "block" : "none";
 
-    if(compoundDetails){
-      compoundDetails.style.display =
-        encyclopediaType === "compound"
-          ? "block"
-          : "none";
-    }
+    compoundDetails.style.display =
+      encyclopediaType === "compound" ? "block" : "none";
 
-    if(visualTitle){
-      visualTitle.textContent =
-        encyclopediaType === "element"
-          ? "Electronic configuration"
-          : "Structure";
-    }
+    visualTitle.textContent =
+      encyclopediaType === "element"
+        ? "Electronic configuration"
+        : "Structure";
 
-    if(visualContent){
-      visualContent.className =
-        "visual-content unknown-mode";
-      visualContent.textContent =
-        "No database entry selected.";
-    }
+    visualContent.className = "visual-content unknown-mode";
+    visualContent.textContent = "—";
 
-    if(bondBadge) bondBadge.style.display = "none";
-    if(structureNote) structureNote.style.display = "none";
+    bondBadge.style.display = "none";
+    structureNote.style.display = "none";
 
     return;
   }
 
-  if(isElement(c)){
+  if(encyclopediaType === "element"){
 
     elementDetails.style.display = "block";
     compoundDetails.style.display = "none";
@@ -2940,11 +1888,7 @@ function renderEncyclopediaDetails(c){
       c.symbol || c.formula || c.id || "—";
 
     document.getElementById("element-existence").textContent =
-      c.existence ||
-      c.state ||
-      c.formula ||
-      c.symbol ||
-      "—";
+      c.formula || c.symbol || "—";
 
     document.getElementById("element-valency").textContent =
       c.valency ??
@@ -2963,17 +1907,13 @@ function renderEncyclopediaDetails(c){
       "Electronic configuration";
 
     visualContent.className =
-      "visual-content image-mode";
+      "visual-content config-mode";
 
-    const src = visualPath(c);
-
-    visualContent.innerHTML = `
-      <img
-        class="ency-db-image"
-        src="${escapeHTML(src)}"
-        alt="Electronic configuration of ${escapeHTML(c.name || c.formula || c.id)}"
-        onerror="this.style.display='none';this.parentElement.insertAdjacentHTML('beforeend','<div class=&quot;unknown-mode&quot;>Configuration image not found.</div>')">
-    `;
+    visualContent.textContent =
+      c.electronic_configuration ||
+      c.electronicConfiguration ||
+      c.configuration ||
+      "—";
 
     bondBadge.style.display = "none";
     structureNote.style.display = "none";
@@ -3004,28 +1944,27 @@ function renderEncyclopediaDetails(c){
       c.type ||
       "—";
 
-    visualTitle.textContent =
-      "Structure";
+    visualTitle.textContent = "Structure";
 
     visualContent.className =
-      "visual-content image-mode";
+      "visual-content structure-mode";
 
-    const src = visualPath(c);
+    const structure =
+      c.structure ||
+      c.structural_formula ||
+      c.structure_formula ||
+      c.lewis_structure ||
+      "";
 
-    visualContent.innerHTML = `
-      <img
-        class="ency-db-image"
-        src="${escapeHTML(src)}"
-        alt="Structure of ${escapeHTML(c.name || c.formula || c.id)}"
-        onerror="this.style.display='none';this.parentElement.insertAdjacentHTML('beforeend','<div class=&quot;unknown-mode&quot;>Structure image not found.</div>')">
-    `;
+    visualContent.textContent =
+      structure ||
+      c.formula ||
+      "—";
 
     bondBadge.style.display = "block";
     bondBadge.textContent = bond;
 
     structureNote.style.display = "block";
-    structureNote.textContent =
-      "Structure image supplied by the compound database.";
   }
 }
 
@@ -3277,14 +2216,8 @@ function updateReactionInformation(){
     return;
   }
 
-  const equationEl =
-    document.getElementById("reaction-equation");
-
-  const conditionsEl =
-    document.getElementById("reaction-conditions");
-
-  const descriptionEl =
-    document.getElementById("reaction-description");
+  document.getElementById("reaction-equation").textContent =
+    latest.equation || "—";
 
   const reaction =
     Array.isArray(g.reactions)
@@ -3297,28 +2230,13 @@ function updateReactionInformation(){
         )
       : null;
 
-  if(equationEl){
-    equationEl.textContent =
-      latest.equation ||
-      reaction?.equation ||
-      reaction?.balanced_equation ||
-      "—";
-  }
+  document.getElementById("reaction-conditions").textContent =
+    reaction?.conditions || "—";
 
-  if(conditionsEl){
-    conditionsEl.textContent =
-      reaction?.conditions ||
-      "—";
-  }
-
-  if(descriptionEl){
-    descriptionEl.textContent =
-      reaction?.description ||
-      reaction?.explanation ||
-      reaction?.observation ||
-      reaction?.type ||
-      "—";
-  }
+  document.getElementById("reaction-description").textContent =
+    reaction?.description ||
+    reaction?.explanation ||
+    "—";
 }
 
 /* =========================================================
@@ -3331,6 +2249,7 @@ setTimeout(() => {
   renderEncyclopedia();
   updatePlayInformation();
   updateReactionInformation();
+  updateAchievements();
 
 }, 500);
 
@@ -3357,6 +2276,7 @@ setInterval(() => {
 
   updatePlayInformation();
   updateReactionInformation();
+  updateAchievements();
 
 }, 1000);
 </script>
