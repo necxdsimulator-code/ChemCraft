@@ -1,0 +1,509 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "title": "Foundations",
+      "summary": "Combination, chlor-alkali, baking soda and the first carbon compounds.",
+      "achievements": [
+        {
+          "id": "l1_h2o",
+          "name": "Water Maker",
+          "description": "Form water (H₂O).",
+          "hint": "Hydrogen burns in oxygen to give water.",
+          "ncert": "Ch. 1 · Chemical Reactions and Equations · Combination",
+          "type": "form_compound",
+          "compound": "h2o",
+          "xp_reward": 20
+        },
+        {
+          "id": "l1_na_cl",
+          "name": "Table Salt",
+          "description": "Form sodium chloride (NaCl).",
+          "hint": "A reactive metal meets a poisonous gas: electrons are transferred and an ionic compound forms.",
+          "ncert": "Ch. 3 · Metals and Non-metals · Ionic compounds",
+          "type": "form_compound",
+          "compound": "na_cl",
+          "xp_reward": 20
+        },
+        {
+          "id": "l1_na_oh",
+          "name": "Chlor-alkali",
+          "description": "Form sodium hydroxide (NaOH).",
+          "hint": "Pass electricity through brine, a solution of common salt in water.",
+          "ncert": "Ch. 2 · Acids, Bases and Salts · Chlor-alkali process",
+          "type": "form_compound",
+          "compound": "na_oh",
+          "xp_reward": 20
+        },
+        {
+          "id": "l1_na_hco3",
+          "name": "Baking Soda",
+          "description": "Form sodium hydrogen carbonate (NaHCO₃).",
+          "hint": "Brine (salt and water), ammonia and carbon dioxide react together. Make ammonia from nitrogen and hydrogen.",
+          "ncert": "Ch. 2 · Acids, Bases and Salts · Baking soda",
+          "type": "form_compound",
+          "compound": "na_hco3",
+          "xp_reward": 20
+        },
+        {
+          "id": "l1_ch3cl",
+          "name": "Sunlight Swap",
+          "description": "Form chloromethane (CH₃Cl).",
+          "hint": "Methane and chlorine swap atoms in sunlight: a substitution reaction.",
+          "ncert": "Ch. 4 · Carbon and its Compounds · Substitution",
+          "type": "form_compound",
+          "compound": "ch3cl",
+          "xp_reward": 20
+        },
+        {
+          "id": "l1_ch3cooh",
+          "name": "Ethanoic Acid",
+          "description": "Form ethanoic acid (CH₃COOH).",
+          "hint": "Oxidise ethanol. Ethanol comes from ethene and water; ethene from ethyne; ethyne from methane, which reacts on its own.",
+          "ncert": "Ch. 4 · Carbon and its Compounds · Oxidation of alcohols",
+          "type": "form_compound",
+          "compound": "ch3cooh",
+          "xp_reward": 20
+        },
+        {
+          "id": "l1_ch3cooc2h5",
+          "name": "Fruity Ester",
+          "description": "Form ethyl ethanoate (CH₃COOC₂H₅).",
+          "hint": "Ethanoic acid and ethanol give a sweet-smelling ester. Both come from ethene.",
+          "ncert": "Ch. 4 · Carbon and its Compounds · Esterification",
+          "type": "form_compound",
+          "compound": "ch3cooc2h5",
+          "xp_reward": 20
+        },
+        {
+          "id": "l1_general1",
+          "name": "Getting Started",
+          "description": "Perform 20 reactions.",
+          "type": "reactions_performed",
+          "value": 20,
+          "xp_reward": 15
+        },
+        {
+          "id": "l1_general2",
+          "name": "Little Collection",
+          "description": "Form 15 different compounds.",
+          "type": "compounds_formed",
+          "value": 15,
+          "xp_reward": 15
+        },
+        {
+          "id": "l1_xp",
+          "name": "Apprentice Chemist",
+          "description": "Reach 500 XP.",
+          "type": "xp",
+          "value": 500,
+          "xp_reward": 0
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "Acids and Light Metals",
+      "summary": "Burning ribbons, sulfur chemistry and neutralisation.",
+      "achievements": [
+        {
+          "id": "l2_mgo",
+          "name": "Ribbon of Fire",
+          "description": "Form magnesium oxide (MgO).",
+          "hint": "A magnesium ribbon burns with a dazzling white flame in air.",
+          "ncert": "Ch. 1 · Chemical Reactions and Equations · Combination",
+          "type": "form_compound",
+          "compound": "mgo",
+          "xp_reward": 30
+        },
+        {
+          "id": "l2_so2",
+          "name": "Brimstone",
+          "description": "Form sulfur dioxide (SO₂).",
+          "hint": "Burn sulfur in oxygen. The oxide of a non-metal is acidic.",
+          "ncert": "Ch. 3 · Metals and Non-metals · Non-metal oxides",
+          "type": "form_compound",
+          "compound": "so2",
+          "xp_reward": 30
+        },
+        {
+          "id": "l2_al2o3",
+          "name": "Amphoteric Armour",
+          "description": "Form aluminium oxide (Al₂O₃).",
+          "hint": "Aluminium coats itself in an oxide that reacts with both acids and bases.",
+          "ncert": "Ch. 3 · Metals and Non-metals · Amphoteric oxides",
+          "type": "form_compound",
+          "compound": "al2o3",
+          "xp_reward": 30
+        },
+        {
+          "id": "l2_mg_so4",
+          "name": "Displacement",
+          "description": "Form magnesium sulfate (MgSO₄).",
+          "hint": "A reactive metal pushes copper out of copper sulfate solution.",
+          "ncert": "Ch. 1 · Chemical Reactions and Equations · Displacement",
+          "type": "form_compound",
+          "compound": "mg_so4",
+          "xp_reward": 30
+        },
+        {
+          "id": "l2_mg_cl",
+          "name": "Antacid Action",
+          "description": "Form magnesium chloride (MgCl₂).",
+          "hint": "Milk of magnesia neutralises the hydrochloric acid in your stomach.",
+          "ncert": "Ch. 2 · Acids, Bases and Salts · Antacids",
+          "type": "form_compound",
+          "compound": "mg_cl",
+          "xp_reward": 30
+        },
+        {
+          "id": "l2_h2so4",
+          "name": "King of Chemicals",
+          "description": "Form sulfuric acid (H₂SO₄).",
+          "hint": "Take sulfur dioxide one oxidation step further, then add water.",
+          "ncert": "Ch. 2 · Acids, Bases and Salts · Strong acids",
+          "type": "form_compound",
+          "compound": "h2so4",
+          "xp_reward": 30
+        },
+        {
+          "id": "l2_na_so4",
+          "name": "Neutralisation",
+          "description": "Form sodium sulfate (Na₂SO₄).",
+          "hint": "An acid and a base give a salt and water.",
+          "ncert": "Ch. 2 · Acids, Bases and Salts · Neutralisation",
+          "type": "form_compound",
+          "compound": "na_so4",
+          "xp_reward": 30
+        },
+        {
+          "id": "l2_general1",
+          "name": "Busy Bench",
+          "description": "Perform 55 reactions.",
+          "type": "reactions_performed",
+          "value": 55,
+          "xp_reward": 25
+        },
+        {
+          "id": "l2_general2",
+          "name": "Reaction Notebook",
+          "description": "Discover 45 different reactions.",
+          "type": "unique_reactions",
+          "value": 45,
+          "xp_reward": 25
+        },
+        {
+          "id": "l2_xp",
+          "name": "Junior Chemist",
+          "description": "Reach 1100 XP.",
+          "type": "xp",
+          "value": 1100,
+          "xp_reward": 0
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "title": "Metals in Action",
+      "summary": "Rusting, metals with steam and acid, and the ores of zinc.",
+      "achievements": [
+        {
+          "id": "l3_fe2o3",
+          "name": "Rust Never Sleeps",
+          "description": "Form iron(III) oxide (Fe₂O₃), better known as rust.",
+          "hint": "Iron slowly combines with oxygen: corrosion.",
+          "ncert": "Ch. 1 · Chemical Reactions and Equations · Corrosion",
+          "type": "form_compound",
+          "compound": "fe2o3",
+          "xp_reward": 40
+        },
+        {
+          "id": "l3_zno",
+          "name": "Zinc White",
+          "description": "Form zinc oxide (ZnO).",
+          "hint": "Zinc oxide is amphoteric: it reacts with acids and with bases.",
+          "ncert": "Ch. 3 · Metals and Non-metals · Amphoteric oxides",
+          "type": "form_compound",
+          "compound": "zno",
+          "xp_reward": 40
+        },
+        {
+          "id": "l3_cu2_cl",
+          "name": "Blue-green Solution",
+          "description": "Form copper(II) chloride (CuCl₂).",
+          "hint": "Copper reacts with chlorine directly, or hydrochloric acid reacts with a copper base.",
+          "ncert": "Ch. 3 · Metals and Non-metals · Metals and non-metals",
+          "type": "form_compound",
+          "compound": "cu2_cl",
+          "xp_reward": 40
+        },
+        {
+          "id": "l3_fe3_o4",
+          "name": "Iron and Steam",
+          "description": "Form iron(II,III) oxide (Fe₃O₄).",
+          "hint": "Red-hot iron reacts with steam and releases hydrogen.",
+          "ncert": "Ch. 3 · Metals and Non-metals · Metals and water",
+          "type": "form_compound",
+          "compound": "fe3_o4",
+          "xp_reward": 40
+        },
+        {
+          "id": "l3_zn_s",
+          "name": "Zinc Blende",
+          "description": "Form zinc sulfide (ZnS), the main ore of zinc.",
+          "hint": "Hydrogen sulfide reacts with zinc hydroxide. Sulfide ores like this are roasted to extract the metal.",
+          "ncert": "Ch. 3 · Metals and Non-metals · Ores and extraction",
+          "type": "form_compound",
+          "compound": "zn_s",
+          "xp_reward": 40
+        },
+        {
+          "id": "l3_zn_so4",
+          "name": "Hydrogen Hunter",
+          "description": "Form zinc sulfate (ZnSO₄).",
+          "hint": "Zinc granules in dilute sulfuric acid bubble out hydrogen.",
+          "ncert": "Ch. 2 · Acids, Bases and Salts · Acids with metals",
+          "type": "form_compound",
+          "compound": "zn_so4",
+          "xp_reward": 40
+        },
+        {
+          "id": "l3_fe2_so4",
+          "name": "Green Crystals",
+          "description": "Form iron(II) sulfate (FeSO₄).",
+          "hint": "Iron in dilute sulfuric acid. The crystals decompose when heated.",
+          "ncert": "Ch. 1 · Chemical Reactions and Equations · Decomposition",
+          "type": "form_compound",
+          "compound": "fe2_so4",
+          "xp_reward": 40
+        },
+        {
+          "id": "l3_general1",
+          "name": "Compound Collector",
+          "description": "Form 85 different compounds.",
+          "type": "compounds_formed",
+          "value": 85,
+          "xp_reward": 35
+        },
+        {
+          "id": "l3_general2",
+          "name": "Seasoned Experimenter",
+          "description": "Perform 120 reactions.",
+          "type": "reactions_performed",
+          "value": 120,
+          "xp_reward": 35
+        },
+        {
+          "id": "l3_xp",
+          "name": "Lab Technician",
+          "description": "Reach 2000 XP.",
+          "type": "xp",
+          "value": 2000,
+          "xp_reward": 0
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "title": "Rarer Elements",
+      "summary": "Oxides, acids with metals and the reactivity series with nickel, beryllium and boron.",
+      "achievements": [
+        {
+          "id": "l4_nio",
+          "name": "Green Oxide",
+          "description": "Form nickel(II) oxide (NiO).",
+          "hint": "Nickel burns in oxygen to give a basic oxide.",
+          "ncert": "Ch. 3 · Metals and Non-metals · Metals and oxygen",
+          "type": "form_compound",
+          "compound": "nio",
+          "xp_reward": 50
+        },
+        {
+          "id": "l4_b2o3",
+          "name": "Metalloid Oxide",
+          "description": "Form boron oxide (B₂O₃).",
+          "hint": "Boron is a metalloid; its oxide is acidic.",
+          "ncert": "Ch. 3 · Metals and Non-metals · Metalloids",
+          "type": "form_compound",
+          "compound": "b2o3",
+          "xp_reward": 50
+        },
+        {
+          "id": "l4_ni2_cl",
+          "name": "Green Chloride",
+          "description": "Form nickel(II) chloride (NiCl₂).",
+          "hint": "Metals react with chlorine to form ionic chlorides.",
+          "ncert": "Ch. 3 · Metals and Non-metals · Metals and non-metals",
+          "type": "form_compound",
+          "compound": "ni2_cl",
+          "xp_reward": 50
+        },
+        {
+          "id": "l4_k_i",
+          "name": "Iodide Reagent",
+          "description": "Form potassium iodide (KI).",
+          "hint": "Hydroiodic acid meets potassium hydroxide. You will need KI again at Level 5.",
+          "ncert": "Ch. 2 · Acids, Bases and Salts · Neutralisation",
+          "type": "form_compound",
+          "compound": "k_i",
+          "xp_reward": 50
+        },
+        {
+          "id": "l4_ni2_so4",
+          "name": "Fizzing Carbonate",
+          "description": "Form nickel(II) sulfate (NiSO₄).",
+          "hint": "A metal carbonate fizzes with sulfuric acid, giving a salt, carbon dioxide and water.",
+          "ncert": "Ch. 2 · Acids, Bases and Salts · Metal carbonates + acids",
+          "type": "form_compound",
+          "compound": "ni2_so4",
+          "xp_reward": 50
+        },
+        {
+          "id": "l4_be_so4",
+          "name": "Metal in Acid",
+          "description": "Form beryllium sulfate (BeSO₄).",
+          "hint": "A metal dissolves in dilute sulfuric acid and releases hydrogen.",
+          "ncert": "Ch. 2 · Acids, Bases and Salts · Acids with metals",
+          "type": "form_compound",
+          "compound": "be_so4",
+          "xp_reward": 50
+        },
+        {
+          "id": "l4_ni2_no3",
+          "name": "Reactivity Series",
+          "description": "Form nickel(II) nitrate (Ni(NO₃)₂).",
+          "hint": "Make nitric acid first: oxidise nitrogen step by step, then add water. It can then react with a nickel base, or nickel can displace copper from copper nitrate.",
+          "ncert": "Ch. 3 · Metals and Non-metals · Reactivity series",
+          "type": "form_compound",
+          "compound": "ni2_no3",
+          "xp_reward": 50
+        },
+        {
+          "id": "l4_general1",
+          "name": "Reaction Library",
+          "description": "Discover 140 different reactions.",
+          "type": "unique_reactions",
+          "value": 140,
+          "xp_reward": 45
+        },
+        {
+          "id": "l4_general2",
+          "name": "Growing Shelf",
+          "description": "Form 135 different compounds.",
+          "type": "compounds_formed",
+          "value": 135,
+          "xp_reward": 45
+        },
+        {
+          "id": "l4_xp",
+          "name": "Senior Chemist",
+          "description": "Reach 3300 XP.",
+          "type": "xp",
+          "value": 3300,
+          "xp_reward": 0
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "title": "Master Chemist",
+      "summary": "Precipitates, light-sensitive silver salts and the ores of mercury.",
+      "achievements": [
+        {
+          "id": "l5_pbi2",
+          "name": "Golden Rain",
+          "description": "Form lead(II) iodide (PbI₂), the yellow precipitate.",
+          "hint": "Lead nitrate solution meets potassium iodide solution: a double displacement.",
+          "ncert": "Ch. 1 · Chemical Reactions and Equations · Double displacement",
+          "type": "form_compound",
+          "compound": "pbi2",
+          "xp_reward": 60
+        },
+        {
+          "id": "l5_ag_cl",
+          "name": "Light-sensitive",
+          "description": "Form silver chloride (AgCl).",
+          "hint": "Silver reacts with chlorine. The product turns grey in sunlight (photolysis).",
+          "ncert": "Ch. 1 · Chemical Reactions and Equations · Photolytic decomposition",
+          "type": "form_compound",
+          "compound": "ag_cl",
+          "xp_reward": 60
+        },
+        {
+          "id": "l5_hgo",
+          "name": "Roasting Cinnabar",
+          "description": "Form mercury(II) oxide (HgO).",
+          "hint": "Heat mercury in oxygen. Roasting cinnabar gives the same oxide.",
+          "ncert": "Ch. 3 · Metals and Non-metals · Ores and extraction",
+          "type": "form_compound",
+          "compound": "hgo",
+          "xp_reward": 60
+        },
+        {
+          "id": "l5_ag_s",
+          "name": "Tarnish",
+          "description": "Form silver sulfide (Ag₂S).",
+          "hint": "Silver turns black in air that contains hydrogen sulfide: hydrogen sulfide meets silver hydroxide here.",
+          "ncert": "Ch. 1 · Chemical Reactions and Equations · Corrosion",
+          "type": "form_compound",
+          "compound": "ag_s",
+          "xp_reward": 60
+        },
+        {
+          "id": "l5_hg2_s",
+          "name": "Cinnabar",
+          "description": "Form mercury(II) sulfide (HgS), the red ore of mercury.",
+          "hint": "Hydrogen sulfide reacts with mercury(II) hydroxide.",
+          "ncert": "Ch. 3 · Metals and Non-metals · Ores and extraction",
+          "type": "form_compound",
+          "compound": "hg2_s",
+          "xp_reward": 60
+        },
+        {
+          "id": "l5_ba_so4",
+          "name": "White Precipitate",
+          "description": "Form barium sulfate (BaSO₄).",
+          "hint": "Sulfate ions meet barium ions and a white solid drops out of solution.",
+          "ncert": "Ch. 1 · Chemical Reactions and Equations · Precipitation",
+          "type": "form_compound",
+          "compound": "ba_so4",
+          "xp_reward": 60
+        },
+        {
+          "id": "l5_pbno3",
+          "name": "Brown Fumes",
+          "description": "Form lead(II) nitrate (Pb(NO₃)₂).",
+          "hint": "Neutralise nitric acid with lead hydroxide. On heating it gives brown fumes.",
+          "ncert": "Ch. 1 · Chemical Reactions and Equations · Thermal decomposition",
+          "type": "form_compound",
+          "compound": "pbno3",
+          "xp_reward": 60
+        },
+        {
+          "id": "l5_general1",
+          "name": "Relentless Researcher",
+          "description": "Perform 380 reactions.",
+          "type": "reactions_performed",
+          "value": 380,
+          "xp_reward": 55
+        },
+        {
+          "id": "l5_general2",
+          "name": "Reaction Archivist",
+          "description": "Discover 230 different reactions.",
+          "type": "unique_reactions",
+          "value": 230,
+          "xp_reward": 55
+        },
+        {
+          "id": "l5_xp",
+          "name": "Master Chemist",
+          "description": "Reach 4800 XP.",
+          "type": "xp",
+          "value": 4800,
+          "xp_reward": 0
+        }
+      ]
+    }
+  ]
+}
