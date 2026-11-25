@@ -1,0 +1,1164 @@
+[
+  {
+    "id": "hydrogen_fluoride",
+    "name": "Hydrogen fluoride",
+    "formula": "HF",
+    "category": "acid",
+    "visual_type": "structure",
+    "family": "reagent",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "h2s",
+    "name": "Hydrogen Sulfide",
+    "formula": "H₂S",
+    "category": "acid",
+    "visual_type": "structure",
+    "image": "visuals/structure/h2s.svg",
+    "level": 2
+  },
+  {
+    "id": "h3po4",
+    "name": "Phosphoric Acid",
+    "formula": "H₃PO₄",
+    "category": "acid",
+    "visual_type": "structure",
+    "image": "visuals/structure/h3po4.svg",
+    "level": 2,
+    "family": "inorganic acid"
+  },
+  {
+    "id": "h2so3",
+    "name": "Sulfurous Acid",
+    "formula": "H₂SO₃",
+    "category": "acid",
+    "visual_type": "structure",
+    "image": "visuals/structure/h2so3.svg",
+    "level": 2
+  },
+  {
+    "id": "ba_oh",
+    "name": "Barium Hydroxide",
+    "formula": "Ba(OH)₂",
+    "category": "base",
+    "visual_type": "structure",
+    "image": "visuals/structure/ba_oh.svg",
+    "level": 2,
+    "family": "hydroxide"
+  },
+  {
+    "id": "cu2_oh",
+    "name": "Copper(II) Hydroxide",
+    "formula": "Cu(OH)₂",
+    "category": "base",
+    "visual_type": "structure",
+    "image": "visuals/structure/cu2_oh.svg",
+    "level": 2,
+    "family": "metal hydroxide"
+  },
+  {
+    "id": "pb2_oh",
+    "name": "Lead(II) Hydroxide",
+    "formula": "Pb(OH)₂",
+    "category": "base",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb2_oh.svg",
+    "level": 2,
+    "family": "metal hydroxide"
+  },
+  {
+    "id": "li_oh",
+    "name": "Lithium Hydroxide",
+    "formula": "LiOH",
+    "category": "base",
+    "visual_type": "structure",
+    "image": "visuals/structure/li_oh.svg",
+    "level": 2,
+    "family": "hydroxide"
+  },
+  {
+    "id": "zn_oh",
+    "name": "Zinc Hydroxide",
+    "formula": "Zn(OH)₂",
+    "category": "base",
+    "visual_type": "structure",
+    "image": "visuals/structure/zn_oh.svg",
+    "level": 2,
+    "family": "metal hydroxide"
+  },
+  {
+    "id": "ba",
+    "name": "Barium",
+    "formula": "Ba",
+    "category": "element",
+    "visual_type": "electronic_configuration",
+    "image": "visuals/configuration/ba.svg",
+    "level": 2
+  },
+  {
+    "id": "br",
+    "name": "Bromine",
+    "formula": "Br",
+    "category": "element",
+    "level": 2,
+    "encyclopedia_only": true
+  },
+  {
+    "id": "co",
+    "name": "Cobalt",
+    "formula": "Co",
+    "category": "element",
+    "visual_type": "electronic_configuration",
+    "image": "visuals/configuration/co.svg",
+    "level": 2
+  },
+  {
+    "id": "f",
+    "name": "Fluorine",
+    "formula": "F",
+    "category": "element",
+    "level": 2,
+    "encyclopedia_only": true
+  },
+  {
+    "id": "i",
+    "name": "Iodine",
+    "formula": "I",
+    "category": "element",
+    "level": 2,
+    "encyclopedia_only": true
+  },
+  {
+    "id": "pb",
+    "name": "Lead",
+    "formula": "Pb",
+    "category": "element",
+    "visual_type": "electronic_configuration",
+    "image": "visuals/configuration/pb.svg",
+    "level": 2
+  },
+  {
+    "id": "ni",
+    "name": "Nickel",
+    "formula": "Ni",
+    "category": "element",
+    "visual_type": "electronic_configuration",
+    "image": "visuals/configuration/ni.svg",
+    "level": 2
+  },
+  {
+    "id": "p",
+    "name": "Phosphorus",
+    "formula": "P",
+    "category": "element",
+    "visual_type": "electronic_configuration",
+    "image": "visuals/configuration/p.svg",
+    "level": 2
+  },
+  {
+    "id": "si",
+    "name": "Silicon",
+    "formula": "Si",
+    "category": "element",
+    "visual_type": "electronic_configuration",
+    "image": "visuals/configuration/si.svg",
+    "level": 2
+  },
+  {
+    "id": "sn",
+    "name": "Tin",
+    "formula": "Sn",
+    "category": "element",
+    "visual_type": "electronic_configuration",
+    "image": "visuals/configuration/sn.svg",
+    "level": 2
+  },
+  {
+    "id": "br2",
+    "name": "Bromine (diatomic)",
+    "formula": "Br₂",
+    "category": "elemental_form",
+    "visual_type": "structure",
+    "image": "visuals/structure/br2.svg",
+    "level": 2
+  },
+  {
+    "id": "f2",
+    "name": "Fluorine (diatomic)",
+    "formula": "F₂",
+    "category": "elemental_form",
+    "visual_type": "structure",
+    "image": "visuals/structure/f2.svg",
+    "level": 2
+  },
+  {
+    "id": "i2",
+    "name": "Iodine (diatomic)",
+    "formula": "I₂",
+    "category": "elemental_form",
+    "visual_type": "structure",
+    "image": "visuals/structure/i2.svg",
+    "level": 2
+  },
+  {
+    "id": "p4",
+    "name": "Phosphorus molecular form",
+    "formula": "P₄",
+    "category": "elemental_form",
+    "visual_type": "structure",
+    "image": "visuals/structure/p4.svg",
+    "level": 2
+  },
+  {
+    "id": "alno3_9h2o",
+    "name": "Aluminium nitrate nonahydrate",
+    "formula": "Al(NO₃)₃·₉H₂O",
+    "category": "hydrate",
+    "visual_type": "structure",
+    "family": "crystalline hydrate",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "bacl2_2h2o",
+    "name": "Barium chloride dihydrate",
+    "formula": "BaCl₂·₂H₂O",
+    "category": "hydrate",
+    "visual_type": "structure",
+    "family": "crystalline hydrate",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "caacetate_h2o",
+    "name": "Calcium acetate monohydrate",
+    "formula": "Ca(CH₃COO)₂·H₂O",
+    "category": "hydrate",
+    "visual_type": "structure",
+    "family": "crystalline hydrate",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "cucl2_2h2o",
+    "name": "Copper(II) chloride dihydrate",
+    "formula": "CuCl₂·₂H₂O",
+    "category": "hydrate",
+    "visual_type": "structure",
+    "family": "crystalline hydrate",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "cuno3_3h2o",
+    "name": "Copper(II) nitrate trihydrate",
+    "formula": "Cu(NO₃)₂·₃H₂O",
+    "category": "hydrate",
+    "visual_type": "structure",
+    "family": "crystalline hydrate",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "cuso4_5h2o",
+    "name": "Copper(II) sulfate pentahydrate",
+    "formula": "CuSO₄·₅H₂O",
+    "category": "hydrate",
+    "visual_type": "structure",
+    "family": "crystalline hydrate",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "fecl2_4h2o",
+    "name": "Iron(II) chloride tetrahydrate",
+    "formula": "FeCl₂·₄H₂O",
+    "category": "hydrate",
+    "visual_type": "structure",
+    "family": "crystalline hydrate",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "feso4_7h2o",
+    "name": "Iron(II) sulfate heptahydrate",
+    "formula": "FeSO₄·₇H₂O",
+    "category": "hydrate",
+    "visual_type": "structure",
+    "family": "crystalline hydrate",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "fecl3_6h2o",
+    "name": "Iron(III) chloride hexahydrate",
+    "formula": "FeCl₃·₆H₂O",
+    "category": "hydrate",
+    "visual_type": "structure",
+    "family": "crystalline hydrate",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "feno3_9h2o",
+    "name": "Iron(III) nitrate nonahydrate",
+    "formula": "Fe(NO₃)₃·₉H₂O",
+    "category": "hydrate",
+    "visual_type": "structure",
+    "family": "crystalline hydrate",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "mgacetate_4h2o",
+    "name": "Magnesium acetate tetrahydrate",
+    "formula": "Mg(CH₃COO)₂·₄H₂O",
+    "category": "hydrate",
+    "visual_type": "structure",
+    "family": "crystalline hydrate",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "na2s2o3_5h2o",
+    "name": "Sodium thiosulfate pentahydrate",
+    "formula": "Na₂S₂O₃·₅H₂O",
+    "category": "hydrate",
+    "visual_type": "structure",
+    "family": "crystalline hydrate",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "zncl2_4h2o",
+    "name": "Zinc chloride tetrahydrate",
+    "formula": "ZnCl₂·₄H₂O",
+    "category": "hydrate",
+    "visual_type": "structure",
+    "family": "crystalline hydrate",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "znno3_6h2o",
+    "name": "Zinc nitrate hexahydrate",
+    "formula": "Zn(NO₃)₂·₆H₂O",
+    "category": "hydrate",
+    "visual_type": "structure",
+    "family": "crystalline hydrate",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "znso4_7h2o",
+    "name": "Zinc sulfate heptahydrate",
+    "formula": "ZnSO₄·₇H₂O",
+    "category": "hydrate",
+    "visual_type": "structure",
+    "family": "crystalline hydrate",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "al_h3",
+    "name": "Aluminium Hydride",
+    "formula": "AlH₃",
+    "category": "hydride",
+    "visual_type": "structure",
+    "image": "visuals/structure/al_h3.svg",
+    "level": 2
+  },
+  {
+    "id": "mgh2",
+    "name": "Magnesium Hydride",
+    "formula": "MgH₂",
+    "category": "hydride",
+    "visual_type": "structure",
+    "image": "visuals/structure/mgh2.svg",
+    "level": 2
+  },
+  {
+    "id": "azurite",
+    "name": "Azurite",
+    "formula": "Cu₃(CO₃)₂(OH)₂",
+    "category": "mineral",
+    "visual_type": "structure",
+    "family": "mineral or industrial phase",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "malachite",
+    "name": "Malachite",
+    "formula": "Cu₂CO₃(OH)₂",
+    "category": "mineral",
+    "visual_type": "structure",
+    "family": "mineral or industrial phase",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "mirabilite",
+    "name": "Mirabilite",
+    "formula": "Na₂SO₄·₁₀H₂O",
+    "category": "mineral",
+    "visual_type": "structure",
+    "family": "mineral or industrial phase",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "pyrite",
+    "name": "Pyrite",
+    "formula": "FeS₂",
+    "category": "mineral",
+    "visual_type": "structure",
+    "family": "mineral or industrial phase",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "bao",
+    "name": "Barium Oxide",
+    "formula": "BaO",
+    "category": "oxide",
+    "visual_type": "structure",
+    "image": "visuals/structure/bao.svg",
+    "level": 2,
+    "family": "curated industrial or mineral chemistry"
+  },
+  {
+    "id": "cuo",
+    "name": "Copper(II) Oxide",
+    "formula": "CuO",
+    "category": "oxide",
+    "visual_type": "structure",
+    "image": "visuals/structure/cuo.svg",
+    "level": 2,
+    "family": "curated industrial or mineral chemistry"
+  },
+  {
+    "id": "fe3_o4",
+    "name": "Iron(II,III) Oxide",
+    "formula": "Fe₃O₄",
+    "category": "oxide",
+    "visual_type": "structure",
+    "image": "visuals/structure/fe3_o4.svg",
+    "level": 2,
+    "family": "mineral or industrial phase"
+  },
+  {
+    "id": "pbo",
+    "name": "Lead(II) Oxide",
+    "formula": "PbO",
+    "category": "oxide",
+    "visual_type": "structure",
+    "image": "visuals/structure/pbo.svg",
+    "level": 2,
+    "family": "mineral or industrial phase"
+  },
+  {
+    "id": "li2o",
+    "name": "Lithium Oxide",
+    "formula": "Li₂O",
+    "category": "oxide",
+    "visual_type": "structure",
+    "image": "visuals/structure/li2o.svg",
+    "level": 2,
+    "family": "metal oxide"
+  },
+  {
+    "id": "p4o10",
+    "name": "Phosphorus(V) Oxide",
+    "formula": "P₄O₁₀",
+    "category": "oxide",
+    "visual_type": "structure",
+    "image": "visuals/structure/p4o10.svg",
+    "level": 2,
+    "family": "non-metal oxide"
+  },
+  {
+    "id": "zno",
+    "name": "Zinc Oxide",
+    "formula": "ZnO",
+    "category": "oxide",
+    "visual_type": "structure",
+    "image": "visuals/structure/zno.svg",
+    "level": 2,
+    "family": "metal oxide"
+  },
+  {
+    "id": "al_co3",
+    "name": "Aluminium Carbonate",
+    "formula": "Al₂(CO₃)₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/al_co3.svg",
+    "level": 2
+  },
+  {
+    "id": "al_cn",
+    "name": "Aluminium Cyanide",
+    "formula": "Al(CN)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/al_cn.svg",
+    "level": 2
+  },
+  {
+    "id": "al_hco3",
+    "name": "Aluminium Hydrogen Carbonate",
+    "formula": "Al(HCO₃)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/al_hco3.svg",
+    "level": 2
+  },
+  {
+    "id": "al_clo",
+    "name": "Aluminium Hypochlorite",
+    "formula": "Al(ClO)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/al_clo.svg",
+    "level": 2
+  },
+  {
+    "id": "al_no2",
+    "name": "Aluminium Nitrite",
+    "formula": "Al(NO₂)3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/al_no2.svg",
+    "level": 2
+  },
+  {
+    "id": "al_s",
+    "name": "Aluminium Sulfide",
+    "formula": "(Al)2S3",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/al_s.svg",
+    "level": 2
+  },
+  {
+    "id": "al_so3",
+    "name": "Aluminium Sulfite",
+    "formula": "Al₂(SO₃)₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/al_so3.svg",
+    "level": 2
+  },
+  {
+    "id": "ba_ch3coo",
+    "name": "Barium Acetate",
+    "formula": "Ba(CH₃COO)₂",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ba_ch3coo.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "ba_co3",
+    "name": "Barium Carbonate",
+    "formula": "BaCO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ba_co3.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "ba_cl",
+    "name": "Barium Chloride",
+    "formula": "BaCl₂",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ba_cl.svg",
+    "level": 2,
+    "family": "curated industrial or mineral chemistry"
+  },
+  {
+    "id": "ba_f",
+    "name": "Barium Fluoride",
+    "formula": "BaF₂",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ba_f.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "ba_no3",
+    "name": "Barium Nitrate",
+    "formula": "Ba(NO₃)₂",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ba_no3.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "salt_ba2_oxalate",
+    "name": "Barium oxalate",
+    "formula": "BaC₂O₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "family": "inorganic salt",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "ba_po4",
+    "name": "Barium Phosphate",
+    "formula": "Ba₃(PO₄)₂",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ba_po4.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "ba_so4",
+    "name": "Barium Sulfate",
+    "formula": "BaSO₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ba_so4.svg",
+    "level": 2,
+    "family": "curated industrial or mineral chemistry"
+  },
+  {
+    "id": "ba_s",
+    "name": "Barium Sulfide",
+    "formula": "BaS",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ba_s.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "ca_so3",
+    "name": "Calcium Sulfite",
+    "formula": "CaSO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ca_so3.svg",
+    "level": 2
+  },
+  {
+    "id": "cu2_ch3coo",
+    "name": "Copper(II) Acetate",
+    "formula": "Cu(CH₃COO)₂",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cu2_ch3coo.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "cu2_br",
+    "name": "Copper(II) Bromide",
+    "formula": "CuBr₂",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cu2_br.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "cu2_co3",
+    "name": "Copper(II) Carbonate",
+    "formula": "CuCO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cu2_co3.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "cu2_cl",
+    "name": "Copper(II) Chloride",
+    "formula": "CuCl₂",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cu2_cl.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "cu2_no3",
+    "name": "Copper(II) Nitrate",
+    "formula": "Cu(NO₃)₂",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cu2_no3.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "salt_cu2_oxalate",
+    "name": "Copper(Ii) oxalate",
+    "formula": "CuC₂O₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "family": "inorganic salt",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "cu2_po4",
+    "name": "Copper(II) Phosphate",
+    "formula": "Cu₃(PO₄)₂",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cu2_po4.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "cu2_so4",
+    "name": "Copper(II) Sulfate",
+    "formula": "CuSO₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cu2_so4.svg",
+    "level": 2,
+    "family": "curated industrial or mineral chemistry"
+  },
+  {
+    "id": "cu2_s",
+    "name": "Copper(II) Sulfide",
+    "formula": "CuS",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cu2_s.svg",
+    "level": 2,
+    "family": "curated industrial or mineral chemistry"
+  },
+  {
+    "id": "pb2_ch3coo",
+    "name": "Lead(II) Acetate",
+    "formula": "Pb(CH₃COO)₂",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb2_ch3coo.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "pb2_br",
+    "name": "Lead(II) Bromide",
+    "formula": "PbBr₂",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb2_br.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "pb2_co3",
+    "name": "Lead(II) Carbonate",
+    "formula": "PbCO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb2_co3.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "pb2_cl",
+    "name": "Lead(II) Chloride",
+    "formula": "PbCl₂",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb2_cl.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "pb2_f",
+    "name": "Lead(II) Fluoride",
+    "formula": "PbF₂",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb2_f.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "pbi2",
+    "name": "Lead(II) Iodide",
+    "formula": "PbI₂",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pbi2.svg",
+    "level": 2,
+    "family": "curated industrial or mineral chemistry"
+  },
+  {
+    "id": "pbno3",
+    "name": "Lead(II) Nitrate",
+    "formula": "Pb(NO₃)₂",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pbno3.svg",
+    "level": 2,
+    "family": "curated industrial or mineral chemistry"
+  },
+  {
+    "id": "salt_pb2_oxalate",
+    "name": "Lead(Ii) oxalate",
+    "formula": "PbC₂O₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "family": "inorganic salt",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "pb2_po4",
+    "name": "Lead(II) Phosphate",
+    "formula": "Pb₃(PO₄)₂",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb2_po4.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "pb2_so4",
+    "name": "Lead(II) Sulfate",
+    "formula": "PbSO₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb2_so4.svg",
+    "level": 2,
+    "family": "curated industrial or mineral chemistry"
+  },
+  {
+    "id": "pb2_s",
+    "name": "Lead(II) Sulfide",
+    "formula": "PbS",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb2_s.svg",
+    "level": 2,
+    "family": "curated industrial or mineral chemistry"
+  },
+  {
+    "id": "li_ch3coo",
+    "name": "Lithium Acetate",
+    "formula": "LiCH₃COO",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/li_ch3coo.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "li_br",
+    "name": "Lithium Bromide",
+    "formula": "LiBr",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/li_br.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "li_co3",
+    "name": "Lithium Carbonate",
+    "formula": "Li₂CO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/li_co3.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "li_cl",
+    "name": "Lithium Chloride",
+    "formula": "LiCl",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/li_cl.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "li_cn",
+    "name": "Lithium Cyanide",
+    "formula": "LiCN",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/li_cn.svg",
+    "level": 2
+  },
+  {
+    "id": "li_f",
+    "name": "Lithium Fluoride",
+    "formula": "LiF",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/li_f.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "li_hco3",
+    "name": "Lithium Hydrogen Carbonate",
+    "formula": "LiHCO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/li_hco3.svg",
+    "level": 2
+  },
+  {
+    "id": "li_clo",
+    "name": "Lithium Hypochlorite",
+    "formula": "LiClO",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/li_clo.svg",
+    "level": 2
+  },
+  {
+    "id": "li_i",
+    "name": "Lithium Iodide",
+    "formula": "LiI",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/li_i.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "li_no3",
+    "name": "Lithium Nitrate",
+    "formula": "LiNO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/li_no3.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "li_no2",
+    "name": "Lithium Nitrite",
+    "formula": "LiNO₂",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/li_no2.svg",
+    "level": 2
+  },
+  {
+    "id": "salt_li1_oxalate",
+    "name": "Lithium oxalate",
+    "formula": "Li₂C₂O₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "family": "inorganic salt",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "li_po4",
+    "name": "Lithium Phosphate",
+    "formula": "Li₃PO₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/li_po4.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "salt_li1_silicate",
+    "name": "Lithium silicate",
+    "formula": "Li₂SiO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "family": "alkali donor salt",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "li_so4",
+    "name": "Lithium Sulfate",
+    "formula": "Li₂SO₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/li_so4.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "li_s",
+    "name": "Lithium Sulfide",
+    "formula": "Li₂S",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/li_s.svg",
+    "level": 2,
+    "family": "alkali donor salt"
+  },
+  {
+    "id": "li_so3",
+    "name": "Lithium Sulfite",
+    "formula": "Li₂SO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/li_so3.svg",
+    "level": 2,
+    "family": "alkali donor salt"
+  },
+  {
+    "id": "mg_cn",
+    "name": "Magnesium Cyanide",
+    "formula": "Mg(CN)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/mg_cn.svg",
+    "level": 2
+  },
+  {
+    "id": "mg_hco3",
+    "name": "Magnesium Hydrogen Carbonate",
+    "formula": "Mg(HCO₃)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/mg_hco3.svg",
+    "level": 2
+  },
+  {
+    "id": "mg_clo",
+    "name": "Magnesium Hypochlorite",
+    "formula": "Mg(ClO)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/mg_clo.svg",
+    "level": 2
+  },
+  {
+    "id": "mg_no2",
+    "name": "Magnesium Nitrite",
+    "formula": "Mg(NO₂)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/mg_no2.svg",
+    "level": 2
+  },
+  {
+    "id": "mg_so3",
+    "name": "Magnesium Sulfite",
+    "formula": "MgSO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/mg_so3.svg",
+    "level": 2
+  },
+  {
+    "id": "zn_ch3coo",
+    "name": "Zinc Acetate",
+    "formula": "Zn(CH₃COO)₂",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/zn_ch3coo.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "zn_br",
+    "name": "Zinc Bromide",
+    "formula": "ZnBr₂",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/zn_br.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "zn_co3",
+    "name": "Zinc Carbonate",
+    "formula": "ZnCO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/zn_co3.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "zn_cl",
+    "name": "Zinc Chloride",
+    "formula": "ZnCl₂",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/zn_cl.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "zn_no3",
+    "name": "Zinc Nitrate",
+    "formula": "Zn(NO₃)₂",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/zn_no3.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "salt_zn2_oxalate",
+    "name": "Zinc oxalate",
+    "formula": "ZnC₂O₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "family": "inorganic salt",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "zn_po4",
+    "name": "Zinc Phosphate",
+    "formula": "Zn₃(PO₄)₂",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/zn_po4.svg",
+    "level": 2,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "salt_zn2_silicate",
+    "name": "Zinc silicate",
+    "formula": "ZnSiO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "family": "inorganic salt",
+    "image": null,
+    "level": 2
+  },
+  {
+    "id": "zn_so4",
+    "name": "Zinc Sulfate",
+    "formula": "ZnSO₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/zn_so4.svg",
+    "level": 2,
+    "family": "curated industrial or mineral chemistry"
+  },
+  {
+    "id": "zn_s",
+    "name": "Zinc Sulfide",
+    "formula": "ZnS",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/zn_s.svg",
+    "level": 2,
+    "family": "curated industrial or mineral chemistry"
+  }
+]

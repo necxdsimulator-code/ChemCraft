@@ -1,0 +1,860 @@
+[
+  {
+    "id": "cs_oh",
+    "name": "Cesium Hydroxide",
+    "formula": "CsOH",
+    "category": "base",
+    "visual_type": "structure",
+    "image": "visuals/structure/cs_oh.svg",
+    "level": 5,
+    "family": "metal hydroxide"
+  },
+  {
+    "id": "pb4_oh",
+    "name": "Lead(IV) Hydroxide",
+    "formula": "Pb(OH)4",
+    "category": "base",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb4_oh.svg",
+    "level": 5
+  },
+  {
+    "id": "hg2_oh",
+    "name": "Mercury(II) Hydroxide",
+    "formula": "Hg(OH)2",
+    "category": "base",
+    "visual_type": "structure",
+    "image": "visuals/structure/hg2_oh.svg",
+    "level": 5
+  },
+  {
+    "id": "ag_oh",
+    "name": "Silver(I) Hydroxide",
+    "formula": "AgOH",
+    "category": "base",
+    "visual_type": "structure",
+    "image": "visuals/structure/ag_oh.svg",
+    "level": 5
+  },
+  {
+    "id": "sn4_oh",
+    "name": "Tin(IV) Hydroxide",
+    "formula": "Sn(OH)4",
+    "category": "base",
+    "visual_type": "structure",
+    "image": "visuals/structure/sn4_oh.svg",
+    "level": 5
+  },
+  {
+    "id": "ag",
+    "name": "Silver",
+    "formula": "Ag",
+    "category": "element",
+    "visual_type": "electronic_configuration",
+    "image": "visuals/configuration/ag.svg",
+    "level": 5
+  },
+  {
+    "id": "lithium_cobalt_oxide",
+    "name": "Lithium cobalt oxide",
+    "formula": "LiCoO₂",
+    "category": "industrial compound",
+    "visual_type": "structure",
+    "family": "industrial inorganic chemistry",
+    "image": null,
+    "level": 5
+  },
+  {
+    "id": "lithium_iron_phosphate",
+    "name": "Lithium iron phosphate",
+    "formula": "LiFePO₄",
+    "category": "industrial compound",
+    "visual_type": "structure",
+    "family": "industrial inorganic chemistry",
+    "image": null,
+    "level": 5
+  },
+  {
+    "id": "oxide_cs1",
+    "name": "Cesium oxide",
+    "formula": "Cs₂O",
+    "category": "oxide",
+    "visual_type": "structure",
+    "family": "metal oxide",
+    "image": null,
+    "level": 5
+  },
+  {
+    "id": "ba_br",
+    "name": "Barium Bromide",
+    "formula": "Ba(Br)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ba_br.svg",
+    "level": 5
+  },
+  {
+    "id": "ba_cn",
+    "name": "Barium Cyanide",
+    "formula": "Ba(CN)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ba_cn.svg",
+    "level": 5
+  },
+  {
+    "id": "ba_hco3",
+    "name": "Barium Hydrogen Carbonate",
+    "formula": "Ba(HCO₃)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ba_hco3.svg",
+    "level": 5
+  },
+  {
+    "id": "ba_clo",
+    "name": "Barium Hypochlorite",
+    "formula": "Ba(ClO)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ba_clo.svg",
+    "level": 5
+  },
+  {
+    "id": "ba_i",
+    "name": "Barium Iodide",
+    "formula": "Ba(I)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ba_i.svg",
+    "level": 5
+  },
+  {
+    "id": "ba_no2",
+    "name": "Barium Nitrite",
+    "formula": "Ba(NO₂)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ba_no2.svg",
+    "level": 5
+  },
+  {
+    "id": "ba_so3",
+    "name": "Barium Sulfite",
+    "formula": "BaSO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ba_so3.svg",
+    "level": 5
+  },
+  {
+    "id": "cs_ch3coo",
+    "name": "Cesium Acetate",
+    "formula": "CsCH₃COO",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cs_ch3coo.svg",
+    "level": 5,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "cs_br",
+    "name": "Cesium Bromide",
+    "formula": "CsBr",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cs_br.svg",
+    "level": 5,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "cs_co3",
+    "name": "Cesium Carbonate",
+    "formula": "Cs₂CO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cs_co3.svg",
+    "level": 5,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "cs_cl",
+    "name": "Cesium Chloride",
+    "formula": "CsCl",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cs_cl.svg",
+    "level": 5,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "cs_cn",
+    "name": "Cesium Cyanide",
+    "formula": "CsCN",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cs_cn.svg",
+    "level": 5
+  },
+  {
+    "id": "cs_f",
+    "name": "Cesium Fluoride",
+    "formula": "CsF",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cs_f.svg",
+    "level": 5
+  },
+  {
+    "id": "cs_hco3",
+    "name": "Cesium Hydrogen Carbonate",
+    "formula": "CsHCO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cs_hco3.svg",
+    "level": 5
+  },
+  {
+    "id": "cs_clo",
+    "name": "Cesium Hypochlorite",
+    "formula": "CsClO",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cs_clo.svg",
+    "level": 5
+  },
+  {
+    "id": "cs_i",
+    "name": "Cesium Iodide",
+    "formula": "CsI",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cs_i.svg",
+    "level": 5,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "cs_no3",
+    "name": "Cesium Nitrate",
+    "formula": "CsNO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cs_no3.svg",
+    "level": 5,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "cs_no2",
+    "name": "Cesium Nitrite",
+    "formula": "CsNO₂",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cs_no2.svg",
+    "level": 5
+  },
+  {
+    "id": "cs_po4",
+    "name": "Cesium Phosphate",
+    "formula": "Cs₃PO₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cs_po4.svg",
+    "level": 5,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "cs_so4",
+    "name": "Cesium Sulfate",
+    "formula": "Cs₂SO₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cs_so4.svg",
+    "level": 5,
+    "family": "inorganic salt"
+  },
+  {
+    "id": "cs_s",
+    "name": "Cesium Sulfide",
+    "formula": "(Cs)2S",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cs_s.svg",
+    "level": 5
+  },
+  {
+    "id": "cs_so3",
+    "name": "Cesium Sulfite",
+    "formula": "(Cs)2SO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/cs_so3.svg",
+    "level": 5
+  },
+  {
+    "id": "pb2_cn",
+    "name": "Lead(II) Cyanide",
+    "formula": "Pb(CN)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb2_cn.svg",
+    "level": 5
+  },
+  {
+    "id": "pb2_hco3",
+    "name": "Lead(II) Hydrogen Carbonate",
+    "formula": "Pb(HCO₃)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb2_hco3.svg",
+    "level": 5
+  },
+  {
+    "id": "pb2_clo",
+    "name": "Lead(II) Hypochlorite",
+    "formula": "Pb(ClO)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb2_clo.svg",
+    "level": 5
+  },
+  {
+    "id": "pb2_no2",
+    "name": "Lead(II) Nitrite",
+    "formula": "Pb(NO₂)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb2_no2.svg",
+    "level": 5
+  },
+  {
+    "id": "pb2_so3",
+    "name": "Lead(II) Sulfite",
+    "formula": "PbSO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb2_so3.svg",
+    "level": 5
+  },
+  {
+    "id": "pb4_ch3coo",
+    "name": "Lead(IV) Acetate",
+    "formula": "Pb(CH₃COO)4",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb4_ch3coo.svg",
+    "level": 5
+  },
+  {
+    "id": "pb4_br",
+    "name": "Lead(IV) Bromide",
+    "formula": "Pb(Br)4",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb4_br.svg",
+    "level": 5
+  },
+  {
+    "id": "pb4_co3",
+    "name": "Lead(IV) Carbonate",
+    "formula": "Pb(CO₃)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb4_co3.svg",
+    "level": 5
+  },
+  {
+    "id": "pb4_cl",
+    "name": "Lead(IV) Chloride",
+    "formula": "Pb(Cl)4",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb4_cl.svg",
+    "level": 5
+  },
+  {
+    "id": "pb4_cn",
+    "name": "Lead(IV) Cyanide",
+    "formula": "Pb(CN)4",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb4_cn.svg",
+    "level": 5
+  },
+  {
+    "id": "pb4_f",
+    "name": "Lead(IV) Fluoride",
+    "formula": "Pb(F)4",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb4_f.svg",
+    "level": 5
+  },
+  {
+    "id": "pb4_hco3",
+    "name": "Lead(IV) Hydrogen Carbonate",
+    "formula": "Pb(HCO₃)4",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb4_hco3.svg",
+    "level": 5
+  },
+  {
+    "id": "pb4_clo",
+    "name": "Lead(IV) Hypochlorite",
+    "formula": "Pb(ClO)4",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb4_clo.svg",
+    "level": 5
+  },
+  {
+    "id": "pb4_i",
+    "name": "Lead(IV) Iodide",
+    "formula": "Pb(I)4",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb4_i.svg",
+    "level": 5
+  },
+  {
+    "id": "pb4_no3",
+    "name": "Lead(IV) Nitrate",
+    "formula": "Pb(NO₃)4",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb4_no3.svg",
+    "level": 5
+  },
+  {
+    "id": "pb4_no2",
+    "name": "Lead(IV) Nitrite",
+    "formula": "Pb(NO₂)4",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb4_no2.svg",
+    "level": 5
+  },
+  {
+    "id": "pb4_po4",
+    "name": "Lead(IV) Phosphate",
+    "formula": "Pb₃(PO₄)₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb4_po4.svg",
+    "level": 5
+  },
+  {
+    "id": "pb4_so4",
+    "name": "Lead(IV) Sulfate",
+    "formula": "Pb(SO₄)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb4_so4.svg",
+    "level": 5
+  },
+  {
+    "id": "pb4_s",
+    "name": "Lead(IV) Sulfide",
+    "formula": "Pb(S)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb4_s.svg",
+    "level": 5
+  },
+  {
+    "id": "pb4_so3",
+    "name": "Lead(IV) Sulfite",
+    "formula": "Pb(SO₃)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/pb4_so3.svg",
+    "level": 5
+  },
+  {
+    "id": "hg2_ch3coo",
+    "name": "Mercury(II) Acetate",
+    "formula": "Hg(CH₃COO)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/hg2_ch3coo.svg",
+    "level": 5
+  },
+  {
+    "id": "hg2_co3",
+    "name": "Mercury(II) Carbonate",
+    "formula": "HgCO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/hg2_co3.svg",
+    "level": 5
+  },
+  {
+    "id": "hg2_cn",
+    "name": "Mercury(II) Cyanide",
+    "formula": "Hg(CN)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/hg2_cn.svg",
+    "level": 5
+  },
+  {
+    "id": "hg2_f",
+    "name": "Mercury(II) Fluoride",
+    "formula": "Hg(F)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/hg2_f.svg",
+    "level": 5
+  },
+  {
+    "id": "hg2_hco3",
+    "name": "Mercury(II) Hydrogen Carbonate",
+    "formula": "Hg(HCO₃)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/hg2_hco3.svg",
+    "level": 5
+  },
+  {
+    "id": "hg2_clo",
+    "name": "Mercury(II) Hypochlorite",
+    "formula": "Hg(ClO)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/hg2_clo.svg",
+    "level": 5
+  },
+  {
+    "id": "hg2_no2",
+    "name": "Mercury(II) Nitrite",
+    "formula": "Hg(NO₂)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/hg2_no2.svg",
+    "level": 5
+  },
+  {
+    "id": "hg2_po4",
+    "name": "Mercury(II) Phosphate",
+    "formula": "Hg₃(PO₄)₂",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/hg2_po4.svg",
+    "level": 5
+  },
+  {
+    "id": "hg2_so3",
+    "name": "Mercury(II) Sulfite",
+    "formula": "HgSO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/hg2_so3.svg",
+    "level": 5
+  },
+  {
+    "id": "ag_ch3coo",
+    "name": "Silver(I) Acetate",
+    "formula": "AgCH₃COO",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ag_ch3coo.svg",
+    "level": 5
+  },
+  {
+    "id": "ag_br",
+    "name": "Silver(I) Bromide",
+    "formula": "AgBr",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ag_br.svg",
+    "level": 5
+  },
+  {
+    "id": "ag_co3",
+    "name": "Silver(I) Carbonate",
+    "formula": "Ag₂CO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ag_co3.svg",
+    "level": 5
+  },
+  {
+    "id": "ag_cl",
+    "name": "Silver(I) Chloride",
+    "formula": "AgCl",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ag_cl.svg",
+    "level": 5
+  },
+  {
+    "id": "ag_cn",
+    "name": "Silver(I) Cyanide",
+    "formula": "AgCN",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ag_cn.svg",
+    "level": 5
+  },
+  {
+    "id": "ag_f",
+    "name": "Silver(I) Fluoride",
+    "formula": "AgF",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ag_f.svg",
+    "level": 5
+  },
+  {
+    "id": "ag_hco3",
+    "name": "Silver(I) Hydrogen Carbonate",
+    "formula": "AgHCO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ag_hco3.svg",
+    "level": 5
+  },
+  {
+    "id": "ag_clo",
+    "name": "Silver(I) Hypochlorite",
+    "formula": "AgClO",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ag_clo.svg",
+    "level": 5
+  },
+  {
+    "id": "ag_i",
+    "name": "Silver(I) Iodide",
+    "formula": "AgI",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ag_i.svg",
+    "level": 5
+  },
+  {
+    "id": "ag_no3",
+    "name": "Silver(I) Nitrate",
+    "formula": "AgNO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ag_no3.svg",
+    "level": 5
+  },
+  {
+    "id": "ag_no2",
+    "name": "Silver(I) Nitrite",
+    "formula": "AgNO₂",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ag_no2.svg",
+    "level": 5
+  },
+  {
+    "id": "ag_po4",
+    "name": "Silver(I) Phosphate",
+    "formula": "Ag₃PO₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ag_po4.svg",
+    "level": 5
+  },
+  {
+    "id": "ag_so4",
+    "name": "Silver(I) Sulfate",
+    "formula": "Ag₂SO₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ag_so4.svg",
+    "level": 5
+  },
+  {
+    "id": "ag_s",
+    "name": "Silver(I) Sulfide",
+    "formula": "Ag₂S",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ag_s.svg",
+    "level": 5
+  },
+  {
+    "id": "ag_so3",
+    "name": "Silver(I) Sulfite",
+    "formula": "Ag₂SO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/ag_so3.svg",
+    "level": 5
+  },
+  {
+    "id": "sn2_ch3coo",
+    "name": "Tin(II) Acetate",
+    "formula": "Sn(CH₃COO)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/sn2_ch3coo.svg",
+    "level": 5
+  },
+  {
+    "id": "sn2_co3",
+    "name": "Tin(II) Carbonate",
+    "formula": "SnCO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/sn2_co3.svg",
+    "level": 5
+  },
+  {
+    "id": "sn2_cn",
+    "name": "Tin(II) Cyanide",
+    "formula": "Sn(CN)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/sn2_cn.svg",
+    "level": 5
+  },
+  {
+    "id": "sn2_hco3",
+    "name": "Tin(II) Hydrogen Carbonate",
+    "formula": "Sn(HCO₃)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/sn2_hco3.svg",
+    "level": 5
+  },
+  {
+    "id": "sn2_clo",
+    "name": "Tin(II) Hypochlorite",
+    "formula": "Sn(ClO)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/sn2_clo.svg",
+    "level": 5
+  },
+  {
+    "id": "sn2_i",
+    "name": "Tin(II) Iodide",
+    "formula": "Sn(I)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/sn2_i.svg",
+    "level": 5
+  },
+  {
+    "id": "sn2_no2",
+    "name": "Tin(II) Nitrite",
+    "formula": "Sn(NO₂)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/sn2_no2.svg",
+    "level": 5
+  },
+  {
+    "id": "sn2_so3",
+    "name": "Tin(II) Sulfite",
+    "formula": "SnSO₃",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/sn2_so3.svg",
+    "level": 5
+  },
+  {
+    "id": "sn4_ch3coo",
+    "name": "Tin(IV) Acetate",
+    "formula": "Sn(CH₃COO)4",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/sn4_ch3coo.svg",
+    "level": 5
+  },
+  {
+    "id": "sn4_br",
+    "name": "Tin(IV) Bromide",
+    "formula": "Sn(Br)4",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/sn4_br.svg",
+    "level": 5
+  },
+  {
+    "id": "sn4_co3",
+    "name": "Tin(IV) Carbonate",
+    "formula": "Sn(CO₃)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/sn4_co3.svg",
+    "level": 5
+  },
+  {
+    "id": "sn4_cn",
+    "name": "Tin(IV) Cyanide",
+    "formula": "Sn(CN)4",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/sn4_cn.svg",
+    "level": 5
+  },
+  {
+    "id": "sn4_f",
+    "name": "Tin(IV) Fluoride",
+    "formula": "Sn(F)4",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/sn4_f.svg",
+    "level": 5
+  },
+  {
+    "id": "sn4_hco3",
+    "name": "Tin(IV) Hydrogen Carbonate",
+    "formula": "Sn(HCO₃)4",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/sn4_hco3.svg",
+    "level": 5
+  },
+  {
+    "id": "sn4_clo",
+    "name": "Tin(IV) Hypochlorite",
+    "formula": "Sn(ClO)4",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/sn4_clo.svg",
+    "level": 5
+  },
+  {
+    "id": "sn4_i",
+    "name": "Tin(IV) Iodide",
+    "formula": "Sn(I)4",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/sn4_i.svg",
+    "level": 5
+  },
+  {
+    "id": "sn4_no2",
+    "name": "Tin(IV) Nitrite",
+    "formula": "Sn(NO₂)4",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/sn4_no2.svg",
+    "level": 5
+  },
+  {
+    "id": "sn4_po4",
+    "name": "Tin(IV) Phosphate",
+    "formula": "Sn₃(PO₄)₄",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/sn4_po4.svg",
+    "level": 5
+  },
+  {
+    "id": "sn4_so3",
+    "name": "Tin(IV) Sulfite",
+    "formula": "Sn(SO₃)2",
+    "category": "salt",
+    "visual_type": "structure",
+    "image": "visuals/structure/sn4_so3.svg",
+    "level": 5
+  }
+]
